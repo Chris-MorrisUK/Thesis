@@ -1,0 +1,113 @@
+%*******************************************************
+% Table of Contents
+%*******************************************************
+%\phantomsection
+\refstepcounter{dummy}
+\pdfbookmark[1]{\contentsname}{tableofcontents}
+\setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
+\setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+%*******************************************************
+% List of Figures and of the Tables
+%*******************************************************
+\clearpage
+
+\begingroup 
+    \let\clearpage\relax
+    \let\cleardoublepage\relax
+    \let\cleardoublepage\relax
+    %*******************************************************
+    % List of Figures
+    %*******************************************************    
+    %\phantomsection 
+    \refstepcounter{dummy}
+    %\addcontentsline{toc}{chapter}{\listfigurename}
+    \pdfbookmark[1]{\listfigurename}{lof}
+    \listoffigures
+
+    \vspace{8ex}
+
+    %*******************************************************
+    % List of Tables
+    %*******************************************************
+    %\phantomsection 
+    \refstepcounter{dummy}
+    %\addcontentsline{toc}{chapter}{\listtablename}
+    \pdfbookmark[1]{\listtablename}{lot}
+    \listoftables
+        
+    \vspace{8ex}
+%   \newpage
+    
+    %*******************************************************
+    % List of Listings
+    %*******************************************************      
+      %\phantomsection 
+    \refstepcounter{dummy}
+    %\addcontentsline{toc}{chapter}{\lstlistlistingname}
+    \pdfbookmark[1]{\lstlistlistingname}{lol}
+    \lstlistoflistings 
+
+    \vspace{8ex}
+       
+    %*******************************************************
+    % Acronyms
+    %*******************************************************
+    %\phantomsection 
+    \refstepcounter{dummy}
+    \pdfbookmark[1]{Acronyms}{acronyms}
+    \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+    \chapter*{Acronyms}
+    \begin{acronym}[SPARQLX]
+        \acro{API}{Application Programming Interface}
+        \acro{BBC}{British Broadcasting Corporation}
+        \acro{BFO}{Basic Formal Ontology}
+        \acro{CRUD}{Create, Read, Update and Delete}
+        \acro{CSV}{Comma Separated Variable}
+        \acro{DDL}{Dynamic Link Library}
+        \acro{DL}{Description Logic}
+        \acro{ERTMS}{The European Railway Traffic Management System}  
+        \acro{ETCS}{European Train Control System}
+        \acro{GO}{Gene Ontology}
+        \acro{GNSS}{Global Navigation Satellite System}
+        \acro{GPS}{Global Positioning System}
+        \acro{GTFS}{General Transit Feed Specification}
+        \acro{ICT}{Information Computation Technology}
+        \acro{IDE}{Integrated Development Environment}
+        \acro{IRS}{International Railway Standard}
+        \acro{ISO}{international Standards Organisation}
+        \acro{LADS}{Linear Asset Decision Support}
+        \acro{NMS}{.Net Messaging}
+        \acro{ORBIS}{Offering Rail Better Information Services}
+        \acro{ORR}{Office of Road and Rail}      
+        \acro{OSI}{Open System Interconnection}
+        \acro{OWL}{Web Ontology Language}
+        \acro{RDG}{Rail Delivery Group}
+        \acro{RDF}Resource Description Framework}
+        \acro{RS}{Recommended Standard}
+ 
+
+ 
+        \acro{RSSB}{Railway Safety and Standards Board}        
+        \acro{SPARQL}{SPARQL Protocol and RDF Query Language}   
+        \acro{SGML}{Standard Generalized Markup Language} 
+        \acro{SQL}{Structured Query Language}
+        \acro{SUMO}{Suggested Upper Merged Ontology}   
+        \acro{TSLG}{Technical Strategy Leadership Group}
+        \acro{TAF}{Telematic Application for Freight}
+        \acro{TAP}{Telematic Application for Passengers}
+        \acro{TSI}{Technical Specifications for Interoperability}
+        \acro{UIC}{Internal Union of Railways}
+        \acro{UML}{Unified Modelling Language}
+        \acro{UK}{United Kingdom}   
+        \acro{URI}{Unique Resource Identifier}        
+        \acro{URL}{Unique Resource Locator} 
+        \acro{XML}{eXtensible Mark-up Language}
+    \end{acronym}                     
+\endgroup
+

@@ -1,0 +1,11 @@
+PWD C:/Users/cxm210/OneDrive/Documents/The One True Thesis/Chapters
+INPUT c:/texlivenew/2016/texmf.cnf
+INPUT c:/texlivenew/2016/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlivenew/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/cxm210/OneDrive/Documents/The One True Thesis/Chapters/litreview.tex
+OUTPUT C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/litreview.log
+INPUT c:/texlivenew/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/litreview.pdf
+INPUT c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map

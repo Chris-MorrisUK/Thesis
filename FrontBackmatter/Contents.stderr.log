@@ -1,0 +1,7 @@
+Latexmk: Run number 1 of rule 'pdflatex'
+Failure to make 'E:\SkyDrive\Documents\The One True Thesis\FrontBackmatter/Contents.pdf'
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'E:\SkyDrive\Documents\The One True Thesis\FrontBackmatter/Contents.log' for details
+I:\texlive\2016\bin\win32\runscript.tlu:679: command failed with exit code 12:
+perl.exe i:\texlive\2016\texmf-dist\scripts\latexmk\latexmk.pl -f -quiet -pdf -synctex=1 -jobname=Contents "-outdir=E:\SkyDrive\Documents\The One True Thesis\FrontBackmatter" "E:\SkyDrive\Documents\The One True Thesis\FrontBackmatter\Contents.tex"

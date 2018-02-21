@@ -1,0 +1,8 @@
+PWD E:/SkyDrive/Documents/The One True Thesis/Chapters
+INPUT i:/texlive/2016/texmf.cnf
+INPUT i:/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT i:/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT e:/SkyDrive/Documents/The One True Thesis/Chapters/Middleware.tex
+OUTPUT E:\SkyDrive\Documents\The One True Thesis\Chapters/Middleware.log
+INPUT i:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

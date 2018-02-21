@@ -1,0 +1,7 @@
+PWD E:/SkyDrive/Documents/The One True Thesis/FrontBackmatter
+INPUT i:/texlive/2016/texmf.cnf
+INPUT i:/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT i:/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT e:/SkyDrive/Documents/The One True Thesis/FrontBackmatter/Contents.tex
+OUTPUT E:\SkyDrive\Documents\The One True Thesis\FrontBackmatter/Contents.log
+OUTPUT E:\SkyDrive\Documents\The One True Thesis\FrontBackmatter/Contents.pdf

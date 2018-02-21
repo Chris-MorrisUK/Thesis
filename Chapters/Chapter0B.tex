@@ -1,0 +1,404 @@
+
+%********************************************************************
+% Appendix
+%*******************************************************
+% If problems with the headers: get headings in appendix etc. right
+%\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
+\chapter{Appendix B COMPASS mapping to RaCoOn}
+\label{app:mapping}
+
+ The contents of the file mapping RaCoOn to the COMPASS data sources. Note also that there are certain additions to the core ontology where concepts were found not to be modelled. 
+ \begin{frame}[fragile]
+\begin{lstlisting}[float=b,language=sparql,frame=tb,caption={Mapping of RaCoOn to COMPASS project data},label=lst:racooncompassmap]
+\#baseURI: http://purl.org/ub/compass
+\#imports: http://purl.org/rail/core/
+\#imports: http://purl.org/ub/co/
+\#imports: http://www.opengis.net/ont/geosparql
+\#imports: http://www.w3.org/2006/time#
+
+
+
+core:BaliseDuplicateStatus
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "Balise duplication within group"^^xsd:string ;
+.
+core:Points
+  rdfs:subClassOf compass:LayoutNode ;
+.
+core:RouteEntrance
+  rdf:type owl:ObjectProperty ;
+.
+core:RouteExit
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "The end of a route"^^xsd:string ;
+.
+core:RouteNode
+  rdfs:subClassOf compass:LayoutNode ;
+.
+core:Signal
+  rdfs:subClassOf compass:LayoutNode ;
+.
+core:baliseGroupPast
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "The balise group at the location of a position report"^^xsd:string ;
+  rdfs:range core:BaliseGroup ;
+.
+core:distanceFromBalise
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "The distance from a balise, generally from a position report"^^xsd:string ;
+  rdfs:subPropertyOf core:length ;
+.
+core:hasOffsetLocation
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain core:RouteArc ;
+  rdfs:label "A location offset from the start of a track"^^xsd:string ;
+  rdfs:range compass:OffsetLocation ;
+  rdfs:subPropertyOf core:position ;
+.
+core:headcode
+  rdf:type owl:FunctionalProperty ;
+  rdfs:domain core:Service ;
+  rdfs:label "A headcode is a UK rail service identifier "^^xsd:string ;
+  rdfs:range xsd:string ;
+.
+<http://purl.org/ub/co/baliseGroupCountryCode>
+  rdf:type owl:FunctionalProperty ;
+  rdfs:domain core:BaliseGroup ;
+  rdfs:label "Part of the NID_LRBG that represents each balise  group "^^xsd:string ;
+  rdfs:range xsd:integer ;
+.
+<http://purl.org/ub/co/baliseGroupID>
+  rdf:type owl:FunctionalProperty ;
+  rdfs:domain core:BaliseGroup ;
+  rdfs:label "The unique (whichin a country) part of the NID_LRBG that represents each balise  group "^^xsd:string ;
+  rdfs:range xsd:integer ;
+.
+<http://purl.org/ub/compass>
+  rdf:type owl:Ontology ;
+  rdfs:label "TBox axioms for the COMPASS project"^^xsd:string ;
+  owl:imports core: ;
+  owl:imports <http://purl.org/ub/co/> ;
+  owl:imports <http://www.opengis.net/ont/geosparql> ;
+  owl:imports <http://www.w3.org/2006/time#> ;
+  owl:versionInfo "Created with TopBraid Composer"^^xsd:string ;
+.
+compass:ActiveLocomotive
+  rdf:type owl:Class ;
+  rdfs:label "A loco which is driven"^^xsd:string ;
+  rdfs:subClassOf core:RailwayLocomotive ;
+.
+compass:BGType
+  rdf:type owl:FunctionalProperty ;
+  rdfs:domain core:BaliseGroup ;
+  rdfs:label "The type of Balise Group"^^xsd:string ;
+  rdfs:range compass:BaliseGroupType ;
+.
+compass:BaliseDuplicateStatus
+  rdf:type owl:Class ;
+  rdfs:label "Balise Duplication within a group"^^xsd:string ;
+  rdfs:subClassOf <http://purl.org/ub/upper/NonSpatialThing> ;
+.
+compass:BaliseGroupType
+  rdf:type owl:Class ;
+  rdfs:label "The available types of balise group"^^xsd:string ;
+  rdfs:subClassOf <http://purl.org/ub/upper/NonSpatialThing> ;
+.
+compass:BalisePassReport
+  rdf:type owl:Class ;
+  rdfs:label "As sent in packet 0"^^xsd:string ;
+  rdfs:subClassOf compass:PositionReport ;
+.
+compass:BaliseTypeIsFixed
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "If not fixed it's variable"^^xsd:string ;
+  rdfs:range xsd:boolean ;
+.
+compass:Compass_State
+  rdf:type owl:Class ;
+  rdfs:label "The state of a given instance of the STIR system"^^xsd:string ;
+  rdfs:subClassOf <http://purl.org/ub/upper/DomainSpecificThing> ;
+  rdfs:subClassOf <http://purl.org/ub/upper/NonSpatialThing> ;
+.
+compass:Compass_State_Demo
+  rdf:type compass:Compass_State ;
+  compass:stirActive "false"^^xsd:boolean ;
+  rdfs:label "test instance do not use"^^xsd:string ;
+.
+compass:DUPLICATE_OF_THE_NEXT_BALISE
+  rdf:type owl:Class ;
+  rdfs:label "Duplicate of the next balise"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseDuplicateStatus ;
+  owl:disjointWith compass:DUPLICATE_OF_THE_PREVOUS_BALISE ;
+  owl:disjointWith compass:NoDuplication ;
+  owl:disjointWith compass:SpareBalise ;
+.
+compass:DUPLICATE_OF_THE_PREVOUS_BALISE
+  rdf:type owl:Class ;
+  rdfs:label "Duplicate of the next balise"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseDuplicateStatus ;
+  owl:disjointWith compass:DUPLICATE_OF_THE_NEXT_BALISE ;
+  owl:disjointWith compass:NoDuplication ;
+  owl:disjointWith compass:SpareBalise ;
+.
+compass:ERMTSRouteParts
+  rdf:type owl:Class ;
+  rdfs:label "A predefined possible route"^^xsd:string ;
+  rdfs:subClassOf <http://purl.org/ub/co/List> ;
+.
+compass:ERTMS_LEVEL_TRANSITION
+  rdf:type owl:Class ;
+  rdfs:label "ERTMS_LEVEL_TRANSITION"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:ElectricPropulsion
+  rdf:type compass:PropulsionType ;
+  rdfs:label "A vehicle requiring external electric power"^^xsd:string ;
+.
+compass:IN_FILL
+  rdf:type owl:Class ;
+  rdfs:label "IN_FILL"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:LEVEL_CROSSING
+  rdf:type owl:Class ;
+  rdfs:label "LEVEL_CROSSING"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:LT_ANNOUNCEMENT
+  rdf:type owl:Class ;
+  rdfs:label "LT_ANNOUNCEMENT"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:LayoutNode
+  rdf:type owl:Class ;
+  rdfs:label "Things which are classed as nodes for the purposes of LDL files and the compass project"^^xsd:string ;
+  rdfs:subClassOf core:RailwayDomainConcept ;
+.
+compass:MAIN
+  rdf:type owl:Class ;
+  rdfs:label "MAIN"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:MetersLocation
+  rdf:type owl:Class ;
+  rdfs:label "A location expressed in metres for ERMTS"^^xsd:string ;
+  rdfs:subClassOf core:LinearPosition ;
+.
+compass:NID_Engine
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "The unique ID of a train that sends a message"^^xsd:string ;
+  skos:prefLabel "The unique ID of a train that sends a message"^^xsd:string ;
+.
+compass:NoDuplication
+  rdf:type owl:Class ;
+  rdfs:label "Balise is Unique"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseDuplicateStatus ;
+  owl:disjointWith compass:DUPLICATE_OF_THE_NEXT_BALISE ;
+  owl:disjointWith compass:DUPLICATE_OF_THE_PREVOUS_BALISE ;
+  owl:disjointWith compass:SpareBalise ;
+.
+compass:ODOMETRY
+  rdf:type owl:Class ;
+  rdfs:label "ODOMETRY"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:OffsetLocation
+  rdf:type owl:Class ;
+  rdfs:label "A location offset from the start of a track"^^xsd:string ;
+  rdfs:subClassOf core:Location ;
+.
+compass:PassiveLocomotive
+  rdf:type owl:Class ;
+  rdfs:label "The end of the train which lacks a driver "^^xsd:string ;
+  rdfs:subClassOf core:RailwayLocomotive ;
+.
+compass:PositionReport
+  rdf:type owl:Class ;
+  rdfs:label "A position update from a train containing both GPS and  Balise passes"^^xsd:string ;
+  rdfs:subClassOf <http://purl.org/ub/upper/InformationThing> ;
+.
+compass:PropulsionType
+  rdf:type owl:Class ;
+  rdfs:label "The type of propulsion"^^xsd:string ;
+  rdfs:subClassOf core:RollingStockConcept ;
+.
+compass:RBC_BOUNDARY
+  rdf:type owl:Class ;
+  rdfs:label "RBC_BOUNDARY"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:SIGNAL ;
+.
+compass:RadioBlockControlCentre
+  rdf:type owl:Class ;
+  rdfs:label "Radio Block Control (RBC)"^^xsd:string ;
+  rdfs:subClassOf core:RailwayDomainConcept ;
+.
+compass:SIGNAL
+  rdf:type owl:Class ;
+  rdfs:label "SIGNAL"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseGroupType ;
+  owl:disjointWith compass:ERTMS_LEVEL_TRANSITION ;
+  owl:disjointWith compass:IN_FILL ;
+  owl:disjointWith compass:LEVEL_CROSSING ;
+  owl:disjointWith compass:LT_ANNOUNCEMENT ;
+  owl:disjointWith compass:MAIN ;
+  owl:disjointWith compass:ODOMETRY ;
+  owl:disjointWith compass:RBC_BOUNDARY ;
+.
+compass:SelfPowered
+  rdf:type compass:PropulsionType ;
+  rdfs:label "A vehicle which stores it's power onboard"^^xsd:string ;
+.
+compass:SpareBalise
+  rdf:type owl:Class ;
+  rdfs:label "Spare"^^xsd:string ;
+  rdfs:subClassOf compass:BaliseDuplicateStatus ;
+  owl:disjointWith compass:DUPLICATE_OF_THE_NEXT_BALISE ;
+  owl:disjointWith compass:DUPLICATE_OF_THE_PREVOUS_BALISE ;
+  owl:disjointWith compass:NoDuplication ;
+.
+compass:StirArea
+  rdf:type owl:Class ;
+  rdfs:label "An area in which the stir signaling system can take control"^^xsd:string ;
+  rdfs:subClassOf core:InfrastructureConcept ;
+.
+compass:StirAreaExitSignal
+  rdf:type owl:Class ;
+  rdfs:label "A signal which denotes the end of an area of stir opperation"^^xsd:string ;
+  rdfs:subClassOf compass:StirAreaSignal ;
+.
+compass:StirAreaSignal
+  rdf:type owl:Class ;
+  rdfs:label "A signal which denotes an area of stir opperation"^^xsd:string ;
+  rdfs:subClassOf core:SignalWithLocationFunction ;
+.
+compass:StirAreaStartSignal
+  rdf:type owl:Class ;
+  rdfs:label "A signal which denotes the start of an area of stir opperation"^^xsd:string ;
+  rdfs:subClassOf compass:StirAreaSignal ;
+.
+compass:StirManagedTrain
+  rdf:type owl:Class ;
+  rdfs:label "A train which the stir system is interested in - within or near the AOC"^^xsd:string ;
+  rdfs:subClassOf core:RailwayTrain ;
+.
+compass:TSAP
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "The TSAP ID of a train that sends a message"^^xsd:string ;
+.
+compass:T_Train
+  rdf:type rdf:Property ;
+  rdfs:label "It's time, but not as we know it! a 10 bit field that acts as a counter, with Midnight as 0"^^xsd:string ;
+  rdfs:range xsd:integer ;
+.
+compass:TestBaliseGroup
+  rdf:type core:BaliseGroup ;
+  rdfs:label "I exist only for test purposes"^^xsd:string ;
+.
+compass:areaID
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "A unique id for each stir area"^^xsd:string ;
+  rdfs:range xsd:integer ;
+.
+compass:baliseGroupNID_LRBG
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "The NID_LRBG as used by ETCS and the STIR system"^^xsd:string ;
+  rdfs:range core:BaliseGroup ;
+.
+compass:identityString
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "An ID unique within the Compass system, used to search when the URI is not available"^^xsd:string ;
+  rdfs:range xsd:string ;
+.
+compass:locatedOnTrack
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ChainImplyingLocatedOnTrack"^^xsd:string ;
+  owl:propertyChainAxiom (
+      core:relativePosition
+      core:locatedOn
+    ) ;
+.
+compass:propulsion
+  rdf:type rdf:Property ;
+  rdfs:label "The type of propulsion"^^xsd:string ;
+  rdfs:range compass:PropulsionType ;
+.
+compass:stirActive
+  rdf:type owl:FunctionalProperty ;
+  rdfs:label "If this instance of stir is currently in active mode"^^xsd:string ;
+  rdfs:range xsd:boolean ;
+.
+compass:stirConnectSent
+  rdf:type rdf:Property ;
+  rdfs:domain compass:StirManagedTrain ;
+  rdfs:label "Has the request to connect to the train been sent"^^xsd:string ;
+  rdfs:range xsd:boolean ;
+.
+compass:stirEntranceSignal
+  rdf:type rdf:Property ;
+  rdfs:domain compass:StirArea ;
+  rdfs:label "An entry signal to a stir area. Note that an area may have multiple entrances"^^xsd:string ;
+  rdfs:range compass:StirAreaStartSignal ;
+.
+compass:stirExitSignal
+  rdf:type rdf:Property ;
+  rdfs:domain compass:StirArea ;
+  rdfs:label "An Exit signal to a stir area. Note that an area may have multiple exits"^^xsd:string ;
+  rdfs:range compass:StirAreaExitSignal ;
+.
+
+\end{lstlisting}
+\end{frame}
+
+
+  
+
+

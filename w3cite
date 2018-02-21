@@ -1,0 +1,10 @@
+@TechReport{Patel-Schneider:09:OWO,
+  author      = "Peter Patel-Schneider and Sebastian Rudolph and Markus Kr{\"{o}}tzsch and Pascal Hitzler and Bijan Parsia",
+  title       = "{OWL} 2 Web Ontology Language Primer",
+  month       = oct,
+  note        = "http://www.w3.org/TR/2009/REC-owl2-primer-20091027/",
+  year        = "2009",
+  bibsource   = "http://w2.syronex.com/jmr/w3c-biblio",
+  type        = "{W3C} Recommendation",
+  institution = "W3C",
+}

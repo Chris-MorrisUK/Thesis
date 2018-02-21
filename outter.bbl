@@ -1,0 +1,4548 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nyt/global/}
+  \entry{Baader2005}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BF}{%
+         family={Baader},
+         familyi={B\bibinitperiod},
+         given={Franz},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Brandt},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lutz},
+         familyi={L\bibinitperiod},
+         given={Carsten},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{EL,OWL EL}
+    \strng{namehash}{BFBSLC1}
+    \strng{fullhash}{BFBSLC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Recently, it has been shown that the small descrip- tion logic (DL) EL,
+  which allows for conjunction and existential restrictions, has better
+  algorithmic properties than its counterpart FL0, which allows for conjunction
+  and value restrictions. Whereas the subsumption problem in FL0 becomes
+  already in- tractable in the presence of acyclic TBoxes, it re- mains
+  tractable in EL even with general concept inclusion axioms (GCIs). On the one
+  hand, we ex- tend the positive result for EL by identifying a set of
+  expressive means that can be added to EL with- out sacrificing tractability.
+  On the other hand, we show that basically all other additions of typical DL
+  constructors to EL with GCIs make subsump- tion intractable, and in most
+  cases even EXPTIME- complete. In addition, we show that subsumption in FL0
+  with GCIs is EXPTIME-complete.%
+    }
+    \field{booktitle}{19th Joint Int. Conf. on Artificial Intelligence (IJCAI
+  2005)}
+    \verb{doi}
+    \verb 10.1186/cc9339
+    \endverb
+    \field{isbn}{1466-609X (Electronic) 1364-8535 (Linking)}
+    \field{issn}{1364-8535}
+    \field{title}{{Pushing the EL envelope}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/21144006 http://ccforum.biomedcent
+    \verb ral.com/articles/10.1186/cc9339
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Baader, Brandt, Lutz - 2005 - Pushing the EL envelope.
+    \verb pdf:pdf
+    \endverb
+    \field{year}{2005}
+  \endentry
+
+  \entry{QRE:QRE1634}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BB}{%
+         family={Bergquist},
+         familyi={B\bibinitperiod},
+         given={Bjarne},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={S{\"{o}}derholm},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Condition assessment,Control Chart,Maintenence,Railway}
+    \strng{namehash}{BBSP1}
+    \strng{fullhash}{BBSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Condition assessment is crucial to optimize condition-based maintenance
+  actions of assets such as railway infrastructure, where a faulty state might
+  have severe consequences. Hence, railways are regularly inspected to detect
+  failure events and prevent the inspected item (e.g. rail) to reach a faulty
+  state with potentially safety critical consequences (e.g. derailment).
+  However, the preventive measures (e.g. condition-based maintenance) initiated
+  by the inspection results may cause traffic disturbances, especially if the
+  expected time to a faulty state is short. The alarm limits are traditionally
+  safety related and often based on geometrical properties of the inspected
+  item. Maintenance limits would reduce the level of emergency, producing
+  earlier alarms and increasing possibilities of planned preventive rather than
+  acute maintenance. However, selecting these earlier maintenance limits in a
+  systematic way while balancing the risk of undetected safety-critical faults
+  and false alarms is challenging.Here, we propose a statistically based
+  approach using condition data of linear railway infrastructure assets. The
+  data were obtained from regular inspections done by a railway track
+  measurement wagon. The condition data were analysed by a control chart
+  approach to evaluate the possibility for earlier detection of derailment
+  hazardous faults using both temporal and spatial information.The study
+  indicates that that the proposed approach could be used for condition
+  assessment of tracks. Control charts led to earlier fault warnings compared
+  to the traditional approach, facilitating planned condition-based maintenance
+  actions and thereby a reduction of track downtime. Copyright {\textcopyright}
+  2014 The Authors. Quality and Reliability Engineering International published
+  by John Wiley {\&} Sons, Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1002/qre.1634
+    \endverb
+    \field{issn}{1099-1638}
+    \field{pages}{n/a\bibrangedash n/a}
+    \field{title}{{Data Analysis for Condition-Based Railway Infrastructure
+  Maintenance}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1002/qre.1634
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Bergquist, S{\"{o}}derholm - 2014 - Data Analysis for
+    \verb Condition-Based Railway Infrastructure Maintenance.pdf:pdf
+    \endverb
+    \field{journaltitle}{Quality and Reliability Engineering International}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bhatti2016}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=BJ}{%
+         family={Bhatti},
+         familyi={B\bibinitperiod},
+         given={Jabran},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WDVD}{%
+         family={Wouwer},
+         familyi={W\bibinitperiod},
+         given={Dirk Van\bibnamedelima Den},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kerckhove},
+         familyi={K\bibinitperiod},
+         given={Wannes},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DT}{%
+         family={Dupont},
+         familyi={D\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=VB}{%
+         family={Volckaert},
+         familyi={V\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \keyw{trapist}
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJWDVDKWDTVB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Abstract—Today, railway actors (including passengers and crew members)
+  obtain information by actively hunting for relevant data in various places
+  – manually linking their personal profile with public transportation time
+  tables, floor plans from railway and underground stations, weather forecasts,
+  etc. Despite the availability of a variety of travel-related data sources,
+  accurate delivery of relevant, timely information to these railway actors is
+  still inadequate. This paper presents a solution to the abovementioned
+  problem in the form of a scalable software framework that is able to
+  interface with any type of (open) data. The framework aggregates a variety of
+  data sources to create tailor-made knowledge, tuned to the dynamic profiles
+  of railway users. The needs of these railway users were extracted using novel
+  user experience techniques in order to determine the requirements of this
+  framework. The resulting OSGi-based framework architecture is two-layered.
+  Core functionality, including predefined load balancing strategies, is
+  implemented in the generic base layer, on top of which a use case specific
+  layer – that is able to cope with the specifics of the railway environment
+  – is built. Data entering the framework is intelligently processed and the
+  result is made available to railway vehicles and mobile devices%
+    }
+    \field{booktitle}{Intelligent Rail Transportation (ICIRT), 2016 IEEE
+  International Conference on}
+    \field{isbn}{9781509015559}
+    \field{pages}{170\bibrangedash 176}
+    \field{title}{{A Scalable Software Framework for Real-Time Data Processing
+  in the Railway Environment}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Bhatti et al. - 2016 - A Scalable Software Framework f
+    \verb or Real-Time Data Processing in the Railway Environment.pdf:pdf
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{BloomField2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BR}{%
+         family={{Bloom Field}},
+         familyi={B\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bendele},
+         familyi={B\bibinitperiod},
+         given={Marcus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bishop},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Stroud},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tonks},
+         familyi={T\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{ERTMS,Railway signaling systems,Safety-critical systems,Security
+  assessment,Security-informed safety}
+    \strng{namehash}{BR+1}
+    \strng{fullhash}{BRBMBPSRTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    {\textcopyright} Springer International Publishing Switzerland 2016.The
+  impact that cyber issues might have on the safety and resilience of railway
+  systems has been studied for more than five years by industry specialists and
+  government agencies. This paper presents some of the work done by Adelard in
+  this area, ranging from an analysis of potential vulnerabilities in the ERTMS
+  specifications through to a high-level cyber security risk assessment of a
+  national ERTMS implementation and detailed analysis of particular ERTMS
+  systems on behalf of the GB rail industry. The focus of the paper is on our
+  overall methodology for security-informed safety and hazard analysis. Lessons
+  learned will be presented but of course our detailed results remain
+  proprietary or sensitive and cannot be published.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-319-33951-1_1
+    \endverb
+    \field{isbn}{9783319339504}
+    \field{issn}{16113349}
+    \field{pages}{3\bibrangedash 19}
+    \field{title}{{The risk assessment of ERTMS-based railway systems from a
+  cyber security perspective: Methodology and lessons learned}}
+    \field{volume}{9707}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/Adelard
+    \verb {\_}RSSRail{\_}2016.pdf:pdf
+    \endverb
+    \field{journaltitle}{Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Bodenreider2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BO}{%
+         family={Bodenreider},
+         familyi={B\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Stevens},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Annotation,Bio-ontology,History,Knowledge,Knowledge
+  representation,Medical ontology}
+    \strng{namehash}{BOSR1}
+    \strng{fullhash}{BOSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    In recent years, as a knowledge-based discipline, bioinformatics has been
+  made more computationally amenable. After its beginnings as a technology
+  advocated by computer scientists to overcome problems of heterogeneity,
+  ontology has been taken up by biologists themselves as a means to
+  consistently annotate features from genotype to phenotype. In medical
+  informatics, artifacts called ontologies have been used for a longer period
+  of time to produce controlled lexicons for coding schemes. In this article,
+  we review the current position in ontologies and how they have become
+  institutionalized within biomedicine. As the field has matured, the much
+  older philosophical aspects of ontology have come into play. With this and
+  the institutionalization of ontology has come greater formality. We review
+  this trend and what benefits it might bring to ontologies and their use
+  within biomedicine.%
+    }
+    \verb{doi}
+    \verb 10.1093/bib/bbl027
+    \endverb
+    \field{isbn}{1467-5463}
+    \field{issn}{14675463}
+    \field{number}{3}
+    \field{pages}{256\bibrangedash 274}
+    \field{title}{{Bio-ontologies: Current trends and future directions}}
+    \field{volume}{7}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/1335bb2
+    \verb c943ea56a19ce0fc5c90f30fc4157(1).pdf:pdf
+    \endverb
+    \field{journaltitle}{Briefings in Bioinformatics}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Chen2015}{article}{}
+    \name{author}{7}{}{%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Binbin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schmittner},
+         familyi={S\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MZ}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Zhendong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=TWG}{%
+         family={Temple},
+         familyi={T\bibinitperiod},
+         given={William\bibnamedelima G},
+         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DX}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Xinshu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=JDL}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Douglas\bibnamedelima L},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SWH}{%
+         family={Sanders},
+         familyi={S\bibinitperiod},
+         given={William\bibnamedelima H},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{cyber-physical systems,railway safety,security analysis,urban railway
+  systems}
+    \strng{namehash}{CB+1}
+    \strng{fullhash}{CBSCMZTWGDXJDLSWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{isbn}{978-3-319-24248-4}
+    \field{pages}{277\bibrangedash 290}
+    \field{title}{{Security Analysis of Urban Railway Systems: The Need for a
+  Cyber-Physical Perspective.}}
+    \verb{url}
+    \verb http://dblp.uni-trier.de/db/conf/safecomp/safecomp2015w.html{\#}ChenS
+    \verb MTDJS15
+    \endverb
+    \field{volume}{9338}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Chen et al. - 2015 - Security Analysis of Urban Railwa
+    \verb y Systems The Need for a Cyber-Physical Perspective.pdf:pdf
+    \endverb
+    \field{journaltitle}{SAFECOMP Workshops}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Chute2000}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CCG}{%
+         family={Chute},
+         familyi={C\bibinitperiod},
+         given={Christopher\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCG1}
+    \strng{fullhash}{CCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Abstract: The evolution of health terminology has undergone glacial
+  transition over time, although this pace has quickened recently. After a long
+  history of near neglect, unimaginative structure, and factious development,
+  health terminologies are in an era of unprecedented importance,
+  sophistication, and collaboration. The major highlights of this history are
+  reviewed, together with important intellectuaadvances in health terminology
+  development. The inescapable conclusion is that we are amidst a major
+  revolution in the role and capabilities of health terminologies, entering an
+  age of large-scale systems for health concept representation with
+  international implications.%
+    }
+    \verb{doi}
+    \verb 10.1136/jamia.2000.0070298
+    \endverb
+    \field{issn}{1067-5027}
+    \field{number}{3}
+    \field{pages}{298\bibrangedash 303}
+    \field{title}{{Clinical Classification and Terminology}}
+    \field{volume}{7}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Chute - 2000 - Clinical Classification and Terminology
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of the American Medical Informatics
+  Association}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Colpaert}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=CP}{%
+         family={Colpaert},
+         familyi={C\bibinitperiod},
+         given={Pieter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Llaves},
+         familyi={L\bibinitperiod},
+         given={Alejandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Verborgh},
+         familyi={V\bibinitperiod},
+         given={Ruben},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CO}{%
+         family={Corcho},
+         familyi={C\bibinitperiod},
+         given={Oscar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Mannens},
+         familyi={M\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WRVD}{%
+         family={Walle},
+         familyi={W\bibinitperiod},
+         given={Rik Van\bibnamedelima De},
+         giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+    }
+    \keyw{linked data fragments,linked open data,public,route planning,semantic
+  web,smart cities,transit}
+    \strng{namehash}{CP+1}
+    \strng{fullhash}{CPLAVRCOMEWRVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{International Semantic Web Conference}
+    \field{pages}{5\bibrangedash 8}
+    \field{title}{{Intermodal public transit routing using Linked Connections}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Colpaert et al. - 2015 - Intermodal public transit rou
+    \verb ting using Linked Connections.pdf:pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{CounciloftheEuropeanUnionq2008}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{Council of the European Union}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Regulation ECB/2008/30 concerning statistics on the assets and liabilities
+  of financial vehicle corporations engaged in securitisation transactions%
+    }
+    \field{booktitle}{Official Journal of the European Union}
+    \field{number}{June}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{{DIRECTIVE 2008/57/EC OF THE EUROPEAN PARLIAMENT AND OF THE
+  COUNCIL}}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/CELEX{\
+    \verb _}32008L0057{\_}EN{\_}TXT.pdf:pdf
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{DepartmentforTransport2011}{report}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Department for Transport}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    An independent report of a study chaired by Sir Roy McNulty and
+  commissioned by the Secretary of State for Transport.%
+    }
+    \field{isbn}{978 1 84864 124 2}
+    \field{number}{May 2011}
+    \field{pages}{320}
+    \field{title}{{Realising the potential of GB rail}}
+    \verb{url}
+    \verb http://www.dft.gov.uk/publications/realising-the-potential-of-gb-rail
+    \verb /
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Department for Transport - 2011 - Realising the potent
+    \verb ial of GB rail.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Depar2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Department for Transport}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{February}
+    \field{title}{{Rail Cyber Security Guidance to Industry}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Department for Transport - 2016 - Rail Cyber Security
+    \verb Guidance to Industry.pdf:pdf
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Dimou2014}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DA}{%
+         family={Dimou},
+         familyi={D\bibinitperiod},
+         given={Anastasia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SMV}{%
+         family={Sande},
+         familyi={S\bibinitperiod},
+         given={Miel\bibnamedelima Vander},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Colpaert},
+         familyi={C\bibinitperiod},
+         given={Pieter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Verborgh},
+         familyi={V\bibinitperiod},
+         given={Ruben},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Mannens},
+         familyi={M\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={{Van De Walle}},
+         familyi={V\bibinitperiod},
+         given={Rik},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DASMVCPVRMEVR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Despite the significant number of existing tools, incorporating data from
+  multiple sources and different formats into the Linked Open Data cloud
+  remains complicated. No mapping formalisation exists to define how to map
+  such heterogeneous sources into RDF in an integrated and interoperable
+  fashion. This paper introduces the RML mapping language, a generic language
+  based on an extension over R2RML, the W3C standard for mapping relational
+  databases into RDF. Broadening RML's scope, the language becomes
+  source-agnostic and extensible, while facilitating the definition of mappings
+  of multiple heterogeneous sources. This leads to higher integrity within
+  datasets and richer interlinking among resources.%
+    }
+    \field{issn}{16130073}
+    \field{title}{{RML: A generic language for integrated RDF mappings of
+  heterogeneous data}}
+    \field{volume}{1184}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Dimou et al. - 2014 - RML A generic language for integ
+    \verb rated RDF mappings of heterogeneous data.pdf:pdf
+    \endverb
+    \field{journaltitle}{CEUR Workshop Proceedings}
+    \field{year}{2014}
+  \endentry
+
+  \entry{ERTMSSolutions2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{ERTMS Solutions}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{{SNCB chose Goal Systems for their Advanced Planning System
+  and ERTMS Solutions' Ontologies for system integration}}
+    \verb{url}
+    \verb https://www.ertmssolutions.com/news/sncb-chose-goal-systems-advanced-
+    \verb planning-system-ertms-solutions-ontologies-systems-integration/
+    \endverb
+    \field{year}{2017}
+    \field{urlday}{19}
+    \field{urlmonth}{10}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Joh13}{report}{}
+    \name{author}{5}{}{%
+      {{hash=EJ}{%
+         family={Easton},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Davies},
+         familyi={D\bibinitperiod},
+         given={Rhys},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tutcher},
+         familyi={T\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EJ+1}
+    \strng{fullhash}{EJCLDRTJRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{{Ontime - Part D7.1}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Easton et al. - 2013 - Ontime - Part D7.1.docx:docx
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2013}
+  \endentry
+
+  \entry{eriksen2004improved}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EA}{%
+         family={Eriksen},
+         familyi={E\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=GJ}{%
+         family={Gascoyne},
+         familyi={G\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=ANW}{%
+         family={Al-Nuaimy},
+         familyi={A\bibinitperiod-N\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+    }
+    \strng{namehash}{EAGJANW1}
+    \strng{fullhash}{EAGJANW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{{Improved productivity {\&} reliability of ballast inspection
+  using road-rail multi-channel GPR}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Eriksen, Gascoyne, Al-Nuaimy - 2004 - Improved product
+    \verb ivity {\&} reliability of ballast inspection using road-rail multi-ch
+    \verb annel GPR.pdf:pdf
+    \endverb
+    \field{journaltitle}{Railway Engineering}
+    \field{year}{2004}
+  \endentry
+
+  \entry{EC2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{European Commission}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E2}
+    \strng{fullhash}{E2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Roadmap to a Single European Transport Area - Towards a competitive and
+  resource efficient transport system The European Commission adopted a roadmap
+  of 40 concrete initiatives for the next decade to build a competitive
+  transport system that will increase mobility, remove major barriers in key
+  areas and fuel growth and employment. At the same time, the proposals will
+  dramatically reduce Europe's dependence on imported oil and cut carbon
+  emissions in transport by 60{\%} by 2050. By 2050, key goals will include: No
+  more conventionally-fuelled cars in cities. 40{\%} use of sustainable low
+  carbon fuels in aviation; at least 40{\%} cut in shipping emissions. A 50{\%}
+  shift of medium distance intercity passenger and freight journeys from road
+  to rail and waterborne transport. All of which will contribute to a 60{\%}
+  cut in transport emissions by the middle of the century.%
+    }
+    \verb{doi}
+    \verb http://ec.europa.eu/transport/strategies/doc/2011_white_paper/white_p
+    \verb aper_2011_ia_full_en.pdf
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{SEC(2011) 358 final}
+    \field{issn}{1098-6596}
+    \field{pages}{170}
+    \field{title}{{White Paper - Roadmap to a Single European Transport Area
+  – Towards a competitive and resource efficient transport system}}
+    \verb{file}
+    \verb :I$\backslash$:/Downloads/CELEX{\_}52011DC0144{\_}EN{\_}TXT.pdf:pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Fremont}{article}{}
+    \name{author}{7}{}{%
+      {{hash=FJ}{%
+         family={Fr{\'{e}}mont},
+         familyi={F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lefebvre},
+         familyi={L\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lejeune},
+         familyi={L\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Maia},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Reinprecht},
+         familyi={R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Torres},
+         familyi={T\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wilhoit},
+         familyi={W\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FJ+1}
+    \strng{fullhash}{FJLTLTMMRNTJWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{Cim}
+    \field{title}{{International Electrotechnical Commission —Common
+  Information Model (CIM) Enabling Smart Grid Interoperability}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Fr{\'{e}}mont et al. - 2008 - International Electrotec
+    \verb hnical Commission —Common Information Model (CIM) Enabling Smart Gr
+    \verb id Interoperability.pdf:pdf
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{Gallaher2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GMP}{%
+         family={Gallaher},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima P},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=OAC}{%
+         family={O'Conor},
+         familyi={O\bibinitperiod},
+         given={Alan\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=DJL}{%
+         family={Dettbarn},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GLT}{%
+         family={Gilday},
+         familyi={G\bibinitperiod},
+         given={Linda\bibnamedelima T},
+         giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMP+1}
+    \strng{fullhash}{GMPOACDJLGLT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Interoperability problems in the capital facilities industry stem from the
+  highly fragmented nature of the industry, the industry's continued paper-
+  based business practices, a lack of standardization, and inconsistent
+  technology adoption among stakeholders. The objective of this study is to
+  identify and estimate the efficiency losses in the U.S. capital facilities
+  industry resulting from inadequate interoperability. This study includes
+  design, engineering, facilities management and business processes software
+  systems, and redundant paper records management across all facility
+  life-cycle phases. Based on interviews and survey responses, {\$}15.8 billion
+  in annual interoperability costs were quantified for the capital facilities
+  industry in 2002. Of these costs, two-thirds are borne by owners and
+  operators, which incur most of these costs during ongoing facility operation
+  and maintenance (O{\&}M). In addition to the costs quantified, respondents
+  indicated that there are additional significant inefficiency and lost
+  opportunity costs associated with interoperability problems that were beyond
+  the scope of our analysis. Thus, the {\$}15.8 billion cost estimate developed
+  in this study is likely to be a conservative figure.%
+    }
+    \verb{doi}
+    \verb 10.6028/NIST.GCR.04-867
+    \endverb
+    \field{isbn}{NIST GCR 04-867}
+    \field{issn}{{\textless}null{\textgreater}}
+    \field{pages}{1\bibrangedash 210}
+    \field{title}{{Cost Analysis of Inadequate Interoperability in the U.S.
+  Capital Facilities Industry}}
+    \verb{url}
+    \verb papers2://publication/uuid/69C8B354-4830-4874-929E-ACBCC00E3204
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Gallaher et al. - 2004 - Cost Analysis of Inadequate I
+    \verb nteroperability in the U.S. Capital Facilities Industry.pdf:pdf
+    \endverb
+    \field{journaltitle}{National Institute of Standards {\&} Technology}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Gamma2002}{book}{}
+    \name{author}{4}{}{%
+      {{hash=GE}{%
+         family={Gamma},
+         familyi={G\bibinitperiod},
+         given={Erich},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Helm},
+         familyi={H\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Ralph},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vlissides},
+         familyi={V\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GE+1}
+    \strng{fullhash}{GEHRJRVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    A beginner's guide to succeeding with design patters, this text provides
+  practical object-oriented design techniques and example Java code.%
+    }
+    \field{booktitle}{A New Perspective on Object-Oriented Design}
+    \verb{doi}
+    \verb 10.1093/carcin/bgs084
+    \endverb
+    \verb{eprint}
+    \verb dd
+    \endverb
+    \field{isbn}{9780201715941}
+    \field{issn}{02016361}
+    \field{pages}{334}
+    \field{title}{{Design Patterns – Elements of Reusable Object-Oriented
+  Software}}
+    \verb{url}
+    \verb http://books.google.com/books?id=JPOaP7cyk6wC{\&}pg=PA78{\&}dq=intitl
+    \verb e:Design+Patterns+Elements+of+Reusable+Object+Oriented+Software{\&}hl
+    \verb ={\&}cd=3{\&}source=gbs{\_}api{\%}5Cnpapers2://publication/uuid/94461
+    \verb 3AA-7124-44A4-B86F-C7B2123344F3
+    \endverb
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/DesignP
+    \verb atterns.pdf:pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Genesereth1987}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=GMR}{%
+         family={Genesereth},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=NNJ}{%
+         family={Nilsson},
+         familyi={N\bibinitperiod},
+         given={Nils\bibnamedelima J},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMRNNJ1}
+    \strng{fullhash}{GMRNNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    General lucid overview.%
+    }
+    \field{booktitle}{The Journal of Symbolic Logic}
+    \verb{doi}
+    \verb 10.2307/2274491
+    \endverb
+    \field{isbn}{0934613311}
+    \field{issn}{00224812}
+    \field{number}{3}
+    \field{pages}{405}
+    \field{title}{{Logical Foundations of Artificial Intelligence}}
+    \verb{url}
+    \verb http://www.loc.gov/catdir/description/els032/87005461.html
+    \endverb
+    \field{volume}{55}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Genesereth, Nilsson - 1987 - Logical Foundations of Ar
+    \verb tificial Intelligence.pdf:pdf
+    \endverb
+    \field{year}{1987}
+  \endentry
+
+  \entry{Gogos2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GS}{%
+         family={Gogos},
+         familyi={G\bibinitperiod},
+         given={Stefanos},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Letellier},
+         familyi={L\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \keyw{Seamless travel,Technical Enabler,interoperability framework,one-stop
+  shop,ticketing}
+    \strng{namehash}{GSLX1}
+    \strng{fullhash}{GSLX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The IT2Rail-"Information Technologies for Shift2Rail" project is a first
+  step towards the long term IP4 -"IT Solutions for Attractive Railway
+  Services", one of the Shift2Rail Joint Undertaking's Innovation Programmes,
+  which aims at providing a new seamless travel experience, giving access to a
+  complete multimodal travel offer which connects the first and last mile to
+  long distance journeys. This is achieved through the introduction of a ground
+  breaking Technical Enabler based on two concepts:The traveler is placed at
+  the heart of innovative solutions, accessing all multimodal travel services
+  (shopping, ticketing, and tracking) through its travel-companion.An open
+  published framework is providing full interoperability whilst limiting
+  impacts on existing systems, without prerequisites for centralized
+  standardization. This Technical Enabler will be completely settled in the
+  context of the Shift2Rail IP4, and IT2Rail is proposing a reduced approach to
+  the scale of a specified use case without weakening any of the key concepts
+  of IP4, such as the usage of Semantic Web technologies, meta planning on
+  distributed data, travel companion with a protected and secured personal
+  wallet stored in the cloud and including the rights to travel. The use cases
+  will be defined as specific instantiations of our open concepts, and will
+  benefit from a completely scalable architecture fully instantiated in IP4.
+  This approach is addressing all the key challenges of the work program,
+  supporting a complete door-to- door multimodal travel offer and proposing a
+  seamless integration of the very diverse existing and future services for
+  planning, one-stop-shop ticketing, and real-time re-accommodation. Moreover,
+  thanks to an Interoperability framework which insulates travel applications
+  from the standards fragmentation in multimodal transport, IT2Rail liberates
+  business-model innovations in the market-place, guaranteeing the economic
+  self-sustainability of these e-services in the long-term.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.trpro.2016.05.265
+    \endverb
+    \field{issn}{23521465}
+    \field{pages}{3218\bibrangedash 3227}
+    \field{title}{{IT2Rail: Information Technologies for Shift to Rail}}
+    \field{volume}{14}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/ITR-WP1
+    \verb -D-FIN-026-02{\_}-{\_}D1.6{\_}-{\_}Proof-of-Concept{\_}Packaged{\_}Re
+    \verb solvers{\_}Core{\_}Features.pdf:pdf
+    \endverb
+    \field{journaltitle}{Transportation Research Procedia}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Gonczy2012}{report}{}
+    \name{author}{5}{}{%
+      {{hash=GL}{%
+         family={G{\"{o}}nczy},
+         familyi={G\bibinitperiod},
+         given={L{\'{a}}szl{\'{o}}},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={K{\"{o}}vi},
+         familyi={K\bibinitperiod},
+         given={Andr{\'{a}}s},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Andreas},
+         familyi={A\bibinitperiod},
+         given={Pataricza},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Thalhammer},
+         familyi={T\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Stavrakantonakis},
+         familyi={S\bibinitperiod},
+         given={Ioannis},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GL+1}
+    \strng{fullhash}{GLKAAPTASI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{233758}
+    \field{title}{{e-Freight ontology}}
+    \verb{url}
+    \verb http://www.efreightproject.eu/uploadfiles/e-Freight D2.3 e-Freight On
+    \verb tology.pdf
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/G{\"{o}}nczy et al. - 2012 - e-Freight ontology.pdf:pd
+    \verb f
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Grenon2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GP}{%
+         family={Grenon},
+         familyi={G\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Barry},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Goldberg},
+         familyi={G\bibinitperiod},
+         given={Louis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Medical Informatics,United States}
+    \strng{namehash}{GPSBGL1}
+    \strng{fullhash}{GPSBGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    We propose a modular formal ontology of the biomedical domain with two
+  components, one for biological objects, corresponding broadly to anatomy, and
+  one for biological processes, corresponding broadly to physiology. The result
+  constitutes what might be described as a joint venture between two
+  perspectives--of so-called three-dimensionalism and
+  four-dimensionalism--which are normally regarded as incompatible. We outline
+  an approach which allows them to be combined together, and provide examples
+  of its application in biomedicine.%
+    }
+    \field{issn}{0926-9630}
+    \field{number}{ii}
+    \field{pages}{20\bibrangedash 38}
+    \field{title}{{Biodynamic ontology: applying BFO in the biomedical
+  domain.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/15853262
+    \endverb
+    \field{volume}{102}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Grenon, Smith, Goldberg - 2004 - Biodynamic ontology a
+    \verb pplying BFO in the biomedical domain.pdf:pdf
+    \endverb
+    \field{journaltitle}{Studies in health technology and informatics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Gro2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GA}{%
+         family={Gro{\ss}},
+         familyi={G\bibinitperiod},
+         given={Anika},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Pruski},
+         familyi={P\bibinitperiod},
+         given={C??dric},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rahm},
+         familyi={R\bibinitperiod},
+         given={Erhard},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Natrix Separations}%
+    }
+    \keyw{Biomedical annotation,Biomedical ontology,Mapping adaptation,Mapping
+  evolution,Ontology evolution,Ontology-based mapping}
+    \strng{namehash}{GAPCRE1}
+    \strng{fullhash}{GAPCRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Biomedical ontologies are heavily used to annotate data, and different
+  ontologies are often interlinked by ontology mappings. These ontology-based
+  mappings and annotations are used in many applications and analysis tasks.
+  Since biomedical ontologies are continuously updated dependent artifacts can
+  become outdated and need to undergo evolution as well. Hence there is a need
+  for largely automated approaches to keep ontology-based mappings up-to-date
+  in the presence of evolving ontologies. In this article, we survey current
+  approaches and novel directions in the context of ontology and mapping
+  evolution. We will discuss requirements for mapping adaptation and provide a
+  comprehensive overview on existing approaches. We will further identify open
+  challenges and outline ideas for future developments.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.csbj.2016.08.002
+    \endverb
+    \field{isbn}{2001-0370 (Linking)}
+    \field{issn}{20010370}
+    \field{pages}{333\bibrangedash 340}
+    \field{title}{{Evolution of biomedical ontologies and mappings: Overview of
+  recent approaches}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.csbj.2016.08.002
+    \endverb
+    \field{volume}{14}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/1-s2.0-
+    \verb S2001037016300319-main.pdf:pdf
+    \endverb
+    \field{journaltitle}{Computational and Structural Biotechnology Journal}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Gru09}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GT}{%
+         family={Gruber},
+         familyi={G\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \strng{namehash}{GT1}
+    \strng{fullhash}{GT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{extrayear}{1}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{{Ontology}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Gruber - 2009 - Ontology.pdf:pdf
+    \endverb
+    \field{journaltitle}{Encyclopedia of Database Systems}
+    \field{year}{2009}
+  \endentry
+
+  \entry{gruber1993translation}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GTR}{%
+         family={Gruber},
+         familyi={G\bibinitperiod},
+         given={Thomas\bibnamedelima R},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{GTR1}
+    \strng{fullhash}{GTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{2}
+    \field{pages}{199\bibrangedash 220}
+    \field{title}{{A translation approach to portable ontology specifications}}
+    \field{volume}{5}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Gruber - 1993 - A translation approach to portable ont
+    \verb ology specifications.pdf:pdf
+    \endverb
+    \field{journaltitle}{Knowledge acquisition}
+    \field{year}{1993}
+  \endentry
+
+  \entry{Gruber2009}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GT}{%
+         family={Gruber},
+         familyi={G\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Atrtificial Intelligence, Semantic Web, Personal A}
+    \strng{namehash}{GT2}
+    \strng{fullhash}{GT2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{extrayear}{2}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{issn}{10755470}
+    \field{title}{{Siri a virtual Personal assistant: Bringing Intelligence to
+  the Interface}}
+    \verb{url}
+    \verb http://www.macrumors.com/2010/04/28/siri-acquisition-brings-apple-muc
+    \verb h-closer-to-the-knowledge-navigator-concept/
+    \endverb
+    \verb{file}
+    \verb :I$\backslash$:/Downloads/Siri-SemTech09.pdf:pdf
+    \endverb
+    \field{journaltitle}{Semantic Technologies 2009}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Hargreaves2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HN}{%
+         family={Hargreaves},
+         familyi={H\bibinitperiod},
+         given={NB},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pantea},
+         familyi={P\bibinitperiod},
+         given={SM},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Carter},
+         familyi={C\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={GA},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HN+1}
+    \strng{fullhash}{HNPSCATG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{4}
+    \field{pages}{4752\bibrangedash 4759}
+    \field{title}{{Foundations of a Metamodel Repository for use with the IEC
+  Common Information Model}}
+    \verb{url}
+    \verb http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=6555935
+    \endverb
+    \field{volume}{28}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Hargreaves et al. - 2013 - Foundations of a Metamodel
+    \verb Repository for use with the IEC Common Information Model.pdf:pdf
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{Hicks}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HP}{%
+         family={Hicks},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HP1}
+    \strng{fullhash}{HP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{{Open Rail Data wiki}}
+    \verb{url}
+    \verb http://nrodwiki.rockshore.net/
+    \endverb
+    \field{urlday}{15}
+    \field{urlmonth}{09}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Horridge2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HM}{%
+         family={Horridge},
+         familyi={H\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={{Ega{\~{n}}a Aranguren}},
+         familyi={E\bibinitperiod},
+         given={Mikel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mortensen},
+         familyi={M\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Musen},
+         familyi={M\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NN}{%
+         family={Noy},
+         familyi={N\bibinitperiod},
+         given={Natalya},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{mystuff}
+    \strng{namehash}{HM+1}
+    \strng{fullhash}{HMEMMJMMNN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{issn}{16130073}
+    \field{title}{{Ontology Design Pattern Language Expressivity Requirements}}
+    \verb{url}
+    \verb http://ceur-ws.org/Vol-929/paper3.pdf
+    \endverb
+    \field{volume}{929}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Horridge et al. - 2012 - Ontology Design Pattern Langu
+    \verb age Expressivity Requirements.pdf:pdf
+    \endverb
+    \field{journaltitle}{Workshop on Ontology Patterns (WOP)}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Horrocks2006a}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=HI}{%
+         family={Horrocks},
+         familyi={H\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HI1}
+    \strng{fullhash}{HI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{the international workshop on hybrid logic}
+    \field{title}{{Hybrid Logics and Ontology Language}}
+    \list{location}{1}{%
+      {Seattle}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Horrocks - 2006 - Hybrid Logics and Ontology Language.
+    \verb ppt:ppt
+    \endverb
+    \field{year}{2006}
+  \endentry
+
+  \entry{Horrocks2007}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HI}{%
+         family={Horrocks},
+         familyi={H\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HI1}
+    \strng{fullhash}{HI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    BACKGROUND: Functional neuroimaging studies of bipolar disorder (BD)
+  performed in conjunction with antidepressant treatment trials generally
+  require that patients remain on mood stabilizers to reduce the risk of
+  inducing mania; yet, it is unknown whether the metabolic abnormalities
+  evident in unmedicated BD depressives remain detectable in patients receiving
+  mood stabilizers. This study investigated whether cerebral metabolic
+  abnormalities previously reported in unmedicated BD subjects are evident in
+  depressed bipolar disorder type II (BD II) subjects receiving lithium or
+  divalproex. METHODS: Using 18F-fluorodeoxyglucose-positron-emission
+  tomography, cerebral glucose metabolism was compared between 13 depressed BD
+  II subjects on therapeutic doses of lithium or divalproex and 18 healthy
+  control subjects. Regional metabolism was compared between groups in
+  predefined regions of interest. RESULTS: Metabolism was increased in the
+  bilateral amygdala, accumbens area, and anteroventral putamen, left
+  orbitofrontal cortex and right pregenual anterior cingulate cortex in
+  depressives versus control subjects. Post hoc exploratory analysis
+  additionally revealed increased metabolism in left parahippocampal, posterior
+  cingulate, and right anterior insular cortices in depressives versus control
+  subjects. Correlational analyses showed multiple limbic-cortical-striatal
+  interactions in the BD sample not evident in the control sample, permitting
+  sensitive and specific classification of subjects by discriminant analysis.
+  CONCLUSIONS: These results confirm previous reports that bipolar depression
+  is associated with abnormally increased metabolism in the amygdala, ventral
+  striatum, orbitofrontal cortex, anterior cingulate, and anterior insula, and
+  extend these results to bipolar disorder type II depressives on lithium or
+  divalproex. They also implicate an extended functional anatomical network
+  known to modulate visceromotor function in the pathophysiology of BD II
+  depression%
+    }
+    \field{number}{0091-679X (Print) LA - eng PT - Journal Article RN - 0
+  (Intermediate Filament Proteins) RN - 0 (Nerve Tissue Proteins) RN - 0
+  (Sulfur Radioisotopes) RN - 63-68-3 (Methionine) SB - IM}
+    \field{pages}{765\bibrangedash 775}
+    \field{title}{{Description Logic : A Formal Foundation for Ontology
+  Languages and Tools}}
+    \field{volume}{78}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Horrocks - 2007 - Description Logic A Formal Foundatio
+    \verb n for Ontology Languages and Tools.pdf:pdf
+    \endverb
+    \field{journaltitle}{Methods In Cell Biology}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Horrocks2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HI}{%
+         family={Horrocks},
+         familyi={H\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KO}{%
+         family={Kutz},
+         familyi={K\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SU}{%
+         family={Sattler},
+         familyi={S\bibinitperiod},
+         given={Ulrike},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \keyw{description{\_}logic,ontology,owl}
+    \strng{namehash}{HIKOSU1}
+    \strng{fullhash}{HIKOSU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    We describe an extension of the description logic underlying OWL-DL, SHOIN,
+  with a number of expressive means that we believe will make it more useful in
+  practice. Roughly speaking, we extend SHOIN with all expressive means that
+  were suggested to us by ontology developers as useful additions to OWL-DL,
+  and which, additionally, do not affect its decidability and practicability.
+  We consider complex role inclusion axioms of the form R . S . R or S . R . R
+  to express propagation of one property along another one, which have proven
+  useful in medical terminologies. Furthermore, we extend SHOIN with reflexive,
+  antisymmetric, and irreflexive roles, disjoint roles, a universal role, and
+  constructs R.Self, allowing, for instance, the definition of concepts such as
+  a '' narcist''. Finally, we consider negated role assertions in Aboxes and
+  qualified number restrictions. The resulting logic is called SROIQ. We
+  present a rather elegant tableau-based reasoning algorithm: it combines the
+  use of automata to keep track of universal value restrictions with the
+  techniques developed for SHOIQ. The logic SROIQ has been adopted as the
+  logical basis for the next iteration of OWL, OWL 1.1.%
+    }
+    \field{isbn}{978-1-57735-271-6}
+    \field{pages}{57\bibrangedash 67}
+    \field{title}{{The Even More Irresistible SROIQ}}
+    \verb{url}
+    \verb http://www.cs.man.ac.uk/{~}horrocks/Publications/download/2006/HoKS06
+    \verb a.pdf
+    \endverb
+    \verb{file}
+    \verb :I$\backslash$:/Downloads/HoKS06a.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proc. of the 10th Int. Conf. on Principles of
+  Knowledge Representation and Reasoning (KR2006)}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Janowicz2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JK}{%
+         family={Janowicz},
+         familyi={J\bibinitperiod},
+         given={Krzysztof},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Scheider},
+         familyi={S\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pehle},
+         familyi={P\bibinitperiod},
+         given={Todd},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hart},
+         familyi={H\bibinitperiod},
+         given={Glen},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JK+1}
+    \strng{fullhash}{JKSSPTHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    The Geosciences and Geography are not just yet another application area for
+  semantic technologies. The vast heterogeneity of the involved disciplines
+  ranging from the natural sciences to the social sciences introduces new
+  challenges in terms of interoperability. Moreover, the inherent spatial and
+  temporal information components also require distinct semantic approaches.
+  For these reasons, geospatial semantics, geo-ontologies, and semantic
+  interoperability have been active research areas over the last 20 years. The
+  geospatial semantics community has been among the early adopters of the
+  Semantic Web, contributing methods, ontologies, use cases, and datasets.
+  Today, geographic information is a crucial part of many central hubs on the
+  Linked Data Web. In this editorial, we outline the research field of
+  geospatial semantics, highlight major research directions and trends, and
+  glance at future challenges. We hope that this text will be valuable for
+  geoscientists interested in semantics research as well as knowledge engineers
+  interested in spatiotemporal data%
+    }
+    \verb{doi}
+    \verb 10.3233/SW-2012-0077
+    \endverb
+    \field{issn}{15700844}
+    \field{number}{4}
+    \field{pages}{321\bibrangedash 332}
+    \field{title}{{Geospatial semantics and linked spatiotemporal data-past,
+  present, and future}}
+    \field{volume}{3}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Janowicz et al. - 2012 - Geospatial semantics and link
+    \verb ed spatiotemporal data-past, present, and future.pdf:pdf
+    \endverb
+    \field{journaltitle}{Semantic Web}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Jovanovic2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JJ}{%
+         family={Jovanovi{\'{c}}},
+         familyi={J\bibinitperiod},
+         given={Jelena},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Bagheri},
+         familyi={B\bibinitperiod},
+         given={Ebrahim},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Biomedical ontologies,Biomedical text mining,Natural language
+  processing (NLP),Semantic annotation,Semantic technologies}
+    \strng{namehash}{JJBE1}
+    \strng{fullhash}{JJBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    The abundance and unstructured nature of biomedical texts, be it clinical
+  or research content, impose significant challenges for the effective and
+  efficient use of information and knowledge stored in such texts. Annotation
+  of biomedical documents with machine intelligible semantics facilitates
+  advanced, semantics-based text management, curation, indexing, and search.
+  This paper focuses on annotation of biomedical entity mentions with concepts
+  from relevant biomedical knowledge bases such as UMLS. As a result, the
+  meaning of those mentions is unambiguously and explicitly defined, and thus
+  made readily available for automated processing. This process is widely known
+  as semantic annotation, and the tools that perform it are known as semantic
+  annotators.Over the last dozen years, the biomedical research community has
+  invested significant efforts in the development of biomedical semantic
+  annotation technology. Aiming to establish grounds for further developments
+  in this area, we review a selected set of state of the art biomedical
+  semantic annotators, focusing particularly on general purpose annotators,
+  that is, semantic annotation tools that can be customized to work with texts
+  from any area of biomedicine. We also examine potential directions for
+  further improvements of today's annotators which could make them even more
+  capable of meeting the needs of real-world applications. To motivate and
+  encourage further developments in this area, along the suggested and/or
+  related directions, we review existing and potential practical applications
+  and benefits of semantic annotators.%
+    }
+    \verb{doi}
+    \verb 10.1186/s13326-017-0153-x
+    \endverb
+    \field{isbn}{20411480 (Electronic)}
+    \field{issn}{2041-1480}
+    \field{number}{1}
+    \field{pages}{44}
+    \field{title}{{Semantic annotation in biomedicine: the current landscape}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/28938912{\%}0Ahttp://jbiomedsem.bi
+    \verb omedcentral.com/articles/10.1186/s13326-017-0153-x
+    \endverb
+    \field{volume}{8}
+    \verb{file}
+    \verb :I$\backslash$:/Downloads/document(3).pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Biomedical Semantics}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Kim2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KHH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Hyun\bibnamedelima Hee},
+         giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RSY}{%
+         family={Rieh},
+         familyi={R\bibinitperiod},
+         given={Soo\bibnamedelima Young},
+         giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=ATK}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Tae\bibnamedelima Kyoung},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=CWK}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Woo\bibnamedelima Kwon},
+         giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KHH+1}
+    \strng{fullhash}{KHHRSYATKCWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    This paper reports one part of a. larger research project that
+  designs$\backslash$nand implements an ontology-based knowledge. management
+  system which$\backslash$nmakes knowledge assets intelligently accessible to
+  Korean financial$\backslash$nfirms. The research develops an ontology model
+  consisting of an$\backslash$ninformation ontology, a competency ontology, a
+  product ontology, and a$\backslash$nknowledge map. This paper introduces the
+  ontology model by,illustrating$\backslash$nthe four components and reports on
+  the implementation and evaluation of$\backslash$nthe information ontology for
+  the searching of web resources. Based on$\backslash$nthe content analysis of
+  eight international bank web sites, a pilot$\backslash$nsystem of information
+  ontology for web resources consisting of$\backslash$nPublication, Project,
+  Member, Person, and Organization was constructed.$\backslash$nThe pilot
+  system includes databases and ontology-based search engines.$\backslash$nTo
+  evaluate the pilot system, a comparative experiment was conducted
+  in$\backslash$nwhich the performance of an ontology-based system was compared
+  with that$\backslash$nof web search engines. The results indicate that the
+  ontology-based$\backslash$nsystem can be used not only to improve precision
+  but also to reduce$\backslash$nsearch time.%
+    }
+    \verb{doi}
+    \verb 10.1002/meet.1450410136
+    \endverb
+    \field{isbn}{1-57387-222-9}
+    \field{issn}{15508390}
+    \field{pages}{300\bibrangedash 309}
+    \field{title}{{Implementing an ontology-based knowledge management system
+  in the Korean financial firm environment}}
+    \field{volume}{41}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/1450410
+    \verb 136{\_}ftp.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the ASIST Annual Meeting}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Geo09}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=KG}{%
+         family={Kobilarov},
+         familyi={K\bibinitperiod},
+         given={Georgi},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RY}{%
+         family={Raimond},
+         familyi={R\bibinitperiod},
+         given={Yves},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Oliver},
+         familyi={O\bibinitperiod},
+         given={Silver},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CCBRL}{%
+         family={{Chris Sizemore Michael Smethurst}},
+         familyi={C\bibinitperiod},
+         given={Christian Bizer Robert\bibnamedelima Lee},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod
+  R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KG+1}
+    \strng{fullhash}{KGSTRYOSCCBRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{{Media Meets Semantic Web – How the BBC Uses DBpedia and
+  Linked Data to Make Connections}}
+    \list{location}{1}{%
+      {Heraklion, Crete, Greece}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Kobilarov et al. - Unknown - Media Meets Semantic Web
+    \verb – How the BBC Uses DBpedia and Linked Data to Make Connections.pdf:
+    \verb pdf
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{Kopf2010}{report}{}
+    \name{author}{1}{}{%
+      {{hash=KH}{%
+         family={K{\"{o}}pf},
+         familyi={K\bibinitperiod},
+         given={Helene},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KH1}
+    \strng{fullhash}{KH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    This document represents the Final InteGRail Publishable Activity Report,
+  submitted to the European Commission after the end of the project.%
+    }
+    \field{title}{{InteGrail – Publishable Final Activity Report}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/K{\"{o}}pf - 2010 - InteGrail – Publishable Final Ac
+    \verb tivity Report.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Leal2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LD}{%
+         family={Leal},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LD1}
+    \strng{fullhash}{LD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.2516/ogst:2005045
+    \endverb
+    \field{isbn}{1294-4475}
+    \field{issn}{12944475}
+    \field{number}{4}
+    \field{pages}{629\bibrangedash 637}
+    \field{title}{{ISO 15926 "Life cycle data for process plant": An overview}}
+    \field{volume}{60}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Leal - 2005 - ISO 15926 Life cycle data for process pl
+    \verb ant An overview.pdf:pdf
+    \endverb
+    \field{journaltitle}{Oil and Gas Science and Technology}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Lenzerini2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LM}{%
+         family={Lenzerini},
+         familyi={L\bibinitperiod},
+         given={Maurizio},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM1}
+    \strng{fullhash}{LM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{isbn}{1581135076}
+    \field{pages}{233\bibrangedash 246}
+    \field{title}{{Data Integration: A Theoretical Perspective.}}
+    \verb{url}
+    \verb papers2://publication/uuid/C8C9DF09-7385-4667-95B6-620C79A5FD12
+    \endverb
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/p233-le
+    \verb nzerini.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proc.$\backslash$ of the 21st ACM SIGACT SIGMOD SIGART
+  Symp.$\backslash$ on Principles of Database Systems (PODS{\~{}}2002)}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Lieberman2007}{report}{}
+    \name{author}{3}{}{%
+      {{hash=LJ}{%
+         family={Lieberman},
+         familyi={L\bibinitperiod},
+         given={Joshua},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Raj},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Goad},
+         familyi={G\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJSRGC1}
+    \strng{fullhash}{LJSRGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{{W3C Geospatial Vocabulary}}
+    \verb{url}
+    \verb https://www.w3.org/2005/Incubator/geo/XGR-geo/
+    \endverb
+    \list{institution}{1}{%
+      {W3C Geospatial Incubator Group (GeoXG)}%
+    }
+    \field{type}{techreport}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Lorenz2005a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LB}{%
+         family={Lorenz},
+         familyi={L\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LB1}
+    \strng{fullhash}{LB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{{A1-D4 Ontology of Transportation Networks}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Lorenz - 2005 - A1-D4 Ontology of Transportation Netwo
+    \verb rks.pdf:pdf
+    \endverb
+    \field{year}{2005}
+  \endentry
+
+  \entry{Martin2003}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MRC}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima C},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MRC1}
+    \strng{fullhash}{MRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{{The Principles of OOD}}
+    \verb{url}
+    \verb http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+    \endverb
+    \field{year}{2003}
+    \field{urlday}{01}
+    \field{urlmonth}{09}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Mazzola2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ML}{%
+         family={Mazzola},
+         familyi={M\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kapahnke},
+         familyi={K\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vujic},
+         familyi={V\bibinitperiod},
+         given={Marko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Klusch},
+         familyi={K\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{and costly process,applied ontology,cdm-core,crema h2020 ria
+  project,if an on-,in particular,knowledge engineering,ontology engineering is
+  known,ontology quality measurement,semantic annotation,time-consuming,to be a
+  complex}
+    \strng{namehash}{ML+1}
+    \strng{fullhash}{MLKPVMKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Ontology engineering is known to be a complex, time-consuming, and costly
+  process, in particular, if an ontology has to be developed from scratch, and
+  respective domain knowledge has to be formally encoded. This paper presents
+  the largest publicly available manufacturing ontology CDM-Core in the
+  standard formal ontology language OWL2(1). The CDM-Core ontology has been
+  developed within the European research project CREMA in close collaboration
+  with the user partners in order to sufficiently cover the CREMA use case
+  domains of metal press maintenance and automative exhaust production.
+  CDM-Core makes use of many relevant standard vocabularies and ontologies,
+  with only about one fifth of its size being CREMA use case specific. The
+  practical applicability of CDM-Core for semantic annotation of domain-related
+  process models, sensor data and services has been approved by the user
+  partners, and its quality according to selected common criteria of
+  verification and validation was successfully evaluated. From the public
+  release of the CDM-Core, we expect to cover the lack of a base common
+  ontology for the manufacturing domain, thanks to feedbacks from industrial
+  reuse and improvements from the community.%
+    }
+    \verb{doi}
+    \verb 10.5220/0006056301360143
+    \endverb
+    \field{isbn}{978-989-758-203-5}
+    \field{number}{Ic3k}
+    \field{pages}{136\bibrangedash 143}
+    \field{title}{{CDM-Core: A Manufacturing Domain Ontology in OWL2 for
+  Production and Maintenance}}
+    \verb{url}
+    \verb http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/000605
+    \verb 6301360143
+    \endverb
+    \field{volume}{2}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/KEOD{\_
+    \verb }2016{\_}25.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the 8th International Joint Conference
+  on Knowledge Discovery, Knowledge Engineering and Knowledge Management}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Meyer2006}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MT}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Booth},
+         familyi={B\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PJZ}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Jeff\bibnamedelima Z},
+         giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \keyw{justification-algorithm}
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTLKBRPJZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{269\bibrangedash 274}
+    \field{title}{{Finding Maximally Satisfiable Terminologies for the
+  Description Logic $\backslash$mathcal{\{}ALC{\}}}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Meyer et al. - 2006 - Finding Maximally Satisfiable Te
+    \verb rminologies for the Description Logic mathcal{\{}ALC{\}}.pdf:pdf
+    \endverb
+    \field{journaltitle}{21st National Conference on Artificial Intelligence,
+  AAAI}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Microsoft2012}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Microsoft},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{{The MVVM Pattern}}
+    \verb{url}
+    \verb https://msdn.microsoft.com/en-gb/library/hh848246.aspx
+    \endverb
+    \field{year}{2012}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Mikroyannidi2016}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=ME}{%
+         family={Mikroyannidi},
+         familyi={M\bibinitperiod},
+         given={Eleni},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Dong},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=MD}{%
+         family={Mouromtsev},
+         familyi={M\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={D'Aquin},
+         familyi={D\bibinitperiod},
+         given={Mathieu},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{MELDLR1}
+    \strng{fullhash}{MELDLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Open Data for Education: Linked, Shared, and Reusable
+  Data for Teaching and Learning}
+    \verb{doi}
+    \verb 10.1007/978-3-319-30493-9_4
+    \endverb
+    \field{isbn}{978-3-319-30493-9}
+    \field{pages}{67\bibrangedash 85}
+    \field{title}{{Use of Semantic Web Technologies in the Architecture of the
+  BBC Education Online Pages}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/978-3-319-30493-9{\_}4
+    \endverb
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2016}
+  \endentry
+
+  \entry{Morris}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=MC}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EJM}{%
+         family={Easton},
+         familyi={E\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Data Integration,Railway Core Ontologies,Railway Domain Ontology}
+    \strng{namehash}{MCEJMRC1}
+    \strng{fullhash}{MCEJMRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    This paper presents the railway core ontologies, a group of related
+  ontologies designed to model the rail domain in detail. The purpose of these
+  ontologies is to enable improved data integration in the rail domain, which
+  will deliver business benefits in the form of improved customer perceptions
+  and more efficient use of the rail network. The modularity of the ontologies
+  allows for both detailed modelling of the domain at a high level and the
+  storing of instance data at lower levels. It concludes that the benefits of
+  improved rail data integration are best realised through the use of the
+  railway core ontologies.%
+    }
+    \field{booktitle}{7th International Joint Conference on Knowledge
+  Discovery, Knowledge Engineering and Knowledge Management - IC3K 2015}
+    \verb{doi}
+    \verb 10.5220/0005613702850290
+    \endverb
+    \field{isbn}{9789897581588}
+    \field{pages}{285\bibrangedash 290}
+    \field{title}{{Ontology in the Rail Domain: The Railway Core Ontologies}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Morris, Easton, Roberts - Unknown - POSITION PAPER Ont
+    \verb ology in the Rail Domain The Railway Core Ontologies.pdf:pdf
+    \endverb
+    \field{annotation}{%
+    NULL%
+    }
+    \field{year}{2015}
+  \endentry
+
+  \entry{Morris2014}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=MC}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Easton},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Linked Data,Ontology,Railway data,Semantic Data}
+    \strng{namehash}{MCEJRC1}
+    \strng{fullhash}{MCEJRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{IEEE BigData 2014}
+    \field{title}{{Applications of Linked Data in the Rail Domain}}
+    \list{location}{1}{%
+      {Washington}%
+    }
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/Morris
+    \verb - Applications of Linked Data in the Rail Domain.pdf:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Morris2016}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=MC}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Easton},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{BT-applications,BT-linked data,BT-railways,BT-transport}
+    \strng{namehash}{MCEJRC1}
+    \strng{fullhash}{MCEJRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{WCRR2016}
+    \field{title}{{From Data To Information: Provision of Railway Data To
+  Passengers in the Information Age}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Morris, Easton, Roberts - 2016 - From Data To Informat
+    \verb ion Provision of Railway Data To Passengers in the Information Age.pd
+    \verb f:pdf
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Parsia:09:OWO}{report}{}
+    \name{author}{11}{}{%
+      {{hash=MB}{%
+         family={Motik},
+         familyi={M\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PSPF}{%
+         family={Patel-Schneider},
+         familyi={P\bibinitperiod-S\bibinitperiod},
+         given={Peter\bibnamedelima F.},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Parsia},
+         familyi={P\bibinitperiod},
+         given={Bijan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bock},
+         familyi={B\bibinitperiod},
+         given={Conrad},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fokoue},
+         familyi={F\bibinitperiod},
+         given={Achille},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Haase},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hoekstra},
+         familyi={H\bibinitperiod},
+         given={Rinke},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HI}{%
+         family={Horrocks},
+         familyi={H\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ruttenberg},
+         familyi={R\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SU}{%
+         family={Sattler},
+         familyi={S\bibinitperiod},
+         given={Uli},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MB+1}
+    \strng{fullhash}{MBPSPFPBBCFAHPHRHIRASUSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language
+  for the Semantic Web with formally defined meaning. OWL 2 ontologies provide
+  classes, properties, individuals, and data values and are stored as Semantic
+  Web documents. OWL 2 ontologies can be used along with information written in
+  RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF
+  documents.%
+    }
+    \field{booktitle}{Online}
+    \verb{doi}
+    \verb urn:nbn:nl:ui:29-303961
+    \endverb
+    \field{isbn}{0321480910}
+    \field{number}{December}
+    \field{pages}{1\bibrangedash 133}
+    \field{title}{{OWL 2 Web Ontology Language - Structural Specification and
+  Functional-Style Syntax (Second Edition)}}
+    \verb{url}
+    \verb https://www.w3.org/2007/OWL/draft/ED-owl2-syntax-20090914/all.pdf
+    \endverb
+    \list{institution}{1}{%
+      {W3C}%
+    }
+    \field{type}{{\{}W3C{\}} Recommendation}
+    \field{annotation}{%
+    http://www.w3.org/TR/2009/REC-owl2-syntax-20091027/%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{Mueller2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MAW}{%
+         family={Mueller},
+         familyi={M\bibinitperiod},
+         given={Andreas\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Peschke},
+         familyi={P\bibinitperiod},
+         given={Joern},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Energy Efficiency,Energy Engineering,Energy Management,Knowledge
+  Acquisition,Knowledge Engineering,Standby Control}
+    \strng{namehash}{MAWPJ1}
+    \strng{fullhash}{MAWPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    In improving the energy efficiency of industrial plants, advanced standby
+  control depicts a strategic instrument subject to various influences and with
+  impacts on models and software tools along the entire plant lifecycle. In
+  order to effectively switch plants and components to different levels of
+  energy consumption, the required knowledge needs to be properly engineered
+  and applied. This paper presents an overview of this knowledge and its
+  interrelations in the industrial domain, with special focus on the
+  requirements for automated generation of energy state models and switching
+  paths. For these tasks, integrative approaches are proposed.%
+    }
+    \field{isbn}{9789897581588}
+    \field{number}{KEOD}
+    \field{pages}{364\bibrangedash 369}
+    \field{title}{{A View on Advanced Standby Control in Industry from a
+  Knowledge Engineering Perspective}}
+    \field{volume}{2}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Mueller, Peschke - 2015 - A View on Advanced Standby C
+    \verb ontrol in Industry from a Knowledge Engineering Perspective.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the 7th International Joint Conference
+  on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K
+  2015)}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Nash2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NA}{%
+         family={Nash},
+         familyi={N\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Huerlimann},
+         familyi={H\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schuette},
+         familyi={S\bibinitperiod},
+         given={Joerg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KVP}{%
+         family={Krauss},
+         familyi={K\bibinitperiod},
+         given={Vasco\bibnamedelima Paul},
+         giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{data transfer,railml,railway simulation,timetabling,transportation
+  data mark-up languages,xml}
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NAHDSJKVP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.2495/978-1-84564-500-7/01
+    \endverb
+    \field{isbn}{978-1-84564-500-7}
+    \field{issn}{1462608X}
+    \field{pages}{3\bibrangedash 10}
+    \field{title}{{RailML - A standard data interface for railroad
+  applications}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Nash et al. - 2010 - RailML - A standard data interfac
+    \verb e for railroad applications.pdf:pdf
+    \endverb
+    \field{journaltitle}{Timetable Planning and Information Quality}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Rail}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Network Rail Infrastructure Ltd}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{1\bibrangedash 3}
+    \field{title}{{ORBIS — Network Rail ' s Offering Rail Better Information
+  Services}}
+    \verb{url}
+    \verb http://www.theiet.org/sectors/information-communications/topics/conne
+    \verb cted-data/files/case-study-1.cfm?type=pdf
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Network Rail Infrastructure Ltd - Unknown - ORBIS —
+    \verb Network Rail ' s Offering Rail Better Information Services.pdf:pdf
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{nr2007}{report}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Network Rail Infrastructure Ltd}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{number}{August}
+    \field{title}{{Common Interface File Common Interface File - End User
+  Specification}}
+    \verb{url}
+    \verb http://www.atoc.org/clientfiles/files/RSPDocuments/20070801.pdf
+    \endverb
+    \verb{file}
+    \verb :I$\backslash$:/Downloads/20070801.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2007}
+  \endentry
+
+  \entry{NetworkRailInfrastructureLtd2015}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Network Rail Infrastructure Ltd}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{{Technical Performance Spreadsheet}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Network Rail Infrastructure Ltd - 2015 - Technical Per
+    \verb formance Spreadsheet.xlsx:xlsx
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{NetworkRailInfrastructureLtd2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Network Rail Infrastructure Ltd}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{{Our information and data}}
+    \verb{url}
+    \verb https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/tran
+    \verb sparency/datasets/
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Niles2001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NI}{%
+         family={Niles},
+         familyi={N\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pease},
+         familyi={P\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NAP}{%
+         family={{Niles Ian}},
+         familyi={N\bibinitperiod},
+         given={Adam\bibnamedelima Pease},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM Press}%
+    }
+    \keyw{- ontologies}
+    \strng{namehash}{NIPANAP1}
+    \strng{fullhash}{NIPANAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.1145/505168.505170
+    \endverb
+    \field{isbn}{1581133774}
+    \field{pages}{2\bibrangedash 9}
+    \field{title}{{Towards a standard upper ontology}}
+    \verb{url}
+    \verb http://portal.acm.org/citation.cfm?doid=505168.505170
+    \endverb
+    \field{volume}{2001}
+    \list{location}{1}{%
+      {New York, New York, USA}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Niles, Pease - 2001 - Towards a standard upper ontolog
+    \verb y.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the international conference on Formal
+  Ontology in Information Systems - FOIS '01}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Nunez2014}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=NA}{%
+         family={N{\'{u}}{\~{n}}ez},
+         familyi={N\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hendriks},
+         familyi={H\bibinitperiod},
+         given={Jurjen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zili},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SBD}{%
+         family={Schutter},
+         familyi={S\bibinitperiod},
+         given={Bart\bibnamedelima De},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dollevoet},
+         familyi={D\bibinitperiod},
+         given={Rolf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{acceleration measurements,axle box,big data in
+  railway,engineering,railway health monitoring,rolling}
+    \strng{namehash}{NA+2}
+    \strng{fullhash}{NAHJLZSBDDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{booktitle}{Big Data (Big Data), 2014 IEEE International Conference
+  on}
+    \field{isbn}{9781479956661}
+    \field{pages}{48\bibrangedash 53}
+    \field{title}{{Facilitating Maintenance Decisions on the Dutch Railways
+  Using Big Data : The ABA Case Study}}
+    \list{location}{1}{%
+      {Washington, DC}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/N{\'{u}}{\~{n}}ez et al. - 2014 - Facilitating Mainten
+    \verb ance Decisions on the Dutch Railways Using Big Data The ABA Case Stud
+    \verb y.pdf:pdf
+    \endverb
+    \field{annotation}{%
+    Vechical to track monitoring, looking for craqcks using visaul systems and
+  eddie current Geberates vast amounts of data and thus classified as big data%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{OfficeofRoad&Rail2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Office of Road {\&} Rail}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \keyw{rail,usage}
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    From 2015-16 Q3 we have replaced timetabled train kilometres (TTKM) with
+  passenger train kilometres. We believe this is a better measure as it
+  reflects the volume of traffic actually travelling on the network rather than
+  that which is timetabled but does not necessarily run. Annual 2015-16 
+  Passenger train kilometres in Great Britain have increased every year since
+  the time series began in 2010-11 totalling 521.8 million in 2015-16, an
+  increase of 5.1{\%} since 2010-11. This has mainly been driven by ScotRail
+  (and Caledonian Sleeper) which combined have increased by 5.9 million train
+  kilometres (13.9{\%}) since 2010-11.  In 2015-16, passenger train
+  kilometres for all franchised operators in Great Britain were 517.3 million
+  kilometres. This was up 0.8{\%} on the 513.0 million kilometres recorded in
+  2014-15 and up 5.1{\%} since the annual time series began in 2010-11.%
+    }
+    \field{number}{May}
+    \field{pages}{26}
+    \field{title}{{Passenger Rail Usage 2015-16 Q4 Statistical Release}}
+    \verb{url}
+    \verb http://orr.gov.uk/{\_}{\_}data/assets/pdf{\_}file/0015/22056/passenge
+    \verb r-rail-usage-2015-16-q4.pdf
+    \endverb
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/passeng
+    \verb er-rail-usage-2015-16-q4.pdf:pdf
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{POSCCaesarAssociation2011}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={{POSC Caesar Association}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{A Bit of History}}
+    \verb{url}
+    \verb https://www.posccaesar.org/wiki/ISO15926Primer{\_}ShortHistory
+    \endverb
+    \field{year}{2011}
+    \field{urlday}{22}
+    \field{urlmonth}{08}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Paganelli2009}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=PP}{%
+         family={Paganelli},
+         familyi={P\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Charalampos},
+         familyi={C\bibinitperiod},
+         given={Vassiliou},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cornelisse},
+         familyi={C\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Damentka},
+         familyi={D\bibinitperiod},
+         given={Agnieszka},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Forcolin},
+         familyi={F\bibinitperiod},
+         given={Margherita},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jermol},
+         familyi={J\bibinitperiod},
+         given={Mitja},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Styczynski},
+         familyi={S\bibinitperiod},
+         given={Ryszard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Szczurek},
+         familyi={S\bibinitperiod},
+         given={Wojciech},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vedovato},
+         familyi={V\bibinitperiod},
+         given={Donatella},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EURIDICE Project White Paper {\textcopyright} Euridice Consortium}%
+    }
+    \strng{namehash}{PP+1}
+    \strng{fullhash}{PPCVCEDAFMJMSRSWVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{The EURIDICE Project on Intelligent Cargo for Efficient ,
+  Safe and Environment-friendly Logistics}}
+    \verb{url}
+    \verb http://www.fhv.at/media/pdf/forschung/prozess-und-produktengineering/
+    \verb projekte/euridice/euridice-white-paper
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Paganelli et al. - 2009 - The EURIDICE Project on Inte
+    \verb lligent Cargo for Efficient , Safe and Environment-friendly Logistics
+    \verb .pdf:pdf
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{Parsia12}{report}{}
+    \name{author}{5}{}{%
+      {{hash=PB}{%
+         family={Parsia},
+         familyi={P\bibinitperiod},
+         given={Bijan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rudolph},
+         familyi={R\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kr{\"{o}}tzsch},
+         familyi={K\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PSP}{%
+         family={Patel-Schneider},
+         familyi={P\bibinitperiod-S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hitzler},
+         familyi={H\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PB+1}
+    \strng{fullhash}{PBRSKMPSPHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{extrayear}{1}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{{\{}OWL{\}} 2 Web Ontology Language Primer (Second
+  Edition)}}
+    \verb{url}
+    \verb https://www.w3.org/TR/owl2-primer/
+    \endverb
+    \list{institution}{1}{%
+      {W3C}%
+    }
+    \field{type}{techreport}
+    \field{annotation}{%
+    http://www.w3.org/TR/2012/REC-owl2-primer-20121211/%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{McGuinness04}{report}{}
+    \name{author}{10}{}{%
+      {{hash=PB}{%
+         family={Parsia},
+         familyi={P\bibinitperiod},
+         given={Bijan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rudolph},
+         familyi={R\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kr{\"{o}}tzsch},
+         familyi={K\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PSP}{%
+         family={Patel-Schneider},
+         familyi={P\bibinitperiod-S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hitzler},
+         familyi={H\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={McGuinness},
+         familyi={M\bibinitperiod},
+         given={Deborah},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Welty},
+         familyi={W\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Motik},
+         familyi={M\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PSP}{%
+         family={Patel-Schneider},
+         familyi={P\bibinitperiod-S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Parsia},
+         familyi={P\bibinitperiod},
+         given={Bijan},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PB+1}
+    \strng{fullhash}{PBRSKMPSPHPMDWCMBPSPPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{extrayear}{2}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{{\{}OWL{\}} 2 Web Ontology Language Structural Specification
+  and Functional-Style Syntax (Second Edition)}}
+    \verb{url}
+    \verb https://www.w3.org/TR/owl2-syntax/
+    \endverb
+    \list{institution}{1}{%
+      {W3C}%
+    }
+    \field{type}{W3C Recommendation}
+    \field{annotation}{%
+    From Duplicate 1 ({\{}OWL{\}} 2 Web Ontology Language Structural
+  Specification and Functional-Style Syntax (Second Edition) - Motik, Boris;
+  Patel-Schneider, Peter; Parsia, Bijan)
+  http://www.w3.org/TR/2012/REC-owl2-syntax-20121211/ From Duplicate 2
+  ({\{}OWL{\}} Web Ontology Language Guide - McGuinness, Deborah; Welty,
+  Christopher) http://www.w3.org/TR/2004/REC-owl-guide-20040210/ From Duplicate
+  3 ({\{}OWL{\}} 2 Web Ontology Language Primer (Second Edition) - Parsia,
+  Bijan; Rudolph, Sebastian; Kr{\"{o}}tzsch, Markus; Patel-Schneider, Peter;
+  Hitzler, Pascal) http://www.w3.org/TR/2012/REC-owl2-primer-20121211/%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{Perry2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PM}{%
+         family={Perry},
+         familyi={P\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Herring},
+         familyi={H\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PMHJ1}
+    \strng{fullhash}{PMHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    This standard defines a set of SPARQL extension functions [W3C SPARQL], a
+  set of RIF rules [W3C RIF Core], and a core RDF/OWL vocabulary for geographic
+  information based on the General Feature Model, Simple Features [ISO
+  19125-1], Feature Geometry and SQL MM.%
+    }
+    \field{pages}{57}
+    \field{title}{{OGC GeoSPARQL-A geographic query language for RDF data}}
+    \verb{url}
+    \verb http://www.opengis.net/doc/IS/geosparql/1.0
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Perry, Herring - 2012 - OGC GeoSPARQL-A geographic que
+    \verb ry language for RDF data.pdf:pdf
+    \endverb
+    \field{journaltitle}{OGC Candidate Implementation Standard}
+    \field{year}{2012}
+  \endentry
+
+  \entry{RDG2017}{article}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Rail Delivery Group}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Rail Technical Strategy- Capability Delivery Plan}}
+    \verb{url}
+    \verb https://www.rssb.co.uk/rts/Documents/2017-01-27-rail-technical-strate
+    \verb gy-capability-delivery-plan-brochure.pdf
+    \endverb
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/2017-01
+    \verb -27-rail-technical-strategy-capability-delivery-plan-brochure.pdf:pdf
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Woolford2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Rail Safety and Standards Board}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{April}
+    \field{title}{{Glossary of Signalling Terms Submitted by}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Rail Safety and Standards Board - 2004 - Glossary of S
+    \verb ignalling Terms Submitted by.pdf:pdf
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{MagazineRailTechnology2015}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Rail Technology Magazine}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Rail Technology Magazine}
+    \field{title}{{Back-up signalling solutions in the event of failure}}
+    \verb{url}
+    \verb http://www.railtechnologymagazine.com/Rail-Industry-Focus-/back-up-si
+    \verb gnalling-solutions-in-the-event-of-failure
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{08}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Roberts2011}{report}{}
+    \name{author}{5}{}{%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Easton},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Davies},
+         familyi={D\bibinitperiod},
+         given={Rhys},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sharples},
+         familyi={S\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Golightly},
+         familyi={G\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RC+1}
+    \strng{fullhash}{RCEJDRSSGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Rail Research UK Feasibility Account: The Specification of a
+  System-wide Data Framework for the Railway Industry–Final Report}}
+    \list{location}{1}{%
+      {Birmingham}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Roberts et al. - 2011 - Rail Research UK Feasibility A
+    \verb ccount ( FA ) Factor 20 – reducing CO 2 emissions from inland trans
+    \verb port by a major.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Rodseth2011}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=ROJ}{%
+         family={R{\o}dseth},
+         familyi={R\bibinitperiod},
+         given={{\O}rnulf\bibnamedelima Jan},
+         giveni={{\O}\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ROJ1}
+    \strng{fullhash}{ROJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{isbn}{9781457721977}
+    \field{pages}{1156\bibrangedash 1161}
+    \field{title}{{A Maritime ITS Architecture for e-Navigation and e-Maritime
+  : Supporting Environment Friendly Ship Transport}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/R{\o}dseth - 2011 - A Maritime ITS Architecture for e-
+    \verb Navigation and e-Maritime Supporting Environment Friendly Ship Transp
+    \verb ort.pdf:pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Rowshandel2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RH}{%
+         family={Rowshandel},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=NGL}{%
+         family={Nicholson},
+         familyi={N\bibinitperiod},
+         given={G.\bibnamedelima L.},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DCL}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={C.\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Alternating current field measurement,Combined threshold and
+  signature match method,Non-destructive evaluation,Robotic inspection,Rolling
+  contact fatigue}
+    \strng{namehash}{RH+1}
+    \strng{fullhash}{RHNGLDCLRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    This paper considers the development of an integrated robotic system which
+  may be used to automatically locate and then systematically scan rolling
+  contact fatigue cracks on rails to provide more detailed information on the
+  cracks' sub-surface size. The system consists of a mechanised trolley, a
+  robot, a commercially available AMIGO alternating current field measurement
+  (ACFM) system and a laser distance sensor. The dynamic results, when the
+  trolley moves at a controlled speed to detect defects, and the static
+  results, when the defect location has been determined and the robot arm is
+  used to characterise (size) the defect, are both considered. During field
+  trials it was found that in the detection test most of the artificial cracks
+  were detected automatically by employing a novel combined threshold and
+  signature match (CTSM) method. The results of the characterisation test also
+  suggest that the system can automatically take reliable constant lift-off
+  ACFM measurements over the cracks at close to optimum range for
+  characterisation where the relative angle offset between the ACFM sensor and
+  the crack is bounded to be within 5°. {\textcopyright} IMechE 2013.%
+    }
+    \verb{doi}
+    \verb 10.1177/0954409713486778
+    \endverb
+    \field{issn}{0954-4097}
+    \field{number}{4}
+    \field{pages}{310\bibrangedash 321}
+    \field{title}{{An integrated robotic system for automatic detection and
+  characterisation of rolling contact fatigue cracks in rails using an
+  alternating current field measurement sensor}}
+    \verb{url}
+    \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-84883324809{\&}par
+    \verb tnerID=tZOtx3y1
+    \endverb
+    \field{volume}{227}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Rowshandel et al. - 2013 - An integrated robotic syste
+    \verb m for automatic detection and characterisation of rolling contact fat
+    \verb igue cracks i.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the Institution of Mechanical
+  Engineers, Part F: Journal of Rail and Rapid Transit}
+    \field{year}{2013}
+  \endentry
+
+  \entry{5403219}{report}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{SPARQL Working Group}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{{SPARQL 1.1 Overview}}
+    \verb{url}
+    \verb https://www.w3.org/TR/sparql11-overview/
+    \endverb
+    \list{institution}{1}{%
+      {W3C}%
+    }
+    \field{type}{{\{}W3C{\}} Recommendation}
+    \field{annotation}{%
+    http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{Santos2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SMY}{%
+         family={Santos},
+         familyi={S\bibinitperiod},
+         given={Maribel\bibnamedelima Yasmina},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Moreira},
+         familyi={M\bibinitperiod},
+         given={Adriano},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{gis-t,gtfs,interoperability,transportation}
+    \strng{namehash}{SMYMA1}
+    \strng{fullhash}{SMYMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1007/978-3-319-05948-8
+    \endverb
+    \field{isbn}{9783319059488}
+    \field{issn}{21945357}
+    \field{pages}{53\bibrangedash 62}
+    \field{title}{{Integrating Public Transportation Data : Creation and
+  Editing of GTFS Data}}
+    \field{volume}{2}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Santos, Moreira - 2014 - Integrating Public Transporta
+    \verb tion Data Creation and Editing of GTFS Data.pdf:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Shalyto2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Shalyto},
+         familyi={S\bibinitperiod},
+         given={Anatoly},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shamgunov},
+         familyi={S\bibinitperiod},
+         given={Nikita},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Korneev},
+         familyi={K\bibinitperiod},
+         given={Georgy},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{automata,automaton,behavior,design,finite automata,finite state
+  machine,pattern,state,state chart,transition}
+    \strng{namehash}{SASNKG1}
+    \strng{fullhash}{SASNKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    This paper presents a new object-oriented design pattern — State Machine
+  design pattern. This pattern extends capabilities of State design pattern.
+  These patterns allow an object to alter its behavior when its internal state
+  changes. Introduced event-driven approach loosens coupling. Thus automata
+  could be constructed from independent state classes. The classes designed
+  with State Machine pattern are more reusable than ones designed with State
+  pattern%
+    }
+    \field{isbn}{8086943119}
+    \field{pages}{51\bibrangedash 58}
+    \field{title}{{State Machine Design Pattern}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Shalyto, Shamgunov, Korneev - 2006 - State Machine Des
+    \verb ign Pattern.pdf:pdf
+    \endverb
+    \field{journaltitle}{.NET Technologies 2006}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Siegel1991}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SM}{%
+         family={Siegel},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MSE}{%
+         family={Madnick},
+         familyi={M\bibinitperiod},
+         given={Stuart\bibnamedelima E},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMMSE1}
+    \strng{fullhash}{SMMSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1145/141356.141390
+    \endverb
+    \field{issn}{0163-5808}
+    \field{number}{4}
+    \field{pages}{77\bibrangedash 78}
+    \field{title}{{Context interchange: sharing the meaning of data}}
+    \field{volume}{20}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Siegel, Madnick - 1991 - Context interchange sharing t
+    \verb he meaning of data.pdf:pdf
+    \endverb
+    \field{journaltitle}{ACM SIGMOD Record}
+    \field{year}{1991}
+  \endentry
+
+  \entry{Smith2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SB}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Barry},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Anand},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SBKA1}
+    \strng{fullhash}{SBKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{6}
+    \field{pages}{1\bibrangedash 15}
+    \field{title}{{On Controlled Vocabularies in Bioinformatics : A Case Study
+  in the Gene Ontology}}
+    \field{volume}{2}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Smith, Kumar - 2004 - On Controlled Vocabularies in Bi
+    \verb oinformatics A Case Study in the Gene Ontology.pdf:pdf
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{Spanos2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SDe}{%
+         family={Spanos},
+         familyi={S\bibinitperiod},
+         given={Dimitrios-emmanuel},
+         giveni={D\bibinitperiod-e\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Stavrou},
+         familyi={S\bibinitperiod},
+         given={Periklis},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mitrou},
+         familyi={M\bibinitperiod},
+         given={Nikolas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{mapping,ontology,owl,relational database,survey}
+    \strng{namehash}{SDeSPMN1}
+    \strng{fullhash}{SDeSPMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{0}
+    \field{pages}{1\bibrangedash 41}
+    \field{title}{{Bringing Relational Databases into the Semantic Web : A
+  Survey}}
+    \field{volume}{0}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Spanos, Stavrou, Mitrou - 2012 - Bringing Relational D
+    \verb atabases into the Semantic Web A Survey.pdf:pdf
+    \endverb
+    \field{journaltitle}{Semantic Web}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Erlingsson2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SR}{%
+         family={Sridaran},
+         familyi={S\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=DDHP}{%
+         family={Doshi},
+         familyi={D\bibinitperiod},
+         given={Disha H\bibnamedelima Parekh},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={{Kumar Suman}},
+         familyi={K\bibinitperiod},
+         given={Sudhir},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Apollo,OntoStudio,Ontologies,Ontology building
+  tools,Prot{\'{e}}g{\'{e}},Semantic Web,Swoop,TopBraid Composer Free Edition}
+    \strng{namehash}{SRDDHPKS1}
+    \strng{fullhash}{SRDDHPKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    In this paper some software tools related to Semantic web are considered
+  and compared. In fact, five ontology-editors are described and compared. They
+  are: Apollo, OntoStudio, Prot{\'{e}}g{\'{e}}, Swoop and TopBraid Composer
+  Free Edition. The structure and basic features of these editors are
+  described, as well as the way of their using. The main criterion for
+  comparison of these editors was the convenience for user and possibility to
+  apply in different kind of applications%
+    }
+    \verb{eprint}
+    \verb arXiv:1605.08797v1
+    \endverb
+    \field{pages}{18\bibrangedash 24}
+    \field{title}{{Cloud Security – Challenges at a Glance}}
+    \field{volume}{8}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Google - 1970 - Data-driven Software Security Models a
+    \verb nd Methods.pdf:pdf
+    \endverb
+    \field{journaltitle}{Management Information Systems}
+    \field{eprinttype}{arXiv}
+    \field{year}{2013}
+  \endentry
+
+  \entry{TechnicalStrategyLeadershipGroup2012b}{report}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{Technical Strategy Leadership Group}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{{THE INDUSTRY ' S RAIL TECHNICAL STRATEGY 2012 THE RAIL
+  TECHNICAL STRATEGY 2012}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Technical Strategy Leadership Group - 2012 - THE INDUS
+    \verb TRY ' S RAIL TECHNICAL STRATEGY 2012 THE RAIL TECHNICAL STRATEGY 2012
+    \verb .pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+  \endentry
+
+  \entry{baader_calvanese_mcguinness_nardi_patel-schneider_2007}{book}{}
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1017/CBO9780511711787
+    \endverb
+    \field{edition}{2}
+    \field{title}{{The Description Logic Handbook: Theory, Implementation and
+  Applications}}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Tutcher2013}{report}{}
+    \name{author}{6}{}{%
+      {{hash=TJ}{%
+         family={Tutcher},
+         familyi={T\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Easton},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Myall},
+         familyi={M\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hargreaves},
+         familyi={H\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tiller},
+         familyi={T\bibinitperiod},
+         given={Colin},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TJ+1}
+    \strng{fullhash}{TJEJRCMRHMTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{{Ontology-based data management for the GB rail industry
+  Feasibility study}}
+    \verb{url}
+    \verb http://www.sparkrail.org/{\_}layouts/Rssb.Spark/Attachments.ashx?Id=7
+    \verb 5NEMTS3ZVHP-8-7892
+    \endverb
+    \list{institution}{1}{%
+      {RSSB}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Tutcher et al. - 2013 - Ontology-based data management
+    \verb  for the GB rail industry Feasibility study.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Tutcher2015}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=TJ}{%
+         family={Tutcher},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TJ1}
+    \strng{fullhash}{TJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extrayear}{1}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Railways are large, complex systems that comprise many heteroge neous
+  subsystems and parts. As the railway industry continues to en joy increasing
+  passenger and freight custom, ways of deriving greater value from the
+  knowledge within these subsystems are increasingly sought. Interfaces to and
+  between systems are rare, making data shar ing and analysis difcult. Semantic
+  data modelling provides a method of integrating data from disparate sources
+  by encoding knowledge about a problem domain or world into
+  machine-interpretable logic and using this knowledge to encode and infer data
+  context and meaning. Te uptake of this tech nique in the Semantic Web and
+  Linked Data movements in recent years has provided a mature set of techniques
+  and toolsets for design ing and implementing ontologies and linked data
+  applications. Tis thesis demonstrates ways in which semantic data models and
+  OWL ontologies can be used to foster data exchange across the rail way
+  industry. It sets out a novel methodology for the creation of in dustrial
+  semantic models, and presents a new set of railway domain ontologies to
+  facilitate integration of infrastructure-centric railway data. Finally, the
+  design and implementation of two prototype sys tems is described, each of
+  which use the techniques and ontologies in solving a known problem.%
+    }
+    \field{number}{April}
+    \field{title}{{Development of Semantic Data Models to Support Data
+  Interoperability in the Rail Industry}}
+    \verb{url}
+    \verb http://etheses.bham.ac.uk/6774/1/Tutcher16PhD.pdf
+    \endverb
+    \list{institution}{1}{%
+      {University Of Birmingham}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Tutcher - 2015 - Development of Semantic Data Models t
+    \verb o Support Data Interoperability in the Rail Industry.pdf:pdf
+    \endverb
+    \field{type}{phdthesis}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Tutcher2015a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TJ}{%
+         family={Tutcher},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TJ1}
+    \strng{fullhash}{TJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extrayear}{2}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    As the extent to which information systems are used across rail and
+  transportation networks continues to grow, huge potential for data driven
+  decision support and analysis is emerging. Interoperability between systems
+  in these industries is currently poor, and opportunities for such analysis
+  are often missed through unavailability of data. Semantic data modeling
+  provides a mechanism for facilitating greater interoperability between
+  systems, and allows easier integration of data from heterogeneous sources.
+  This paper describes the current state of the art in rail data modeling, and
+  introduces a asset monitoring system based on contemporary ontology and
+  linked data (semantic data modeling) technologies. The design and
+  implementation of Asset Monitoring As A Service (AMaaS) is shown, and
+  overviews of key design patterns used to ensure extensibility and
+  interoperability given. Finally, the potential for re-use of the system is
+  discussed, along with known limitations and known technology advances. An
+  outline of further work is provided, including in designing methodologies to
+  foster uptake semantic data models across the industry.%
+    }
+    \verb{doi}
+    \verb 10.1109/BigData.2014.7004436
+    \endverb
+    \field{isbn}{9781479956654}
+    \field{pages}{85\bibrangedash 95}
+    \field{title}{{Ontology-driven data integration for railway asset
+  monitoring applications}}
+    \verb{file}
+    \verb :M$\backslash$:/cloud drive/Amazon Drive/Rail Research/Papers/f2daf5c
+    \verb 10753f68c7f00ccbf630e760126e8.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings - 2014 IEEE International Conference on
+  Big Data, IEEE Big Data 2014}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Umiliacchi2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UP}{%
+         family={Umiliacchi},
+         familyi={U\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lane},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Romano},
+         familyi={R\bibinitperiod},
+         given={Felice},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={SpA},
+         familyi={S\bibinitperiod},
+         given={AnsaldoBreda},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UP+1}
+    \strng{fullhash}{UPLDRFSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{pages}{22\bibrangedash 26}
+    \field{title}{{Predictive maintenance of railway subsystems using an
+  Ontology based modelling approach}}
+    \verb{url}
+    \verb https://osl.eps.hw.ac.uk/files/uploads/publications/WCRR2011 Paper fi
+    \verb nal v05.1.pdf{\%}5Cnhttp://osl.eps.hw.ac.uk/files/uploads/publication
+    \verb s/WCRR2011 Paper final v05.1.pdf
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Umiliacchi et al. - 2011 - Predictive maintenance of r
+    \verb ailway subsystems using an Ontology based modelling approach.pdf:pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Verstichel2011a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VS}{%
+         family={Verstichel},
+         familyi={V\bibinitperiod},
+         given={Stijn},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OF}{%
+         family={Ongenae},
+         familyi={O\bibinitperiod},
+         given={Femke},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Loeve},
+         familyi={L\bibinitperiod},
+         given={Leanneke},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VSOFLL1}
+    \strng{fullhash}{VSOFLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{extrayear}{1}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{pages}{1\bibrangedash 64}
+    \field{title}{{Efficient data integration in the railway domain through an
+  ontology-based methodology}}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0968090X10001609
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Verstichel, Ongenae, Loeve - 2011 - Efficient data int
+    \verb egration in the railway domain through an ontology-based methodology.
+    \verb pdf:pdf
+    \endverb
+    \field{journaltitle}{{\ldots} Research Part C: {\ldots}}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Verstichel2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VS}{%
+         family={Verstichel},
+         familyi={V\bibinitperiod},
+         given={Stijn},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OF}{%
+         family={Ongenae},
+         familyi={O\bibinitperiod},
+         given={Femke},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Loeve},
+         familyi={L\bibinitperiod},
+         given={Leanneke},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{ontology}
+    \strng{namehash}{VSOFLL1}
+    \strng{fullhash}{VSOFLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{extrayear}{2}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{pages}{1\bibrangedash 64}
+    \field{title}{{Efficient data integration in the railway domain through an
+  ontology-based methodology}}
+    \verb{url}
+    \verb https://biblio.ugent.be/input/download?func=downloadFile{\&}recordOId
+    \verb =1268227{\&}fileOId=2952548 http://www.sciencedirect.com/science/arti
+    \verb cle/pii/S0968090X10001609
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Verstichel, Ongenae, Loeve - 2011 - Efficient data int
+    \verb egration in the railway domain through an ontology-based methodology.
+    \verb pdf:pdf
+    \endverb
+    \field{journaltitle}{{\ldots} Research Part C: {\ldots}}
+    \field{annotation}{%
+    From Duplicate 1 ( Efficient data integration in the railway domain through
+  an ontology-basedmethodology{\_}rev4{\_}3 - )%
+    }
+    \field{year}{2011}
+  \endentry
+
+  \entry{Verstichel2014}{article}{}
+    \name{author}{7}{}{%
+      {{hash=VS}{%
+         family={Verstichel},
+         familyi={V\bibinitperiod},
+         given={Stijn},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kerckhove},
+         familyi={K\bibinitperiod},
+         given={Wannes},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DT}{%
+         family={Dupont},
+         familyi={D\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=VB}{%
+         family={Volckaert},
+         familyi={V\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OF}{%
+         family={Ongenae},
+         familyi={O\bibinitperiod},
+         given={Femke},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=TFD}{%
+         family={Turck},
+         familyi={T\bibinitperiod},
+         given={Filip\bibnamedelima De},
+         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Demeester},
+         familyi={D\bibinitperiod},
+         given={Piet},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VS+1}
+    \strng{fullhash}{VSKWDTVBOFTFDDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{isbn}{9789897581588}
+    \field{number}{Ic3k}
+    \field{pages}{501\bibrangedash 508}
+    \field{title}{{LimeDS and the TraPIST project : A Case Study An OSGi-based
+  ontology-enabled framework targeted at developers in need of an agile
+  solution for building REST / JSON-based server applications PoC
+  demonstrator}}
+    \field{volume}{2}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Verstichel et al. - 2014 - LimeDS and the TraPIST proj
+    \verb ect A Case Study An OSGi-based ontology-enabled framework targeted at
+    \verb  developers.pdf:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{W3.org2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={W3.org},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{August}
+    \field{title}{{Extensible Markup Language}}
+    \verb{url}
+    \verb http://www.w3.org/XML/
+    \endverb
+    \field{volume}{1}
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/w3.org - 2013 - Extensible Markup Language.pdf:pdf
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{Wen2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WT}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Lyu},
+         familyi={L\bibinitperiod},
+         given={Xinnan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kirkwood},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Constantinou},
+         familyi={C\bibinitperiod},
+         given={Costas},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{CBTC,DCS,Integrated Simulator,Performance Testing}
+    \strng{namehash}{WT+1}
+    \strng{fullhash}{WTLXKDCLCCRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    {\textcopyright} 2015 IEEE. A simulation methodology used to model the
+  performance of a wireless data communication system in a communication based
+  train control system is proposed in this paper. This approach is developed
+  within a simulation environment integrating with two simulators, which are
+  BRaVE, a microscopic railway simulator and OMNeT++, a discrete event date
+  network simulator. The architecture of these two simulators and the
+  interfaces between them are introduced. The major challenges and constraints
+  of data communication system for communication based train control systems
+  are discussed and a co-channel interference model is proposed. A performance
+  metric of wireless communication for measuring the system reliability is
+  generated. Finally a case study is carried out to validate the proposed
+  approach. Based on the simulation results in the case study, it can be found
+  when the wireless connection between train and trackside access point is
+  lost, further moving authority will be not able to generated for the trains.%
+    }
+    \verb{doi}
+    \verb 10.1109/ITSC.2015.428
+    \endverb
+    \field{isbn}{9781467365956}
+    \field{pages}{2665\bibrangedash 2670}
+    \field{title}{{Co-simulation Testing of Data Communication System
+  Supporting CBTC}}
+    \field{volume}{2015-Octob}
+    \verb{file}
+    \verb :I$\backslash$:/Downloads/07313520.pdf:pdf
+    \endverb
+    \field{journaltitle}{IEEE Conference on Intelligent Transportation Systems,
+  Proceedings, ITSC}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Natvig2003}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WH}{%
+         family={Westerheim},
+         familyi={W\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+    }
+    \strng{namehash}{WH1}
+    \strng{fullhash}{WH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{19}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{{JOINT EFFORT ON ESTABLISHMENT OF ARKTRANS–A SYSTEM
+  FRAMEWORK ARCHITECTURE FOR MULTIMODAL TRANSPORT}}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?hl=en{\&}btnG=Search{\&}q=intitle:J
+    \verb OINT+EFFORT+ON+ESTABLISHMENT+OF+ARKTRANS+–+A+SYSTEM+FRAMEWORK+ARCHI
+    \verb TECTURE+FOR+MULTIMODAL+TRANSPORT+*{\#}0
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Natvig, Westerheim - Unknown - JOINT EFFORT ON ESTABLI
+    \verb SHMENT OF ARKTRANS – A SYSTEM FRAMEWORK ARCHITECTURE FOR MULTIMODAL
+    \verb  TRANSPORT.pdf:pdf
+    \endverb
+    \field{journaltitle}{Citeseer}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Wood14}{report}{}
+    \name{author}{3}{}{%
+      {{hash=WD}{%
+         family={Wood},
+         familyi={W\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lanthaler},
+         familyi={L\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Cyganiak},
+         familyi={C\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDLMCR1}
+    \strng{fullhash}{WDLMCR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{{{\{}RDF{\}} 1.1 Concepts and Abstract Syntax}}
+    \list{institution}{1}{%
+      {W3C}%
+    }
+    \field{type}{{\{}W3C{\}} Recommendation}
+    \field{annotation}{%
+    http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{Zarembski}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=ZAM}{%
+         family={Zarembski},
+         familyi={Z\bibinitperiod},
+         given={Allan\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZAM1}
+    \strng{fullhash}{ZAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{booktitle}{IEEE BigData 2014}
+    \field{title}{{Some Examples of Big Data in Railroad Engineering}}
+    \list{location}{1}{%
+      {Washington, DC}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Zarembski - 2014 - Some Examples of Big Data in Railro
+    \verb ad Engineering.pdf:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Zhang2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CYY}{%
+         family={Chiang},
+         familyi={C\bibinitperiod},
+         given={Yao-Yi},
+         giveni={Y\bibinitperiod-Y\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Szekely},
+         familyi={S\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KCa}{%
+         family={Knoblock},
+         familyi={K\bibinitperiod},
+         given={Craig\bibnamedelima a.},
+         giveni={C\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+    }
+    \keyw{extraction,geospatial data,information integration,ontology,semantic
+  modeling,source linking}
+    \strng{namehash}{ZY+1}
+    \strng{fullhash}{ZYCYYSPKCa1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    There is a tremendous amount of geospatial data available, and there are
+  numerous methods for extracting, processing and integrating geospatial
+  sources. However, end-users' ability to retrieve, combine, and integrate
+  heterogeneous geospatial data is limited. This paper presents a new semantic
+  approach that allows users to easily extract, link, and integrate geospatial
+  data from various sources by demonstration in an interactive interface, which
+  is implemented in a tool called Karma. First, we encapsulate the retrieval
+  algorithms as web services and invoke the services to extract geospatial data
+  from various sources. Then we model and publish the extracted geospatial data
+  to RDF for eliminating the data heterogeneity. Finally, we link the
+  geospatial data (in RDF) from different sources using a semantic matching
+  algorithm and integrate them using SPARQL queries. This approach empowers end
+  users to rapidly extract geospatial data from diverse sources, to easily
+  eliminate heterogeneity and to semantically link and integrate sources.
+  {\textcopyright} 2013 ACM.%
+    }
+    \verb{doi}
+    \verb 10.1145/2516911.2516914
+    \endverb
+    \field{isbn}{9781450323468}
+    \field{pages}{31\bibrangedash 37}
+    \field{title}{{A semantic approach to retrieving, linking, and integrating
+  heterogeneous geospatial data}}
+    \verb{url}
+    \verb http://dl.acm.org/citation.cfm?id=2516911.2516914
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/Chris/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Zhang et al. - 2013 - A semantic approach to retrievin
+    \verb g, linking, and integrating heterogeneous geospatial data.pdf:pdf
+    \endverb
+    \field{journaltitle}{Joint Proceedings of the Workshop on AI Problems and
+  Approaches for Intelligent Environments and Workshop on Semantic Cities -
+  AIIP '13}
+    \field{year}{2013}
+  \endentry
+\endsortlist
+\endinput

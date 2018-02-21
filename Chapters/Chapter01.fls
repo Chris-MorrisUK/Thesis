@@ -1,0 +1,12 @@
+PWD C:/Users/cxm210/OneDrive/Documents/Rail Research/latex/thesis/classicthesis/classicthesis/Chapters
+INPUT c:/texlive/2016/texmf.cnf
+INPUT c:/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/cxm210/OneDrive/Documents/Rail Research/latex/thesis/classicthesis/classicthesis/Chapters/Chapter01.tex
+OUTPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/Chapter01.log
+INPUT c:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT c:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT c:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+OUTPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/Chapter01.pdf
+INPUT c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map

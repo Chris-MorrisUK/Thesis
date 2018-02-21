@@ -1,0 +1,49 @@
+%************************************************
+\chapter{Conclusions}\label{ch:Conclusions}
+%************************************************
+The information environment within the rail industry is very diverse, with a range of heterogeneous systems of differing ages and significant scope for improved integration. The literature review (\autoref{ch:litreview}) identified the benefits available to many stakeholders from improved data integration, such as reduced costs thanks to the removal of barriers to data integration. 
+
+The COMPASS project, discussed in \autoref{ch:COMPASS}, showed that one of the barriers was a shortage of software engineers with ontology engineering experience and showed one way in which that barrier could be overcome. Another barrier identified was the integration of data sources available in one the proprietary formats typical of the rail domain; the schedule parsing tool, discussed in Chapter 4, demonstrated the feasibility of making such data available in a linked format suitable for integration. The schedule parsing tool, alongside the middleware considered in \autoref{ch:middleware} was reused as part of the COMPASS project demonstrating how ontology can serve to unlock value for many projects across the industry.
+
+This chapter will now examine the questions identified in the problem statement (\autoref{ch:probstate}).
+
+\section{Response to Research Questions}
+
+\begin{itemize}
+	\item \QuestionOtherData
+	\item \QuestionSkillz 	
+	\item \QuestionCombine
+	\item \QuestionChange
+	\item \QuestionCanOntologyScale
+	\item \QuestionSecurity		
+\end{itemize}
+
+Considering each of these questions in turn:
+
+\subsection{\QuestionOtherData}
+Excluding data held in relational databases, many railway datasources are held in proprietary formats, often structured based not on the data they represent, but on the system which generated them. As was shown by the reuse of data from the schedule parsing tool in the COMPASS project, ontology provides a method of integrating data across different systems, constructed by different suppliers for different purposes. Even where two systems operate very differently it is possible to map data from both to a single ontology and thus the data may then be used by either; for example signalling systems are primarily concerned with passenger safety, whilst journey planning applications need to know how the railway can help transport a person from one place to another at a given time and have no interest in other details.
+
+In \autoref{ch:cifparser} the processing of static data is considered, taking as an example schedule data which is updated on a weekly basis. The construction of a tool which takes the flat datafile containing the schedules and makes this available as RDF, which could then be inserted in the ontology, allows for the reuse of schedules in any project which uses ontology as a datasource. Another project COMPASS, reported in \autoref{ch:COMPASS}, could use imported schedule data in conjunction with other data sources to build a picture of train movements helps demonstrate the utility of ontology as a means of data integration. 
+
+Developing custom tools to process data requires more development time, and hence expense, than using commercial off the shelf software, where it is available, however, much data in the rail industry is held in proprietary formats for which no processing tools are available. Taking proprietary datasources and making them available in a linked format requires both some understanding of the data sources and of the linked format in which it is to be made available; as such this task requires software engineers with, at the very least, some understanding of the rail domain and of ontology.
+
+In summary it is possible to make typical railway datasources available to the ontology and this enables improved data integration.
+
+\subsection{\QuestionSkillz}
+This project showed that whilst it is possible to reduce the amount of input required from ontology designers and software engineers with ontology engineering experience, however there is no evidence that it is possible to remove that input entirely. A service logically situated between the triple store and the client application can reduce the amount of development time needed to add new interfaces or datasources to the ontology, by allowing software engineers to interact with familiar webservices and alleviating the need to learn ontology specific technologies, such as SPARQL. Where the middleware offers all the services required to interface with a given system, it should be possible to add that interface without any knowledge of ontology technologies. In this project it was however found that the systems requiring integration were of sufficient complexity as to require extension of the middleware and knowledge of ontology techniques to achieve integration. If the middleware layer had more functionality, and if the same middleware was used for multiple projects, then each progressive project would need less and less intervention from software engineers with ontology engineering experience. 
+
+The tool presented in \autoref{sec:manualtool} presents a way of allowing unskilled users to add items to the ontology. This tool is useful for making small alterations, where the data has been modelled previously. 
+
+\subsection{\QuestionCombine}
+The implementation of a middleware layer, discussed in \autoref{ch:middleware}, demonstrates one way multiple data stores of different types can be combined. One central point, the middleware, has connections to two different datastores (easily and indefinitely expansible to any number of datastores) and potentially any number of clients. Webservices included in the middleware have access to all the connected data stores; there for it would possible to implement a single webservice which either summarised data in one datastore and stored the full data in another, or which stored only the most recent value in one store and historic data in another. Were data of too high a volume or velocity for ontology storage encountered it would be possible to use either of these techniques to allow as much reasoning as possible, whilst retaining fine grained data for more detailed analysis. 
+
+\subsection{\QuestionChange}
+An intermediary layer between the triple store and client applications can isolate client applications from change, with one caveat: if features specific to a given triple store are used then only other stores supporting that same feature may be used. This was demonstrated in \autoref{ch:COMPASS} where the addition of GEO-SPARQL tied that project to triple stores with that feature.
+
+\subsection{\QuestionCanOntologyScale}
+National scale data from the UK rail industry was used both to test the schedule import tool described in \autoref{ch:cifparser} and to demonstrate the capabilities of the COMPASS system discussed in \autoref{ch:COMPASS}. In the first case, the volume of data that needed to be processed presented a challenge which required significant optimisation; when that optimisation was carried out, it was possible to process the schedule data in a reasonable time period and make it available to the ontology. 
+
+In the second case, the COMPASS system used data from conventional (fixed block) signalling systems to show train locations. This data was provided for the entire country, but, by the standards of modern computing, this data is not very high velocity and could as such be handled by the triple store alone. A query was performed each time a train movement was detected including, when a location was found to be in the triplestore, a geographical lookup and the system still performed well.
+
+\subsection{\QuestionSecurity}
+The imposition of a secure middleware layer between unsecured datastores and the wider network can add security to those data stores which lack it and simply the management of those that have it. An additional benefit of the middleware implemented as part of this project is that it provides a single-sign on that can be used to access all datastores, simplifying the credential management.

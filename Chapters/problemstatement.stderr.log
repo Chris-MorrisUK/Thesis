@@ -1,0 +1,8 @@
+Latexmk: Run number 1 of rule 'pdflatex'
+'problemstatement.fls' and 'C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/problemstatement.fls' are identical (not copied) at c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl line 6947
+Failure to make 'C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/problemstatement.pdf'
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/problemstatement.log' for details
+C:\texlivenew\2016\bin\win32\runscript.tlu:679: command failed with exit code 12:
+perl.exe c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl -f -quiet -pdf -synctex=1 -jobname=problemstatement "-outdir=C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters" "C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters\problemstatement.tex"

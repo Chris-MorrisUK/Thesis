@@ -1,0 +1,77 @@
+PWD C:/Users/cxm210/OneDrive/Documents/Rail Research/latex/thesis/classicthesis/classicthesis/Chapters
+INPUT c:/texlivenew/2016/texmf.cnf
+INPUT c:/texlivenew/2016/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlivenew/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/cxm210/OneDrive/Documents/Rail Research/latex/thesis/classicthesis/classicthesis/Chapters/test.tex
+OUTPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/test.log
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/size11.clo
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/size11.clo
+INPUT c:/texlivenew/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tabu/tabu.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tabu/tabu.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/test.aux
+INPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/test.aux
+OUTPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/test.aux
+INPUT c:/texlivenew/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlivenew/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+OUTPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/test.pdf
+INPUT c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT C:\Users\cxm210\OneDrive\Documents\Rail Research\latex\thesis\classicthesis\classicthesis\Chapters/test.aux
+INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

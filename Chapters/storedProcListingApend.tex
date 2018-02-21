@@ -1,0 +1,66 @@
+\chapter{Stored procedure}
+\label{app:spList}
+
+The below provides an abridged listing of the stored procedure implementation used in the middleware.
+
+\begin{lstlisting}[language={[Sharp]C},frame=tb,caption={The StoredProcedure class. Constructors, private fields and utility methods have been omitted for brevity.},label=lst:StoredProcedure]
+ public class StoredProcedure
+    {              
+        private void createQuery()
+        {
+            lock (theQueryLock)
+            {                
+                //Cause the exception to be thrown here if the type doesn't exist, for clarity sake.
+                Type queryType = Type.GetType(TypeOfQuerry, true);
+                TheQuerry = Activator.CreateInstance(queryType) as IQuerry;
+                if (TheQuerry == null)
+                    throw new InvalidOperationException("The Query is not of a valid type");
+                TheQuerry.SetTarget(Server, DataStore);
+                TheQuerry.SetQuerry(StoredProcText);
+            }
+        }
+
+        /// <summary>
+        /// A hash of the storedproc name, used as a key to retrieve it
+        /// </summary>
+        public int KeyHash;
+
+        /// <summary>
+        /// The executable version of the query
+        /// </summary>
+        [XmlIgnore]
+        public IQuerry TheQuerry
+        {
+            get
+            {
+                if (theQuery == null) createQuery();
+                return theQuery;
+            }
+            private set
+            {
+                theQuery = value;
+            }
+        }
+
+        /// <summary>
+        /// The server at which the stored proc is targeted. Where this is null or empty the value from the Session is used
+        /// </summary>
+        public string Server;
+        /// <summary>
+        /// The Datastore at which the stored proc is targeted. Where this is null or empty the value from the Session is used
+        /// </summary>
+        public string DataStore;
+        /// <summary>
+        /// The name of stored proc
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// This is the name of the type of query to instantiate 
+        /// </summary>
+        public string TypeOfQuerry;
+        /// <summary>
+        /// The text of the command e.g. SELECT * WHERE {?s ?p ?o}
+        /// </summary>
+        public string StoredProcText;
+    }
+\end{lstlisting}
