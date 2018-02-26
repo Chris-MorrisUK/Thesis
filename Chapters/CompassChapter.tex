@@ -47,7 +47,7 @@ Two demonstrations were performed, in response to two different operational scen
 \subsubsection[Normal Operation]{Normal Operation - Quiescent State \\ First Scenario}
 In the first scenario the railway is assumed to be operating normally, with the system in what is referred to as a ``Quiescent State''. In COMPASS this is used to demonstrate the system  monitoring the locations of services already running over the network, ready for use as the \say{base state} when a failure occurs. The train location data used in this scenario came from the Network Rail open data feeds, which were used in conjunction with a static map of the network, provided by the industrial partner. These two diverse data sources provide good examples of typical industry data sources, that may need integration in a functioning industry wide system. 
 
-In normal operation the demonstrator tracks the locations of all the trains in the network are tracked, allowing the provision of better customer information as well as maintaining a model of the running system in readiness for degraded mode operation. This demonstrates that should a signalling fault occur the system would detect be able to respond appropriately. Tracking of locations is illustrated by displaying those positions on a map, annotated with the headcodes of the trains being tracked. A proposed extension to this scenario calls for the display of metadata for the train - projected arrival time for example - along with the headcode. The use of ontology in this project also makes easier displaying such things as live updated possible connections, in light of the arrival time. 
+In normal operation the demonstrator tracks the locations of all the trains in the network, allowing the provision of better customer information as well as maintaining a model of the running system in readiness for degraded mode operation. This demonstrates that should a signalling fault occur the system would be able to respond appropriately. Tracking of locations is illustrated by displaying those positions on a map, annotated with the headcodes of the trains being tracked. A proposed extension to this scenario calls for the display of metadata for the train - projected arrival time for example - along with the headcode. The use of ontology in this project also makes easier displaying such things as live updated possible connections, in light of the arrival time. 
 
 The quiescent state demonstrator monitors vehicle movements across the entire British rail network, and as a result provides solid evidence of the ability of ontology based systems to scale to the data volumes and rates needed in a nationwide industry deployment.
 
@@ -98,12 +98,12 @@ The data flows between these elements are illustrated in \autoref{fig:dataflow}.
 
 As can be seen from \autoref{fig:dataflow} links between sub-systems, in particular those from different suppliers, use ETCS messages for communication. ETCS (discussed in \autoref{sec:etcs}) uses a standardised set of messages for communication with the train, and these messages are employed here between sub-systems. This was chosen for a number of reasons; firstly the industrial partners in this project had pre-existing expertise with this standard. Secondly the standard can easily be implemented over an Ethernet link, simplifying connection and lastly some sub-systems could only communicate in this manor. 
 
-In order as to demonstrate the system it was necessary to use a rail simulator to recreate the effect of the train being in motion. The simulator generated coordinates representing the position of the front of the simulated train. These were sent to the in-cab signalling equipment in the same format as would have been used were the data coming from a real GPS receiver mounted on a train\footnote{A NMEA string delivered over via a serial bus (RS232)}. The same position data was then sent to RaCoOn, to simulate the train sending position data. 
+In order as to demonstrate the system it was necessary to use a rail simulator to recreate the effect of the train being in motion. The simulator generated coordinates representing the position of the front of the simulated train. These were sent to the in-cab signalling equipment in the same format as would have been used were the data coming from a real GPS receiver mounted on a train\footnote{A NMEA string delivered over a serial bus (RS232)}. The same position data was then sent to RaCoOn, to simulate the train sending position data. 
 
 
 \section{Data Sources}
 
-A number of specific data sources resources would be needed to support the demonstrators outlined in \autoref{sec:Scenarios}. These are detailed in the following sections and illustrated in \autoref{fig:AllSources}:
+A number of specific data resources would be needed to support the demonstrators outlined in \autoref{sec:Scenarios}. These are detailed in the following sections and illustrated in \autoref{fig:AllSources}:
 
 \begin{figure}[h]
 \myfloatalign
@@ -123,21 +123,21 @@ This is parsed using the tool described in \autoref{ch:cifparser}.
 \subsubsection{Train movement data}
 Train movement data, from the Network Rail webservices in particular the train describer feed. This feed supplies messages when a train steps from one signalling ``berth'' to the next.
 
-Data is taken from the train describer feed, which is provided by Network Rail \footnote{available at: \url{stomp:tcp://datafeeds.networkrail.co.uk:61618}}. This feed provides messages from the train describer, which is a part of the signalling system that provides information to the signaller. This demonstrator uses only the ``Berth Step'' messages, which are generated whenever a train moves from one berth to the next. In the context of a signalling system berths are a region of track, protected by a signal, in which a train is located, a further definition maybe found in \citet{Woolford2004}. As such the progress of a train across the network can be tracked, if used in conjunction with a map of signalling berths.
+Data is taken from the train describer feed, which is provided by Network Rail \footnote{available at: \url{stomp:tcp://datafeeds.networkrail.co.uk:61618}}. This feed provides messages from the train describer, which is a part of the signalling system that provides information to the signaller. This demonstrator uses only the ``Berth Step'' messages, which are generated whenever a train moves from one berth to the next. In the context of a signalling system berths are a region of track, protected by a signal, in which a train is located, a further definition may be found in \citet{Woolford2004}. As such the progress of a train across the network can be tracked, if used in conjunction with a map of signalling berths.
 
 For this project it provided one of the key sources of train location data, obtained on a national level, to demonstrate the ability of the system as a whole and ontology in particular to process data on this scale.
 
 \subsubsection{Absolute Position Data}
-The absolute position of a rail vehicle, that is it's position relative to the surface of the planet can be obtained from a Global Navigation Satellite System (GNSS), based on timing signals from satellites in known geostationary orbits. Positions are normally derived in terms of latitude, longitude and altitude which then needs combining with further data (typically a map) in order as to be meaningful to users. The Global Position System is the oldest and implementation of this and is the system chosen for this project, based on the low cost of compatible hardware. Where this project commercialised a full evaluation of the available options would be required.
+The absolute position of a rail vehicle, that is its position relative to the surface of the planet can be obtained from a Global Navigation Satellite System (GNSS), based on timing signals from satellites in known geostationary orbits. Positions are normally derived in terms of latitude, longitude and altitude which then needs combining with further data (typically a map) in order as to be meaningful to users. The Global Position System is the oldest and implementation of this and is the system chosen for this project, based on the low cost of compatible hardware. Were this project commercialised a full evaluation of the available options would be required.
 
-Position can be expressed using multiple coordinate systems and projections. The system chosen depends on the area that needs to be represented and how the data needs to be manipulated. A through review of map projections is well behind the scope of this thesis, however the following projections were used:
+Position can be expressed using multiple coordinate systems and projetions. The system chosen depends on the area that needs to be represented and how the data needs to be manipulated. A through review of map projections is well behind the scope of this thesis, however the following projections were used:
 \begin{itemize}
     \item WSG84
     \item OSG36
 \end{itemize}
 WSG84 is the standard coordinate system used with GPS. It covers the entire globe, which it models as a spheroid. OSG36, commonly known as British National Grid is a coordinate system used only within Great Britain. It used only for display purposes in this project, since the available maps for displaying data used this format. 
 
-It is in intended that when this project is implemented GPS provides the more accurate data stream, allowing for better customer information and providing a fall-back in the case of failed track circuits, as well as making it possible to run trains closer together.
+It is intended that when this project is implemented GPS provides the more accurate data stream, allowing for better customer information and providing a fall-back in the case of failed track circuits, as well as making it possible to run trains closer together.
 
 GPS data was simulated for the demonstrators. The data recreated a feed from a GPS unit fitted to a train cab and as such the data was supplied as a standard NMEA string, wrapped in an ETCS message. Accuracy issues were not considered in this demonstrator, had they been there would have been a need to combine balise pass data, to know which line a train was on, with the GPS data, since GPS accuracy is not always enough to know with certainty which of several parallel lines a train is on. The distribution of GPS data is further discussed and illustrated in: \autoref{sec:demoTwoOrg}.
 
@@ -154,14 +154,14 @@ Beyond the datasources listed above it would also be possible to use the followi
     \item [Train Movements Feed] This is another open data feed provided by Network Rail;
     \item [VSTP - Very short term plan] This data feed gives details of trains scheduled at short notice;
     \item [Other signalling systems] In particular direct connection to the train describer system (not via the webservices) was suggested for the final implementation of this project;
-    \item [GPS data from the rear of the train] This would make it possible to provide accurate train integrity information.
+    \item [GPS data from the rear of the train] This would make it possible to provide accurate train integrity information, as required if implementing ETCS.     
 \end{description}
 
  \section{Role of Ontology}
 
 In the compass demonstrators the primary role of the ontologies is as the basis for data integration across diverse datasources. There are many data sources for this system and it is one of this project's objectives to show that the project partners could work with data from a multitude of heterogeneous sources, not limited to those included in the initial design. 
 
-Ontology is also used for classification, for example nodes, which are searched for using their identifier, are classified by sub-type. Nodes can be any of the many types of object located on the track such as: simple nodes, points nodes or signals. Most significantly they can be the signals that mark the start of the area of interest; this information is used to determine when to trigger degraded mode operation.
+Ontology is also used for classification in this project, for example for the classification of nodes, which are classified by sub-type. Nodes can be any of the many types of object located on the track such as: simple nodes, points nodes or signals. Most significantly they can be the signals that mark the start of the area of interest; this information is used to determine when to trigger degraded mode operation.
 
 \section{Demonstrator Implementation}
 In order as to provide the demonstrations outlined in \autoref{sec:Scenarios} a system was implemented, consisting of sub-systems from all the industrial partners. In moving to production the simulation would no longer be required whilst certification would be, however, the system is designed such that certification should be obtainable. 
@@ -169,7 +169,7 @@ In order as to provide the demonstrations outlined in \autoref{sec:Scenarios} a 
 \subsection{Demonstrator One}
 \subsubsection{Overview}
  
-The first demonstrator, that which sought to show the system under normal operation or within it's ``Quiescent stated'', aims to show that using the Network Rail data feeds, it is possible to track the location of multiple trains on the network. Physically this is presented as a geographical map showing the train line on which the capability is being demonstrated with labels showing the current location of running trains. The map is presented in \autoref{fig:DemoOneBrave}. As the train steps to a new berth, so these labels move, with the same granularity as is provided by the signalling system. Running on a physically separate system (though this is not required from a performance perspective) a client written specifically for this task displays the messages in a human readable format, as shown in \autoref{fig:DemoOne}. The ontology holds position data for certain signals on the track in the area on which the system was being demonstrated, these are returned to the map via the tool. Where data is not available the ontology returns nothing and thus no message is sent to display system. In this case display is provided by the centre's own simulator, BRaVE, which was being used solely for display purposes.
+The first demonstrator, that which sought to show the system under normal operation or within its ``Quiescent stated'', aims to show that using the Network Rail data feeds, it is possible to track the location of multiple trains on the network. Physically this is presented as a geographical map showing the train line on which the capability is being demonstrated with labels showing the current location of running trains. The map is presented in \autoref{fig:DemoOneBrave}. As the train steps to a new berth, so these labels move, with the same granularity as is provided by the signalling system. Running on a physically separate system (though this is not required from a performance perspective) a client written specifically for this task displays the messages in a human readable format, as shown in \autoref{fig:DemoOne}. The ontology holds position data for certain signals on the track in the area on which the system was being demonstrated, these are returned to the map via the tool. Where data is not available the ontology returns nothing and thus no message is sent to display system. In this case display is provided by the centre's own simulator, BRaVE, which was being used solely for display purposes.
 
 \begin{sidewaysfigure}
 \myfloatalign
@@ -192,12 +192,12 @@ This demonstrator made significant use of geographical data, \citet{Tutcher2015}
 Elements relating only to this project, all of which extended elements from the existing ontology, where placed in an application ontology design specifically for the COMPASS project, shared between both demonstrators. As per the guidelines set out in \autoref{ch:cifparser} this was the lowest level at which it was appropriate to model the concepts and avoided adding unnecessary complexity to those modules shared throughout the domain.
 
 \subsubsection{Advantages of this approach}
-The most widely discussed advantage of this approach, that is the use of ontology for data integration as opposed to constructing case by case integrations, is that of ease of adding further data sources without alteration to the existing system. The separation of business logic, which can move be moved to the ontology, how one decides where the area of interest is for example in this case, also makes for more maintainable and resilient systems. 
+The most widely discussed advantage of this approach, that is the use of ontology for data integration as opposed to constructing case by case integrations, is that of ease of adding further data sources without alteration to the existing system. The separation of business logic, which can be moved to the ontology, how one decides where the area of interest is for example in this case, also makes for more maintainable and resilient systems. 
 
 \subsubsection{Implementation}
-In the first demonstrator the ontology is used to match signal berths to their physical locations. A SPARQL query shown in \autoref{lst:selectsignallocation} is used with the signal's identifier to retrieve it's location. This query is triggered by the arrival of a birth step message from the Network Rail train describer feed then, if found, the resulting latitude and longitude are first converted to British national grid coordinates, before being sent onwards to BRaVE for display. 
+In the first demonstrator the ontology is used to match signal berths to their physical locations. A SPARQL query shown in \autoref{lst:selectsignallocation} is used with the signal's identifier to retrieve its location. This query is triggered by the arrival of a birth step message from the Network Rail train describer feed then, if found, the resulting latitude and longitude are first converted to British national grid coordinates, before being sent onwards to BRaVE for display. 
 
-\begin{lstlisting}[float=h,language=sparql,frame=tb,caption={SPARQL to select a signal location from it's identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter},label={lst:selectsignallocation}]
+\begin{lstlisting}[float=h,language=sparql,frame=tb,caption={SPARQL to select a signal location from its identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter},label={lst:selectsignallocation}]
 SELECT  ?lat ?long
 WHERE {
     ?Signal a <http://purl.org/rail/core/Signal> .
@@ -236,7 +236,7 @@ A modular architecture was employed in both demonstrators to allow the reuse of 
 
     The middleware connectivity module handles the security process used by the middleware, holding the token and renewing it when it expires. For the purposes of demonstration the username and password were hard coded, though were this system deployed in a live environment they would be supplied by the user. A credential storage mechanism, is provided in readiness for moving over to that implementation. 
 
-    A class is provided which lists the URI's used by throughout the system as constants to avoid both ambiguity and the need to type URI's each time they are referenced. Whilst packages exist to auto create this for JAVA nothing was available and compatible with stardog via C\#. This class makes the URI's available both as strings and, where appropriate, as C\# URIs, so as to alleviate the need constantly create new URIs, this is both more convenient and efficient. Other classes provide constants for other purposes:
+    A class is provided which lists the URI's used throughout the system as constants to avoid both ambiguity and the need to type URI's each time they are referenced. Whilst packages exist to auto create this for JAVA nothing was available and compatible with stardog via C\#. This class makes the URI's available both as strings and, where appropriate, as C\# URIs, so as to alleviate the need to constantly create new URIs, this is both more convenient and efficient. Other classes provide constants for other purposes:
     \begin{itemize}
         \item Locations of webservices
         \item ETCS Messages Numbers
@@ -264,7 +264,7 @@ Videos of the two demonstrators in operation are available from: \url{http://mor
 
 When this system was demonstrated to the client this system operated for a period of ten minutes and displayed the location of three trains, each of which moved multiple times.
 
-Aside from the commercial goals of the project partners this project also made it possible to investigate the use of ontology on a national scale; the Network Rail train describer feed sends a message for every single \say{Birth Step}, that is movement between signalling births of a train in the UK rail network, which at busy periods can easily reach hundreds of messages a minute. These messages each trigger a SPARQL query to ascertain whether they are with in the area of interest being shown by the demonstrator. This was down successfully, including use of property chains, without placing any significant strain on the data store, which was hosted on a desktop PC.
+Aside from the commercial goals of the project partners this project also made it possible to investigate the use of ontology on a national scale; the Network Rail train describer feed sends a message for every single \say{Birth Step}, that is movement between signalling births of a train in the UK rail network, which at busy periods can easily reach hundreds of messages a minute. These messages each trigger a SPARQL query to ascertain whether they are within the area of interest being shown by the demonstrator. This was done successfully, including use of property chains, without placing any significant strain on the data store, which was hosted on a desktop PC.
 
 \subsection{Demonstrator Two}
 \label{sec:demotwo}
@@ -274,7 +274,7 @@ The second demonstrator aimed to show that it was possible to detect an approach
 
 Three scenarios were demonstrated.  
  \begin{itemize}
-\item First a train moves across the simulator network area under normal signalling. It's progress is displayed on the a map. This demonstrates that the system can communicate internally, from the simulator to the ontology then onto the display. It further shows that the system can track the approaching train. This is shown in \autoref{fig:DemoTwo_S1}.
+\item First a train moves across the simulator network area under normal signalling. Its progress is displayed on the a map. This demonstrates that the system can communicate internally, from the simulator to the ontology then onto the display. It further shows that the system can track the approaching train. This is shown in \autoref{fig:DemoTwo_S1}.
 \item In the next scenario the train drives into an area, then the signalling fails and the alternative system, known as STiR is activated. The driver is instructed, via the in cab signalling, to drive out of the area of failed signalling then to obey normal signalling once the train is clear. This is shown in \autoref{fig:DemoTwo_S2}.
 \item In the final scenario an area of signal has failed, a train approaches, is switched to STiR control and leaves. This is repeated with a second train. This is shown in \autoref{fig:DemoTwo_S3}.
 \end{itemize}
@@ -302,9 +302,9 @@ Three scenarios were demonstrated.
 
 \subsubsection{Communications Implementation}
 
-The layout of the RS232 bus is illustrated in \autoref{fig:RS232}, which is used only to disseminate GPS. Whilst for the demonstrator the front and rear cabs were connected via RS232 in reality this would not be possible, however, it is envisaged that when implemented the system would use a GPS receiver in each cab, which would output it's position via RS232. The simulator would not then be needed, the GPS from the train would be sent via radio link to the VLS track-side component and from that via ETCS messages over IP on to the operations centre. 
+The layout of the RS232 bus is illustrated in \autoref{fig:RS232}, which is used only to disseminate GPS. Whilst for the demonstrator the front and rear cabs were connected via RS232 in reality this would not be possible, however, it is envisaged that when implemented the system would use a GPS receiver in each cab, which would output its position via RS232. The simulator would not then be needed, the GPS from the train would be sent via radio link to the VLS track-side component and from that via ETCS messages over IP on to the operations centre. 
 
-All Subsystems also communicated over via Ethernet, either via the local loopback interface when multiple subsystem where hosted on the same machine or via a gigabit Ethernet switch. 
+All Subsystems also communicated over via Ethernet, either via the local loopback interface when multiple subsystems where hosted on the same machine or via a gigabit Ethernet switch. 
 
 \begin{figure}[h]
 \myfloatalign
@@ -340,7 +340,7 @@ Without the middleware it would have been necessary to implement much of the fun
 This project allowed us to address the following questions:
 \begin{samepage}
 \subsubsection*{\textit{\QuestionOtherData}} 
-This project illustrated both how diverse the data environment can be in the rail domain and how this presents a barrier to improved performance. \end{samepage}The datasources are largely in historic formats, devised when a system was commissioned and where necessary encapsulated in a more modern protocol. These encode in them a great deal of knowledge as to how individual systems operate; for example the ``Birth Step'' messages used in this project require an understanding not just of railways in general, but signalling systems in particular in order as to make them useful. This presents a problem using them with systems that view the world differently; perhaps as maps which are interested in absolute position, for people using modes of transport other than the railway in order as to get to a station as opposed to the network position view of signalling systems. Another problem is that of the skill set required to work with the data, a developer primarily experience in creating usable mobile phone applications would struggle to interpret the data correctly.
+This project illustrated both how diverse the data environment can be in the rail domain and how this presents a barrier to improved performance. \end{samepage}The datasources are largely in historic formats, devised when a system was commissioned and where necessary encapsulated in a more modern protocol. These encode in them a great deal of knowledge as to how individual systems operate; for example the ``Birth Step'' messages used in this project require an understanding not just of railways in general, but signalling systems in particular in order as to make them useful. This presents a problem using them with systems that view the world differently; perhaps as maps which are interested in absolute position, for people using modes of transport other than the railway in order as to get to a station as opposed to the network position view of signalling systems. Another problem is that of the skill set required to work with the data, a developer primarily experienced in creating usable mobile phone applications would struggle to interpret the data correctly.
 
 \begin{samepage}
 \subsubsection*{\textit{\QuestionSkillz}} 

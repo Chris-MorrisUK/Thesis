@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  23 FEB 2018 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  26 FEB 2018 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2126,6 +2126,12 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 42
 \openout8 = `outter.lot'.
 
 (C:\localThesis\Thesis/outter.lol
+Overfull \hbox (3.32892pt too wide) in paragraph at lines 24--24
+ [][] []\T1/pplj/m/n/10.95 SPARQL to se-lect a sig-nal loc-a-tion from its iden
+- 
+ []
+
+
 Overfull \hbox (8.29529pt too wide) in paragraph at lines 32--32
  [][] []\T1/pplj/m/n/10.95 The Stored-Pro-ced-ure class. Con-struct-ors, privat
 e 
@@ -2481,7 +2487,7 @@ File: gfx/cifParsingWorkFlow.pdf Graphic file (type pdf)
 Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 143.
 (pdftex.def)             Requested size: 234.26189pt x 704.94157pt.
 [63]
-Overfull \vbox (39.03127pt too high) has occurred while \output is active []
+Overfull \vbox (28.79588pt too high) has occurred while \output is active []
 
 [64 <c:/localThesis/Thesis/gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCo
 rner.png, id=2426, 1049.42062pt x 242.40562pt>
@@ -2502,12 +2508,12 @@ used as needed.
  []
 
 [65 <c:/localThesis/Thesis/gfx/cifparseRelevantCorner.png>] <gfx/manToolWelcome
-.png, id=2434, 1352.05125pt x 511.9125pt>
+.png, id=2435, 1352.05125pt x 511.9125pt>
 File: gfx/manToolWelcome.png Graphic file (type png)
 <use gfx/manToolWelcome.png>
 Package pdftex.def Info: gfx/manToolWelcome.png used on input line 167.
 (pdftex.def)             Requested size: 1352.04796pt x 511.91125pt.
-<gfx/manToolLogin.png, id=2435, 751.80875pt x 640.3925pt>
+<gfx/manToolLogin.png, id=2436, 751.80875pt x 640.3925pt>
 File: gfx/manToolLogin.png Graphic file (type png)
 <use gfx/manToolLogin.png>
 Package pdftex.def Info: gfx/manToolLogin.png used on input line 168.
@@ -2517,7 +2523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 [][]
  []
 
-[66] <gfx/manToolInUse.png, id=2442, 1152.305pt x 313.17pt>
+[66] <gfx/manToolInUse.png, id=2443, 1152.305pt x 313.17pt>
 File: gfx/manToolInUse.png Graphic file (type png)
 <use gfx/manToolInUse.png>
 Package pdftex.def Info: gfx/manToolInUse.png used on input line 182.
@@ -2526,20 +2532,20 @@ Package pdftex.def Info: gfx/manToolInUse.png used on input line 182.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [67 <c:/localThesis/Thesis/gfx/manToolWelcome.png> <c:/localThesis/Thesis/gfx/m
-anToolLogin.png>] <gfx/manToolAddingItem.png, id=2451, 1155.31625pt x 511.9125p
+anToolLogin.png>] <gfx/manToolAddingItem.png, id=2452, 1155.31625pt x 511.9125p
 t>
 File: gfx/manToolAddingItem.png Graphic file (type png)
 <use gfx/manToolAddingItem.png>
 Package pdftex.def Info: gfx/manToolAddingItem.png used on input line 191.
 (pdftex.def)             Requested size: 1155.31345pt x 511.91125pt.
-<gfx/addItemDetail.png, id=2452, 1156.32pt x 740.7675pt>
+<gfx/addItemDetail.png, id=2453, 1156.32pt x 740.7675pt>
 File: gfx/addItemDetail.png Graphic file (type png)
 <use gfx/addItemDetail.png>
 Package pdftex.def Info: gfx/addItemDetail.png used on input line 198.
 (pdftex.def)             Requested size: 1156.31718pt x 740.76569pt.
 [68 <c:/localThesis/Thesis/gfx/manToolInUse.png> <c:/localThesis/Thesis/gfx/man
 ToolAddingItem.png> <c:/localThesis/Thesis/gfx/addItemDetail.png>] <gfx/schedul
-eProcessing.pdf, id=2461, 844.71585pt x 597.6729pt>
+eProcessing.pdf, id=2462, 844.71585pt x 597.6729pt>
 File: gfx/scheduleProcessing.pdf Graphic file (type pdf)
 <use gfx/scheduleProcessing.pdf>
 Package pdftex.def Info: gfx/scheduleProcessing.pdf used on input line 215.
@@ -2560,48 +2566,48 @@ where there
 
 ]
 chapter 5.
-[73] [74] [75] <gfx/Middleware_role.pdf, id=2504, 420.2392pt x 246.39517pt>
+[73] [74] [75] <gfx/Middleware_role.pdf, id=2505, 420.2392pt x 246.39517pt>
 File: gfx/Middleware_role.pdf Graphic file (type pdf)
 <use gfx/Middleware_role.pdf>
-Package pdftex.def Info: gfx/Middleware_role.pdf used on input line 29.
+Package pdftex.def Info: gfx/Middleware_role.pdf used on input line 31.
 (pdftex.def)             Requested size: 336.0pt x 197.01112pt.
 [76 <c:/localThesis/Thesis/gfx/Middleware_role.pdf>] [77] [78] [79] [80] [81] <
-gfx/MiddlewareHighLevel.pdf, id=2708, 597.50786pt x 421.10078pt>
+gfx/MiddlewareHighLevel.pdf, id=2709, 597.50786pt x 421.10078pt>
 File: gfx/MiddlewareHighLevel.pdf Graphic file (type pdf)
 <use gfx/MiddlewareHighLevel.pdf>
-Package pdftex.def Info: gfx/MiddlewareHighLevel.pdf used on input line 123.
+Package pdftex.def Info: gfx/MiddlewareHighLevel.pdf used on input line 125.
 (pdftex.def)             Requested size: 336.0pt x 236.79791pt.
 [82]
-Overfull \hbox (28.84337pt too wide) in paragraph at lines 132--133
+Overfull \hbox (28.84337pt too wide) in paragraph at lines 134--135
 \T1/pplj/m/n/10.95 the web-ser-vice ex-tend a simple base class en-titled ``\T1
 /fvm/m/n/10.95 SimpleRacoonResponse\T1/pplj/m/n/10.95 '',
  []
 
 
-Overfull \hbox (4.9271pt too wide) in paragraph at lines 134--135
+Overfull \hbox (4.9271pt too wide) in paragraph at lines 136--137
 []\T1/pplj/m/n/10.95 A Boolean value in-dic-at-ing if the token provided
  []
 
 [83 <c:/localThesis/Thesis/gfx/MiddlewareHighLevel.pdf>]
-<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2734, 469.69637pt x 134.3654
+<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2735, 469.69637pt x 134.3654
 5pt>
 File: gfx/MiddlewareServicesClassesResponseOnly.pdf Graphic file (type pdf)
 <use gfx/MiddlewareServicesClassesResponseOnly.pdf>
 Package pdftex.def Info: gfx/MiddlewareServicesClassesResponseOnly.pdf used on 
-input line 143.
+input line 145.
 (pdftex.def)             Requested size: 597.50793pt x 170.92924pt.
-<gfx/Res.pdf, id=2735, 310.56255pt x 182.13725pt>
+<gfx/Res.pdf, id=2736, 310.56255pt x 182.13725pt>
 File: gfx/Res.pdf Graphic file (type pdf)
 <use gfx/Res.pdf>
-Package pdftex.def Info: gfx/Res.pdf used on input line 150.
+Package pdftex.def Info: gfx/Res.pdf used on input line 152.
 (pdftex.def)             Requested size: 336.0pt x 197.07492pt.
-<gfx/RacoonServices.pdf, id=2736, 519.87952pt x 167.081pt>
+<gfx/RacoonServices.pdf, id=2737, 519.87952pt x 167.081pt>
 File: gfx/RacoonServices.pdf Graphic file (type pdf)
 <use gfx/RacoonServices.pdf>
-Package pdftex.def Info: gfx/RacoonServices.pdf used on input line 157.
+Package pdftex.def Info: gfx/RacoonServices.pdf used on input line 159.
 (pdftex.def)             Requested size: 597.50793pt x 192.02946pt.
 
-Overfull \hbox (26.02827pt too wide) in paragraph at lines 162--163
+Overfull \hbox (26.02827pt too wide) in paragraph at lines 164--165
 \T1/pplj/m/n/10.95 frame-work dis-cussed Star-dog is used as the main data-stor
 e (the triplestore),
  []
@@ -2611,38 +2617,38 @@ e (the triplestore),
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 164.
+(Font)              scaled to size 8.50006pt on input line 166.
 [86 <c:/localThesis/Thesis/gfx/Res.pdf>] [87 <c:/localThesis/Thesis/gfx/RacoonS
 ervices.pdf>] [88] [89] [90] [91]
-Overfull \hbox (4.35677pt too wide) in paragraph at lines 228--229
+Overfull \hbox (4.35677pt too wide) in paragraph at lines 230--231
 []\T1/pplj/m/n/10.95 Whilst it is pos-sible to cre-ate stored
  []
 
 [92]
-Overfull \hbox (2.30434pt too wide) in paragraph at lines 230--231
+Overfull \hbox (2.30434pt too wide) in paragraph at lines 232--233
 \T1/pplj/m/n/10.95 pur-poses. In large pro-jects it is pos-sible some-thing sim
 -ilar would
  []
 
-<gfx/MiddlewareAurthentication.pdf, id=3846, 334.24875pt x 682.80093pt>
+<gfx/MiddlewareAurthentication.pdf, id=3847, 334.24875pt x 682.80093pt>
 File: gfx/MiddlewareAurthentication.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthentication.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
-42.
+44.
 (pdftex.def)             Requested size: 336.0pt x 686.43536pt.
 
-LaTeX Warning: Float too large for page by 42.38539pt on input line 245.
+LaTeX Warning: Float too large for page by 42.38539pt on input line 247.
 
 
-<gfx/MiddlewareAurthenticationWithToken.pdf, id=3848, 354.5248pt x 326.5265pt>
+<gfx/MiddlewareAurthenticationWithToken.pdf, id=3849, 354.5248pt x 326.5265pt>
 File: gfx/MiddlewareAurthenticationWithToken.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthenticationWithToken.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthenticationWithToken.pdf used on inp
-ut line 251.
+ut line 253.
 (pdftex.def)             Requested size: 336.0pt x 309.48096pt.
 [93] [94 <c:/localThesis/Thesis/gfx/MiddlewareAurthentication.pdf>] [95 <c:/loc
 alThesis/Thesis/gfx/MiddlewareAurthenticationWithToken.pdf>] [96])
-Overfull \hbox (2.13692pt too wide) in paragraph at lines 283--104
+Overfull \hbox (2.13692pt too wide) in paragraph at lines 285--104
 \T1/pplj/m/n/10.95 within the ex-ist-ing frame-work, how-ever, none of the pro-
 jects for which
  []
@@ -2676,180 +2682,168 @@ d be placed
  []
 
 [101] [102] [103]
-Overfull \hbox (7.6214pt too wide) in paragraph at lines 53--54
+Overfull \hbox (7.6214pt too wide) in paragraph at lines 52--53
 []\T1/pplj/m/n/10.95 The qui-es-cent state demon-strator mon-it-ors vehicle mov
 e-ments across
  []
 
 [104]
-Overfull \hbox (0.64627pt too wide) in paragraph at lines 60--61
+Overfull \hbox (0.64627pt too wide) in paragraph at lines 59--60
 \T1/pplj/m/n/10.95 cap-able of per-form-ing the demon-stra-tions out-lined in [
 ][]sub-sec-tion 6.2.1[][][].
  []
 
 
-Overfull \hbox (11.35686pt too wide) in paragraph at lines 60--61
+Overfull \hbox (11.35686pt too wide) in paragraph at lines 59--60
 \T1/pplj/m/n/10.95 in im-ple-ment-a-tion, be split between the sig-nalling con-
 trol centre, known
  []
 
-<gfx/FullSystem.pdf, id=3958, 473.29999pt x 730.80823pt>
+<gfx/FullSystem.pdf, id=3959, 473.29999pt x 730.80823pt>
 File: gfx/FullSystem.pdf Graphic file (type pdf)
 <use gfx/FullSystem.pdf>
-Package pdftex.def Info: gfx/FullSystem.pdf used on input line 64.
+Package pdftex.def Info: gfx/FullSystem.pdf used on input line 63.
 (pdftex.def)             Requested size: 473.29883pt x 730.80643pt.
 [105]
-Overfull \hbox (5.28912pt too wide) in paragraph at lines 69--70
+Overfull \hbox (5.28912pt too wide) in paragraph at lines 68--69
 []\T1/pplj/m/n/10.95 The pur-pose of each sub-system is de-scribed in [][]sub-s
 ub-sec-tion 6.2.2.1[][][]. 
  []
 
 
-Overfull \hbox (8.16504pt too wide) in paragraph at lines 76--77
+Overfull \hbox (8.16504pt too wide) in paragraph at lines 75--76
 []\T1/pplj/m/n/10.95 Virtual Line-side Sig-nalling, which handles com-
  []
 
 [106 <c:/localThesis/Thesis/gfx/FullSystem.pdf>]
-Overfull \hbox (14.3165pt too wide) in paragraph at lines 77--78
+Overfull \hbox (14.3165pt too wide) in paragraph at lines 76--77
 []\T1/pplj/m/n/10.95 This com-pon-ent acts a cent-
  []
 
-[107] <gfx/Dataflow-StirDemoActive.pdf, id=3980, 464.82452pt x 730.80823pt>
+[107] <gfx/Dataflow-StirDemoActive.pdf, id=3981, 464.82452pt x 730.80823pt>
 File: gfx/Dataflow-StirDemoActive.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirDemoActive.pdf>
-Package pdftex.def Info: gfx/Dataflow-StirDemoActive.pdf used on input line 95.
+Package pdftex.def Info: gfx/Dataflow-StirDemoActive.pdf used on input line 94.
 
 (pdftex.def)             Requested size: 464.82338pt x 730.80643pt.
 [108] [109 <c:/localThesis/Thesis/gfx/Dataflow-StirDemoActive.pdf>] <gfx/Datafl
-owStirAllOptionsDemo.pdf, id=4008, 547.2947pt x 389.95688pt>
+owStirAllOptionsDemo.pdf, id=4009, 547.2947pt x 389.95688pt>
 File: gfx/DataflowStirAllOptionsDemo.pdf Graphic file (type pdf)
 <use gfx/DataflowStirAllOptionsDemo.pdf>
 Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line 
-111.
+110.
 (pdftex.def)             Requested size: 336.0pt x 239.40851pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [110] [111 <c:/localThesis/Thesis/gfx/DataflowStirAllOptionsDemo.pdf>] [112]
-Overfull \hbox (2.14565pt too wide) in paragraph at lines 141--142
-[]\T1/pplj/m/n/10.95 It is in in-ten-ded that when this pro-ject is im-ple-men-
-ted GPS provides
- []
-
-
-Overfull \hbox (10.91656pt too wide) in paragraph at lines 150--151
+Overfull \hbox (10.91656pt too wide) in paragraph at lines 149--150
 \T1/pplj/m/n/10.95 net-work map was ob-tained in lay-out de-scrip-tion lan-guag
 e (LDL) format.
  []
 
 [113]
-Overfull \hbox (7.10039pt too wide) in paragraph at lines 156--157
+Overfull \hbox (7.10039pt too wide) in paragraph at lines 155--156
 []\T1/pplj/m/n/10.95 This data feed gives de-tails of trains
  []
 
 
-Overfull \hbox (0.63513pt too wide) in paragraph at lines 158--159
+Overfull \hbox (0.63513pt too wide) in paragraph at lines 157--158
 []\T1/pplj/m/n/10.95 This would make it pos-
  []
 
-
-Overfull \hbox (4.03514pt too wide) in paragraph at lines 165--166
-\T1/pplj/m/n/10.95 are searched for us-ing their iden-ti-fier, are clas-si-fied
- by sub-type. Nodes
- []
-
-[114] [115] <gfx/DemoOneBRAVE.png, id=4072, 2886.28313pt x 1594.45688pt>
+[114] [115] <gfx/DemoOneBRAVE.png, id=4073, 2886.28313pt x 1594.45688pt>
 File: gfx/DemoOneBRAVE.png Graphic file (type png)
 <use gfx/DemoOneBRAVE.png>
-Package pdftex.def Info: gfx/DemoOneBRAVE.png used on input line 177.
+Package pdftex.def Info: gfx/DemoOneBRAVE.png used on input line 176.
 (pdftex.def)             Requested size: 597.50793pt x 330.07726pt.
-<gfx/DemoOneScreenShot.png, id=4075, 1263.21938pt x 755.82375pt>
+<gfx/DemoOneScreenShot.png, id=4076, 1263.21938pt x 755.82375pt>
 File: gfx/DemoOneScreenShot.png Graphic file (type png)
 <use gfx/DemoOneScreenShot.png>
-Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 184.
+Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 183.
 (pdftex.def)             Requested size: 336.0pt x 201.04198pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [116] [117 <c:/localThesis/Thesis/gfx/DemoOneBRAVE.png>]
 LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10> not available
-(Font)              Font shape `T1/fvm/b/n' tried instead on input line 204.
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 203.
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 8.50006pt on input line 204.
+(Font)              scaled to size 8.50006pt on input line 203.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [118 <c:/localThesis/Thesis/gfx/DemoOneScreenShot.png>]
-Overfull \hbox (2.12532pt too wide) in paragraph at lines 222--223
+Overfull \hbox (2.12532pt too wide) in paragraph at lines 221--222
 \T1/pplj/m/n/10.95 ario, as much of the sys-tem is ded-ic-ated to man-aging the
  train through
  []
 
-<gfx/Dataflow-StirPassiveDemo.pdf, id=4098, 477.86911pt x 729.67902pt>
+<gfx/Dataflow-StirPassiveDemo.pdf, id=4099, 477.86911pt x 729.67902pt>
 File: gfx/Dataflow-StirPassiveDemo.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirPassiveDemo.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirPassiveDemo.pdf used on input line 22
-6.
+5.
 (pdftex.def)             Requested size: 477.86795pt x 729.67723pt.
 [119]
-Overfull \hbox (1.28085pt too wide) in paragraph at lines 236--237
+Overfull \hbox (1.28085pt too wide) in paragraph at lines 235--236
 []\T1/pplj/m/n/10.95 This was com-piled as a DLL and used
  []
 
 [120 <c:/localThesis/Thesis/gfx/Dataflow-StirPassiveDemo.pdf>]
-Overfull \hbox (4.39125pt too wide) in paragraph at lines 246--247
+Overfull \hbox (4.39125pt too wide) in paragraph at lines 245--246
 []\T1/pplj/m/n/10.95 The mid-dle-ware con-nectiv-ity mod-ule ab-stracts the on-
 to-logy cent-
  []
 
 [121]
-Overfull \hbox (15.92241pt too wide) in paragraph at lines 249--250
+Overfull \hbox (15.92241pt too wide) in paragraph at lines 248--249
 \T1/pplj/m/n/10.95 the train de-scriber web-ser-vice, which is im-ple-men-ted a
 s a singleton.
  []
 
 
-Overfull \hbox (1.43228pt too wide) in paragraph at lines 249--250
+Overfull \hbox (1.43228pt too wide) in paragraph at lines 248--249
 [][]$\T1/fvm/m/n/10.95 ($[][]\T1/pplj/m/n/10.95 https://github.com/openraildata
 /stomp-client-dotnet), which
  []
 
 [122]
-Overfull \hbox (71.43237pt too wide) in paragraph at lines 251--252
+Overfull \hbox (71.43237pt too wide) in paragraph at lines 250--251
 \T1/pplj/m/n/10.95 them to the view as prop-er-ties and im-ple-ment-ing the \T1
 /fvm/m/n/10.95 INotifyPropertyChanged
  []
 
-[123] [124] <gfx/DemoTwo_StageOne.pdf, id=4164, 336.87486pt x 676.55243pt>
+[123] [124] <gfx/DemoTwo_StageOne.pdf, id=4165, 336.87486pt x 676.55243pt>
 File: gfx/DemoTwo_StageOne.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageOne.pdf>
-Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 285.
+Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 284.
 (pdftex.def)             Requested size: 336.87402pt x 676.55077pt.
 [125]
 Overfull \vbox (22.04324pt too high) has occurred while \output is active []
 
 [126 <c:/localThesis/Thesis/gfx/DemoTwo_StageOne.pdf>] <gfx/DemoTwo_StageTwo.pd
-f, id=4176, 395.94376pt x 676.55243pt>
+f, id=4177, 395.94376pt x 676.55243pt>
 File: gfx/DemoTwo_StageTwo.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageTwo.pdf>
-Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 292.
+Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 291.
 (pdftex.def)             Requested size: 395.94278pt x 676.55077pt.
-<gfx/DemoTwo_StageThree.pdf, id=4177, 345.75368pt x 677.0747pt>
+<gfx/DemoTwo_StageThree.pdf, id=4178, 345.75368pt x 677.0747pt>
 File: gfx/DemoTwo_StageThree.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageThree.pdf>
-Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 299.
+Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 298.
 (pdftex.def)             Requested size: 345.75282pt x 677.07304pt.
 [127 <c:/localThesis/Thesis/gfx/DemoTwo_StageTwo.pdf>]
 Overfull \vbox (13.93008pt too high) has occurred while \output is active []
 
 [128 <c:/localThesis/Thesis/gfx/DemoTwo_StageThree.pdf>] <gfx/RS232Bus.pdf, id=
-4192, 540.51938pt x 375.65344pt>
+4193, 540.51938pt x 375.65344pt>
 File: gfx/RS232Bus.pdf Graphic file (type pdf)
 <use gfx/RS232Bus.pdf>
-Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 312.
+Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 311.
 (pdftex.def)             Requested size: 336.0pt x 233.52177pt.
 [129 <c:/localThesis/Thesis/gfx/RS232Bus.pdf>] [130] [131] [132]
-Overfull \hbox (2.08226pt too wide) in paragraph at lines 348--349
+Overfull \hbox (2.08226pt too wide) in paragraph at lines 347--348
 \T1/pplj/m/n/10.95 The mid-dle-ware was used in this pro-ject, in part, to re-d
 uce the amount
  []
@@ -3348,11 +3342,11 @@ lic/lm/lmss10.pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/public/lm/lmsso10.
 pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texl
 ivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlivenew/2016/
 texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on C:\localThesis\Thesis/outter.pdf (182 pages, 11554708 bytes).
+Output written on C:\localThesis\Thesis/outter.pdf (182 pages, 11554892 bytes).
 
 PDF statistics:
- 4781 PDF objects out of 5155 (max. 8388607)
- 3478 compressed objects within 35 object streams
+ 4782 PDF objects out of 5155 (max. 8388607)
+ 3479 compressed objects within 35 object streams
  587 named destinations out of 1000 (max. 500000)
  20404 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {6.1}SPARQL to select a signal location from it's identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter}{119}{lstlisting.6.1}
+\contentsline {lstlisting}{\numberline {6.1}SPARQL to select a signal location from its identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter}{119}{lstlisting.6.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
