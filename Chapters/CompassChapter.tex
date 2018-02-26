@@ -2,14 +2,14 @@
 \chapter{Combined Alternative Positioning and Signalling System}\label{ch:COMPASS}
 %************************************************
 \section{Introduction}
-In the financial year 2015/16 Network Rail spent £106,008,691.22 \footnote{This information is made available by network rail at \url{https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/datasets/}. The relevant data is headed \say{Payments for disruption on the railway made under schedule 8} and further data is available for schedule 4, planned disruptions.} compensating operating companies for unplanned delays. Every week many tens of thousands of delay minutes accrue on the railway, and of these many thousands are attributed to signalling failures. The delay caused to passengers as a result of such failures degrades customer experience and contributes to negative public perceptions of the railway. The Combined Positioning Alternative Signalling System,(COMPASS), is a system to provide a degraded mode signalling system with the primary objective of reducing the impacts associated with failures of the main signalling system. Fringe benefits of such a system also include improved vehicle positioning relative to the existing track circuit based system, leading to improved passenger information and the potential for use as a low cost primary signalling system on lightly used lines. 
+In the financial year 2015/16 Network Rail spent £106,008,691.22 \footnote{This information is made available by Network Rail at \url{https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/datasets/}. The relevant data is headed \say{Payments for disruption on the railway made under schedule 8} and further data is available for schedule 4, planned disruptions.} compensating operating companies for unplanned delays. Every week many tens of thousands of delay minutes accrue on the railway, and of these many thousands are attributed to signalling failures. The delay caused to passengers as a result of such failures degrades customer experience and contributes to negative public perceptions of the railway. The Combined Positioning Alternative Signalling System,(COMPASS), is a system to provide a degraded mode signalling system with the primary objective of reducing the impacts associated with failures of the main signalling system. Fringe benefits of such a system also include improved vehicle positioning relative to the existing track circuit based system, leading to improved passenger information and the potential for use as a low cost primary signalling system on lightly used lines. 
 
 This project was carried out in conjunction with industrial partners, and thus it was important that the end result was a demonstrator that could become a commercially viable product. This enabled the investigation of those questions pertaining to the available skills within the industry, those related to the deployment of ontology based architectures on a large scale alongside providing a means of verifying the work done in \autoref{ch:middleware}.
 
 \subsection{The commercial case for degraded mode signalling}
 The involvement in this project of commercial partners demands that it have a business case, in this case the project was completed in response to a request from Network Rail in conjunction with the railway safety and standards board and Future Railway. 
 
-According to network rail historic delay attribution data available in appendix \ref{app:delaydata}, signal failures are responsible for a significant proportion of the delays on the UK rail network. Delays from a single type of signalling failure (track circuit failures) contributed 103260 minutes (over 71 days) of aggregated delays over a single 28 day reporting period, and these represent the largest delay for which the infrastructure manager is responsible. The industry is keen to explore potential solutions to issues caused by signalling delays. Network Rail, upon whom the costs fall, are particularly keen, as stated in \citet{MagazineRailTechnology2015} 
+According to Network Rail historic delay attribution data available in appendix \ref{app:delaydata}, signal failures are responsible for a significant proportion of the delays on the UK rail network. Delays from a single type of signalling failure (track circuit failures) contributed 103260 minutes (over 71 days) of aggregated delays over a single 28 day reporting period, and these represent the largest delay for which the infrastructure manager is responsible. The industry is keen to explore potential solutions to issues caused by signalling delays. Network Rail, upon whom the costs fall, are particularly keen, as stated in \citet{MagazineRailTechnology2015} 
 \begin{quote}
     [Network Rail] believe the COMPASS solution can reduce delays by improving the current signalling system’s ability to recover from system failures more rapidly, as well as providing enhanced resilience to the network for the future. 
 \end{quote}
@@ -31,15 +31,14 @@ The requirements from the client were set out in a tender documents \citep{Netwo
     \item \say{System shall be separate from the existing signalling system};
     \item Be resilient to cyber attack, physical vandalism and deliberate sabotage;
     \item \say{maintain, in memory, train location to a given time stamp for reference purposes} ;
-    \item Ease of a
-    dding other datasources when they become available would be an advantage;
+    \item Ease of adding other datasources when they become available would be an advantage;
     \item \say{adopt a multi-layered solution for train location.} That is take train position information from multiple sources. 
 \end{itemize}
 
 In order as to achieve the above objectives, in particular, the adoption of a multi-layer train location solution and the improved location accuracy it is necessary to bring together data from multiple sources. Use of an ontology architecture would minimise the development effort required to accomplish this.
 
 \section{System design and specification}
-In response to the requirements set-out in \autoref{sec:client} and in conjunction with industrial partners the demonstration scenarios described in \autoref{sec:Scenarios} demonstration scenarios were designed. These made it possible to demonstrate that all that the techniques selected will be capable of meeting the specification and produced a system which, if the client chooses to proceed can be commercialised. 
+In response to the requirements set-out in \autoref{sec:client} and in conjunction with industrial partners, the demonstration scenarios described in \autoref{sec:Scenarios} were designed. These scenarios made it possible to demonstrate that the techniques selected will be capable of meeting the client's specification and produced a system which, if the client chooses to proceed, can be commercialised. 
 
 \subsection{Demonstrated scenarios}
 \label{sec:Scenarios}
@@ -122,7 +121,7 @@ Schedule data is comparatively coarse, primarily listing station calling times, 
 This is parsed using the tool described in \autoref{ch:cifparser}.
    
 \subsubsection{Train movement data}
-Train movement data, from the network rail webservices in particular the train describer feed. This feed supplies messages when a train steps from one signalling ``berth'' to the next.
+Train movement data, from the Network Rail webservices in particular the train describer feed. This feed supplies messages when a train steps from one signalling ``berth'' to the next.
 
 Data is taken from the train describer feed, which is provided by Network Rail \footnote{available at: \url{stomp:tcp://datafeeds.networkrail.co.uk:61618}}. This feed provides messages from the train describer, which is a part of the signalling system that provides information to the signaller. This demonstrator uses only the ``Berth Step'' messages, which are generated whenever a train moves from one berth to the next. In the context of a signalling system berths are a region of track, protected by a signal, in which a train is located, a further definition maybe found in \citet{Woolford2004}. As such the progress of a train across the network can be tracked, if used in conjunction with a map of signalling berths.
 
@@ -152,7 +151,7 @@ The network map is static data loaded once and not changed. This network map was
     \subsubsection{Additional datasources}
 Beyond the datasources listed above it would also be possible to use the following data sources, though they were not fully implemented in the demonstrators produced:
 \begin{description}
-    \item [Train Movements Feed] This is another open data feed provided by network rail;
+    \item [Train Movements Feed] This is another open data feed provided by Network Rail;
     \item [VSTP - Very short term plan] This data feed gives details of trains scheduled at short notice;
     \item [Other signalling systems] In particular direct connection to the train describer system (not via the webservices) was suggested for the final implementation of this project;
     \item [GPS data from the rear of the train] This would make it possible to provide accurate train integrity information.
@@ -170,7 +169,7 @@ In order as to provide the demonstrations outlined in \autoref{sec:Scenarios} a 
 \subsection{Demonstrator One}
 \subsubsection{Overview}
  
-The first demonstrator, that which sought to show the system under normal operation or within it's ``Quiescent stated'', aims to show that using the network rail data feeds, it is possible to track the location of multiple trains on the network. Physically this is presented as a geographical map showing the train line on which the capability is being demonstrated with labels showing the current location of running trains. The map is presented in \autoref{fig:DemoOneBrave}. As the train steps to a new berth, so these labels move, with the same granularity as is provided by the signalling system. Running on a physically separate system (though this is not required from a performance perspective) a client written specifically for this task displays the messages in a human readable format, as shown in \autoref{fig:DemoOne}. The ontology holds position data for certain signals on the track in the area on which the system was being demonstrated, these are returned to the map via the tool. Where data is not available the ontology returns nothing and thus no message is sent to display system. In this case display is provided by the centre's own simulator, BRaVE, which was being used solely for display purposes.
+The first demonstrator, that which sought to show the system under normal operation or within it's ``Quiescent stated'', aims to show that using the Network Rail data feeds, it is possible to track the location of multiple trains on the network. Physically this is presented as a geographical map showing the train line on which the capability is being demonstrated with labels showing the current location of running trains. The map is presented in \autoref{fig:DemoOneBrave}. As the train steps to a new berth, so these labels move, with the same granularity as is provided by the signalling system. Running on a physically separate system (though this is not required from a performance perspective) a client written specifically for this task displays the messages in a human readable format, as shown in \autoref{fig:DemoOne}. The ontology holds position data for certain signals on the track in the area on which the system was being demonstrated, these are returned to the map via the tool. Where data is not available the ontology returns nothing and thus no message is sent to display system. In this case display is provided by the centre's own simulator, BRaVE, which was being used solely for display purposes.
 
 \begin{sidewaysfigure}
 \myfloatalign
@@ -196,7 +195,7 @@ Elements relating only to this project, all of which extended elements from the 
 The most widely discussed advantage of this approach, that is the use of ontology for data integration as opposed to constructing case by case integrations, is that of ease of adding further data sources without alteration to the existing system. The separation of business logic, which can move be moved to the ontology, how one decides where the area of interest is for example in this case, also makes for more maintainable and resilient systems. 
 
 \subsubsection{Implementation}
-In the first demonstrator the ontology is used to match signal berths to their physical locations. A SPARQL query shown in \autoref{lst:selectsignallocation} is used with the signal's identifier to retrieve it's location. This query is triggered by the arrival of a birth step message from the network rail train describer feed then, if found, the resulting latitude and longitude are first converted to British national grid coordinates, before being sent onwards to BRaVE for display. 
+In the first demonstrator the ontology is used to match signal berths to their physical locations. A SPARQL query shown in \autoref{lst:selectsignallocation} is used with the signal's identifier to retrieve it's location. This query is triggered by the arrival of a birth step message from the Network Rail train describer feed then, if found, the resulting latitude and longitude are first converted to British national grid coordinates, before being sent onwards to BRaVE for display. 
 
 \begin{lstlisting}[float=h,language=sparql,frame=tb,caption={SPARQL to select a signal location from it's identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter},label={lst:selectsignallocation}]
 SELECT  ?lat ?long
@@ -233,7 +232,7 @@ A modular architecture was employed in both demonstrators to allow the reuse of 
 
 \begin{description}
     \item[MiddlewareConnectivity]
-    This was compiled as a DLL and used in both the client to receive Berth Step messages from network rail, as used in the first demonstrator, and the tool for receiving ETCS messages used to demonstrate the second scenario. This module provided a range of functions for interacting with the RaCoOn middleware and thus the ontologies and REDIS. For reasons of development time some SPARQL   was embedded in this module rather than being encoded as rules in the ontology. Embedding SPARQL does mean that a certain amount of the process and decision making embedded in the software rather being abstracted to the ontology, however all of the classification remained within the ontology.    
+    This was compiled as a DLL and used in both the client to receive Berth Step messages from Network Rail, as used in the first demonstrator, and the tool for receiving ETCS messages used to demonstrate the second scenario. This module provided a range of functions for interacting with the RaCoOn middleware and thus the ontologies and REDIS. For reasons of development time some SPARQL   was embedded in this module rather than being encoded as rules in the ontology. Embedding SPARQL does mean that a certain amount of the process and decision making embedded in the software rather being abstracted to the ontology, however all of the classification remained within the ontology.    
 
     The middleware connectivity module handles the security process used by the middleware, holding the token and renewing it when it expires. For the purposes of demonstration the username and password were hard coded, though were this system deployed in a live environment they would be supplied by the user. A credential storage mechanism, is provided in readiness for moving over to that implementation. 
 
@@ -265,7 +264,7 @@ Videos of the two demonstrators in operation are available from: \url{http://mor
 
 When this system was demonstrated to the client this system operated for a period of ten minutes and displayed the location of three trains, each of which moved multiple times.
 
-Aside from the commercial goals of the project partners this project also made it possible to investigate the use of ontology on a national scale; the network rail train describer feed sends a message for every single \say{Birth Step}, that is movement between signalling births of a train in the UK rail network, which at busy periods can easily reach hundreds of messages a minute. These messages each trigger a SPARQL query to ascertain whether they are with in the area of interest being shown by the demonstrator. This was down successfully, including use of property chains, without placing any significant strain on the data store, which was hosted on a desktop PC.
+Aside from the commercial goals of the project partners this project also made it possible to investigate the use of ontology on a national scale; the Network Rail train describer feed sends a message for every single \say{Birth Step}, that is movement between signalling births of a train in the UK rail network, which at busy periods can easily reach hundreds of messages a minute. These messages each trigger a SPARQL query to ascertain whether they are with in the area of interest being shown by the demonstrator. This was down successfully, including use of property chains, without placing any significant strain on the data store, which was hosted on a desktop PC.
 
 \subsection{Demonstrator Two}
 \label{sec:demotwo}

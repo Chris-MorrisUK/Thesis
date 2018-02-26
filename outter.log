@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  4 DEC 2017 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  23 FEB 2018 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"c:/Users/cxm210/OneDrive/Documents/The One True Thesis/outter.tex"
-(c:/Users/cxm210/OneDrive/Documents/The One True Thesis/outter.tex
+**c:/localThesis/Thesis/outter.tex
+(c:/localThesis/Thesis/outter.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (c:/texlivenew/2016/texmf-dist/tex/latex/base/fix-cm.sty
@@ -111,9 +111,8 @@ LaTeX Info: Redefining \textsubscript on input line 4824.
 \c@table=\count88
 Class scrreprt Info: Redefining `\numberline' on input line 5881.
 \bibindent=\dimen102
-)
-(c:/Users/cxm210/OneDrive/Documents/The One True Thesis/classicthesis-config.te
-x (c:/texlivenew/2016/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/localThesis/Thesis/classicthesis-config.tex (c:/texlivenew/2016/texmf-dis
+t/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -1631,7 +1630,7 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 269.
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 269.
 Package hyperref Info: Option `hypertexnames' set `true' on input line 269.
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/classicthesis.sty
+(C:\localThesis\Thesis/classicthesis.sty
 Package: classicthesis 2015/09/06 v4.2 Typographic style for a classic-looking 
 thesis
 (c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
@@ -1848,32 +1847,17 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-)) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.aux
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Titlepa
-ge.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Titleba
-ck.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Abstrac
-t.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Acknowl
-edgments.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Content
-s.aux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/intro.a
-ux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/litreview.
-aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/problemstateme
-nt.aux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/cifpar
-ser.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/Middleware.aux
-)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/CompassChapter
-.aux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/conclu.a
-ux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/Chapter0A.
-aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/storedProcList
-ingApend.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Bibliog
-raphy.aux))
+)) (C:\localThesis\Thesis/outter.aux (C:\localThesis\Thesis/FrontBackmatter/Tit
+lepage.aux) (C:\localThesis\Thesis/FrontBackmatter/Titleback.aux) (C:\localThes
+is\Thesis/FrontBackmatter/Abstract.aux) (C:\localThesis\Thesis/FrontBackmatter/
+Acknowledgments.aux) (C:\localThesis\Thesis/FrontBackmatter/Contents.aux) (C:\l
+ocalThesis\Thesis/Chapters/intro.aux) (C:\localThesis\Thesis/Chapters/litreview
+.aux) (C:\localThesis\Thesis/Chapters/problemstatement.aux) (C:\localThesis\The
+sis/Chapters/cifparser.aux) (C:\localThesis\Thesis/Chapters/Middleware.aux) (C:
+\localThesis\Thesis/Chapters/CompassChapter.aux) (C:\localThesis\Thesis/Chapter
+s/conclu.aux) (C:\localThesis\Thesis/Chapters/Chapter0A.aux) (C:\localThesis\Th
+esis/Chapters/storedProcListingApend.aux) (C:\localThesis\Thesis/FrontBackmatte
+r/Bibliography.aux))
 \openout1 = `outter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -1906,7 +1890,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'outter.bbl' found.
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.bbl)
+(C:\localThesis\Thesis/outter.bbl)
 Package biblatex Info: Reference section=0 on input line 69.
 Package biblatex Info: Reference segment=0 on input line 69.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1963,8 +1947,7 @@ LaTeX Info: Redefining \Ref on input line 515.
 LaTeX Info: Redefining \ref on input line 69.
 LaTeX Info: Redefining \pageref on input line 69.
 LaTeX Info: Redefining \nameref on input line 69.
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.out) (C:\Users\c
-xm210\OneDrive\Documents\The One True Thesis/outter.out)
+(C:\localThesis\Thesis/outter.out) (C:\localThesis\Thesis/outter.out)
 \@outlinefile=\write5
 \openout5 = `outter.out'.
 
@@ -1992,9 +1975,7 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 
 \openout2 = `FrontBackmatter/Titlepage.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Titlepa
-ge.tex [1
+(C:\localThesis\Thesis/FrontBackmatter/Titlepage.tex [1
 
 
 
@@ -2002,9 +1983,7 @@ ge.tex [1
 {c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `FrontBackmatter/Titleback.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Titleba
-ck.tex
+(C:\localThesis\Thesis/FrontBackmatter/Titleback.tex
 LaTeX Font Info:    Try loading font information for TS1+pplj on input line 9.
 (c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
@@ -2014,9 +1993,7 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 ]
 \openout2 = `FrontBackmatter/Abstract.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Abstrac
-t.tex)
+(C:\localThesis\Thesis/FrontBackmatter/Abstract.tex)
 LaTeX Font Info:    Try loading font information for U+zeur on input line 86.
 (c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
@@ -2079,9 +2056,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 ]
 \openout2 = `FrontBackmatter/Acknowledgments.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Acknowl
-edgments.tex) [5
+(C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.tex) [5
 
 ] [6
 
@@ -2090,12 +2065,10 @@ edgments.tex) [5
 ]
 \openout2 = `FrontBackmatter/Contents.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Content
-s.tex
+(C:\localThesis\Thesis/FrontBackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.toc
+(C:\localThesis\Thesis/outter.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2135,7 +2108,7 @@ Overfull \hbox (10.571pt too wide) in paragraph at lines 251--251
 [10]
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.lof
+(C:\localThesis\Thesis/outter.lof
 Overfull \hbox (1.00827pt too wide) in paragraph at lines 47--47
  [][] []\T1/pplj/m/n/10.95 The in-ter-ac-tions between the mid-dle-ware mod- 
  []
@@ -2148,11 +2121,11 @@ Overfull \hbox (1.00827pt too wide) in paragraph at lines 47--47
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 42
 .
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.lot)
+(C:\localThesis\Thesis/outter.lot)
 \tf@lot=\write8
 \openout8 = `outter.lot'.
 
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.lol
+(C:\localThesis\Thesis/outter.lol
 Overfull \hbox (8.29529pt too wide) in paragraph at lines 32--32
  [][] []\T1/pplj/m/n/10.95 The Stored-Pro-ced-ure class. Con-struct-ors, privat
 e 
@@ -2183,7 +2156,7 @@ Package microtype Info: Loading generic settings for font family
 ] [2]
 \openout2 = `Chapters/intro.aux'.
 
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/intro.tex
+(C:\localThesis\Thesis/Chapters/intro.tex
 chapter 1.
 
 Overfull \hbox (6.27455pt too wide) in paragraph at lines 7--8
@@ -2202,7 +2175,7 @@ n the European
 
 
 ] [4]
-Overfull \hbox (4.4686pt too wide) in paragraph at lines 20--21
+Overfull \hbox (4.4686pt too wide) in paragraph at lines 23--24
 []\T1/pplj/m/n/10.95 This defin-i-tion alone re-quires fur-ther ex-plan-a-tion,
  which is provided
  []
@@ -2210,22 +2183,21 @@ Overfull \hbox (4.4686pt too wide) in paragraph at lines 20--21
 <gfx/dragonNames.png, id=721, 168.63pt x 105.39375pt>
 File: gfx/dragonNames.png Graphic file (type png)
 <use gfx/dragonNames.png>
-Package pdftex.def Info: gfx/dragonNames.png used on input line 32.
+Package pdftex.def Info: gfx/dragonNames.png used on input line 35.
 (pdftex.def)             Requested size: 168.62958pt x 105.39348pt.
 <gfx/gameOfThronesDragons.png, id=725, 482.55281pt x 231.11343pt>
 File: gfx/gameOfThronesDragons.png Graphic file (type png)
 <use gfx/gameOfThronesDragons.png>
-Package pdftex.def Info: gfx/gameOfThronesDragons.png used on input line 41.
+Package pdftex.def Info: gfx/gameOfThronesDragons.png used on input line 44.
 (pdftex.def)             Requested size: 336.0pt x 160.9284pt.
 
-Overfull \hbox (9.98643pt too wide) in paragraph at lines 41--42
+Overfull \hbox (9.98643pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-[5 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/dragonNames.png>
-] [6 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/gameOfThronesD
-ragons.png>]
-Overfull \hbox (9.63628pt too wide) in paragraph at lines 63--64
+[5 <c:/localThesis/Thesis/gfx/dragonNames.png>] [6 <c:/localThesis/Thesis/gfx/g
+ameOfThronesDragons.png>]
+Overfull \hbox (9.63628pt too wide) in paragraph at lines 66--67
 []\T1/pplj/m/n/10.95 Chapter six in-vest-ig-ates how mul-tiple data sources can
  be brought
  []
@@ -2233,8 +2205,7 @@ Overfull \hbox (9.63628pt too wide) in paragraph at lines 63--64
 ) [7]
 \openout2 = `Chapters/litreview.aux'.
 
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/litreview.tex 
-[8
+(C:\localThesis\Thesis/Chapters/litreview.tex [8
 
 
 
@@ -2248,26 +2219,27 @@ de mul-timodal
  []
 
 [9]
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 17.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 21.
 (c:/texlivenew/2016/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 17.
+(Font)              scaled to size 7.65005pt on input line 21.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 [][]\T1/pplj/m/n/9 Further in-form-a-tion may be found at: [][]$\T1/fvm/m/n/9 h
 ttp : / / orr . gov . uk / about-[]orr /
  []
 
 [10] [11] [12]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 55.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
+[13]
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 65.
 
 (c:/texlivenew/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2276,86 +2248,103 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[13] [14] <gfx/JofferyTriple.pdf, id=821, 395.22656pt x 106.89937pt>
+[14] <gfx/JofferyTriple.pdf, id=820, 395.22656pt x 106.89937pt>
 File: gfx/JofferyTriple.pdf Graphic file (type pdf)
 <use gfx/JofferyTriple.pdf>
-Package pdftex.def Info: gfx/JofferyTriple.pdf used on input line 81.
+Package pdftex.def Info: gfx/JofferyTriple.pdf used on input line 85.
 (pdftex.def)             Requested size: 336.0pt x 90.88118pt.
-[15] [16 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/JofferyTri
-ple.pdf>]
+[15] [16 <c:/localThesis/Thesis/gfx/JofferyTriple.pdf>] [17]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 107.
-[17] [18] [19] [20] [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+(Font)              scaled to size 9.30756pt on input line 111.
+[18] [19] [20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 [][]\T1/pplj/m/n/9 Available from [][]$\T1/fvm/m/n/9 https : / / www . topquadr
 ant . com / tools /
  []
 
-
-Overfull \hbox (5.10754pt too wide) in paragraph at lines 157--158
+[23]
+Overfull \hbox (5.10754pt too wide) in paragraph at lines 161--162
 []\T1/pplj/m/n/10.95 Performance. How rap-idly op-er-a-tions can be per-formed 
 on given
  []
 
-[23]
-Overfull \hbox (2.0032pt too wide) in paragraph at lines 167--168
+
+Overfull \hbox (2.0032pt too wide) in paragraph at lines 171--172
 []\T1/pplj/m/n/10.95 A ``com-munity edi-tion'' is avail-able for free. Cer-
  []
 
-[24] [25]
-Overfull \hbox (0.3101pt too wide) in paragraph at lines 182--183
+[24]
+Overfull \hbox (3.49799pt too wide) in paragraph at lines 175--176
+\T1/pplj/m/n/10.95 for which a Java vir-tual ma-chine is avail-able. Ad-di-tion
+-ally scripts
+ []
+
+[25]
+Overfull \hbox (0.3101pt too wide) in paragraph at lines 186--187
 []\T1/pplj/m/n/10.95 Many stud-ies have found be-ne-fits to cus-
  []
 
 
-Overfull \hbox (1.6693pt too wide) in paragraph at lines 186--187
-[][]\T1/pplj/m/n/10.95 2015[][]). Con-di-tion mon-it-or-ing of in ser-vice vehi
-cles from the track-
+Overfull \hbox (2.89569pt too wide) in paragraph at lines 190--191
+[][]\T1/pplj/m/n/10.95 2015[][]). Con-di-tion mon-it-or-ing of in-service vehic
+les from the track-
  []
 
 
-Overfull \hbox (0.4836pt too wide) in paragraph at lines 188--189
+Overfull \hbox (0.4836pt too wide) in paragraph at lines 192--193
 []\T1/pplj/m/n/10.95 Two scen-arios
  []
 
 [26] [27]
-Overfull \hbox (12.157pt too wide) in paragraph at lines 199--200
-\T1/pplj/m/n/10.95 cerned with the in-teg-ra-tion of data for freight.Examples 
-in-clude: []Gönczy
+Overfull \hbox (1.63106pt too wide) in paragraph at lines 207--208
+\T1/pplj/m/n/10.95 GTFS is dis-cussed by []San-tos and Mor-eira ([][]2014[][]) 
+and its suc-cess should
+ []
+
+
+Overfull \hbox (6.98781pt too wide) in paragraph at lines 207--208
+\T1/pplj/m/n/10.95 be noted; much pub-lic trans-port in-form-a-tion is now avai
+l-able to Google
  []
 
 [28] [29] [30] [31]
-Underfull \hbox (badness 4582) in paragraph at lines 224--224
+Underfull \hbox (badness 4582) in paragraph at lines 238--238
 [][]\T1/pplj/m/n/9 A pro-mo-tional video for the BBC's work in this area may be
  found
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \T1/pplj/m/n/9 at: [][]$\T1/fvm/m/n/9 http : / / www . bbc . co . uk / academy 
 / technology / software-[]engineering /
  []
 
 
-Overfull \hbox (15.02357pt too wide) in paragraph at lines 224--225
+Overfull \hbox (15.02357pt too wide) in paragraph at lines 238--239
 \T1/pplj/m/n/10.95 The BBC makes use of sev-eral ex-ternal data-stores, most no
 t-able amongst
  []
 
-[32] [33]
-Overfull \hbox (10.48544pt too wide) in paragraph at lines 238--239
+[32]
+Overfull \hbox (4.26277pt too wide) in paragraph at lines 247--248
+\T1/pplj/m/n/10.95 levels of ma-tur-ity, bey-ond that re-por-ted in ([]Mor-ris,
+ Ea-ston and Roberts,
+ []
+
+[33]
+Overfull \hbox (10.48544pt too wide) in paragraph at lines 252--253
 \T1/pplj/m/n/10.95 con-sumers. Ex-ample sources cited by []Zhang et al. ([][]20
 13[][]) are `Wikimapia'
  []
 
 [34] [35]
-Overfull \hbox (0.81204pt too wide) in paragraph at lines 251--252
+Overfull \hbox (0.81204pt too wide) in paragraph at lines 265--266
 \T1/pplj/m/n/10.95 fra-struc-ture up which they run, from the gauge of the whee
 ls, through
  []
 
 
-Overfull \hbox (0.7339pt too wide) in paragraph at lines 254--255
+Overfull \hbox (0.7339pt too wide) in paragraph at lines 268--269
 []\T1/pplj/m/n/10.95 An as-sess-ment of the com-mon data in-ter-change stand-ar
 ds cur-rently
  []
@@ -2366,12 +2355,12 @@ Overfull \hbox (37.96254pt too wide) has occurred while \output is active
  []
 
 [37]
-Overfull \hbox (15.07697pt too wide) in paragraph at lines 263--264
+Overfull \hbox (15.07697pt too wide) in paragraph at lines 277--278
 []\T1/pplj/m/n/10.95 Telematic Ap-
  []
 
 
-Overfull \hbox (1.00838pt too wide) in paragraph at lines 270--271
+Overfull \hbox (1.00838pt too wide) in paragraph at lines 284--285
 \T1/pplj/m/n/10.95 tem (ERTMS). This sys-tem provides a stand-ard in-cab ele-me
 nt, known
  []
@@ -2388,80 +2377,76 @@ Overfull \hbox (37.96254pt too wide) has occurred while \output is active
 
 [41]
 Package epstopdf Info: Source file: <gfx/RacoonLayers.eps>
-(epstopdf)                    date: 2017-09-26 13:44:25
-(epstopdf)                    size: 77437 bytes
+(epstopdf)                    date: 2018-02-22 12:37:38
+(epstopdf)                    size: 78722 bytes
 (epstopdf)             Output file: <gfx/RacoonLayers-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-27 12:33:57
+(epstopdf)                    date: 2018-02-22 12:37:38
 (epstopdf)                    size: 25878 bytes
 (epstopdf)             Command: <repstopdf --outfile=gfx/RacoonLayers-eps-conve
 rted-to.pdf gfx/RacoonLayers.eps>
-(epstopdf)             \includegraphics on input line 311.
+(epstopdf)             \includegraphics on input line 325.
 Package epstopdf Info: Output file is already uptodate.
-<gfx/RacoonLayers-eps-converted-to.pdf, id=1138, 504.88625pt x 571.13374pt>
+<gfx/RacoonLayers-eps-converted-to.pdf, id=1136, 504.88625pt x 571.13374pt>
 File: gfx/RacoonLayers-eps-converted-to.pdf Graphic file (type pdf)
 <use gfx/RacoonLayers-eps-converted-to.pdf>
 Package pdftex.def Info: gfx/RacoonLayers-eps-converted-to.pdf used on input li
-ne 311.
+ne 325.
 (pdftex.def)             Requested size: 201.60205pt x 228.05728pt.
-[42 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/RacoonLayers-ep
-s-converted-to.pdf>]) [43] [44]
+[42 <c:/localThesis/Thesis/gfx/RacoonLayers-eps-converted-to.pdf>]) [43] [44]
 \openout2 = `Chapters/problemstatement.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/problemstateme
-nt.tex [45
-
-
-] [46
-
-
-]
+(C:\localThesis\Thesis/Chapters/problemstatement.tex
 chapter 3.
 
-Overfull \hbox (11.0373pt too wide) in paragraph at lines 4--5
+Overfull \hbox (11.0373pt too wide) in paragraph at lines 3--4
 \T1/pplj/m/n/10.95 Although nu-mer-ous gov-ern-mental and in-dustry re-ports []
 have es-poused
  []
 
-[47] [48] [49] [50]
-Overfull \hbox (0.39603pt too wide) in paragraph at lines 27--28
+[45
+
+
+
+
+] [46] [47] [48]
+Overfull \hbox (0.39603pt too wide) in paragraph at lines 26--27
 \T1/pplj/m/n/10.95 dustry, how can het-ero-gen-eous data-sources be com-bined, 
 where
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 50--50
+Underfull \hbox (badness 6608) in paragraph at lines 49--49
 []|\T1/pplj/m/n/10.95 Given the di-verse in-form-a-tion en-vir-on-ment
  []
 
-) [51] [52]
+) [49] [50]
 \openout2 = `Chapters/cifparser.aux'.
 
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/cifparser.tex
+(C:\localThesis\Thesis/Chapters/cifparser.tex
 chapter 4.
-[53
+[51
 
 
 
 
-] [54] [55] [56]
+] [52] [53] [54]
 Overfull \hbox (1.86172pt too wide) in paragraph at lines 56--57
 \T1/pplj/m/n/10.95 Currently timetables are ex-changed in ``com-mon in-ter-face
  file'' format,
  []
 
-[57]
+[55]
 Overfull \hbox (1.26268pt too wide) in paragraph at lines 69--70
 []\T1/pplj/m/n/10.95 This con-tains header in-form-a-tion per-tain-ing to the
  []
 
-[58]
+[56]
 Overfull \hbox (5.103pt too wide) in paragraph at lines 81--82
 []\T1/pplj/m/n/10.95 These files can be used in con-junc-tion with a ``Mas-ter 
 Sta-tion Names''
  []
 
-[59] [60] <gfx/ItemsWithTIPLOCsResized.pdf, id=1275, 421.10078pt x 298.75392pt>
+[57] [58] <gfx/ItemsWithTIPLOCsResized.pdf, id=1268, 421.10078pt x 298.75392pt>
 File: gfx/ItemsWithTIPLOCsResized.pdf Graphic file (type pdf)
 <use gfx/ItemsWithTIPLOCsResized.pdf>
 Package pdftex.def Info: gfx/ItemsWithTIPLOCsResized.pdf used on input line 95.
@@ -2470,124 +2455,123 @@ Package pdftex.def Info: gfx/ItemsWithTIPLOCsResized.pdf used on input line 95.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61] <gfx/BussinessObjectsCat.pdf, id=1283, 597.50786pt x 845.04686pt>
+[59] <gfx/BussinessObjectsCat.pdf, id=1276, 580.7777pt x 650.01328pt>
 File: gfx/BussinessObjectsCat.pdf Graphic file (type pdf)
 <use gfx/BussinessObjectsCat.pdf>
 Package pdftex.def Info: gfx/BussinessObjectsCat.pdf used on input line 106.
-(pdftex.def)             Requested size: 336.0pt x 475.19586pt.
+(pdftex.def)             Requested size: 336.0pt x 376.06572pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/ItemsWithTIPLOC
-sResized.pdf>] [63 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/
-BussinessObjectsCat.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[60 <c:/localThesis/Thesis/gfx/ItemsWithTIPLOCsResized.pdf>]
+Underfull \hbox (badness 1622) in paragraph at lines 135--135
+[]|\T1/pplj/m/n/10.95 Two Ter-ra-bytes, av-er-age data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 [][]\T1/pplj/m/n/9 Intel Data sheet avail-able from: [][]$\T1/fvm/m/n/9 http : 
 / / ark . intel . com / products / 63698 /
  []
 
-[64] <gfx/cifParsingWorkFlow.pdf, id=2413, 234.26247pt x 704.9433pt>
+[61 <c:/localThesis/Thesis/gfx/BussinessObjectsCat.pdf>] [62] <gfx/cifParsingWo
+rkFlow.pdf, id=2399, 234.26247pt x 704.9433pt>
 File: gfx/cifParsingWorkFlow.pdf Graphic file (type pdf)
 <use gfx/cifParsingWorkFlow.pdf>
-Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 137.
+Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 143.
 (pdftex.def)             Requested size: 234.26189pt x 704.94157pt.
-[65]
+[63]
 Overfull \vbox (39.03127pt too high) has occurred while \output is active []
 
-[66 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/cifParsingWorkF
-low.pdf>] <gfx/cifparseRelevantCorner.png, id=2440, 1049.42062pt x 242.40562pt>
+[64 <c:/localThesis/Thesis/gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCo
+rner.png, id=2426, 1049.42062pt x 242.40562pt>
 File: gfx/cifparseRelevantCorner.png Graphic file (type png)
 <use gfx/cifparseRelevantCorner.png>
-Package pdftex.def Info: gfx/cifparseRelevantCorner.png used on input line 146.
+Package pdftex.def Info: gfx/cifparseRelevantCorner.png used on input line 152.
 
 (pdftex.def)             Requested size: 1049.41806pt x 242.40501pt.
 
-Overfull \hbox (9.98404pt too wide) in paragraph at lines 146--147
+Overfull \hbox (9.98404pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
 
-Overfull \hbox (1.18285pt too wide) in paragraph at lines 156--157
+Overfull \hbox (1.18285pt too wide) in paragraph at lines 162--163
 \T1/pplj/m/n/10.95 could be de-ployed cent-rally in large or-gan-isa-tions and 
 used as needed.
  []
 
-[67 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/cifparseRelevan
-tCorner.png>] <gfx/manToolWelcome.png, id=2447, 1352.05125pt x 511.9125pt>
+[65 <c:/localThesis/Thesis/gfx/cifparseRelevantCorner.png>] <gfx/manToolWelcome
+.png, id=2434, 1352.05125pt x 511.9125pt>
 File: gfx/manToolWelcome.png Graphic file (type png)
 <use gfx/manToolWelcome.png>
-Package pdftex.def Info: gfx/manToolWelcome.png used on input line 161.
+Package pdftex.def Info: gfx/manToolWelcome.png used on input line 167.
 (pdftex.def)             Requested size: 1352.04796pt x 511.91125pt.
-<gfx/manToolLogin.png, id=2448, 751.80875pt x 640.3925pt>
+<gfx/manToolLogin.png, id=2435, 751.80875pt x 640.3925pt>
 File: gfx/manToolLogin.png Graphic file (type png)
 <use gfx/manToolLogin.png>
-Package pdftex.def Info: gfx/manToolLogin.png used on input line 162.
+Package pdftex.def Info: gfx/manToolLogin.png used on input line 168.
 (pdftex.def)             Requested size: 751.8069pt x 640.39093pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 [][]
  []
 
-[68] <gfx/manToolInUse.png, id=2455, 1152.305pt x 313.17pt>
+[66] <gfx/manToolInUse.png, id=2442, 1152.305pt x 313.17pt>
 File: gfx/manToolInUse.png Graphic file (type png)
 <use gfx/manToolInUse.png>
-Package pdftex.def Info: gfx/manToolInUse.png used on input line 176.
+Package pdftex.def Info: gfx/manToolInUse.png used on input line 182.
 (pdftex.def)             Requested size: 1152.30219pt x 313.16922pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[69 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/manToolWelcome.
-png> <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/manToolLogin.p
-ng>] <gfx/manToolAddingItem.png, id=2465, 1155.31625pt x 511.9125pt>
+[67 <c:/localThesis/Thesis/gfx/manToolWelcome.png> <c:/localThesis/Thesis/gfx/m
+anToolLogin.png>] <gfx/manToolAddingItem.png, id=2451, 1155.31625pt x 511.9125p
+t>
 File: gfx/manToolAddingItem.png Graphic file (type png)
 <use gfx/manToolAddingItem.png>
-Package pdftex.def Info: gfx/manToolAddingItem.png used on input line 185.
+Package pdftex.def Info: gfx/manToolAddingItem.png used on input line 191.
 (pdftex.def)             Requested size: 1155.31345pt x 511.91125pt.
-<gfx/addItemDetail.png, id=2466, 1156.32pt x 740.7675pt>
+<gfx/addItemDetail.png, id=2452, 1156.32pt x 740.7675pt>
 File: gfx/addItemDetail.png Graphic file (type png)
 <use gfx/addItemDetail.png>
-Package pdftex.def Info: gfx/addItemDetail.png used on input line 192.
+Package pdftex.def Info: gfx/addItemDetail.png used on input line 198.
 (pdftex.def)             Requested size: 1156.31718pt x 740.76569pt.
-[70 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/manToolInUse.pn
-g> <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/manToolAddingIte
-m.png> <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/addItemDetai
-l.png>] <gfx/scheduleProcessing.pdf, id=2475, 844.71585pt x 597.6729pt>
+[68 <c:/localThesis/Thesis/gfx/manToolInUse.png> <c:/localThesis/Thesis/gfx/man
+ToolAddingItem.png> <c:/localThesis/Thesis/gfx/addItemDetail.png>] <gfx/schedul
+eProcessing.pdf, id=2461, 844.71585pt x 597.6729pt>
 File: gfx/scheduleProcessing.pdf Graphic file (type pdf)
 <use gfx/scheduleProcessing.pdf>
-Package pdftex.def Info: gfx/scheduleProcessing.pdf used on input line 209.
+Package pdftex.def Info: gfx/scheduleProcessing.pdf used on input line 215.
 (pdftex.def)             Requested size: 336.0pt x 237.73343pt.
-[71]
-Overfull \hbox (0.14406pt too wide) in paragraph at lines 226--227
+[69]
+Overfull \hbox (0.14406pt too wide) in paragraph at lines 232--233
 \T1/pplj/m/n/10.95 dustry, how can het-ero-gen-eous data-sources be com-bined, 
 where there
  []
 
-[72 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/scheduleProcess
-ing.pdf>]) [73]
+[70 <c:/localThesis/Thesis/gfx/scheduleProcessing.pdf>]) [71]
 \openout2 = `Chapters/Middleware.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/Middleware.tex
-[74
+(C:\localThesis\Thesis/Chapters/Middleware.tex [72
 
 
 
 
 ]
 chapter 5.
-[75] [76] [77] <gfx/Middleware_role.pdf, id=2517, 420.2392pt x 246.39517pt>
+[73] [74] [75] <gfx/Middleware_role.pdf, id=2504, 420.2392pt x 246.39517pt>
 File: gfx/Middleware_role.pdf Graphic file (type pdf)
 <use gfx/Middleware_role.pdf>
 Package pdftex.def Info: gfx/Middleware_role.pdf used on input line 29.
 (pdftex.def)             Requested size: 336.0pt x 197.01112pt.
-[78 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Middleware_role
-.pdf>] [79] [80] [81] [82] [83] <gfx/MiddlewareHighLevel.pdf, id=2721, 597.5078
-6pt x 421.10078pt>
+[76 <c:/localThesis/Thesis/gfx/Middleware_role.pdf>] [77] [78] [79] [80] [81] <
+gfx/MiddlewareHighLevel.pdf, id=2708, 597.50786pt x 421.10078pt>
 File: gfx/MiddlewareHighLevel.pdf Graphic file (type pdf)
 <use gfx/MiddlewareHighLevel.pdf>
 Package pdftex.def Info: gfx/MiddlewareHighLevel.pdf used on input line 123.
 (pdftex.def)             Requested size: 336.0pt x 236.79791pt.
-[84]
+[82]
 Overfull \hbox (28.84337pt too wide) in paragraph at lines 132--133
 \T1/pplj/m/n/10.95 the web-ser-vice ex-tend a simple base class en-titled ``\T1
 /fvm/m/n/10.95 SimpleRacoonResponse\T1/pplj/m/n/10.95 '',
@@ -2598,21 +2582,20 @@ Overfull \hbox (4.9271pt too wide) in paragraph at lines 134--135
 []\T1/pplj/m/n/10.95 A Boolean value in-dic-at-ing if the token provided
  []
 
-[85 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/MiddlewareHighL
-evel.pdf>]
-<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2747, 469.69637pt x 134.3654
+[83 <c:/localThesis/Thesis/gfx/MiddlewareHighLevel.pdf>]
+<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2734, 469.69637pt x 134.3654
 5pt>
 File: gfx/MiddlewareServicesClassesResponseOnly.pdf Graphic file (type pdf)
 <use gfx/MiddlewareServicesClassesResponseOnly.pdf>
 Package pdftex.def Info: gfx/MiddlewareServicesClassesResponseOnly.pdf used on 
 input line 143.
 (pdftex.def)             Requested size: 597.50793pt x 170.92924pt.
-<gfx/Res.pdf, id=2748, 310.56255pt x 182.13725pt>
+<gfx/Res.pdf, id=2735, 310.56255pt x 182.13725pt>
 File: gfx/Res.pdf Graphic file (type pdf)
 <use gfx/Res.pdf>
 Package pdftex.def Info: gfx/Res.pdf used on input line 150.
 (pdftex.def)             Requested size: 336.0pt x 197.07492pt.
-<gfx/RacoonServices.pdf, id=2749, 519.87952pt x 167.081pt>
+<gfx/RacoonServices.pdf, id=2736, 519.87952pt x 167.081pt>
 File: gfx/RacoonServices.pdf Graphic file (type pdf)
 <use gfx/RacoonServices.pdf>
 Package pdftex.def Info: gfx/RacoonServices.pdf used on input line 157.
@@ -2623,27 +2606,25 @@ Overfull \hbox (26.02827pt too wide) in paragraph at lines 162--163
 e (the triplestore),
  []
 
-[86] [87 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Middleware
-ServicesClassesResponseOnly.pdf>] (c:/texlivenew/2016/texmf-dist/tex/latex/list
-ings/lstlang1.sty
+[84] [85 <c:/localThesis/Thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf>]
+(c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 164.
-[88 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Res.pdf>] [89 <
-c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/RacoonServices.pdf>]
-[90] [91] [92] [93]
+[86 <c:/localThesis/Thesis/gfx/Res.pdf>] [87 <c:/localThesis/Thesis/gfx/RacoonS
+ervices.pdf>] [88] [89] [90] [91]
 Overfull \hbox (4.35677pt too wide) in paragraph at lines 228--229
 []\T1/pplj/m/n/10.95 Whilst it is pos-sible to cre-ate stored
  []
 
-[94]
+[92]
 Overfull \hbox (2.30434pt too wide) in paragraph at lines 230--231
 \T1/pplj/m/n/10.95 pur-poses. In large pro-jects it is pos-sible some-thing sim
 -ilar would
  []
 
-<gfx/MiddlewareAurthentication.pdf, id=3860, 334.24875pt x 682.80093pt>
+<gfx/MiddlewareAurthentication.pdf, id=3846, 334.24875pt x 682.80093pt>
 File: gfx/MiddlewareAurthentication.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthentication.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
@@ -2653,26 +2634,23 @@ Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
 LaTeX Warning: Float too large for page by 42.38539pt on input line 245.
 
 
-<gfx/MiddlewareAurthenticationWithToken.pdf, id=3862, 354.5248pt x 326.5265pt>
+<gfx/MiddlewareAurthenticationWithToken.pdf, id=3848, 354.5248pt x 326.5265pt>
 File: gfx/MiddlewareAurthenticationWithToken.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthenticationWithToken.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthenticationWithToken.pdf used on inp
 ut line 251.
 (pdftex.def)             Requested size: 336.0pt x 309.48096pt.
-[95] [96 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Middleware
-Aurthentication.pdf>] [97 <c:/Users/cxm210/OneDrive/Documents/The One True Thes
-is/gfx/MiddlewareAurthenticationWithToken.pdf>] [98])
+[93] [94 <c:/localThesis/Thesis/gfx/MiddlewareAurthentication.pdf>] [95 <c:/loc
+alThesis/Thesis/gfx/MiddlewareAurthenticationWithToken.pdf>] [96])
 Overfull \hbox (2.13692pt too wide) in paragraph at lines 283--104
 \T1/pplj/m/n/10.95 within the ex-ist-ing frame-work, how-ever, none of the pro-
 jects for which
  []
 
-[99]
+[97]
 \openout2 = `Chapters/CompassChapter.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/CompassChapter
-.tex [100
+(C:\localThesis\Thesis/Chapters/CompassChapter.tex [98
 
 
 
@@ -2685,25 +2663,25 @@ Overfull \hbox (1.49397pt too wide) in paragraph at lines 5--6
 ys. Every week
  []
 
-[101]
+[99]
 Overfull \hbox (3.76822pt too wide) in paragraph at lines 14--15
 []\T1/lmss/m/n/10.95 [Network Rail] be-lieve the COM-PASS solu-tion can re-duce
  delays
  []
 
-[102]
+[100]
 Overfull \hbox (10.65463pt too wide) in paragraph at lines 22--23
 []\T1/pplj/m/n/10.95 The demon-stra-tion scen-ario as-sumed new equip-ment coul
 d be placed
  []
 
-[103] [104] [105]
+[101] [102] [103]
 Overfull \hbox (7.6214pt too wide) in paragraph at lines 53--54
 []\T1/pplj/m/n/10.95 The qui-es-cent state demon-strator mon-it-ors vehicle mov
 e-ments across
  []
 
-[106]
+[104]
 Overfull \hbox (0.64627pt too wide) in paragraph at lines 60--61
 \T1/pplj/m/n/10.95 cap-able of per-form-ing the demon-stra-tions out-lined in [
 ][]sub-sec-tion 6.2.1[][][].
@@ -2715,12 +2693,12 @@ Overfull \hbox (11.35686pt too wide) in paragraph at lines 60--61
 trol centre, known
  []
 
-<gfx/FullSystem.pdf, id=3972, 473.29999pt x 730.80823pt>
+<gfx/FullSystem.pdf, id=3958, 473.29999pt x 730.80823pt>
 File: gfx/FullSystem.pdf Graphic file (type pdf)
 <use gfx/FullSystem.pdf>
 Package pdftex.def Info: gfx/FullSystem.pdf used on input line 64.
 (pdftex.def)             Requested size: 473.29883pt x 730.80643pt.
-[107]
+[105]
 Overfull \hbox (5.28912pt too wide) in paragraph at lines 69--70
 []\T1/pplj/m/n/10.95 The pur-pose of each sub-system is de-scribed in [][]sub-s
 ub-sec-tion 6.2.2.1[][][]. 
@@ -2731,21 +2709,19 @@ Overfull \hbox (8.16504pt too wide) in paragraph at lines 76--77
 []\T1/pplj/m/n/10.95 Virtual Line-side Sig-nalling, which handles com-
  []
 
-[108 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/FullSystem.pdf
->]
+[106 <c:/localThesis/Thesis/gfx/FullSystem.pdf>]
 Overfull \hbox (14.3165pt too wide) in paragraph at lines 77--78
 []\T1/pplj/m/n/10.95 This com-pon-ent acts a cent-
  []
 
-[109] <gfx/Dataflow-StirDemoActive.pdf, id=3993, 464.82452pt x 730.80823pt>
+[107] <gfx/Dataflow-StirDemoActive.pdf, id=3980, 464.82452pt x 730.80823pt>
 File: gfx/Dataflow-StirDemoActive.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirDemoActive.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirDemoActive.pdf used on input line 95.
 
 (pdftex.def)             Requested size: 464.82338pt x 730.80643pt.
-[110] [111 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Dataflow
--StirDemoActive.pdf>] <gfx/DataflowStirAllOptionsDemo.pdf, id=4022, 547.2947pt 
-x 389.95688pt>
+[108] [109 <c:/localThesis/Thesis/gfx/Dataflow-StirDemoActive.pdf>] <gfx/Datafl
+owStirAllOptionsDemo.pdf, id=4008, 547.2947pt x 389.95688pt>
 File: gfx/DataflowStirAllOptionsDemo.pdf Graphic file (type pdf)
 <use gfx/DataflowStirAllOptionsDemo.pdf>
 Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line 
@@ -2754,8 +2730,7 @@ Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[112] [113 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Dataflow
-StirAllOptionsDemo.pdf>] [114]
+[110] [111 <c:/localThesis/Thesis/gfx/DataflowStirAllOptionsDemo.pdf>] [112]
 Overfull \hbox (2.14565pt too wide) in paragraph at lines 141--142
 []\T1/pplj/m/n/10.95 It is in in-ten-ded that when this pro-ject is im-ple-men-
 ted GPS provides
@@ -2767,7 +2742,7 @@ Overfull \hbox (10.91656pt too wide) in paragraph at lines 150--151
 e (LDL) format.
  []
 
-[115]
+[113]
 Overfull \hbox (7.10039pt too wide) in paragraph at lines 156--157
 []\T1/pplj/m/n/10.95 This data feed gives de-tails of trains
  []
@@ -2783,12 +2758,12 @@ Overfull \hbox (4.03514pt too wide) in paragraph at lines 165--166
  by sub-type. Nodes
  []
 
-[116] [117] <gfx/DemoOneBRAVE.png, id=4086, 2886.28313pt x 1594.45688pt>
+[114] [115] <gfx/DemoOneBRAVE.png, id=4072, 2886.28313pt x 1594.45688pt>
 File: gfx/DemoOneBRAVE.png Graphic file (type png)
 <use gfx/DemoOneBRAVE.png>
 Package pdftex.def Info: gfx/DemoOneBRAVE.png used on input line 177.
 (pdftex.def)             Requested size: 597.50793pt x 330.07726pt.
-<gfx/DemoOneScreenShot.png, id=4089, 1263.21938pt x 755.82375pt>
+<gfx/DemoOneScreenShot.png, id=4075, 1263.21938pt x 755.82375pt>
 File: gfx/DemoOneScreenShot.png Graphic file (type png)
 <use gfx/DemoOneScreenShot.png>
 Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 184.
@@ -2796,8 +2771,7 @@ Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 184.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[118] [119 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/DemoOneB
-RAVE.png>]
+[116] [117 <c:/localThesis/Thesis/gfx/DemoOneBRAVE.png>]
 LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10> not available
 (Font)              Font shape `T1/fvm/b/n' tried instead on input line 204.
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
@@ -2805,32 +2779,30 @@ LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[120 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/DemoOneScreenS
-hot.png>]
+[118 <c:/localThesis/Thesis/gfx/DemoOneScreenShot.png>]
 Overfull \hbox (2.12532pt too wide) in paragraph at lines 222--223
 \T1/pplj/m/n/10.95 ario, as much of the sys-tem is ded-ic-ated to man-aging the
  train through
  []
 
-<gfx/Dataflow-StirPassiveDemo.pdf, id=4111, 477.86911pt x 729.67902pt>
+<gfx/Dataflow-StirPassiveDemo.pdf, id=4098, 477.86911pt x 729.67902pt>
 File: gfx/Dataflow-StirPassiveDemo.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirPassiveDemo.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirPassiveDemo.pdf used on input line 22
 6.
 (pdftex.def)             Requested size: 477.86795pt x 729.67723pt.
-[121]
+[119]
 Overfull \hbox (1.28085pt too wide) in paragraph at lines 236--237
 []\T1/pplj/m/n/10.95 This was com-piled as a DLL and used
  []
 
-[122 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/Dataflow-StirP
-assiveDemo.pdf>]
+[120 <c:/localThesis/Thesis/gfx/Dataflow-StirPassiveDemo.pdf>]
 Overfull \hbox (4.39125pt too wide) in paragraph at lines 246--247
 []\T1/pplj/m/n/10.95 The mid-dle-ware con-nectiv-ity mod-ule ab-stracts the on-
 to-logy cent-
  []
 
-[123]
+[121]
 Overfull \hbox (15.92241pt too wide) in paragraph at lines 249--250
 \T1/pplj/m/n/10.95 the train de-scriber web-ser-vice, which is im-ple-men-ted a
 s a singleton.
@@ -2842,53 +2814,50 @@ Overfull \hbox (1.43228pt too wide) in paragraph at lines 249--250
 /stomp-client-dotnet), which
  []
 
-[124]
+[122]
 Overfull \hbox (71.43237pt too wide) in paragraph at lines 251--252
 \T1/pplj/m/n/10.95 them to the view as prop-er-ties and im-ple-ment-ing the \T1
 /fvm/m/n/10.95 INotifyPropertyChanged
  []
 
-[125] [126] <gfx/DemoTwo_StageOne.pdf, id=4177, 336.87486pt x 676.55243pt>
+[123] [124] <gfx/DemoTwo_StageOne.pdf, id=4164, 336.87486pt x 676.55243pt>
 File: gfx/DemoTwo_StageOne.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageOne.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 285.
 (pdftex.def)             Requested size: 336.87402pt x 676.55077pt.
-[127]
+[125]
 Overfull \vbox (22.04324pt too high) has occurred while \output is active []
 
-[128 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/DemoTwo_StageO
-ne.pdf>] <gfx/DemoTwo_StageTwo.pdf, id=4189, 395.94376pt x 676.55243pt>
+[126 <c:/localThesis/Thesis/gfx/DemoTwo_StageOne.pdf>] <gfx/DemoTwo_StageTwo.pd
+f, id=4176, 395.94376pt x 676.55243pt>
 File: gfx/DemoTwo_StageTwo.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageTwo.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 292.
 (pdftex.def)             Requested size: 395.94278pt x 676.55077pt.
-<gfx/DemoTwo_StageThree.pdf, id=4190, 345.75368pt x 677.0747pt>
+<gfx/DemoTwo_StageThree.pdf, id=4177, 345.75368pt x 677.0747pt>
 File: gfx/DemoTwo_StageThree.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageThree.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 299.
 (pdftex.def)             Requested size: 345.75282pt x 677.07304pt.
-[129 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/DemoTwo_StageT
-wo.pdf>]
+[127 <c:/localThesis/Thesis/gfx/DemoTwo_StageTwo.pdf>]
 Overfull \vbox (13.93008pt too high) has occurred while \output is active []
 
-[130 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/DemoTwo_StageT
-hree.pdf>] <gfx/RS232Bus.pdf, id=4206, 540.51938pt x 375.65344pt>
+[128 <c:/localThesis/Thesis/gfx/DemoTwo_StageThree.pdf>] <gfx/RS232Bus.pdf, id=
+4192, 540.51938pt x 375.65344pt>
 File: gfx/RS232Bus.pdf Graphic file (type pdf)
 <use gfx/RS232Bus.pdf>
 Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 312.
 (pdftex.def)             Requested size: 336.0pt x 233.52177pt.
-[131 <c:/Users/cxm210/OneDrive/Documents/The One True Thesis/gfx/RS232Bus.pdf>]
-[132] [133] [134]
+[129 <c:/localThesis/Thesis/gfx/RS232Bus.pdf>] [130] [131] [132]
 Overfull \hbox (2.08226pt too wide) in paragraph at lines 348--349
 \T1/pplj/m/n/10.95 The mid-dle-ware was used in this pro-ject, in part, to re-d
 uce the amount
  []
 
-[135]) [136] [137]
+[133]) [134] [135]
 \openout2 = `Chapters/conclu.aux'.
 
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/conclu.tex [13
-8
+(C:\localThesis\Thesis/Chapters/conclu.tex [136
 
 
 
@@ -2901,13 +2870,13 @@ Overfull \hbox (0.39603pt too wide) in paragraph at lines 13--14
 where
  []
 
-[139]
+[137]
 Overfull \hbox (2.00487pt too wide) in paragraph at lines 24--25
 \T1/pplj/m/n/10.95 Excluding data held in re-la-tional data-bases, many rail-wa
 y data-sources
  []
 
-[140] [141] [142] [143]) [144] [145
+[138] [139] [140] [141]) [142] [143
 
 
 
@@ -2915,46 +2884,42 @@ y data-sources
 
 
 
-] [146]
+] [144]
 \openout2 = `Chapters/Chapter0A.aux'.
 
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/Chapter0A.tex
+(C:\localThesis\Thesis/Chapters/Chapter0A.tex
 chapter A.
-[147
+[145
 
 
 
-] [148
+] [146
 
-] [149] [150] [151] [152])
+] [147] [148] [149] [150])
 \openout2 = `Chapters/storedProcListingApend.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/storedProcList
-ingApend.tex
+(C:\localThesis\Thesis/Chapters/storedProcListingApend.tex
 chapter B.
-[153
+[151
 
 
 
 
 
-] [154]) [155] [156
+] [152]) [153] [154
 
 
 
 ]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
-
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Bibliog
-raphy.tex)
+(C:\localThesis\Thesis/FrontBackmatter/Bibliography.tex)
 Overfull \hbox (27.44772pt too wide) in paragraph at lines 129--129
 [][]\T1/pplj/m/n/10.95 Bergquist, Bjarne and Peter Söder-holm (2014). `  Data A
 na-lysis for Condition-
  []
 
-[157
+[155
 
 
 
@@ -2964,7 +2929,7 @@ Overfull \hbox (7.965pt too wide) in paragraph at lines 129--129
 0.95 : [][]$\T1/fvm/m/n/10.95 http : / / www . dft . gov . uk / publications /
  []
 
-[158]
+[156]
 Overfull \hbox (3.975pt too wide) in paragraph at lines 129--129
 \T1/pplj/m/it/10.95 Object-Oriented Soft-ware\T1/pplj/m/n/10.95 , p. 334. \T1/p
 plj/m/sc/10.95 isbn\T1/pplj/m/n/10.95 : 9780201715941. \T1/pplj/m/sc/10.95 doi\
@@ -2983,13 +2948,13 @@ Overfull \hbox (2.79216pt too wide) in paragraph at lines 129--129
 il: In-form-a-tion Tech-
  []
 
-[159]
+[157]
 Overfull \hbox (13.43857pt too wide) in paragraph at lines 129--129
 \T1/pplj/m/n/10.95 Ex-pressiv-ity Re-quire-ments'. In: \T1/pplj/m/it/10.95 Work
 -shop on On-to-logy Pat-terns (WOP)
  []
 
-[160]
+[158]
 Overfull \hbox (4.16144pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 0153 -[] x$[][]\T1/pplj/m/n/10.95 . \T1/pplj/m/sc/10.95 url\T
 1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / www . ncbi . nlm . nih . g
@@ -3002,7 +2967,7 @@ Overfull \hbox (8.39468pt too wide) in paragraph at lines 129--129
 rt-a-tion Net-works'.
  []
 
-[161]
+[159]
 Overfull \hbox (14.45319pt too wide) in paragraph at lines 129--129
 [][]\T1/pplj/m/n/10.95 Martin, Robert C (2003). \T1/pplj/m/it/10.95 The Prin-ci
 ples of OOD\T1/pplj/m/n/10.95 . \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][
@@ -3015,7 +2980,7 @@ Overfull \hbox (8.82082pt too wide) in paragraph at lines 129--129
 /10.95 (vis-ited on 01/09/2017). 
  []
 
-[162]
+[160]
 Overfull \hbox (3.2626pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 sectors / information -[] communications / topics / connected
  -[] data /
@@ -3028,13 +2993,13 @@ lj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / www . a
 toc . org / clientfiles /
  []
 
-[163]
+[161]
 Overfull \hbox (30.99913pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 www . fhv . at / media / pdf / forschung / prozess -[] und -[
 ] produktengineering /
  []
 
-[164]
+[162]
 Overfull \hbox (19.62946pt too wide) in paragraph at lines 129--129
 [][]\T1/pplj/m/n/10.95 Rødseth, Ørnulf Jan (2011). `  A Mari-time ITS Ar-chi-te
 c-ture for e-Navigation
@@ -3046,7 +3011,7 @@ Overfull \hbox (7.6499pt too wide) in paragraph at lines 129--129
 SIG-MOD Re-cord \T1/pplj/m/n/10.95 20.4, pp. 77^^U
  []
 
-[165]
+[163]
 Overfull \hbox (0.81503pt too wide) in paragraph at lines 129--129
 [][]\T1/pplj/m/n/10.95 Technical Strategy Lead-er-ship Group (2012). \T1/pplj/m
 /it/10.95 THE IN-DUSTRY ' S RAIL
@@ -3070,7 +3035,7 @@ Overfull \hbox (49.88937pt too wide) in paragraph at lines 129--129
 CRR2011Paperfinalv05 .
  []
 
-[166]
+[164]
 Overfull \hbox (0.57794pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 downloadFile{\ & }recordOId = 1268227{\ & }fileOId = 2952548h
 ttp :
@@ -3095,35 +3060,20 @@ Overfull \hbox (3.67555pt too wide) in paragraph at lines 129--129
 5 2015-Octob, pp. 2665^^U2670. \T1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 :
  []
 
-[167] [168]
+[165] [166]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outter.aux
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Titlepa
-ge.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Titleba
-ck.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Abstrac
-t.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Acknowl
-edgments.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Content
-s.aux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/intro.a
-ux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/litreview.
-aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/problemstateme
-nt.aux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/cifpar
-ser.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/Middleware.aux
-)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/CompassChapter
-.aux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/conclu.a
-ux) (C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/Chapter0A.
-aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/Chapters/storedProcList
-ingApend.aux)
-(C:\Users\cxm210\OneDrive\Documents\The One True Thesis/FrontBackmatter/Bibliog
-raphy.aux))
+(C:\localThesis\Thesis/outter.aux (C:\localThesis\Thesis/FrontBackmatter/Titlep
+age.aux) (C:\localThesis\Thesis/FrontBackmatter/Titleback.aux) (C:\localThesis\
+Thesis/FrontBackmatter/Abstract.aux) (C:\localThesis\Thesis/FrontBackmatter/Ack
+nowledgments.aux) (C:\localThesis\Thesis/FrontBackmatter/Contents.aux) (C:\loca
+lThesis\Thesis/Chapters/intro.aux) (C:\localThesis\Thesis/Chapters/litreview.au
+x) (C:\localThesis\Thesis/Chapters/problemstatement.aux) (C:\localThesis\Thesis
+/Chapters/cifparser.aux) (C:\localThesis\Thesis/Chapters/Middleware.aux) (C:\lo
+calThesis\Thesis/Chapters/CompassChapter.aux) (C:\localThesis\Thesis/Chapters/c
+onclu.aux) (C:\localThesis\Thesis/Chapters/Chapter0A.aux) (C:\localThesis\Thesi
+s/Chapters/storedProcListingApend.aux) (C:\localThesis\Thesis/FrontBackmatter/B
+ibliography.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
 
  *File List*
@@ -3376,13 +3326,13 @@ Package logreq Info: Writing requests to 'outter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36592 strings out of 493013
- 669990 string characters out of 6135616
+ 36589 strings out of 493013
+ 665988 string characters out of 6135616
  1271989 words of memory out of 5000000
- 38831 multiletter control sequences out of 15000+600000
+ 38830 multiletter control sequences out of 15000+600000
  84482 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,23n,122p,10565b,3582s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,23n,122p,10530b,3582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlivenew/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlivenew/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlivenew/2016/texmf-dist/fonts
 /enc/dvips/lm/lm-ec.enc}<c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfo
@@ -3398,11 +3348,11 @@ lic/lm/lmss10.pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/public/lm/lmsso10.
 pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texl
 ivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlivenew/2016/
 texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "C:\Users\cxm210\OneDrive\Documents\The One True Thesis/outte
-r.pdf" (184 pages, 11225310 bytes).
+Output written on C:\localThesis\Thesis/outter.pdf (182 pages, 11554708 bytes).
+
 PDF statistics:
- 4794 PDF objects out of 5155 (max. 8388607)
- 3487 compressed objects within 35 object streams
- 589 named destinations out of 1000 (max. 500000)
+ 4781 PDF objects out of 5155 (max. 8388607)
+ 3478 compressed objects within 35 object streams
+ 587 named destinations out of 1000 (max. 500000)
  20404 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -1,11 +1,12 @@
-PWD C:/Users/cxm210/OneDrive/Documents/The One True Thesis/Chapters
+PWD C:/localThesis/Thesis/Chapters
 INPUT c:/texlivenew/2016/texmf.cnf
 INPUT c:/texlivenew/2016/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlivenew/2016/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/cxm210/OneDrive/Documents/The One True Thesis/Chapters/cifparser.tex
-OUTPUT C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/cifparser.log
-OUTPUT C:\Users\cxm210\OneDrive\Documents\The One True Thesis\Chapters/cifparser.pdf
+INPUT c:/localThesis/Thesis/Chapters/cifparser.tex
+OUTPUT C:\localThesis\Thesis\Chapters/cifparser.log
+OUTPUT C:\localThesis\Thesis\Chapters/cifparser.pdf
 INPUT c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlivenew/2016/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm

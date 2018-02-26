@@ -34,11 +34,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 18066 items from 5000.
 Database file #1: outter-blx.bib
 Database file #2: library.bib
-Repeated entry---line 1099 of file library.bib
+Repeated entry---line 635 of file library.bib
  : @inproceedings{Morris2016
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1539 of file library.bib
+Repeated entry---line 2003 of file library.bib
  : @article{Tutcher2015
  :                     ,
 I'm skipping whatever remains of this entry
@@ -48,37 +48,37 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 94 entries,
             6256 wiz_defined-function locations,
-            2009 strings with 77708 characters,
-and the built_in function-call counts, 575519 in all, are:
+            2008 strings with 77700 characters,
+and the built_in function-call counts, 575497 in all, are:
 = -- 38081
 > -- 12048
 < -- 2823
 + -- 15365
 - -- 6056
-* -- 45100
+* -- 45093
 := -- 58888
 add.period$ -- 0
 call.type$ -- 94
 change.case$ -- 93
 chr.to.int$ -- 198
 cite$ -- 186
-duplicate$ -- 62471
-empty$ -- 53938
+duplicate$ -- 62468
+empty$ -- 53935
 format.name$ -- 6784
-if$ -- 115726
+if$ -- 115723
 int.to.chr$ -- 0
 int.to.str$ -- 239
 missing$ -- 0
-newline$ -- 4043
+newline$ -- 4042
 num.names$ -- 4247
-pop$ -- 32198
+pop$ -- 32200
 preamble$ -- 1
 purify$ -- 1887
 quote$ -- 0
 skip$ -- 17381
 stack$ -- 0
 substring$ -- 64190
-swap$ -- 16408
+swap$ -- 16402
 text.length$ -- 2662
 text.prefix$ -- 99
 top$ -- 1
@@ -86,5 +86,5 @@ type$ -- 3153
 warning$ -- 0
 while$ -- 7209
 width$ -- 0
-write$ -- 3950
+write$ -- 3949
 (There were 2 error messages)

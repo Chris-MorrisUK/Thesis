@@ -2,22 +2,22 @@
 \chapter{Schedule Processing Tool}\label{ch:cifparser}
  %************************************************
  \section{Introduction}
-This chapter describes a techniques for working with data not currently held in a form suitable for integration, but rather held, as much rail industry data is, in a various single purpose formats. Methods for constructing tools to make that transition will be discussed and examples of such tools presented, alongside a discussion of when it appropriate to build custom tools and when third party tools are appropriate. 
+This chapter describes techniques for working with data not currently held in a form suitable for integration, but rather held, as much rail industry data is, in various single purpose formats. Methods for constructing tools to make that transition will be discussed and examples of such tools presented, alongside a discussion of when it is appropriate to build custom tools and when third party tools are appropriate. 
 
 While ontology based systems operate on data stored as triples, it is uncommon for rail industry data to be natively stored in this form. As such tools must be provided to convert or map this data into triple based format before it can be used with ontologies. 
 
-In the rail industry, as with most industries, much of the data currently collected and in use resides in large relational databases. Where this is the case, R2RML tools can be used to allow access to the data in a linked format. Other data sources, however exist in a range of single purpose formates developed as needed over time. An example of a typical industry datasource, requiring conversion is timetable information. This is required by many different stake holders, thus the benefits of it's being available in a linked format will be felt by a large number of different groups such as customers for journey planning, also within the rail domain it is also needed for timetable planning, train identification, crew rostering, and maintenance planning amongst other tasks. The obstacles to this transition, posed by the dated and industry specific data format as well as the volume of data are representative of the challenges that will be faced moving to ontology based systems. 
+In the rail industry, as with most industries, much of the data currently collected and in use resides in large relational databases. Where this is the case, R2RML tools can be used to allow access to the data in a linked format. Other data sources, however exist in a range of single purpose formats developed as needed over time. An example of a typical industry datasource, requiring conversion is timetable information. This is required by many different stake holders, thus the benefits of it being available in a linked format will be felt by a large number of different groups such as customers for journey planning, also within the rail domain it is needed for timetable planning, train identification, crew rostering, and maintenance planning amongst other tasks. The obstacles to this transition, posed by the dated and industry specific data format as well as the volume of data are representative of the challenges that will be faced moving to ontology based systems. 
 
 \section{Transition to Linked Data}
 The transition from the existing heterogeneous systems to a more integrated solution has two parts; firstly the domain must be modelled, then tools must be designed and implemented to convert the existing data to a format which can be integrated. As discussed in \autoref{ch:litreview} ontology data is considered in two parts: the \say{model}, which is known as the TBox and contains the schema information and the data itself, which is known as the ABox. 
 
-The modelling problem is being considered by numerous other studies of which the most pertinent to this work was modelling of the broader domain as part of the work reported by \citet{Tutcher2015}.  Modelling a domain requires knowledge of both ontology modelled and the domain in question, as such it can be an obstetrical to transition. This challenge continues to require skilled personnel, however as more of the domain is modelled less will need modelling when new data sources are encountered. 
+The modelling problem is being considered by numerous other studies of which the most pertinent to this work was modelling of the broader domain as part of the work reported by \citet{Tutcher2015}.  Modelling a domain requires knowledge of both ontology modelled and the domain in question, as such it can be an obstacle to transition. This challenge continues to require skilled personnel, however as more of the domain is modelled less will need modelling when new data sources are encountered. 
 
 \subsection{Extending the ontology}
 \label{sec:addingtripples}
-It order as to make new datasources available as linked data it is necessary that all the concepts represented by that datasource also be held in the ontology providing the model of the domain. Where the domain ontology lacks concepts which represent the data held, it is necessary to extend the domain ontology. When this is done, it is imperative not to recreate URIs for items already in the ontology, as such the following simple steps are taken:
+In order as to make new datasources available as linked data it is necessary that all the concepts represented by that datasource also be held in the ontology providing the model of the domain. Where the domain ontology lacks concepts which represent the data held, it is necessary to extend the domain ontology. When this is done, it is imperative not to recreate URIs for items already in the ontology, as such the following simple steps are taken:
  \begin{itemize}
-	\item Search the Tbox for URIs containing the name of the property or object under consideration;
+	\item Search the Tbox for URI containing the name of the property or object under consideration;
 	\item Search the Tbox for URIs with labels containing the name of the property or object under consideration;
 	\item Repeat the above for any common synonyms.
 \end{itemize}
@@ -32,7 +32,7 @@ An automated tool is required to parse the A-box data in the following circumsta
 
  \begin{itemize}
  	\item The data has some value;
-	\item The data is not held in a relation format; as such automated mapping tools can not be employed;
+	\item The data is not held in a relational format; as such automated mapping tools can not be employed;
 	\item The data cannot be converted using existing tools, such as OpenRefine\footnote{OpenRefine, formerly Google refine, is a very powerful open source tool which can take data in a wide variety of formats, perform simple processing and output it again in a number of formats, including RDF. More details can be found at: \url{http://openrefine.org/}};
 	\item Manual entry is prohibitively slow due to either the volume or velocity of data received.
 \end{itemize}
@@ -49,7 +49,7 @@ Station location data is also useful in the multi-modal domain. This information
 
 \section{Data to be imported}
 
-The source of railway data to represent in a linked format was selected as representative of many in the rail domain that will need to be converted. Additionally since this datasource is used through out the domain it's conversion will bring immediate benefits, as is demonstrated by the use of this tool and datasource as part of the demonstrator discussed in \autoref{ch:COMPASS}. 
+Common Infterfaces Files were selected as the source of railway data to represent in a linked format since they are representative of many formats in the rail domain that will need to be converted. Additionally since this datasource is used through out the domain its conversion will bring immediate benefits, as is demonstrated by the use of this tool and datasource as part of the demonstrator discussed in \autoref{ch:COMPASS}. 
 
 \subsection{Legacy Resource Format}
 \label{sec:datatoimport}
@@ -58,11 +58,11 @@ Currently timetables are exchanged in \say{common interface file} format, as def
 The schedule file contains the following information:
 \begin{itemize}
 	\item Schedules
-	\item Associations (where trains are split and join for example)
+	\item Associations (where trains are split and joined for example)
 	\item TIPLOC Codes - These are one of the many ways locations are refereed to within the  UK rail network.
 \end{itemize}
 
-There is also a header row at the start of the file giving a unique ID to the file and it's issue date and time, along with version information and other meta-data. The file is terminated with a trailer row, to allow users to confirm they have a complete file, though no check sum or similar is employed.
+There is also a header row at the start of the file giving a unique ID to the file and its issue date and time, along with version information and other meta-data. The file is terminated with a trailer row, to allow users to confirm they have a complete file, though no check sum or similar is employed.
 
 The schedule rows break down further into further subtypes:
 \begin{description}
@@ -74,26 +74,26 @@ The schedule rows break down further into further subtypes:
 \end{description}
 Not all record types are necessarily present for any given service.
 
-It is possible to ascertain not just the stopping time, and place, of a given service but also some limited meta data, including two different trainIDs, which are also used by other data sources. The first ID given is the so called \say{uniqueID}\footnote{the field is defined by \citet{Hicks} as \say{The unique ID of the schedule being activated - either a letter and five numbers, or a space and five numbers for VSTP trains}. Details available at: \url{http://nrodwiki.rockshore.net/index.php/Train_Activation}} which is also used in by certain other systems (trust train activation messages use this ID), the second ID given is the headcode. Other systems, such as train describers and signalling systems refer to the train by this code. Whilst it is guaranteed a headcode is unique on the rail network at any given point in time more than one timetabled service can have the same headcode.
+It is possible to ascertain not just the stopping time, and place, of a given service but also some limited meta data, including two different trainIDs, which are also used by other data sources. The first ID given is the so called \say{uniqueID}\footnote{the field is defined by \citet{Hicks} as \say{The unique ID of the schedule being activated - either a letter and five numbers, or a space and five numbers for VSTP trains}. Details available at: \url{http://nrodwiki.rockshore.net/index.php/Train_Activation}} which is also used by certain other systems (trust train activation messages use this ID), the second ID given is the headcode. Other systems, such as train describers and signalling systems refer to the train by this code. Whilst it is guaranteed a headcode is unique on the rail network at any given point in time more than one timetabled service can have the same headcode.
 
 Each row starts with a 2 letter code to uniquely identify the type of data it holds and some row types are only valid in certain places. For example each train service definition starts with a basic schedule row, then an origin location, followed by any number (including zero) of Intermediate Location's or Changes en Route and finishing with a Terminating Location. 
 
-These files can be used in conjunction with a \say{Master Station Names} file which is typically distributed at the same time. This file provides further detail about the stations refereed to in schedule. Whilst TIPLOC codes are listed in the schedule file alongside a meaningful name in English the geographic position for example is not provided. This is included in the master station names, alongside side details of the type of services that may be connected with (bus or ferry for example) and the Routing Groups, which are used for fare calculation. By joining on the TIPLOC code it is possible to combine this data with that in the schedule file.
+These files can be used in conjunction with a \say{Master Station Names} file which is typically distributed at the same time. This file provides further detail about the stations refereed to in schedule. Whilst TIPLOC codes are listed in the schedule file alongside a meaningful name in English, the geographic position for example is not provided. This is included in the master station names, alongside side details of the type of services that may be connected with (bus or ferry for example) and the Routing Groups, which are used for fare calculation. By joining on the TIPLOC code it is possible to combine this data with that in the schedule file.
 
 The size of the files to be imported also represents a significant test: the chosen schedule file was 564MB, in what has already been described as a fairly dense data format. This will result in a significantly larger amount of data if exported as turtle, which is a simple text representation of linked data, presenting challenges in terms of both processing time and available RAM. As such the system will need to be carefully optimised to fit within the available memory footprint.
 
 \section{General Software Design Patterns}
-Two design patterns were considered for a system to parse schedule files: a state machine and a factory pattern. The state machine pattern, as set out by \cite{Shalyto2006}, provides loose coupling between the logic of the program and the state, which is considered through out the literature to be a key objective of any software architecture. The transition logic required for processing schedule files is very limited and thus the state machine pattern was disregarded as unnecessary in this application. The factory technique first discussed in \cite{Gamma2002} conversely is applicable to this system since it abstracts the construction of objects from the point at which they are created. This is helpful in this system since it is likely that further types of data and therefore business object will need to be added to design in the future. The system aims to be flexible as to the types of files parsed, importing both \say{Master Station Names} files and Schedules, using the same architecture. In the factory pattern \say{factory classes} are used to construct objects, rather than calling an objects constructor directly. Currently there exist two factory classes, one for each type of file processed, which build the business objects before they are inserted into the datastore. A deliberate benefit of the design is that it is easily possible to add more as required.
+Two design patterns were considered for a system to parse schedule files: a state machine and a factory pattern. The state machine pattern, as set out by \cite{Shalyto2006}, provides loose coupling between the logic of the program and the state, which is considered through out the literature to be a key objective of any software architecture. The transition logic required for processing schedule files is very limited and thus the state machine pattern was disregarded as unnecessary in this application. The factory technique first discussed in \cite{Gamma2002} conversely is applicable to this system since it abstracts the construction of objects from the point at which they are created. This is helpful in this system since it is likely that further types of data and therefore business object will need to be added to design in the future. The system aims to be flexible as to the types of files parsed, importing both \say{Master Station Names} files and Schedules, using the same architecture. In the factory pattern \say{factory classes} are used to construct objects, rather than calling an object's constructor directly. Currently there exist two factory classes, one for each type of file processed, which build the business objects before they are inserted into the datastore. A deliberate benefit of the design is that it is easily possible to add more as required.
 
-The graphical user interface (here on referred to as GUI) partially uses the Model View View-Model design pattern, here on referred to as MVVM, to loosen coupling with the data processing part of the application. The MVVM pattern is described by \citet{Microsoft2012} and is a common way to create GUIs when using the Windows Presentation Foundation. The windows presentation foundation in turn is a means of creating GUI's when using the .Net framework on windows desktop machines. The MVVM pattern aims to reduce coupling between the designed user interface, which is created using only XAML and describes \emph{solely} appearance (include  interactive elements such as mouse over animations) and the way the data is formatted for presentation. In this pattern the data model, is independent the view model.  Data representation and processing is removed again, thus changes to how data is presented (say from a table to a graph) have no impact on the underlying system.
+The graphical user interface (here on referred to as GUI) partially uses the Model View View-Model design pattern, here on referred to as MVVM, to loosen coupling with the data processing part of the application. The MVVM pattern is described by \citet{Microsoft2012} and is a common way to create GUIs when using the Windows Presentation Foundation. The Windows presentation foundation in turn is a means of creating GUI's when using the .Net framework on windows desktop machines. The MVVM pattern aims to reduce coupling between the designed user interface, which is created using only XAML and describes \emph{solely} appearance (include  interactive elements such as mouse over animations) and the way the data is formatted for presentation. In this pattern the data model is independent the view model.  Data representation and processing is removed again, thus changes to how data is presented (say from a table to a graph) have no impact on the underlying system.
 
-\section{Software implementation}
-The program is designed in keeping with object originated best practice, namely: SOLID\footnote{A good explanation of SOLID design principles, illustrated with motivational posters, may be found at \url{https://blogs.msdn.microsoft.com/cdndevs/2009/07/15/the-solid-principles-explained-with-motivational-posters/}} software design principles, as first set out by \citet{Martin2003}. An example of the program's structure and inheritance is shown in \autoref{fig:tiplocedItems}.  
+\section{Software implementation} 
+The schedule processing tool is designed in keeping with object orientated best practice, namely: SOLID\footnote{A good explanation of SOLID design principles, illustrated with motivational posters, may be found at \url{https://blogs.msdn.microsoft.com/cdndevs/2009/07/15/the-solid-principles-explained-with-motivational-posters/}} software design principles, as first set out by \citet{Martin2003}. An example of the program's structure and inheritance is shown in \autoref{fig:tiplocedItems}.  
 
  \begin{figure}[!h]
 \myfloatalign
 {\includegraphics[width=\linewidth]{gfx/ItemsWithTIPLOCsResized}} 
-\caption{Items with located using a TIPLOC - one of the location codes.}
+\caption{Items located using a TIPLOC - one of the location codes.}
 \label{fig:tiplocedItems}
 \end{figure}
 
@@ -124,22 +124,28 @@ It was discovered in implementing this project that when dealing with very large
 Given the data volumes involved it was necessary to identify bottlenecks and tasks that could be carried out in parallel and run these on separate threads. The machine used for both development and bench marking has the following pertinent specifications:
 \subsection{Hardware Specification}
 
- 	\subsubsection*{Processing} Intel i7-3820\footnote{Intel Data sheet available from: \url{http://ark.intel.com/products/63698/Intel-Core-i7-3820-Processor-10M-Cache-up-to-3_80-GHz}} @ 3.6 GHz. This has 4 cores and can run 8 simultaneous threads.
- 	\subsubsection*{Random Access Memory}24 Gigabytes
- 	\subsubsection*{Disk} Two Terrabytes, average data rate (Read and Write) of 156 MB/s.
+\noindent
+\begin{tabularx}{\textwidth}{XX} 
+\textsc{Item} & \textsc{Specification}\\ 
+\arrayrulecolor{LightSteelBlue}\midrule[\heavyrulewidth]
+Processing & Intel i7-3820\footnote{Intel Data sheet available from: \url{http://ark.intel.com/products/63698/Intel-Core-i7-3820-Processor-10M-Cache-up-to-3_80-GHz}} @ 3.6 GHz. This has 4 cores and can run 8 simultaneous threads. \\
+Random Access Memory & 24 Gigabytes \\
+Disk & Two Terrabytes, average data rate (Read and Write) of 156 MB/s. \\
+\bottomrule
+\end{tabularx}
  
 The graphics card fitted was of no assistance because none of the tasks in this program were suited to offload to the graphics card.
 
-Bottlenecks were identified by running the \say{Performance Profiler} included with visual studio on the initial version of the software. This can tell the operator which objects are using most of the memory and which functions the program spends longest in. It was apparent from this that most of the memory usage was in the graph constructed by dotNetRDF and most of the processing time was in constructing that graph. In order as to achieve adequate performance, that is to be able to run an import whilst the data is still pertinent, a multi-threaded approach was required. To achieve this the data was split into chunks, after having been read from the file, but before it was materialised as a graph. This reduced the memory footprint, since the graph was only created one chunk at a time, then stored to a file and the memory it had been occupying released. This approach also made parallel processing possible as each chunk was each chunk could be (and was) materialised separately. This design could scale linearly with the number of cores available. In order as to accomplish the multi threaded materialization and writing it was necessary to create a thread pool of data waiting to be processed and written. This uses .Net's underlying thread-pool provision but adds progress feedback and ensures that files are only written after the data is processed. The data was output as a series of turtle files, which were then inserted into a triple store using a script. This work-flow is illustrated in \autoref{fig:workflow}.
+Bottlenecks were identified by running the \say{Performance Profiler} included with Visual Studio on the initial version of the software. This can tell the operator which objects are using most of the memory and which functions the program spends longest in. It was apparent from this that most of the memory usage was in the graph constructed by dotNetRDF and most of the processing time was in constructing that graph. In order as to achieve adequate performance, that is to be able to run an import whilst the data is still pertinent, a multi-threaded approach was required. To achieve this the data was split into chunks, after having been read from the file, but before it was materialised as a graph. This reduced the memory footprint, since the graph was only created one chunk at a time, then stored to a file and the memory it had been occupying released. This approach also made parallel processing possible, as each chunk could be (and was) materialised separately. This design could scale linearly with the number of cores available. In order as to accomplish the multi threaded materialization and writing it was necessary to create a thread pool of data waiting to be processed and written. This uses .Net's underlying thread-pool provision but adds progress feedback and ensures that files are only written after the data is processed. The data was output as a series of turtle files, which were then inserted into a triple store using a script. This work-flow is illustrated in \autoref{fig:workflow}.
 
 \begin{figure}[H]
 \myfloatalign
 \fbox{{\includegraphics[max height=\textheight,max width=\linewidth]{gfx/cifParsingWorkFlow}} }
 \caption{Data conversion work-flow}
-\label{fig:workflow}re
+\label{fig:workflow}
 \end{figure}
 
-The graphical user interface is simple and shown in \autoref{fig:cifgui}. All that was required was status feedback, for use debugging and to inform the user when the conversion was complete, and buttons to select the files to import. Also available is functionally to add provenance information to the schedules. Provenance information is added to the data when it is inserted in the ontology, allowing the source of the information to be traced, in accordance with the guide lines set out by \citet{Tutcher2015}.
+The graphical user interface is simple and shown in \autoref{fig:cifgui}. All that was required was status feedback, for use debugging and to inform the user when the conversion was complete, and buttons to select the files to import. Also available is functionality to add provenance information to the schedules. Provenance information is added to the data when it is inserted in the ontology, allowing the source of the information to be traced, in accordance with the guide lines set out by \citet{Tutcher2015}.
 
 \begin{figure}[H]
 \myfloatalign
@@ -150,10 +156,10 @@ The graphical user interface is simple and shown in \autoref{fig:cifgui}. All th
 
 \section{Manual Data Entry Tool}
 \label{sec:manualtool}
-The manual data entry tool demonstrates a technique for adding previously modelled low volume data to the ontologies. Where such data does not warrant the development of a bespoke tool for the task and it is not possible to interface with or alter the existing tool then a simple universal tool allowing those with no ontology engineering experience to add data to the ontology allows for improved data integration. There are many pre-existing ontology editors, both open source and commercial, of which protégé and TopBraid Composer were used during this project, however these are better suited to those with some ontology engineering experience. This tool is aimed at those with no ontology engineering experience and thus provides an another possible answer to the question, \say{\QuestionOtherData}.
+The manual data entry tool demonstrates a technique for adding previously modelled low volume data to the ontologies. Where such data does not warrant the development of a bespoke tool for the task and it is not possible to interface with or alter the existing tool then a simple universal tool allowing those with no ontology engineering experience to add data to the ontology allows for improved data integration. There are many pre-existing ontology editors, both open source and commercial, of which protégé and TopBraid Composer were used during this project, however these are better suited to those with some ontology engineering experience. This tool is aimed at those with no ontology engineering experience and thus provides another possible answer to the question, \say{\QuestionOtherData}.
 
 \subsection{Manual Data Entry Tool: Implementation}
-The tool was constructed as a web application, with intent that it could be deployed centrally in large organisations and used as needed. This tool replies upon the middleware, discussed in chapter \ref{ch:middleware}, to connect to the triple store. For layout and presentation the popular \say{bootstrap} framework was employed to speed development and allow for access from a range of devices.
+The tool was constructed as a web application, with intent that it could be deployed centrally in large organisations and used as needed. This tool relies upon the middleware, discussed in chapter \ref{ch:middleware}, to connect to the triple store. For layout and presentation the popular \say{bootstrap}\footnote{Available from: \uri{https://getbootstrap.com/}. This framework provides a number of styles alongside Javascript functionality} framework was employed to speed development and allow for access from a range of devices.
 
 As shown by \autoref{fig:mtLogin} the user is first required to log on. Note that for ease of use all details, except passwords, are stored on the client machine, using cookies.
 
@@ -221,7 +227,7 @@ Firstly this system has shown that it is possible to make typical industry data 
 
 Secondly this system has shown that even quite small data sources, as compared to video or high data rate sensors for example, require a high degree of optimisation and produce much larger data sets in a linked format. 
 
-This design and implementation of this system also demonstrated that even where the domain has been partially modelled new applications of that model will require small alterations to suit the precise nature of the available data and it's eventual use. This in turn has wide ranging implications for the need for ontology specialists to be involved, lightly at least, in the design phase of future projects making data available as an ontology.
+This design and implementation of this system also demonstrated that even where the domain has been partially modelled new applications of that model will require small alterations to suit the precise nature of the available data and its eventual use. This in turn has wide ranging implications for the need for ontology specialists to be involved, lightly at least, in the design phase of future projects making data available as an ontology.
 
 The manual data entry tool provided another answer to the question \say{\QuestionOtherData}. For some projects the production of bespoke tools will not be financially justifiable. Where it is not possible to use commercial off the shelf software to convert data and that data is of a low enough volume then it will be possible instead to use tools to manually enter that data.
 
