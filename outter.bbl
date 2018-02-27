@@ -2818,28 +2818,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{NetworkRailInfrastructureLtd2017}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=N}{%
-         family={{Network Rail Infrastructure Ltd}},
-         familyi={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2017}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{title}{{Our information and data}}
-    \verb{url}
-    \verb https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/tran
-    \verb sparency/datasets/
-    \endverb
-    \field{year}{2017}
-  \endentry
-
   \entry{Niles2001}{article}{}
     \name{author}{3}{}{%
       {{hash=NI}{%

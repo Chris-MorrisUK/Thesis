@@ -14,7 +14,7 @@ A level-1 auxiliary file: Chapters/cifparser.aux
 A level-1 auxiliary file: Chapters/Middleware.aux
 A level-1 auxiliary file: Chapters/CompassChapter.aux
 A level-1 auxiliary file: Chapters/conclu.aux
-A level-1 auxiliary file: Chapters/Chapter0A.aux
+A level-1 auxiliary file: Chapters/Chapter0A_ManToolGUI.aux
 A level-1 auxiliary file: Chapters/storedProcListingApend.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -43,48 +43,49 @@ Repeated entry---line 2003 of file library.bib
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "Verstichel2015"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 94 entries,
+You've used 93 entries,
             6256 wiz_defined-function locations,
-            2008 strings with 77700 characters,
-and the built_in function-call counts, 575497 in all, are:
-= -- 38081
-> -- 12048
-< -- 2823
-+ -- 15365
-- -- 6056
-* -- 45093
-:= -- 58888
+            2006 strings with 77562 characters,
+and the built_in function-call counts, 571643 in all, are:
+= -- 37867
+> -- 11959
+< -- 2799
++ -- 15328
+- -- 6026
+* -- 44807
+:= -- 58583
 add.period$ -- 0
-call.type$ -- 94
-change.case$ -- 93
+call.type$ -- 93
+change.case$ -- 92
 chr.to.int$ -- 198
-cite$ -- 186
-duplicate$ -- 62468
-empty$ -- 53935
-format.name$ -- 6784
-if$ -- 115723
+cite$ -- 184
+duplicate$ -- 62098
+empty$ -- 53503
+format.name$ -- 6732
+if$ -- 114863
 int.to.chr$ -- 0
-int.to.str$ -- 239
+int.to.str$ -- 235
 missing$ -- 0
-newline$ -- 4042
-num.names$ -- 4247
-pop$ -- 32200
+newline$ -- 4020
+num.names$ -- 4200
+pop$ -- 31872
 preamble$ -- 1
-purify$ -- 1887
+purify$ -- 1875
 quote$ -- 0
-skip$ -- 17381
+skip$ -- 17215
 stack$ -- 0
-substring$ -- 64190
-swap$ -- 16402
-text.length$ -- 2662
-text.prefix$ -- 99
+substring$ -- 63839
+swap$ -- 16290
+text.length$ -- 2638
+text.prefix$ -- 98
 top$ -- 1
-type$ -- 3153
+type$ -- 3119
 warning$ -- 0
-while$ -- 7209
+while$ -- 7180
 width$ -- 0
-write$ -- 3949
+write$ -- 3928
 (There were 2 error messages)

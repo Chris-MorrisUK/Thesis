@@ -1,731 +1,735 @@
-PWD C:/localThesis/Thesis
-INPUT c:/texlivenew/2016/texmf.cnf
-INPUT c:/texlivenew/2016/texmf-dist/web2c/texmf.cnf
-INPUT c:/texlivenew/2016/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/localThesis/Thesis/outter.tex
-OUTPUT C:\localThesis\Thesis/outter.log
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/fix-cm.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/fix-cm.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ts1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ts1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrreprt.cls
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrreprt.cls
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-INPUT c:/texlivenew/2016/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/typearea.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/typearea.sty
-INPUT c:/localThesis/Thesis/classicthesis-config.tex
-INPUT c:/localThesis/Thesis/classicthesis-config.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/inputenc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/inputenc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/utf8.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/utf8.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ts1enc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ts1enc.dfu
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/babel/babel.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/babel/babel.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/babel/babel.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/csquotes/csquotes.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/csquotes/csquotes.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/logreq/logreq.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/logreq/logreq.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/logreq/logreq.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/logreq/logreq.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ifthen.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ifthen.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/url/url.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/url/url.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/xstring/xstring.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/xstring/xstring.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/xstring/xstring.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-dm.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-dm.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-natbib.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/blx-natbib.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/fontenc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/fontenc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/t1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/t1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/textcomp.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/textcomp.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ts1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/ts1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrhack.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrhack.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/xspace.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/xspace.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/mparhack/mparhack.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/mparhack/mparhack.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/fixltx2e.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/fixltx2e.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/latexrelease.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/base/latexrelease.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/acronym/acronym.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/acronym/acronym.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/caption/caption.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/caption/caption.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/caption/caption3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/caption/caption3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xcolor/svgnam.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xcolor/svgnam.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/float/float.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/float/float.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/float.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/float.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/rotating.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/rotating.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/trig.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/trig.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/longtable.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/longtable.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tabu/tabu.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tabu/tabu.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/lscape.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/graphics/lscape.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/lscape.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/lscape.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/fancyref/fancyref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/fancyref/fancyref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/varioref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tools/varioref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/epigraph/epigraph.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/epigraph/epigraph.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/listings.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/listings.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/listings.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/listings.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/listings.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/listings.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT C:\localThesis\Thesis/classicthesis.sty
-INPUT C:\localThesis\Thesis/classicthesis.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/bera/beramono.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/bera/beramono.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/eulervm.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/eulervm.sty
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrlayer.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrlayer.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tocloft/tocloft.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/tocloft/tocloft.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrtime.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/scrtime.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/setspace/setspace.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/setspace/setspace.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/setspace.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/setspace.hak
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT C:\localThesis\Thesis/outter.aux
-INPUT C:\localThesis\Thesis/outter.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Contents.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Contents.aux
-INPUT C:\localThesis\Thesis/Chapters/intro.aux
-INPUT C:\localThesis\Thesis/Chapters/intro.aux
-INPUT C:\localThesis\Thesis/Chapters/litreview.aux
-INPUT C:\localThesis\Thesis/Chapters/litreview.aux
-INPUT C:\localThesis\Thesis/Chapters/problemstatement.aux
-INPUT C:\localThesis\Thesis/Chapters/problemstatement.aux
-INPUT C:\localThesis\Thesis/Chapters/cifparser.aux
-INPUT C:\localThesis\Thesis/Chapters/cifparser.aux
-INPUT C:\localThesis\Thesis/Chapters/Middleware.aux
-INPUT C:\localThesis\Thesis/Chapters/Middleware.aux
-INPUT C:\localThesis\Thesis/Chapters/CompassChapter.aux
-INPUT C:\localThesis\Thesis/Chapters/CompassChapter.aux
-INPUT C:\localThesis\Thesis/Chapters/conclu.aux
-INPUT C:\localThesis\Thesis/Chapters/conclu.aux
-INPUT C:\localThesis\Thesis/Chapters/Chapter0A.aux
-INPUT C:\localThesis\Thesis/Chapters/Chapter0A.aux
-INPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.aux
-INPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.aux
-OUTPUT C:\localThesis\Thesis/outter.aux
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/t1pplj.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/t1pplj.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-OUTPUT C:\localThesis\Thesis/outter-blx.bib
-INPUT C:\localThesis\Thesis/outter.bbl
-INPUT C:\localThesis\Thesis/outter.bbl
-INPUT C:\localThesis\Thesis/outter.bbl
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/caption/ltcaption.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/caption/ltcaption.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT c:/texlivenew/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT C:\localThesis\Thesis/outter.out
-INPUT C:\localThesis\Thesis/outter.out
-INPUT C:\localThesis\Thesis/outter.out
-INPUT C:\localThesis\Thesis/outter.out
-OUTPUT C:\localThesis\Thesis/outter.pdf
-INPUT c:/localThesis/Thesis/outter.out
-INPUT c:/localThesis/Thesis/outter.out
-OUTPUT C:\localThesis\Thesis/outter.out
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-OUTPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.tex
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.tex
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
-INPUT c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplrc9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-OUTPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.tex
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.tex
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9c.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplri9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9c.vf
-OUTPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.tex
-INPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.tex
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
-OUTPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.tex
-INPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.tex
-OUTPUT C:\localThesis\Thesis/FrontBackmatter/Contents.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Contents.tex
-INPUT C:\localThesis\Thesis/FrontBackmatter/Contents.tex
-INPUT C:\localThesis\Thesis/outter.toc
-INPUT C:\localThesis\Thesis/outter.toc
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplrc9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-OUTPUT C:\localThesis\Thesis/outter.toc
-INPUT C:\localThesis\Thesis/outter.lof
-INPUT C:\localThesis\Thesis/outter.lof
-OUTPUT C:\localThesis\Thesis/outter.lof
-INPUT C:\localThesis\Thesis/outter.lot
-INPUT C:\localThesis\Thesis/outter.lot
-OUTPUT C:\localThesis\Thesis/outter.lot
-INPUT C:\localThesis\Thesis/outter.lol
-INPUT C:\localThesis\Thesis/outter.lol
-OUTPUT C:\localThesis\Thesis/outter.lol
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplb9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplbj8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/lm/t1lmss.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/lm/t1lmss.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
-OUTPUT C:\localThesis\Thesis/Chapters/intro.aux
-INPUT C:\localThesis\Thesis/Chapters/intro.tex
-INPUT C:\localThesis\Thesis/Chapters/intro.tex
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
-INPUT C:\localThesis\Thesis/gfx/dragonNames.png
-INPUT c:/localThesis/Thesis/gfx/dragonNames.png
-INPUT c:/localThesis/Thesis/gfx/dragonNames.png
-INPUT C:\localThesis\Thesis/gfx/gameOfThronesDragons.png
-INPUT c:/localThesis/Thesis/gfx/gameOfThronesDragons.png
-INPUT c:/localThesis/Thesis/gfx/gameOfThronesDragons.png
-OUTPUT C:\localThesis\Thesis/Chapters/litreview.aux
-INPUT C:\localThesis\Thesis/Chapters/litreview.tex
-INPUT C:\localThesis\Thesis/Chapters/litreview.tex
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/bera/t1fvm.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/bera/t1fvm.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/eulervm/zeusm10.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/eulervm/zeurm10.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT C:\localThesis\Thesis/gfx/JofferyTriple.pdf
-INPUT c:/localThesis/Thesis/gfx/JofferyTriple.pdf
-INPUT c:/localThesis/Thesis/gfx/JofferyTriple.pdf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
-INPUT C:\localThesis\Thesis/gfx/RacoonLayers.eps
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers.eps
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers.eps
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers-eps-converted-to.pdf
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers-eps-converted-to.pdf
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers.eps
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers-eps-converted-to.pdf
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers-eps-converted-to.pdf
-INPUT c:/localThesis/Thesis/gfx/RacoonLayers-eps-converted-to.pdf
-OUTPUT C:\localThesis\Thesis/Chapters/problemstatement.aux
-INPUT C:\localThesis\Thesis/Chapters/problemstatement.tex
-INPUT C:\localThesis\Thesis/Chapters/problemstatement.tex
-OUTPUT C:\localThesis\Thesis/Chapters/cifparser.aux
-INPUT C:\localThesis\Thesis/Chapters/cifparser.tex
-INPUT C:\localThesis\Thesis/Chapters/cifparser.tex
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplri9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
-INPUT C:\localThesis\Thesis/gfx/ItemsWithTIPLOCsResized.pdf
-INPUT c:/localThesis/Thesis/gfx/ItemsWithTIPLOCsResized.pdf
-INPUT c:/localThesis/Thesis/gfx/ItemsWithTIPLOCsResized.pdf
-INPUT C:\localThesis\Thesis/gfx/BussinessObjectsCat.pdf
-INPUT c:/localThesis/Thesis/gfx/BussinessObjectsCat.pdf
-INPUT c:/localThesis/Thesis/gfx/BussinessObjectsCat.pdf
-INPUT C:\localThesis\Thesis/gfx/cifParsingWorkFlow.pdf
-INPUT c:/localThesis/Thesis/gfx/cifParsingWorkFlow.pdf
-INPUT c:/localThesis/Thesis/gfx/cifParsingWorkFlow.pdf
-INPUT C:\localThesis\Thesis/gfx/cifparseRelevantCorner.png
-INPUT c:/localThesis/Thesis/gfx/cifparseRelevantCorner.png
-INPUT c:/localThesis/Thesis/gfx/cifparseRelevantCorner.png
-INPUT C:\localThesis\Thesis/gfx/manToolWelcome.png
-INPUT c:/localThesis/Thesis/gfx/manToolWelcome.png
-INPUT c:/localThesis/Thesis/gfx/manToolWelcome.png
-INPUT C:\localThesis\Thesis/gfx/manToolLogin.png
-INPUT c:/localThesis/Thesis/gfx/manToolLogin.png
-INPUT c:/localThesis/Thesis/gfx/manToolLogin.png
-INPUT C:\localThesis\Thesis/gfx/manToolInUse.png
-INPUT c:/localThesis/Thesis/gfx/manToolInUse.png
-INPUT c:/localThesis/Thesis/gfx/manToolInUse.png
-INPUT C:\localThesis\Thesis/gfx/manToolAddingItem.png
-INPUT c:/localThesis/Thesis/gfx/manToolAddingItem.png
-INPUT c:/localThesis/Thesis/gfx/manToolAddingItem.png
-INPUT C:\localThesis\Thesis/gfx/addItemDetail.png
-INPUT c:/localThesis/Thesis/gfx/addItemDetail.png
-INPUT c:/localThesis/Thesis/gfx/addItemDetail.png
-INPUT C:\localThesis\Thesis/gfx/scheduleProcessing.pdf
-INPUT c:/localThesis/Thesis/gfx/scheduleProcessing.pdf
-INPUT c:/localThesis/Thesis/gfx/scheduleProcessing.pdf
-OUTPUT C:\localThesis\Thesis/Chapters/Middleware.aux
-INPUT C:\localThesis\Thesis/Chapters/Middleware.tex
-INPUT C:\localThesis\Thesis/Chapters/Middleware.tex
-INPUT C:\localThesis\Thesis/gfx/Middleware_role.pdf
-INPUT c:/localThesis/Thesis/gfx/Middleware_role.pdf
-INPUT c:/localThesis/Thesis/gfx/Middleware_role.pdf
-INPUT C:\localThesis\Thesis/gfx/MiddlewareHighLevel.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareHighLevel.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareHighLevel.pdf
-INPUT C:\localThesis\Thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf
-INPUT C:\localThesis\Thesis/gfx/Res.pdf
-INPUT c:/localThesis/Thesis/gfx/Res.pdf
-INPUT c:/localThesis/Thesis/gfx/Res.pdf
-INPUT C:\localThesis\Thesis/gfx/RacoonServices.pdf
-INPUT c:/localThesis/Thesis/gfx/RacoonServices.pdf
-INPUT c:/localThesis/Thesis/gfx/RacoonServices.pdf
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
-INPUT C:\localThesis\Thesis/gfx/MiddlewareAurthentication.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareAurthentication.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareAurthentication.pdf
-INPUT C:\localThesis\Thesis/gfx/MiddlewareAurthenticationWithToken.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareAurthenticationWithToken.pdf
-INPUT c:/localThesis/Thesis/gfx/MiddlewareAurthenticationWithToken.pdf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/adobe/palatino/pplri9d.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
-OUTPUT C:\localThesis\Thesis/Chapters/CompassChapter.aux
-INPUT C:\localThesis\Thesis/Chapters/CompassChapter.tex
-INPUT C:\localThesis\Thesis/Chapters/CompassChapter.tex
-INPUT C:\localThesis\Thesis/gfx/FullSystem.pdf
-INPUT c:/localThesis/Thesis/gfx/FullSystem.pdf
-INPUT c:/localThesis/Thesis/gfx/FullSystem.pdf
-INPUT C:\localThesis\Thesis/gfx/Dataflow-StirDemoActive.pdf
-INPUT c:/localThesis/Thesis/gfx/Dataflow-StirDemoActive.pdf
-INPUT c:/localThesis/Thesis/gfx/Dataflow-StirDemoActive.pdf
-INPUT C:\localThesis\Thesis/gfx/DataflowStirAllOptionsDemo.pdf
-INPUT c:/localThesis/Thesis/gfx/DataflowStirAllOptionsDemo.pdf
-INPUT c:/localThesis/Thesis/gfx/DataflowStirAllOptionsDemo.pdf
-INPUT C:\localThesis\Thesis/gfx/DemoOneBRAVE.png
-INPUT c:/localThesis/Thesis/gfx/DemoOneBRAVE.png
-INPUT c:/localThesis/Thesis/gfx/DemoOneBRAVE.png
-INPUT C:\localThesis\Thesis/gfx/DemoOneScreenShot.png
-INPUT c:/localThesis/Thesis/gfx/DemoOneScreenShot.png
-INPUT c:/localThesis/Thesis/gfx/DemoOneScreenShot.png
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmb8t.tfm
-INPUT C:\localThesis\Thesis/gfx/Dataflow-StirPassiveDemo.pdf
-INPUT c:/localThesis/Thesis/gfx/Dataflow-StirPassiveDemo.pdf
-INPUT c:/localThesis/Thesis/gfx/Dataflow-StirPassiveDemo.pdf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/vf/public/bera/fvmb8t.vf
-INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/bera/fvmb8r.tfm
-INPUT C:\localThesis\Thesis/gfx/DemoTwo_StageOne.pdf
-INPUT c:/localThesis/Thesis/gfx/DemoTwo_StageOne.pdf
-INPUT c:/localThesis/Thesis/gfx/DemoTwo_StageOne.pdf
-INPUT C:\localThesis\Thesis/gfx/DemoTwo_StageTwo.pdf
-INPUT c:/localThesis/Thesis/gfx/DemoTwo_StageTwo.pdf
-INPUT c:/localThesis/Thesis/gfx/DemoTwo_StageTwo.pdf
-INPUT C:\localThesis\Thesis/gfx/DemoTwo_StageThree.pdf
-INPUT c:/localThesis/Thesis/gfx/DemoTwo_StageThree.pdf
-INPUT c:/localThesis/Thesis/gfx/DemoTwo_StageThree.pdf
-INPUT C:\localThesis\Thesis/gfx/RS232Bus.pdf
-INPUT c:/localThesis/Thesis/gfx/RS232Bus.pdf
-INPUT c:/localThesis/Thesis/gfx/RS232Bus.pdf
-OUTPUT C:\localThesis\Thesis/Chapters/conclu.aux
-INPUT C:\localThesis\Thesis/Chapters/conclu.tex
-INPUT C:\localThesis\Thesis/Chapters/conclu.tex
-OUTPUT C:\localThesis\Thesis/Chapters/Chapter0A.aux
-INPUT C:\localThesis\Thesis/Chapters/Chapter0A.tex
-INPUT C:\localThesis\Thesis/Chapters/Chapter0A.tex
-OUTPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.aux
-INPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.tex
-INPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.tex
-OUTPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.tex
-INPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.tex
-INPUT C:\localThesis\Thesis/outter.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titlepage.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Titleback.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Abstract.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Acknowledgments.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Contents.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Contents.aux
-INPUT C:\localThesis\Thesis/Chapters/intro.aux
-INPUT C:\localThesis\Thesis/Chapters/intro.aux
-INPUT C:\localThesis\Thesis/Chapters/litreview.aux
-INPUT C:\localThesis\Thesis/Chapters/litreview.aux
-INPUT C:\localThesis\Thesis/Chapters/problemstatement.aux
-INPUT C:\localThesis\Thesis/Chapters/problemstatement.aux
-INPUT C:\localThesis\Thesis/Chapters/cifparser.aux
-INPUT C:\localThesis\Thesis/Chapters/cifparser.aux
-INPUT C:\localThesis\Thesis/Chapters/Middleware.aux
-INPUT C:\localThesis\Thesis/Chapters/Middleware.aux
-INPUT C:\localThesis\Thesis/Chapters/CompassChapter.aux
-INPUT C:\localThesis\Thesis/Chapters/CompassChapter.aux
-INPUT C:\localThesis\Thesis/Chapters/conclu.aux
-INPUT C:\localThesis\Thesis/Chapters/conclu.aux
-INPUT C:\localThesis\Thesis/Chapters/Chapter0A.aux
-INPUT C:\localThesis\Thesis/Chapters/Chapter0A.aux
-INPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.aux
-INPUT C:\localThesis\Thesis/Chapters/storedProcListingApend.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.aux
-INPUT C:\localThesis\Thesis/FrontBackmatter/Bibliography.aux
-INPUT c:/localThesis/Thesis/outter.out
-INPUT c:/localThesis/Thesis/outter.out
-INPUT C:\localThesis\Thesis/outter.run.xml
-OUTPUT C:\localThesis\Thesis/outter.run.xml
-INPUT c:/texlivenew/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT c:/texlivenew/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT c:/texlivenew/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/bera/fvmb8a.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
-INPUT c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb
+PWD E:/Local Repos/thesis
+INPUT i:/texlive/2016/texmf.cnf
+INPUT i:/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT i:/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT e:/Local Repos/thesis/outter.tex
+OUTPUT E:\Local Repos\thesis/outter.log
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/fix-cm.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/fix-cm.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrreprt.cls
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrreprt.cls
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+INPUT i:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
+INPUT e:/Local Repos/thesis/classicthesis-config.tex
+INPUT e:/Local Repos/thesis/classicthesis-config.tex
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+INPUT i:/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT i:/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT i:/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/url/url.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/url/url.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-natbib.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-natbib.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrhack.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrhack.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT i:/texlive/2016/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT i:/texlive/2016/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT i:/texlive/2016/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/mparhack/mparhack.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/mparhack/mparhack.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/fixltx2e.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/fixltx2e.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/latexrelease.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/base/latexrelease.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xcolor/svgnam.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xcolor/svgnam.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/float/float.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/float/float.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/float.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/float.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/lscape.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/lscape.hak
+INPUT i:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/fancyref/fancyref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/fancyref/fancyref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/varioref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tools/varioref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+INPUT i:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/epigraph/epigraph.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/epigraph/epigraph.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/listings.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/listings.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT E:\Local Repos\thesis/classicthesis.sty
+INPUT E:\Local Repos\thesis/classicthesis.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/bera/beramono.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/bera/beramono.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/eulervm.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/eulervm.sty
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb10.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlayer.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlayer.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrtime.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/scrtime.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/setspace.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/koma-script/setspace.hak
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT i:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT E:\Local Repos\thesis/outter.aux
+INPUT E:\Local Repos\thesis/outter.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Contents.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Contents.aux
+INPUT E:\Local Repos\thesis/Chapters/intro.aux
+INPUT E:\Local Repos\thesis/Chapters/intro.aux
+INPUT E:\Local Repos\thesis/Chapters/litreview.aux
+INPUT E:\Local Repos\thesis/Chapters/litreview.aux
+INPUT E:\Local Repos\thesis/Chapters/problemstatement.aux
+INPUT E:\Local Repos\thesis/Chapters/problemstatement.aux
+INPUT E:\Local Repos\thesis/Chapters/cifparser.aux
+INPUT E:\Local Repos\thesis/Chapters/cifparser.aux
+INPUT E:\Local Repos\thesis/Chapters/Middleware.aux
+INPUT E:\Local Repos\thesis/Chapters/Middleware.aux
+INPUT E:\Local Repos\thesis/Chapters/CompassChapter.aux
+INPUT E:\Local Repos\thesis/Chapters/CompassChapter.aux
+INPUT E:\Local Repos\thesis/Chapters/conclu.aux
+INPUT E:\Local Repos\thesis/Chapters/conclu.aux
+INPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.aux
+INPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.aux
+INPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.aux
+INPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.aux
+OUTPUT E:\Local Repos\thesis/outter.aux
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplj.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplj.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+OUTPUT E:\Local Repos\thesis/outter-blx.bib
+INPUT E:\Local Repos\thesis/outter.bbl
+INPUT E:\Local Repos\thesis/outter.bbl
+INPUT E:\Local Repos\thesis/outter.bbl
+INPUT i:/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT i:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT i:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT i:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT E:\Local Repos\thesis/outter.out
+INPUT E:\Local Repos\thesis/outter.out
+INPUT E:\Local Repos\thesis/outter.out
+INPUT E:\Local Repos\thesis/outter.out
+OUTPUT E:\Local Repos\thesis/outter.pdf
+INPUT e:/Local Repos/thesis/outter.out
+INPUT e:/Local Repos/thesis/outter.out
+OUTPUT E:\Local Repos\thesis/outter.out
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+OUTPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.tex
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.tex
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT i:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplrc9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+OUTPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.tex
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.tex
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9c.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplri9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9c.vf
+OUTPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.tex
+INPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.tex
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
+INPUT i:/texlive/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+OUTPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.tex
+INPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.tex
+OUTPUT E:\Local Repos\thesis/FrontBackmatter/Contents.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Contents.tex
+INPUT E:\Local Repos\thesis/FrontBackmatter/Contents.tex
+INPUT E:\Local Repos\thesis/outter.toc
+INPUT E:\Local Repos\thesis/outter.toc
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplrc9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+OUTPUT E:\Local Repos\thesis/outter.toc
+INPUT E:\Local Repos\thesis/outter.lof
+INPUT E:\Local Repos\thesis/outter.lof
+OUTPUT E:\Local Repos\thesis/outter.lof
+INPUT E:\Local Repos\thesis/outter.lot
+INPUT E:\Local Repos\thesis/outter.lot
+OUTPUT E:\Local Repos\thesis/outter.lot
+INPUT E:\Local Repos\thesis/outter.lol
+INPUT E:\Local Repos\thesis/outter.lol
+OUTPUT E:\Local Repos\thesis/outter.lol
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplb9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplbj8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+OUTPUT E:\Local Repos\thesis/Chapters/intro.aux
+INPUT E:\Local Repos\thesis/Chapters/intro.tex
+INPUT E:\Local Repos\thesis/Chapters/intro.tex
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT E:\Local Repos\thesis/gfx/dragonNames.png
+INPUT e:/Local Repos/thesis/gfx/dragonNames.png
+INPUT e:/Local Repos/thesis/gfx/dragonNames.png
+INPUT E:\Local Repos\thesis/gfx/gameOfThronesDragons.png
+INPUT e:/Local Repos/thesis/gfx/gameOfThronesDragons.png
+INPUT e:/Local Repos/thesis/gfx/gameOfThronesDragons.png
+OUTPUT E:\Local Repos\thesis/Chapters/litreview.aux
+INPUT E:\Local Repos\thesis/Chapters/litreview.tex
+INPUT E:\Local Repos\thesis/Chapters/litreview.tex
+INPUT i:/texlive/2016/texmf-dist/tex/latex/bera/t1fvm.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/bera/t1fvm.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT i:/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
+INPUT E:\Local Repos\thesis/gfx/JofferyTriple.pdf
+INPUT e:/Local Repos/thesis/gfx/JofferyTriple.pdf
+INPUT e:/Local Repos/thesis/gfx/JofferyTriple.pdf
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/eulervm/zeusm10.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/eulervm/zeurm10.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
+INPUT E:\Local Repos\thesis/gfx/RacoonLayers.eps
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers.eps
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers.eps
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers.eps
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf
+INPUT e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf
+OUTPUT E:\Local Repos\thesis/Chapters/problemstatement.aux
+INPUT E:\Local Repos\thesis/Chapters/problemstatement.tex
+INPUT E:\Local Repos\thesis/Chapters/problemstatement.tex
+OUTPUT E:\Local Repos\thesis/Chapters/cifparser.aux
+INPUT E:\Local Repos\thesis/Chapters/cifparser.tex
+INPUT E:\Local Repos\thesis/Chapters/cifparser.tex
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplri9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
+INPUT E:\Local Repos\thesis/gfx/ItemsWithTIPLOCsResized.pdf
+INPUT e:/Local Repos/thesis/gfx/ItemsWithTIPLOCsResized.pdf
+INPUT e:/Local Repos/thesis/gfx/ItemsWithTIPLOCsResized.pdf
+INPUT E:\Local Repos\thesis/gfx/BussinessObjectsCat.pdf
+INPUT e:/Local Repos/thesis/gfx/BussinessObjectsCat.pdf
+INPUT e:/Local Repos/thesis/gfx/BussinessObjectsCat.pdf
+INPUT E:\Local Repos\thesis/gfx/cifParsingWorkFlow.pdf
+INPUT e:/Local Repos/thesis/gfx/cifParsingWorkFlow.pdf
+INPUT e:/Local Repos/thesis/gfx/cifParsingWorkFlow.pdf
+INPUT E:\Local Repos\thesis/gfx/cifparseRelevantCorner.png
+INPUT e:/Local Repos/thesis/gfx/cifparseRelevantCorner.png
+INPUT e:/Local Repos/thesis/gfx/cifparseRelevantCorner.png
+INPUT E:\Local Repos\thesis/gfx/manEntryWorkflow.pdf
+INPUT e:/Local Repos/thesis/gfx/manEntryWorkflow.pdf
+INPUT e:/Local Repos/thesis/gfx/manEntryWorkflow.pdf
+INPUT E:\Local Repos\thesis/gfx/scheduleProcessing.pdf
+INPUT e:/Local Repos/thesis/gfx/scheduleProcessing.pdf
+INPUT e:/Local Repos/thesis/gfx/scheduleProcessing.pdf
+OUTPUT E:\Local Repos\thesis/Chapters/Middleware.aux
+INPUT E:\Local Repos\thesis/Chapters/Middleware.tex
+INPUT E:\Local Repos\thesis/Chapters/Middleware.tex
+INPUT E:\Local Repos\thesis/gfx/Middleware_role.pdf
+INPUT e:/Local Repos/thesis/gfx/Middleware_role.pdf
+INPUT e:/Local Repos/thesis/gfx/Middleware_role.pdf
+INPUT E:\Local Repos\thesis/gfx/MiddlewareHighLevel.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareHighLevel.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareHighLevel.pdf
+INPUT E:\Local Repos\thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf
+INPUT E:\Local Repos\thesis/gfx/Res.pdf
+INPUT e:/Local Repos/thesis/gfx/Res.pdf
+INPUT e:/Local Repos/thesis/gfx/Res.pdf
+INPUT E:\Local Repos\thesis/gfx/RacoonServices.pdf
+INPUT e:/Local Repos/thesis/gfx/RacoonServices.pdf
+INPUT e:/Local Repos/thesis/gfx/RacoonServices.pdf
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
+INPUT E:\Local Repos\thesis/gfx/MiddlewareAurthentication.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareAurthentication.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareAurthentication.pdf
+INPUT E:\Local Repos\thesis/gfx/MiddlewareAurthenticationWithToken.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareAurthenticationWithToken.pdf
+INPUT e:/Local Repos/thesis/gfx/MiddlewareAurthenticationWithToken.pdf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplri9d.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
+OUTPUT E:\Local Repos\thesis/Chapters/CompassChapter.aux
+INPUT E:\Local Repos\thesis/Chapters/CompassChapter.tex
+INPUT E:\Local Repos\thesis/Chapters/CompassChapter.tex
+INPUT E:\Local Repos\thesis/gfx/FullSystem.pdf
+INPUT e:/Local Repos/thesis/gfx/FullSystem.pdf
+INPUT e:/Local Repos/thesis/gfx/FullSystem.pdf
+INPUT E:\Local Repos\thesis/gfx/Dataflow-StirDemoActive.pdf
+INPUT e:/Local Repos/thesis/gfx/Dataflow-StirDemoActive.pdf
+INPUT e:/Local Repos/thesis/gfx/Dataflow-StirDemoActive.pdf
+INPUT E:\Local Repos\thesis/gfx/DataflowStirAllOptionsDemo.pdf
+INPUT e:/Local Repos/thesis/gfx/DataflowStirAllOptionsDemo.pdf
+INPUT e:/Local Repos/thesis/gfx/DataflowStirAllOptionsDemo.pdf
+INPUT E:\Local Repos\thesis/gfx/DemoOneBRAVE.png
+INPUT e:/Local Repos/thesis/gfx/DemoOneBRAVE.png
+INPUT e:/Local Repos/thesis/gfx/DemoOneBRAVE.png
+INPUT E:\Local Repos\thesis/gfx/DemoOneScreenShot.png
+INPUT e:/Local Repos/thesis/gfx/DemoOneScreenShot.png
+INPUT e:/Local Repos/thesis/gfx/DemoOneScreenShot.png
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmb8t.tfm
+INPUT E:\Local Repos\thesis/gfx/Dataflow-StirPassiveDemo.pdf
+INPUT e:/Local Repos/thesis/gfx/Dataflow-StirPassiveDemo.pdf
+INPUT e:/Local Repos/thesis/gfx/Dataflow-StirPassiveDemo.pdf
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmb8t.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmb8r.tfm
+INPUT E:\Local Repos\thesis/gfx/DemoTwo_StageOne.pdf
+INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageOne.pdf
+INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageOne.pdf
+INPUT E:\Local Repos\thesis/gfx/DemoTwo_StageTwo.pdf
+INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageTwo.pdf
+INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageTwo.pdf
+INPUT E:\Local Repos\thesis/gfx/DemoTwo_StageThree.pdf
+INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageThree.pdf
+INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageThree.pdf
+INPUT E:\Local Repos\thesis/gfx/RS232Bus.pdf
+INPUT e:/Local Repos/thesis/gfx/RS232Bus.pdf
+INPUT e:/Local Repos/thesis/gfx/RS232Bus.pdf
+OUTPUT E:\Local Repos\thesis/Chapters/conclu.aux
+INPUT E:\Local Repos\thesis/Chapters/conclu.tex
+INPUT E:\Local Repos\thesis/Chapters/conclu.tex
+OUTPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.aux
+INPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.tex
+INPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.tex
+INPUT E:\Local Repos\thesis/gfx/manToolWelcome.png
+INPUT e:/Local Repos/thesis/gfx/manToolWelcome.png
+INPUT e:/Local Repos/thesis/gfx/manToolWelcome.png
+INPUT E:\Local Repos\thesis/gfx/manToolLogin.png
+INPUT e:/Local Repos/thesis/gfx/manToolLogin.png
+INPUT e:/Local Repos/thesis/gfx/manToolLogin.png
+INPUT E:\Local Repos\thesis/gfx/manToolInUse.png
+INPUT e:/Local Repos/thesis/gfx/manToolInUse.png
+INPUT e:/Local Repos/thesis/gfx/manToolInUse.png
+INPUT E:\Local Repos\thesis/gfx/manToolAddingItem.png
+INPUT e:/Local Repos/thesis/gfx/manToolAddingItem.png
+INPUT e:/Local Repos/thesis/gfx/manToolAddingItem.png
+INPUT E:\Local Repos\thesis/gfx/addItemDetail.png
+INPUT e:/Local Repos/thesis/gfx/addItemDetail.png
+INPUT e:/Local Repos/thesis/gfx/addItemDetail.png
+OUTPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.aux
+INPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.tex
+INPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.tex
+OUTPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.tex
+INPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.tex
+INPUT E:\Local Repos\thesis/outter.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titlepage.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Titleback.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Abstract.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Acknowledgments.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Contents.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Contents.aux
+INPUT E:\Local Repos\thesis/Chapters/intro.aux
+INPUT E:\Local Repos\thesis/Chapters/intro.aux
+INPUT E:\Local Repos\thesis/Chapters/litreview.aux
+INPUT E:\Local Repos\thesis/Chapters/litreview.aux
+INPUT E:\Local Repos\thesis/Chapters/problemstatement.aux
+INPUT E:\Local Repos\thesis/Chapters/problemstatement.aux
+INPUT E:\Local Repos\thesis/Chapters/cifparser.aux
+INPUT E:\Local Repos\thesis/Chapters/cifparser.aux
+INPUT E:\Local Repos\thesis/Chapters/Middleware.aux
+INPUT E:\Local Repos\thesis/Chapters/Middleware.aux
+INPUT E:\Local Repos\thesis/Chapters/CompassChapter.aux
+INPUT E:\Local Repos\thesis/Chapters/CompassChapter.aux
+INPUT E:\Local Repos\thesis/Chapters/conclu.aux
+INPUT E:\Local Repos\thesis/Chapters/conclu.aux
+INPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.aux
+INPUT E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.aux
+INPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.aux
+INPUT E:\Local Repos\thesis/Chapters/storedProcListingApend.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.aux
+INPUT E:\Local Repos\thesis/FrontBackmatter/Bibliography.aux
+INPUT e:/Local Repos/thesis/outter.out
+INPUT e:/Local Repos/thesis/outter.out
+INPUT E:\Local Repos\thesis/outter.run.xml
+OUTPUT E:\Local Repos\thesis/outter.run.xml
+INPUT i:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT i:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT i:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/bera/fvmb8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
+INPUT i:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb

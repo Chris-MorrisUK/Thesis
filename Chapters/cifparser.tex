@@ -161,45 +161,20 @@ The manual data entry tool demonstrates a technique for adding previously modell
 \subsection{Manual Data Entry Tool: Implementation}
 The tool was constructed as a web application, with intent that it could be deployed centrally in large organisations and used as needed. This tool relies upon the middleware, discussed in chapter \ref{ch:middleware}, to connect to the triple store. For layout and presentation the popular \say{bootstrap}\footnote{Available from: \url{https://getbootstrap.com/}. This framework provides a number of styles alongside Javascript functionality} framework was employed to speed development and allow for access from a range of devices.
 
-As shown by \autoref{fig:mtLogin} the user is first required to log on. Note that for ease of use all details, except passwords, are stored on the client machine, using cookies.
-
  \begin{figure}[H]
-\includegraphics[max height=\textheight,max width=\linewidth]{gfx/manToolWelcome}
-\includegraphics[max height=0.5\textheight,max width=\linewidth]{gfx/manToolLogin}
-\caption{Manual Data Entry tool welcome and login screens}
-\label{fig:mtLogin}
+\includegraphics[max width=\linewidth]{gfx/manEntryWorkflow}
+\caption{Manual Data Entry tool work flow for adding individuals to the ABox}
+\label{fig:mtWorkFlow}
 \end{figure}
 
-As shown in \autoref{fig:mtMainMenu} the system currently supports the following options:
+The main menu presents user with the following options:
 \begin{itemize}
-	\item Adding new individuals
-	\item Viewing individuals
-	\item Uploading data, related to specific project, namely COMPASS as discussed in \autoref{ch:COMPASS}. 
+    \item Adding new individuals
+    \item Viewing individuals
+    \item Uploading data, related to specific project, namely COMPASS as discussed in \autoref{ch:COMPASS}. 
 \end{itemize}
 
- \begin{figure}[!h]
-\myfloatalign
-{\includegraphics[max height=0.5\textheight,max width=\linewidth]{gfx/manToolInUse}} 
-\caption[Manual Data Entry Tool]{Manual Data Entry Tool main menu}
-\label{fig:mtMainMenu}
-\end{figure}
-
-The procedure for adding new individuals is set out in \autoref{fig:mtAddingItem}. In \autoref{fig:mtAddingItemDetail} the mechanism for supplying values for any properties that are expected is shown, the properties shown are selected based on those that other individuals of the same class have. Users are free to enter a value or not for all of the properties shown. When done the data is then stored in the ontology.
-
- \begin{figure}[!h]
-\myfloatalign
-{\includegraphics[max height=0.5\textheight,max width=\linewidth]{gfx/manToolAddingItem}} 
-\caption[Manual Data Entry Tool Add item stage 1]{Manual Data Entry tool Adding an item stage one}
-\label{fig:mtAddingItem}
-\end{figure}
-
- \begin{figure}[!h]
-\myfloatalign
-{\includegraphics[max height=0.5\textheight,max width=\linewidth]{gfx/addItemDetail}} 
-\caption[Manual Data Entry Tool Add item stage 2]{Manual Data Entry tool Adding an item stage two}
-\label{fig:mtAddingItemDetail}
-\end{figure}
-
+The procedure for adding new individuals is set out in \autoref{fig:mtWorkFlow} and shown in the screenshots available in \autoref{app:mantoolgui}. In \autoref{fig:mtAddingItemDetail} (in  \autoref{app:mantoolgui}) the mechanism for supplying values for any properties that are expected is shown, the properties displayed are selected based on those that other individuals of the same class have. Users are free to enter a value or not for all of the properties shown. When done the data is then stored in the ontology.
 
 \section{Results} 
 Initial tests, on the unoptimised system, were performed with smaller schedule files, truncated to 64MB, from an original 564MB. Chunks of this size took more than twelve hours using an unoptimised version of the software, when full files were processed the program ran out of memory before returning results.
