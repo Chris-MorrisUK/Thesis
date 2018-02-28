@@ -84,7 +84,7 @@ PHILOSOPHY\xspace}
 
 \usepackage{csquotes}
 \PassOptionsToPackage{%
-    %backend=biber, %instead of bibtex
+    %backend=biber, bibencoding=utf8%instead of bibtex
     backend=bibtex8,bibencoding=utf8,%
     language=auto,%
     %style=alphabetic,%
@@ -295,7 +295,10 @@ sensitive=true,
     }{\relax}
 \makeatother
 
-
+% *********************************************************
+% Debug only
+% ********************************************************
+\usepackage{lua-visual-debug}
 % ****************************************************************************************************
 % 7. Last calls before the bar closes
 % ****************************************************************************************************
@@ -327,6 +330,8 @@ sensitive=true,
 %\setlength{\marginparsep}{2em}%
 \usepackage{setspace}
  \setstretch{1.6}
+\emergencystretch=.5em
+
 
 % ********************************************************************
 % Using different fonts

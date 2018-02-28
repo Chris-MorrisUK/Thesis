@@ -15,9 +15,9 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.1}The IQuery interface, which must be implemented by all executable queries}{86}{lstlisting.5.1}
+\contentsline {lstlisting}{\numberline {5.1}The IQuery interface, which must be implemented by all executable queries}{87}{lstlisting.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.2}Linking of Balises to BaliseGroups}{90}{lstlisting.5.2}
+\contentsline {lstlisting}{\numberline {5.2}Linking of Balises to BaliseGroups}{91}{lstlisting.5.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

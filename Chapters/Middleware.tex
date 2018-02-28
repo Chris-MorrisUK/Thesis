@@ -1,5 +1,5 @@
 %************************************************
-\chapter{Middleware}\label{ch:middleware}
+\chapter{Use of a Middleware Layer with Ontologies}\label{ch:middleware}
 %************************************************
 \section{Introduction}\label{sec:mwintro}
 The benefits of adopting linked data and related techniques, even in environments with substantial legacy resources are clear. In essence this is achieved by first modelling the schema of the data, then making the ABox (row) data available to the ontology. Once an area or sub-domain has been modelled, software must be developed that allows software and services within the industry to interact with the the data in the triple store. This currently requires specialist knowledge, not common in the software engineering community, and this gap presents another barrier to industrial implementation of ontology based systems. As a minimum a developer working in the area would need a detailed understanding of:
@@ -120,18 +120,18 @@ The middleware solution contains the following modules:
 
 The relationship between these modules and external modules is shown in \autoref{fig:MiddlewareHL}.
 
-\begin{figure}[H]
+\begin{sidewaysfigure}
 \myfloatalign
-{\includegraphics[width=\linewidth]{gfx/MiddlewareHighLevel}} 
+\includegraphics[max height=0.9\textwidth]{gfx/MiddlewareHighLevel}
 \caption{The interactions between the middleware modules, both internal and external}
 \label{fig:MiddlewareHL}
-\end{figure}
+\end{sidewaysfigure}
 
 \subsection{RacoonMiddleware}
 \label{sec:middlewaremodule}
 This module contains the webservice definitions and the functionality directly related to them and thus is the part of the middleware with which external developers will interact directly. In particular it contains definitions of all the responses that can be given by the webservices and all the parameters accepted.
 
-In keeping with software engineering best practice, for systems providing many similar functions, this module in particular makes heavy use of SOLID design patterns. All of the responses returned by the webservice extend a simple base class entitled \say{\texttt{SimpleRacoonResponse}}, which provides the basic details every response from the webservice will include, namely:
+In keeping with software engineering best practice, for systems providing many similar functions, this module in particular makes heavy use of SOLID design patterns. \\ All of the responses returned by the webservice extend a simple base class entitled \say{\texttt{SimpleRacoonResponse}}, which provides the basic details every response from the webservice will include, namely:
 \begin{description}
     \item[AuthorisationOK] A Boolean value indicating if the token provided was accepted. If this is false then the token is not valid. The most probable cause for this is the token timing out, since they are only valid for a given length of time, currently configured as one hour.
     \item[Error] An exception, if this is not null an error of some kind has occurred. The message should be suitable for display to a user and the type of the exception should be informative.
@@ -163,11 +163,12 @@ This inheritance is set out in \autoref{fig:MiddlewareResponses}, which also giv
 
 The \texttt{RacoonMiddleware} module is also responsible for acting as an \say{intermediary} between multiple different data stores. Within the framework discussed Stardog is used as the main datastore (the triplestore), with REDIS support included to provide a buffer for high velocity data streams. However the framework is flexible and would allow for the addition of extra datastores with no impact on the existing stores or the framework. In order as to isolate this datastore specific code from the rest of the system it is implemented in separate Dynamic Link Libraries, here on referred to as DLLs. This allows for; the easy addition of new datastores, reduced regression testing when the DLL is changed to match changes in triple store interfaces and logical separation from unrelated code. In order as to be usable by the larger system the DLL must make available or \say{export} an implementation of the interface set out in \autoref{lst:query}. Stored procedures have a field setting out the fully qualified name of the stored procedure's type, as seen in \autoref{lst:StoredProcedure} so if the DLL is in memory all that needs be done to access a new datastore is create a stored procure with that type specified and it will be used, with no code changes to this module. 
 
+\vfill
 \begin{lstlisting}[language={[Sharp]C},frame=tb,caption={The IQuery interface, which must be implemented by all executable queries},label=lst:query]
 /// <summary>
 /// An abstract query, targeting any data store. Includes methods for setting any variables included in the query
 /// </summary>
-public interface IQuerry
+public interface IQuery
 {
     void SetTarget(string server,string datastore);
     void SetQuerry(string queryText);
@@ -283,3 +284,5 @@ The middleware acts as an intermediary with a known and easily understood interf
 \section{Further work}
 
 More complete integration of differing data stores is possible - currently there is no webservice to summarise high frequency data and insert the bulk data into another store. This would be easily achieved within the existing framework, however, none of the projects for which the middleware was used have required it, thus it has not been implemented. Before the software could be commercialised it would be necessary to subject it to analysis by penetration testers to find any vulnerabilities in the security mechanism.
+
+\subsection{Scalability}
