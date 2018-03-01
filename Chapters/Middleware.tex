@@ -13,6 +13,15 @@ In addition to these, for the knowledge of the specific technologies to be of va
 
 Whilst it is likely that in the long term the skills gap around ontology will be filled by improved education and training in the short and medium term the adoption of ontology linked data in the rail domain would be considerably accelerated by the production of tools that enable software engineers without ontology experience to interact with data stored using an ontology. The RaCoOn middleware exists to bridge that gap.
 
+\subsection{Questions Considered}
+
+This chapter will make it possible to consider the following questions, posed in \autoref{ch:probstate}:
+\begin{itemize}
+\item \QuestionCombine
+\item \QuestionChange
+\item \QuestionSkillz
+\end{itemize}
+
 \subsection{Roles}
 The RaCoOn middleware exists as an intermediary between the triple store holding the ontologies, and applications that require access to those resources. In addition to enabling this simple connectivity the middleware also provides and manages connections to REDIS, a key value store used to handle high frequency data, and adds a security layer. Applications use the middleware via Windows Communication Foundation (WCF) web services, which where ever possible implement RESTFul design principles. The middleware represents several contributions to ontology development for the railways: Firstly it acts as a \say{buffer} between the triple store and the connected applications (consumers). Different consumers have a range of access requirements and as the market evolves it is possible, even likely, that the selection of commercially available triple stores will change. The middleware ensures that as the software components on either side of the middleware evolve the larger system is unaffected; the same interface will be presented to the consumer regardless of the choice of triple store. Another key benefit the use of a middleware offers, is the ability for developers to easily interact with a range of specialist datastores as needed by the application use case alongside the triplestore itself. In the scope of this document, this is illustrated using the REDIS key-value store as a lookup for high frequency data streams, however, as the technology develops many other similar storage needs are likely to be identified.
 
@@ -258,25 +267,28 @@ Once the token has been received successfully the process shown in in \autoref{f
 
 Once the token has been issued to a client it is valid for a fixed amount of time (in the example implementation this is set at one hour, however this is defined as a constant for ease of alteration) after which the client receives an error if it is used. The client must then re-apply for a token, once again using the procedure set out in: \autoref{fig:aurth}. The use of tokens reduces the number of times an end users credentials must be transmitted securely over the network, which would otherwise need to be done with every call to the webservice. Aside from reduced bandwidth usage this scales better on the server-side; the token need simply be checked for validity, rather than recalling the users details and checking the stored password hash.
 
+\vfill
 \section{Conclusions}
 
 The case study in the following chapter made extensive use of this middleware and further conclusions are found at the end of that section.
 
 In \autoref{ch:probstate} a number of questions are posed, first amongst them is:
 
-\epigraph{\QuestionSecurity} 
+\textit{\QuestionSecurity} 
 
 The middleware is an example of a way to provide security to a datastore with none built in. REDIS, by design, has no security, leaving it to the consuming application for improved speed of data storage and retrieval, which is that project's main focus. When REDIS is hosted on a non publicly accessible server (or port) and accessed via the middleware only authorised users can store or retrieve data. The technique used in the middleware of issuing tokens valid for a limited time has become popular within the industry, though other techniques could also be successfully applied. 
 
-\epigraph{\QuestionCombine}
+\textit{\QuestionCombine}
 
 Using the middleware as an example we have shown that it is possible to combine multiple data stores by using the same intermediary to connect to all the different datastores. Services run within that intermediary have access to all datastores and thus can perform operations which aggregate data. 
 
-\epigraph{\QuestionChange}
+\textit{\QuestionChange}
 
-The use of a cut-out or intermediary between client software and a datastore can safe guard the client application against changes to that datastore or its interfaces. The middleware provides an example of such an application.
+The use of a cut-out or intermediary between client software and a datastore can safe guard the client application against changes to that datastore or its interfaces. The middleware provides an example of such an application. 
 
-\epigraph{\QuestionSkillz}
+Since the completion of this project Stardog has altered its API and in order as to implement other projects it was necessary to alter the stardog connector module to enable continued operation. Once the stardog connector module had been updated the middleware and the dependant tools continued to operate as before. 
+
+\textit{\QuestionSkillz}
 
 The middleware acts as an intermediary with a known and easily understood interface with external developers. This was used effectively as part of the work presented in \autoref{ch:COMPASS}, where it is assessed.
 
@@ -286,3 +298,15 @@ The middleware acts as an intermediary with a known and easily understood interf
 More complete integration of differing data stores is possible - currently there is no webservice to summarise high frequency data and insert the bulk data into another store. This would be easily achieved within the existing framework, however, none of the projects for which the middleware was used have required it, thus it has not been implemented. Before the software could be commercialised it would be necessary to subject it to analysis by penetration testers to find any vulnerabilities in the security mechanism.
 
 \subsection{Scalability}
+If the middleware is to be deployed at very large scales, handling high frequency sensor at a national or even global scale then scalability challenges will need further examination. 
+
+The middleware is written in a multi-threaded manor, such that it will perform better the more processing cores it has available, however there exists a ceiling beyond which extra hardware will no longer improve performance. The first outstanding challenge is assessing where that ceiling falls and at what scale it would become problematic, if at all. Scalability is already considered within the datastores to which the middleware currently acts as a gateway. Both REDIS and Stardog support clustering, and since the middleware (along with the datastore APIs) are written such that if clustering were deployed with either datastore no changes would be necessary to the middleware. If further performance improvements are found to be necessary then the following changes could be considered:
+\begin{itemize}
+    \item Deploying multiple servers running the middleware with requests directed to them by a load balancer. This would require minimal alteration to the middleware as it contains no state information. 
+    \item The authentication could be handled by an external project designed purely for that purpose, such as \texttt{shiro}\footnote{More details available at: \url{https://shiro.apache.org/}}. This would offer two advantages: 
+    \begin{itemize}
+        \item Efficiency gains: One performance bottleneck in the middleware is likely to be authentication, this project is dedicated only to providing efficient authentication;
+        \item Improved Security: This project has already been heavily tested for security vulnerabilities and is regularly updated whenever they are found.        
+    \end{itemize}
+    \item Moving to a containerized architecture. This eliminates the overhead of a virtual machine for each deployment of the middleware, in a web-scale, load balanced, environment. Since there is no state preserved in the webservices and WCF webservices can be run in containers, no major issues are foreseen converting to this architecture. 
+\end{itemize}

@@ -35,11 +35,11 @@ Reallocated field_info (elt_size=4) to 18205 items from 5000.
 Database file #1: outter-blx.bib
 Database file #2: library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 2639 of file library.bib
+Repeated entry---line 5277 of file library.bib
  : @inproceedings{Morris2016
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2646 of file library.bib
+Repeated entry---line 5291 of file library.bib
  : @article{Tutcher2015
  :                     ,
 I'm skipping whatever remains of this entry
