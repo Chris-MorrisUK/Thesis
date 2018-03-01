@@ -16,72 +16,72 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Triple}}{18}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Racoon Layers}}{44}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Racoon Layers}}{46}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Items located using a TIPLOC - one of the location codes.\relax }}{62}{figure.caption.12}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Items located using a TIPLOC - one of the location codes.\relax }}{64}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Business Object inheritance\relax }}{63}{figure.caption.13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Business Object inheritance\relax }}{65}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Data conversion work-flow\relax }}{66}{figure.caption.14}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Data conversion work-flow\relax }}{68}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schedule parsing tool interface\relax }}{67}{figure.caption.15}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schedule parsing tool interface\relax }}{69}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Manual Data Entry tool work flow for adding individuals to the ABox\relax }}{69}{figure.caption.16}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Manual Data Entry tool work flow for adding individuals to the ABox\relax }}{71}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Time to output turtle files\relax }}{71}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The role of the Middleware\relax }}{77}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The interactions between the middleware modules, both internal and external\relax }}{84}{figure.caption.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The response types returned by the RaCoOn Middleware\relax }}{86}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The interfaces implemented by webservice responses\relax }}{87}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Selected webservices\relax }}{88}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Authentication work-flow\relax }}{96}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Use of authentication token\relax }}{97}{figure.caption.24}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Time to output turtle files\relax }}{73}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Full System Dataflows\relax }}{108}{figure.caption.25}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The role of the Middleware\relax }}{79}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Demonstrator Two Dataflows. Note that links in green are demonstration only - not part of the final solution\relax }}{111}{figure.caption.26}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The interactions between the middleware modules, both internal and external\relax }}{86}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces All Possible Data Sources for integration\relax }}{113}{figure.caption.27}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The response types returned by the RaCoOn Middleware\relax }}{88}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Realtime Train Position via BRaVE}}{119}{figure.caption.28}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The interfaces implemented by webservice responses\relax }}{89}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Demonstrator One}}{120}{figure.caption.29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Selected webservices\relax }}{90}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Demonstrator One Data-flows}}{122}{figure.caption.31}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Authentication work-flow\relax }}{98}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Demonstrator Two - Stage One\relax }}{128}{figure.caption.32}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Use of authentication token\relax }}{99}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Demonstrator Two - Stage Two\relax }}{128}{figure.caption.33}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Demonstrator Two - Stage Three\relax }}{128}{figure.caption.34}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Full System Dataflows\relax }}{110}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Demonstator Two - RS232 Bus}}{129}{figure.caption.35}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Demonstrator Two Dataflows. Note that links in green are demonstration only - not part of the final solution\relax }}{113}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces All Possible Data Sources for integration\relax }}{115}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Realtime Train Position via BRaVE}}{121}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Demonstrator One}}{122}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Demonstrator One Data-flows}}{124}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Demonstrator Two - Stage One\relax }}{130}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Demonstrator Two - Stage Two\relax }}{130}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Demonstrator Two - Stage Three\relax }}{130}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Demonstator Two - RS232 Bus}}{131}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Manual Data Entry tool welcome and login screens\relax }}{145}{figure.caption.36}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Manual Data Entry tool welcome and login screens\relax }}{147}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Manual Data Entry Tool}}{146}{figure.caption.37}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Manual Data Entry Tool}}{148}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Manual Data Entry Tool Add item stage 1}}{146}{figure.caption.38}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Manual Data Entry Tool Add item stage 1}}{148}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Manual Data Entry Tool Add item stage 2}}{147}{figure.caption.39}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Manual Data Entry Tool Add item stage 2}}{149}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

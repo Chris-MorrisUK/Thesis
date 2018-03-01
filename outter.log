@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.11)  1 MAR 2018 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.11)  1 MAR 2018 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1531,7 +1531,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 244.
+(scrhack)             need that hack, on input line 257.
 (i:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 (i:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -1621,15 +1621,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip100
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 269.
-Package hyperref Info: Option `linktocpage' set `true' on input line 269.
-Package hyperref Info: Option `breaklinks' set `true' on input line 269.
-Package hyperref Info: Option `pageanchor' set `true' on input line 269.
-Package hyperref Info: Option `plainpages' set `false' on input line 269.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 269.
+Package hyperref Info: Option `colorlinks' set `true' on input line 282.
+Package hyperref Info: Option `linktocpage' set `true' on input line 282.
+Package hyperref Info: Option `breaklinks' set `true' on input line 282.
+Package hyperref Info: Option `pageanchor' set `true' on input line 282.
+Package hyperref Info: Option `plainpages' set `false' on input line 282.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 282.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 269.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 269.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 282.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 282.
 (i:/texlive/2016/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.sty
 Package: lua-visual-debug 2016/05/30 v0.5 Visual debugging in LuaLaTeX (PGU)
 
@@ -1836,7 +1836,7 @@ Package: scrtime 2017/01/03 v3.22 KOMA-Script package (time of LaTeX run)
 )) (i:/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 332.
+Package scrhack Info: loading setspace hack on input line 345.
 (i:/texlive/2016/texmf-dist/tex/latex/koma-script/setspace.hak
 File: setspace.hak 2017/01/03 v3.22 KOMA-Script package (hacking package setspa
 ce)
@@ -2127,7 +2127,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 42
 \openout8 = `outter.lot'.
 
 (E:\Local Repos\thesis/outter.lol [12]
-Overfull \hbox (8.29529pt too wide) in paragraph at lines 32--32
+Overfull \hbox (8.29529pt too wide) in paragraph at lines 38--38
  [][] []\T1/pplj/m/n/10.95 The Stored-Pro-ced-ure class. Con-struct-ors, privat
 e 
  []
@@ -2169,12 +2169,12 @@ Overfull \hbox (4.4686pt too wide) in paragraph at lines 23--24
  which is provided
  []
 
-<gfx/dragonNames.png, id=748, 168.63pt x 105.39375pt>
+<gfx/dragonNames.png, id=754, 168.63pt x 105.39375pt>
 File: gfx/dragonNames.png Graphic file (type png)
 <use gfx/dragonNames.png>
 Package pdftex.def Info: gfx/dragonNames.png used on input line 35.
 (pdftex.def)             Requested size: 168.62958pt x 105.39348pt.
-<gfx/gameOfThronesDragons.png, id=752, 482.55281pt x 231.11343pt>
+<gfx/gameOfThronesDragons.png, id=758, 482.55281pt x 231.11343pt>
 File: gfx/gameOfThronesDragons.png Graphic file (type png)
 <use gfx/gameOfThronesDragons.png>
 Package pdftex.def Info: gfx/gameOfThronesDragons.png used on input line 44.
@@ -2224,58 +2224,70 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[16] <gfx/JofferyTriple.pdf, id=855, 395.22656pt x 106.89937pt>
+[16] [17] <gfx/JofferyTriple.pdf, id=869, 395.22656pt x 106.89937pt>
 File: gfx/JofferyTriple.pdf Graphic file (type pdf)
 <use gfx/JofferyTriple.pdf>
 Package pdftex.def Info: gfx/JofferyTriple.pdf used on input line 85.
 (pdftex.def)             Requested size: 336.0pt x 90.88118pt.
-[17] [18 <e:/Local Repos/thesis/gfx/JofferyTriple.pdf>] [19]
+[18 <e:/Local Repos/thesis/gfx/JofferyTriple.pdf>] [19]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 111.
-[20] [21] [22] [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[20] [21]
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 133.
+LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10> not available
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 134.
+LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
+(Font)              scaled to size 8.50006pt on input line 134.
+[22] [23] [24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 [][]\T1/pplj/m/n/9 Available from [][]$\T1/fvm/m/n/9 https : / / www . topquadr
 ant . com / tools /
  []
 
-[25] [26] [27]
-Overfull \hbox (0.4836pt too wide) in paragraph at lines 192--193
+[26] [27] [28] [29]
+Overfull \hbox (0.4836pt too wide) in paragraph at lines 229--230
 []\T1/pplj/m/n/10.95 Two scen-arios
  []
 
-[28] [29] [30] [31] [32] [33]
-Underfull \hbox (badness 4582) in paragraph at lines 238--238
+[30] [31] [32] [33] [34]
+Underfull \hbox (badness 4582) in paragraph at lines 275--275
 [][]\T1/pplj/m/n/9 A pro-mo-tional video for the BBC's work in this area may be
  found
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 \T1/pplj/m/n/9 at: [][]$\T1/fvm/m/n/9 http : / / www . bbc . co . uk / academy 
 / technology / software-[]engineering /
  []
 
-[34] [35] [36] [37] [38]
+[35] [36] [37] [38]
 Overfull \hbox (37.96254pt too wide) has occurred while \output is active
  []|[]|
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[39] [40]
+Overfull \hbox (37.96254pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 []\T1/pplj/m/n/10.95 Telematic
  []
 
-[40]
+[42]
 Overfull \hbox (37.96254pt too wide) has occurred while \output is active
  []|[]|
  []
 
-[41] [42]
+[43] [44]
 Overfull \hbox (37.96254pt too wide) has occurred while \output is active
  []|[]|
  []
 
-[43]
+[45]
 Package epstopdf Info: Source file: <gfx/RacoonLayers.eps>
 (epstopdf)                    date: 2018-02-27 07:41:51
 (epstopdf)                    size: 78722 bytes
@@ -2284,51 +2296,46 @@ Package epstopdf Info: Source file: <gfx/RacoonLayers.eps>
 (epstopdf)                    size: 25878 bytes
 (epstopdf)             Command: <repstopdf --outfile=gfx/RacoonLayers-eps-conve
 rted-to.pdf gfx/RacoonLayers.eps>
-(epstopdf)             \includegraphics on input line 325.
+(epstopdf)             \includegraphics on input line 371.
 Package epstopdf Info: Output file is already uptodate.
-<gfx/RacoonLayers-eps-converted-to.pdf, id=1170, 504.88625pt x 571.13374pt>
+<gfx/RacoonLayers-eps-converted-to.pdf, id=1226, 504.88625pt x 571.13374pt>
 File: gfx/RacoonLayers-eps-converted-to.pdf Graphic file (type pdf)
 <use gfx/RacoonLayers-eps-converted-to.pdf>
 Package pdftex.def Info: gfx/RacoonLayers-eps-converted-to.pdf used on input li
-ne 325.
+ne 371.
 (pdftex.def)             Requested size: 201.60205pt x 228.05728pt.
-[44 <e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf>])
-Overfull \hbox (37.96254pt too wide) has occurred while \output is active
- []|[]|
- []
-
-[45] [46]
+[46 <e:/Local Repos/thesis/gfx/RacoonLayers-eps-converted-to.pdf>]) [47] [48]
 \openout2 = `Chapters/problemstatement.aux'.
 
 (E:\Local Repos\thesis/Chapters/problemstatement.tex
 chapter 3.
-[47
+[49
 
 
 
 
-] [48] [49] [50]
+] [50] [51] [52]
 Underfull \hbox (badness 6608) in paragraph at lines 49--49
 []|\T1/pplj/m/n/10.95 Given the di-verse in-form-a-tion en-vir-on-ment
  []
 
-) [51] [52]
+) [53] [54]
 \openout2 = `Chapters/cifparser.aux'.
 
 (E:\Local Repos\thesis/Chapters/cifparser.tex
 chapter 4.
-[53
+[55
 
 
 
 
-] [54] [55] [56]
+] [56] [57] [58]
 Overfull \hbox (1.86172pt too wide) in paragraph at lines 56--57
 \T1/pplj/m/n/10.95 Currently timetables are ex-changed in ``com-mon in-ter-face
  file'' format,
  []
 
-[57] [58] [59] [60] <gfx/ItemsWithTIPLOCsResized.pdf, id=1302, 421.10078pt x 29
+[59] [60] [61] [62] <gfx/ItemsWithTIPLOCsResized.pdf, id=1357, 421.10078pt x 29
 8.75392pt>
 File: gfx/ItemsWithTIPLOCsResized.pdf Graphic file (type pdf)
 <use gfx/ItemsWithTIPLOCsResized.pdf>
@@ -2338,7 +2345,7 @@ Package pdftex.def Info: gfx/ItemsWithTIPLOCsResized.pdf used on input line 95.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61] <gfx/BussinessObjectsCat.pdf, id=1311, 580.7777pt x 650.01328pt>
+[63] <gfx/BussinessObjectsCat.pdf, id=1366, 580.7777pt x 650.01328pt>
 File: gfx/BussinessObjectsCat.pdf Graphic file (type pdf)
 <use gfx/BussinessObjectsCat.pdf>
 Package pdftex.def Info: gfx/BussinessObjectsCat.pdf used on input line 106.
@@ -2346,7 +2353,7 @@ Package pdftex.def Info: gfx/BussinessObjectsCat.pdf used on input line 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62 <e:/Local Repos/thesis/gfx/ItemsWithTIPLOCsResized.pdf>]
+[64 <e:/Local Repos/thesis/gfx/ItemsWithTIPLOCsResized.pdf>]
 Underfull \hbox (badness 1622) in paragraph at lines 135--135
 []|\T1/pplj/m/n/10.95 Two Ter-ra-bytes, av-er-age data
  []
@@ -2357,17 +2364,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
 / / ark . intel . com / products / 63698 /
  []
 
-[63 <e:/Local Repos/thesis/gfx/BussinessObjectsCat.pdf>] [64] <gfx/cifParsingWo
-rkFlow.pdf, id=2434, 234.26247pt x 704.9433pt>
+[65 <e:/Local Repos/thesis/gfx/BussinessObjectsCat.pdf>] [66] <gfx/cifParsingWo
+rkFlow.pdf, id=2489, 234.26247pt x 704.9433pt>
 File: gfx/cifParsingWorkFlow.pdf Graphic file (type pdf)
 <use gfx/cifParsingWorkFlow.pdf>
 Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 143.
 (pdftex.def)             Requested size: 234.26189pt x 704.94157pt.
-[65]
+[67]
 Overfull \vbox (28.79588pt too high) has occurred while \output is active []
 
-[66 <e:/Local Repos/thesis/gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCo
-rner.png, id=2461, 1049.42062pt x 242.40562pt>
+[68 <e:/Local Repos/thesis/gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCo
+rner.png, id=2515, 1049.42062pt x 242.40562pt>
 File: gfx/cifparseRelevantCorner.png Graphic file (type png)
 <use gfx/cifparseRelevantCorner.png>
 Package pdftex.def Info: gfx/cifparseRelevantCorner.png used on input line 152.
@@ -2378,35 +2385,35 @@ Overfull \hbox (9.98404pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
-[67 <e:/Local Repos/thesis/gfx/cifparseRelevantCorner.png>] <gfx/manEntryWorkfl
-ow.pdf, id=2468, 205.48146pt x 474.26125pt>
+[69 <e:/Local Repos/thesis/gfx/cifparseRelevantCorner.png>] <gfx/manEntryWorkfl
+ow.pdf, id=2523, 205.48146pt x 474.26125pt>
 File: gfx/manEntryWorkflow.pdf Graphic file (type pdf)
 <use gfx/manEntryWorkflow.pdf>
 Package pdftex.def Info: gfx/manEntryWorkflow.pdf used on input line 165.
 (pdftex.def)             Requested size: 205.48096pt x 474.26007pt.
-[68] [69 <e:/Local Repos/thesis/gfx/manEntryWorkflow.pdf>] <gfx/scheduleProcess
-ing.pdf, id=2486, 844.71585pt x 597.6729pt>
+[70] [71 <e:/Local Repos/thesis/gfx/manEntryWorkflow.pdf>] <gfx/scheduleProcess
+ing.pdf, id=2540, 844.71585pt x 597.6729pt>
 File: gfx/scheduleProcessing.pdf Graphic file (type pdf)
 <use gfx/scheduleProcessing.pdf>
 Package pdftex.def Info: gfx/scheduleProcessing.pdf used on input line 190.
 (pdftex.def)             Requested size: 336.0pt x 237.73343pt.
-[70] [71 <e:/Local Repos/thesis/gfx/scheduleProcessing.pdf>]) [72]
+[72] [73 <e:/Local Repos/thesis/gfx/scheduleProcessing.pdf>]) [74]
 \openout2 = `Chapters/Middleware.aux'.
 
 (E:\Local Repos\thesis/Chapters/Middleware.tex
 chapter 5.
-[73
+[75
 
 
 
 
-] [74] [75] <gfx/Middleware_role.pdf, id=2525, 494.95924pt x 295.86983pt>
+] [76] [77] <gfx/Middleware_role.pdf, id=2580, 494.95924pt x 295.86983pt>
 File: gfx/Middleware_role.pdf Graphic file (type pdf)
 <use gfx/Middleware_role.pdf>
 Package pdftex.def Info: gfx/Middleware_role.pdf used on input line 40.
 (pdftex.def)             Requested size: 336.0pt x 200.85474pt.
-[76] [77 <e:/Local Repos/thesis/gfx/Middleware_role.pdf>] [78] [79] [80] [81] [
-82] <gfx/MiddlewareHighLevel.pdf, id=2714, 699.27484pt x 393.23866pt>
+[78] [79 <e:/Local Repos/thesis/gfx/Middleware_role.pdf>] [80] [81] [82] [83] [
+84] <gfx/MiddlewareHighLevel.pdf, id=2768, 699.27484pt x 393.23866pt>
 File: gfx/MiddlewareHighLevel.pdf Graphic file (type pdf)
 <use gfx/MiddlewareHighLevel.pdf>
 Package pdftex.def Info: gfx/MiddlewareHighLevel.pdf used on input line 134.
@@ -2416,42 +2423,41 @@ Overfull \hbox (33.22316pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[83] [84 <e:/Local Repos/thesis/gfx/MiddlewareHighLevel.pdf>]
+[85] [86 <e:/Local Repos/thesis/gfx/MiddlewareHighLevel.pdf>]
 Overfull \hbox (4.9271pt too wide) in paragraph at lines 145--146
 []\T1/pplj/m/n/10.95 A Boolean value in-dic-at-ing if the token provided
  []
 
 
-<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2728, 469.69637pt x 134.3654
+<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2783, 469.69637pt x 134.3654
 5pt>
 File: gfx/MiddlewareServicesClassesResponseOnly.pdf Graphic file (type pdf)
 <use gfx/MiddlewareServicesClassesResponseOnly.pdf>
 Package pdftex.def Info: gfx/MiddlewareServicesClassesResponseOnly.pdf used on 
 input line 154.
 (pdftex.def)             Requested size: 597.50793pt x 170.92924pt.
-<gfx/Res.pdf, id=2729, 310.56255pt x 182.13725pt>
+<gfx/Res.pdf, id=2784, 310.56255pt x 182.13725pt>
 File: gfx/Res.pdf Graphic file (type pdf)
 <use gfx/Res.pdf>
 Package pdftex.def Info: gfx/Res.pdf used on input line 161.
 (pdftex.def)             Requested size: 336.0pt x 197.07492pt.
-<gfx/RacoonServices.pdf, id=2730, 519.87952pt x 167.081pt>
+<gfx/RacoonServices.pdf, id=2785, 519.87952pt x 167.081pt>
 File: gfx/RacoonServices.pdf Graphic file (type pdf)
 <use gfx/RacoonServices.pdf>
 Package pdftex.def Info: gfx/RacoonServices.pdf used on input line 168.
 (pdftex.def)             Requested size: 597.50793pt x 192.02946pt.
-[85] [86 <e:/Local Repos/thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf>]
+[87] [88 <e:/Local Repos/thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf>]
 (i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 176.
-[87 <e:/Local Repos/thesis/gfx/Res.pdf>] [88 <e:/Local Repos/thesis/gfx/RacoonS
-ervices.pdf>] [89] [90] [91] [92] [93]
+) (i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) [89 <e:/Local Repos/thesis/gfx/Res.pdf>] [90 <e:/Local Repos/thesis/gfx/Racoo
+nServices.pdf>] [91] [92] [93] [94] [95]
 Overfull \hbox (4.35677pt too wide) in paragraph at lines 240--241
 []\T1/pplj/m/n/10.95 Whilst it is pos-sible to cre-ate stored
  []
 
-[94] <gfx/MiddlewareAurthentication.pdf, id=3845, 334.24875pt x 682.80093pt>
+[96] <gfx/MiddlewareAurthentication.pdf, id=3899, 334.24875pt x 682.80093pt>
 File: gfx/MiddlewareAurthentication.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthentication.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
@@ -2461,49 +2467,49 @@ Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
 LaTeX Warning: Float too large for page by 42.38539pt on input line 257.
 
 
-<gfx/MiddlewareAurthenticationWithToken.pdf, id=3847, 354.5248pt x 326.5265pt>
+<gfx/MiddlewareAurthenticationWithToken.pdf, id=3901, 354.5248pt x 326.5265pt>
 File: gfx/MiddlewareAurthenticationWithToken.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthenticationWithToken.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthenticationWithToken.pdf used on inp
 ut line 263.
 (pdftex.def)             Requested size: 336.0pt x 309.48096pt.
-[95] [96 <e:/Local Repos/thesis/gfx/MiddlewareAurthentication.pdf>] [97 <e:/Loc
-al Repos/thesis/gfx/MiddlewareAurthenticationWithToken.pdf>] [98] [99]) [100]
+[97] [98 <e:/Local Repos/thesis/gfx/MiddlewareAurthentication.pdf>] [99 <e:/Loc
+al Repos/thesis/gfx/MiddlewareAurthenticationWithToken.pdf>] [100] [101]) [102]
 \openout2 = `Chapters/CompassChapter.aux'.
 
 (E:\Local Repos\thesis/Chapters/CompassChapter.tex
 chapter 6.
-[101
+[103
 
 
 
 
-] [102] [103] [104] [105] [106]
+] [104] [105] [106] [107] [108]
 Overfull \hbox (0.64627pt too wide) in paragraph at lines 60--61
 \T1/pplj/m/n/10.95 cap-able of per-form-ing the demon-stra-tions out-lined in [
 ][]sub-sec-tion 6.2.1[][][].
  []
 
-<gfx/FullSystem.pdf, id=3958, 473.29999pt x 730.80823pt>
+<gfx/FullSystem.pdf, id=4012, 473.29999pt x 730.80823pt>
 File: gfx/FullSystem.pdf Graphic file (type pdf)
 <use gfx/FullSystem.pdf>
 Package pdftex.def Info: gfx/FullSystem.pdf used on input line 64.
 (pdftex.def)             Requested size: 473.29883pt x 730.80643pt.
-[107]
+[109]
 Overfull \hbox (5.28912pt too wide) in paragraph at lines 69--70
 []\T1/pplj/m/n/10.95 The pur-pose of each sub-system is de-scribed in [][]sub-s
 ub-sec-tion 6.2.2.1[][][]. 
  []
 
-[108 <e:/Local Repos/thesis/gfx/FullSystem.pdf>] [109] <gfx/Dataflow-StirDemoAc
-tive.pdf, id=3980, 464.82452pt x 730.80823pt>
+[110 <e:/Local Repos/thesis/gfx/FullSystem.pdf>] [111] <gfx/Dataflow-StirDemoAc
+tive.pdf, id=4035, 464.82452pt x 730.80823pt>
 File: gfx/Dataflow-StirDemoActive.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirDemoActive.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirDemoActive.pdf used on input line 96.
 
 (pdftex.def)             Requested size: 464.82338pt x 730.80643pt.
-[110] [111 <e:/Local Repos/thesis/gfx/Dataflow-StirDemoActive.pdf>] <gfx/Datafl
-owStirAllOptionsDemo.pdf, id=4010, 547.2947pt x 389.95688pt>
+[112] [113 <e:/Local Repos/thesis/gfx/Dataflow-StirDemoActive.pdf>] <gfx/Datafl
+owStirAllOptionsDemo.pdf, id=4065, 547.2947pt x 389.95688pt>
 File: gfx/DataflowStirAllOptionsDemo.pdf Graphic file (type pdf)
 <use gfx/DataflowStirAllOptionsDemo.pdf>
 Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line 
@@ -2512,8 +2518,8 @@ Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[112] [113 <e:/Local Repos/thesis/gfx/DataflowStirAllOptionsDemo.pdf>] [114] [1
-15]
+[114] [115 <e:/Local Repos/thesis/gfx/DataflowStirAllOptionsDemo.pdf>] [116] [1
+17]
 Overfull \hbox (7.10039pt too wide) in paragraph at lines 157--158
 []\T1/pplj/m/n/10.95 This data feed gives de-tails of trains
  []
@@ -2523,12 +2529,12 @@ Overfull \hbox (0.63513pt too wide) in paragraph at lines 159--160
 []\T1/pplj/m/n/10.95 This would make it pos-
  []
 
-[116] [117] <gfx/DemoOneBRAVE.png, id=4074, 2886.28313pt x 1594.45688pt>
+[118] [119] <gfx/DemoOneBRAVE.png, id=4128, 2886.28313pt x 1594.45688pt>
 File: gfx/DemoOneBRAVE.png Graphic file (type png)
 <use gfx/DemoOneBRAVE.png>
 Package pdftex.def Info: gfx/DemoOneBRAVE.png used on input line 178.
 (pdftex.def)             Requested size: 597.50793pt x 330.07726pt.
-<gfx/DemoOneScreenShot.png, id=4077, 1263.21938pt x 755.82375pt>
+<gfx/DemoOneScreenShot.png, id=4131, 1263.21938pt x 755.82375pt>
 File: gfx/DemoOneScreenShot.png Graphic file (type png)
 <use gfx/DemoOneScreenShot.png>
 Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 185.
@@ -2536,43 +2542,39 @@ Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 185.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[118] [119 <e:/Local Repos/thesis/gfx/DemoOneBRAVE.png>]
-LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10> not available
-(Font)              Font shape `T1/fvm/b/n' tried instead on input line 205.
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 8.50006pt on input line 205.
+[120] [121 <e:/Local Repos/thesis/gfx/DemoOneBRAVE.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[120 <e:/Local Repos/thesis/gfx/DemoOneScreenShot.png>] <gfx/Dataflow-StirPassi
-veDemo.pdf, id=4099, 477.86911pt x 729.67902pt>
+[122 <e:/Local Repos/thesis/gfx/DemoOneScreenShot.png>] <gfx/Dataflow-StirPassi
+veDemo.pdf, id=4153, 477.86911pt x 729.67902pt>
 File: gfx/Dataflow-StirPassiveDemo.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirPassiveDemo.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirPassiveDemo.pdf used on input line 22
 7.
 (pdftex.def)             Requested size: 477.86795pt x 729.67723pt.
-[121] [122 <e:/Local Repos/thesis/gfx/Dataflow-StirPassiveDemo.pdf>] [123] [124
-] [125] [126] <gfx/DemoTwo_StageOne.pdf, id=4165, 527.04509pt x 141.29675pt>
+[123] [124 <e:/Local Repos/thesis/gfx/Dataflow-StirPassiveDemo.pdf>] [125] [126
+] [127] [128] <gfx/DemoTwo_StageOne.pdf, id=4219, 527.04509pt x 141.29675pt>
 File: gfx/DemoTwo_StageOne.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageOne.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 286.
 (pdftex.def)             Requested size: 527.0438pt x 141.2964pt.
-[127] <gfx/DemoTwo_StageTwo.pdf, id=4171, 518.4618pt x 143.68468pt>
+[129] <gfx/DemoTwo_StageTwo.pdf, id=4226, 518.4618pt x 143.68468pt>
 File: gfx/DemoTwo_StageTwo.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageTwo.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 293.
 (pdftex.def)             Requested size: 518.46053pt x 143.68431pt.
-<gfx/DemoTwo_StageThree.pdf, id=4172, 527.21104pt x 183.1245pt>
+<gfx/DemoTwo_StageThree.pdf, id=4227, 527.21104pt x 183.1245pt>
 File: gfx/DemoTwo_StageThree.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageThree.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 300.
 (pdftex.def)             Requested size: 527.20976pt x 183.12404pt.
-<gfx/RS232Bus.pdf, id=4174, 540.51938pt x 375.65344pt>
+<gfx/RS232Bus.pdf, id=4229, 540.51938pt x 375.65344pt>
 File: gfx/RS232Bus.pdf Graphic file (type pdf)
 <use gfx/RS232Bus.pdf>
 Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 313.
 (pdftex.def)             Requested size: 336.0pt x 233.52177pt.
-[128 <e:/Local Repos/thesis/gfx/DemoTwo_StageOne.pdf> <e:/Local Repos/thesis/gf
+[130 <e:/Local Repos/thesis/gfx/DemoTwo_StageOne.pdf> <e:/Local Repos/thesis/gf
 x/DemoTwo_StageTwo.pdf
 
 pdfTeX warning: pdflatex.exe (file e:/Local Repos/thesis/gfx/DemoTwo_StageTwo.p
@@ -2581,18 +2583,18 @@ df): PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file e:/Local Repos/thesis/gfx/DemoTwo_StageThree
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [129 <e:/Local Repos/thesis/gfx/RS232Bus.pdf>] [130] [131] [132] [133]) [134
-] [135]
+>] [131 <e:/Local Repos/thesis/gfx/RS232Bus.pdf>] [132] [133] [134] [135]) [136
+] [137]
 \openout2 = `Chapters/conclu.aux'.
 
-(E:\Local Repos\thesis/Chapters/conclu.tex [136
+(E:\Local Repos\thesis/Chapters/conclu.tex [138
 
 
 
 
 ]
 chapter 7.
-[137] [138] [139] [140] [141]) [142] [143
+[139] [140] [141] [142] [143]) [144] [145
 
 
 
@@ -2600,17 +2602,17 @@ chapter 7.
 
 
 
-] [144]
+] [146]
 \openout2 = `Chapters/Chapter0A_ManToolGUI.aux'.
 
 (E:\Local Repos\thesis/Chapters/Chapter0A_ManToolGUI.tex
 chapter A.
-<gfx/manToolWelcome.png, id=4275, 1352.05125pt x 511.9125pt>
+<gfx/manToolWelcome.png, id=4329, 1352.05125pt x 511.9125pt>
 File: gfx/manToolWelcome.png Graphic file (type png)
 <use gfx/manToolWelcome.png>
 Package pdftex.def Info: gfx/manToolWelcome.png used on input line 14.
 (pdftex.def)             Requested size: 1352.04796pt x 511.91125pt.
-<gfx/manToolLogin.png, id=4276, 751.80875pt x 640.3925pt>
+<gfx/manToolLogin.png, id=4330, 751.80875pt x 640.3925pt>
 File: gfx/manToolLogin.png Graphic file (type png)
 <use gfx/manToolLogin.png>
 Package pdftex.def Info: gfx/manToolLogin.png used on input line 15.
@@ -2620,22 +2622,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 [][]
  []
 
-<gfx/manToolInUse.png, id=4278, 1152.305pt x 313.17pt>
+<gfx/manToolInUse.png, id=4332, 1152.305pt x 313.17pt>
 File: gfx/manToolInUse.png Graphic file (type png)
 <use gfx/manToolInUse.png>
 Package pdftex.def Info: gfx/manToolInUse.png used on input line 23.
 (pdftex.def)             Requested size: 1152.30219pt x 313.16922pt.
-[145
+[147
 
 
 
  <e:/Local Repos/thesis/gfx/manToolWelcome.png> <e:/Local Repos/thesis/gfx/manT
-oolLogin.png>] <gfx/manToolAddingItem.png, id=4285, 1155.31625pt x 511.9125pt>
+oolLogin.png>] <gfx/manToolAddingItem.png, id=4340, 1155.31625pt x 511.9125pt>
 File: gfx/manToolAddingItem.png Graphic file (type png)
 <use gfx/manToolAddingItem.png>
 Package pdftex.def Info: gfx/manToolAddingItem.png used on input line 32.
 (pdftex.def)             Requested size: 1155.31345pt x 511.91125pt.
-<gfx/addItemDetail.png, id=4286, 1156.32pt x 740.7675pt>
+<gfx/addItemDetail.png, id=4341, 1156.32pt x 740.7675pt>
 File: gfx/addItemDetail.png Graphic file (type png)
 <use gfx/addItemDetail.png>
 Package pdftex.def Info: gfx/addItemDetail.png used on input line 39.
@@ -2643,18 +2645,18 @@ Package pdftex.def Info: gfx/addItemDetail.png used on input line 39.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [146 <e:/Local Repos/thesis/gfx/manToolInUse.png> <e:/Local Repos/thesis/gfx/
-manToolAddingItem.png>] [147 <e:/Local Repos/thesis/gfx/addItemDetail.png>]
+) [148 <e:/Local Repos/thesis/gfx/manToolInUse.png> <e:/Local Repos/thesis/gfx/
+manToolAddingItem.png>] [149 <e:/Local Repos/thesis/gfx/addItemDetail.png>]
 \openout2 = `Chapters/storedProcListingApend.aux'.
 
-(E:\Local Repos\thesis/Chapters/storedProcListingApend.tex [148
+(E:\Local Repos\thesis/Chapters/storedProcListingApend.tex [150
 
 
 
 
 ]
 chapter B.
-[149] [150]) [151] [152
+[151] [152]) [153] [154
 
 
 
@@ -2667,23 +2669,23 @@ Overfull \hbox (21.01021pt too wide) in paragraph at lines 129--129
 }ChenSMTDJS15$[][]\T1/pplj/m/n/10.95 . 
  []
 
-[153
+[155
 
 
 
-] [154]
+] [156]
 Overfull \hbox (11.78424pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 Software{\ & }hl = {\ & }cd = 3{\ & }source = gbs{\ _ }api{\ 
 % }5Cnpapers2 :
  []
 
-[155] [156]
+[157] [158]
 Overfull \hbox (13.4689pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 28938912{\ % }0Ahttp : / / jbiomedsem . biomedcentral . com /
  articles /
  []
 
-[157]
+[159]
 Overfull \hbox (14.45319pt too wide) in paragraph at lines 129--129
 [][]\T1/pplj/m/n/10.95 Martin, Robert C (2003). \T1/pplj/m/it/10.95 The Prin-ci
 ples of OOD\T1/pplj/m/n/10.95 . \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][
@@ -2696,24 +2698,30 @@ Overfull \hbox (8.82082pt too wide) in paragraph at lines 129--129
 /10.95 (vis-ited on 01/09/2017). 
  []
 
-[158]
+[160]
 Overfull \hbox (4.21767pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 data / files / case -[] study -[] 1 . cfm ? type = pdf$[][] \
 T1/pplj/m/n/10.95 (vis-ited on 20/10/2017). 
  []
 
-[159] [160]
+[161] [162]
+Overfull \hbox (3.21767pt too wide) in paragraph at lines 129--129
+\T1/fvm/m/n/10.95 developer / schemes / documentation . html$[][] \T1/pplj/m/n/
+10.95 (vis-ited on 01/03/2018). 
+ []
+
+
 Overfull \hbox (19.62946pt too wide) in paragraph at lines 129--129
 [][]\T1/pplj/m/n/10.95 Rødseth, Ørnulf Jan (2011). `  A Mari-time ITS Ar-chi-te
 c-ture for e-Navigation
  []
 
-[161]
+[163]
 Overfull \hbox (30.42462pt too wide) in paragraph at lines 129--129
 \T1/pplj/m/it/10.95 RAIL TECH-NICAL STRATEGY 2012 THE RAIL TECH-NICAL STRATEGY
  []
 
-[162]
+[164]
 Overfull \hbox (49.88937pt too wide) in paragraph at lines 129--129
 \T1/fvm/m/n/10.95 osl . eps . hw . ac . uk / files / uploads / publications / W
 CRR2011Paperfinalv05 .
@@ -2731,7 +2739,7 @@ Overfull \hbox (26.0549pt too wide) in paragraph at lines 129--129
 68090X10001609$[][]\T1/pplj/m/n/10.95 . 
  []
 
-[163] [164]
+[165] [166]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
 (E:\Local Repos\thesis/outter.aux (E:\Local Repos\thesis/FrontBackmatter/Titlep
@@ -2967,6 +2975,7 @@ gfx/MiddlewareServicesClassesResponseOnly.pdf
  gfx/Res.pdf
 gfx/RacoonServices.pdf
 lstlang1.sty    2015/06/04 1.6 listings language file
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
 gfx/MiddlewareAurthentication.pdf
 gfx/MiddlewareAurthenticationWithToken.pdf
 Chapters/CompassChapter.tex
@@ -2993,19 +3002,19 @@ FrontBackmatter/Bibliography.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `outter.out' has not changed.
-(rerunfilecheck)             Checksum: 10D7018BE877C12FD4540CAC9EC95A18;8271.
+(rerunfilecheck)             Checksum: 2EBF02C96DA414A103E3F5175F66689E;8302.
 Package logreq Info: Writing requests to 'outter.run.xml'.
 \openout1 = `outter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36520 strings out of 493013
- 664898 string characters out of 6136993
- 1272180 words of memory out of 5000000
- 38756 multiletter control sequences out of 15000+600000
+ 37818 strings out of 493013
+ 683168 string characters out of 6136993
+ 1272401 words of memory out of 5000000
+ 40015 multiletter control sequences out of 15000+600000
  81757 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,23n,122p,10532b,3664s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,23n,122p,10532b,4731s stack positions out of 5000i,500n,10000p,200000b,80000s
 {i:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{i:/texlive/2016/texm
 f-dist/fonts/enc/dvips/lm/lm-ts1.enc}{i:/texlive/2016/texmf-dist/fonts/enc/dvip
 s/lm/lm-ec.enc}<i:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
@@ -3020,11 +3029,11 @@ a/fvmb8a.pfb><i:/texlive/2016/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><i:
 f-dist/fonts/type1/public/lm/lmsso10.pfb><i:/texlive/2016/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb><i:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb><i:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "E:\Local Repos\thesis/outter.pdf" (180 pages, 11857241 bytes
+Output written on "E:\Local Repos\thesis/outter.pdf" (182 pages, 11863269 bytes
 ).
 PDF statistics:
- 4774 PDF objects out of 5155 (max. 8388607)
- 3480 compressed objects within 35 object streams
- 590 named destinations out of 1000 (max. 500000)
+ 4839 PDF objects out of 5155 (max. 8388607)
+ 3542 compressed objects within 36 object streams
+ 627 named destinations out of 1000 (max. 500000)
  19929 words of extra memory for PDF output out of 20736 (max. 10000000)
 

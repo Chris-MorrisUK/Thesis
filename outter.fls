@@ -527,9 +527,6 @@ INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT i:/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
 INPUT i:/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
-INPUT E:\Local Repos\thesis/gfx/JofferyTriple.pdf
-INPUT e:/Local Repos/thesis/gfx/JofferyTriple.pdf
-INPUT e:/Local Repos/thesis/gfx/JofferyTriple.pdf
 INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/eulervm/zeusm10.vf
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -539,7 +536,16 @@ INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/eulervm/zeurm10.vf
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT E:\Local Repos\thesis/gfx/JofferyTriple.pdf
+INPUT e:/Local Repos/thesis/gfx/JofferyTriple.pdf
+INPUT e:/Local Repos/thesis/gfx/JofferyTriple.pdf
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmb8t.tfm
+INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmb8t.vf
+INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmb8r.tfm
 INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
 INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
@@ -605,9 +611,8 @@ INPUT e:/Local Repos/thesis/gfx/RacoonServices.pdf
 INPUT e:/Local Repos/thesis/gfx/RacoonServices.pdf
 INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
-INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT i:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT E:\Local Repos\thesis/gfx/MiddlewareAurthentication.pdf
 INPUT e:/Local Repos/thesis/gfx/MiddlewareAurthentication.pdf
 INPUT e:/Local Repos/thesis/gfx/MiddlewareAurthentication.pdf
@@ -632,12 +637,9 @@ INPUT e:/Local Repos/thesis/gfx/DemoOneBRAVE.png
 INPUT E:\Local Repos\thesis/gfx/DemoOneScreenShot.png
 INPUT e:/Local Repos/thesis/gfx/DemoOneScreenShot.png
 INPUT e:/Local Repos/thesis/gfx/DemoOneScreenShot.png
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmb8t.tfm
 INPUT E:\Local Repos\thesis/gfx/Dataflow-StirPassiveDemo.pdf
 INPUT e:/Local Repos/thesis/gfx/Dataflow-StirPassiveDemo.pdf
 INPUT e:/Local Repos/thesis/gfx/Dataflow-StirPassiveDemo.pdf
-INPUT i:/texlive/2016/texmf-dist/fonts/vf/public/bera/fvmb8t.vf
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/bera/fvmb8r.tfm
 INPUT E:\Local Repos\thesis/gfx/DemoTwo_StageOne.pdf
 INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageOne.pdf
 INPUT e:/Local Repos/thesis/gfx/DemoTwo_StageOne.pdf
