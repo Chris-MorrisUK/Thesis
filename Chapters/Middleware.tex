@@ -297,7 +297,8 @@ The middleware acts as an intermediary with a known and easily understood interf
 
 More complete integration of differing data stores is possible - currently there is no webservice to summarise high frequency data and insert the bulk data into another store. This would be easily achieved within the existing framework, however, none of the projects for which the middleware was used have required it, thus it has not been implemented. Before the software could be commercialised it would be necessary to subject it to analysis by penetration testers to find any vulnerabilities in the security mechanism.
 
-\subsection{Scalability}
+\subsection{Outstanding Questions}
+\subsubsection{Scalability}
 If the middleware is to be deployed at very large scales, handling high frequency sensor at a national or even global scale then scalability challenges will need further examination. 
 
 The middleware is written in a multi-threaded manor, such that it will perform better the more processing cores it has available, however there exists a ceiling beyond which extra hardware will no longer improve performance. The first outstanding challenge is assessing where that ceiling falls and at what scale it would become problematic, if at all. Scalability is already considered within the datastores to which the middleware currently acts as a gateway. Both REDIS and Stardog support clustering, and since the middleware (along with the datastore APIs) are written such that if clustering were deployed with either datastore no changes would be necessary to the middleware. If further performance improvements are found to be necessary then the following changes could be considered:
@@ -310,3 +311,6 @@ The middleware is written in a multi-threaded manor, such that it will perform b
     \end{itemize}
     \item Moving to a containerized architecture. This eliminates the overhead of a virtual machine for each deployment of the middleware, in a web-scale, load balanced, environment. Since there is no state preserved in the webservices and WCF webservices can be run in containers, no major issues are foreseen converting to this architecture. 
 \end{itemize}
+
+\subsubsection{Datastore Access Speeds}
+The two datastores used in this system have very different speed characteristics: REDIS is optimised purely for high frequency data, whilst stardog performs reasoning, which has a performance penalty. Whilst these different speeds were observed over the course of this project they were not measured, nor did this cause any issues. Were services performing combined inserts to be created this synchronisation issue would require further consideration. 
