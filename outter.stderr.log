@@ -7,9 +7,6 @@ Latexmk: Directory in file name 'outter.aux' for bibtex
 Latexmk: Run number 2 of rule 'pdflatex'
 Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
        ======appears not to match expected output 'E:\Local Repos\thesis/outter.pdf'
-Latexmk: Run number 3 of rule 'pdflatex'
-Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
-       ======appears not to match expected output 'E:\Local Repos\thesis/outter.pdf'
 Collected error summary (may duplicate other messages):
   bibtex outter: Bibtex errors: See file 'outter.blg'
 I:\texlive\2016\bin\win32\runscript.tlu:679: command failed with exit code 12:

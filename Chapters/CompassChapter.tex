@@ -347,27 +347,28 @@ This project allowed us to address the following questions:
 \subsubsection*{\textit{\QuestionOtherData}} 
 This project illustrated both how diverse the data environment can be in the rail domain and how this presents a barrier to improved performance. \end{samepage}The datasources are largely in historic formats, devised when a system was commissioned and where necessary encapsulated in a more modern protocol. These encode in them a great deal of knowledge as to how individual systems operate; for example the ``Birth Step'' messages used in this project require an understanding not just of railways in general, but signalling systems in particular in order as to make them useful. This presents a problem using them with systems that view the world differently; perhaps as maps which are interested in absolute position, for people using modes of transport other than the railway in order as to get to a station as opposed to the network position view of signalling systems. Another problem is that of the skill set required to work with the data, a developer primarily experienced in creating usable mobile phone applications would struggle to interpret the data correctly.
 
-\begin{samepage}
+\begin{minipage}{\textwidth}
 \subsubsection*{\textit{\QuestionSkillz}} 
 The middleware was used in this project, in part, to reduce the amount of development time required, since this project was conducted with only one ontology engineer and a condensed time-line. The functionality already existing in the middleware was beneficial, however, it was found that the project still required significant development effort from an engineer with knowledge of ontologies and software development; multiple man-months were required for the development of the various systems connected. Further development of the middleware will reduce this, however, this project provides no evidence that it would be possible to connect external data sources to the ontology with no ontology engineering experience. 
 
 The functionality within the middleware to handle connections to the triplestore and act as an interface however alleviated the need to develop this functionality specifically for this project. Where it was necessary to extend the middleware those extensions in turn will be beneficial to future projects. 
-\end{samepage}
+\end{minipage}
 It was discovered that the commercial partners do not have expertise in this area, emphasising the need to provide solutions which do not require large numbers of skilled engineers. The engineers from the commercial partners all had very extensive experience of software development (and all specialised in signalling systems) but as was stated by Lucas Redding when interviewed they did not have ontology experience within the company. 
 
 Beyond the question of interfacing with the ontology there is that of extending the model. This project required the creation of a small application ontology holding data pertinent only to this project, not the broader signalling nor rail domains. That required an engineer with knowledge of ontology modelling, though in this case the development time was far more limited; the concepts to model were much simpler and most were already modelled in the ontology. As with connecting the software to the ontology however, some extra development will be required for most projects.
 
-\begin{samepage}
+\begin{minipage}{\textwidth}
 \subsubsection*{\textit{\QuestionChange}} 
 The information systems in this project are now independent of the datastore's interface, were the datastore to change the interface it presents that would require only a change to the middleware, as discussed in \autoref{ch:middleware}.
-\end{samepage}
+\end{minipage}
 
 This project served to highlight another unforeseen issue in terms of protecting projects from a complete change of triple store, namely that of differing feature sets.\say{GEO-SPARQL} was required in order as to ascertain the distance between points and this is not supported by all triple stores. As such, even with the middleware as an intermediary, it would still only be possible to swap Stardog for another triple store which offered that support, without significant development effort. 
 
-\begin{samepage}
+\begin{minipage}{\textwidth}
 \subsubsection*{\textit{\QuestionCanOntologyScale}}
 The first demonstrator successfully handled signalling data at national scale. Data from conventional (fixed block) signalling systems is, by the standards of modern computing, not truly high velocity and could as such be handled by the triple store alone, with out needing to resort key value stores.
-\end{samepage}
+\end{minipage}
+
 
 
 \section{Further Work}
@@ -375,4 +376,3 @@ It would be beneficial to move functionally embedded in client applications to t
 
 \subsection{Changing triple store}
 There are several barriers to replacing the triple store, should that be desired. Firstly another triple store which supports GeoSPARQL would need to be selected. This is possible, but limits the selection. Secondly the SPARQL queries currently rely upon the Stardog specific method for passing parameters. These parameters need to passed into the query, however the middleware can determine how this is done, thus were an appropriate connector written for the middleware no changes need be made to the client software.
-

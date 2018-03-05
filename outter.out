@@ -90,7 +90,7 @@
 \BOOKMARK [2][-]{subsection.6.6.3}{6.6.3 Questions Answered}{section.6.6}% 90
 \BOOKMARK [1][-]{section.6.7}{6.7 Further Work}{chapter.6}% 91
 \BOOKMARK [2][-]{subsection.6.7.1}{6.7.1 Changing triple store}{section.6.7}% 92
-\BOOKMARK [0][]{chapter.7}{7 Conclusions}{part.1}% 93
+\BOOKMARK [0][]{chapter.7}{7 Conclusions and Further work}{part.1}% 93
 \BOOKMARK [1][-]{section.7.1}{7.1 Response to Research Questions}{chapter.7}% 94
 \BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Given the diverse information environment within the rail industry, how can heterogeneous datasources be combined, where there is value in so doing?}{section.7.1}% 95
 \BOOKMARK [2][-]{subsection.7.1.2}{7.1.2 Given the current shortage of engineers with experience editing or connecting to ontologies, is it possible to create tools which improve their uptake and adoption?}{section.7.1}% 96
@@ -98,8 +98,9 @@
 \BOOKMARK [2][-]{subsection.7.1.4}{7.1.4 Can an intermediary layer isolate information systems from changes to datastore interfaces?}{section.7.1}% 98
 \BOOKMARK [2][-]{subsection.7.1.5}{7.1.5 Given the velocity and volume of data within the rail domain, can an ontology based architecture be deployed on the scale of a national rail network?}{section.7.1}% 99
 \BOOKMARK [2][-]{subsection.7.1.6}{7.1.6 How can datastore security be managed within the setting of an ontology and IT infrastructure?}{section.7.1}% 100
-\BOOKMARK [-1][]{part.2}{Appendix}{}% 101
-\BOOKMARK [0][]{appendix.A}{A Appendix A Manual Data Entry Tool GUI}{part.2}% 102
-\BOOKMARK [1][-]{section.A.1}{A.1 Add an item}{appendix.A}% 103
-\BOOKMARK [0][]{appendix.B}{B Stored procedure}{part.2}% 104
-\BOOKMARK [0][]{dummy.6}{Bibliography}{part.2}% 105
+\BOOKMARK [1][-]{section.7.2}{7.2 Further Work}{chapter.7}% 101
+\BOOKMARK [-1][]{part.2}{Appendix}{}% 102
+\BOOKMARK [0][]{appendix.A}{A Appendix A Manual Data Entry Tool GUI}{part.2}% 103
+\BOOKMARK [1][-]{section.A.1}{A.1 Add an item}{appendix.A}% 104
+\BOOKMARK [0][]{appendix.B}{B Stored procedure}{part.2}% 105
+\BOOKMARK [0][]{dummy.6}{Bibliography}{part.2}% 106

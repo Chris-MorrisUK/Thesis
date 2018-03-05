@@ -4,8 +4,8 @@
 \section{Introduction}\label{sec:mwintro}
 The benefits of adopting linked data and related techniques, even in environments with substantial legacy resources are clear. In essence this is achieved by first modelling the schema of the data, then making the ABox (row) data available to the ontology. Once an area or sub-domain has been modelled, software must be developed that allows software and services within the industry to interact with the the data in the triple store. This currently requires specialist knowledge, not common in the software engineering community, and this gap presents another barrier to industrial implementation of ontology based systems. As a minimum a developer working in the area would need a detailed understanding of:
 \begin{itemize}
-    \item SPARQL;
-    \item XML data types;
+    \item \texttt{SPARQL};
+    \item \texttt{XML} data types;
     \item The APIs for the triple store to be used.
 \end{itemize}
 
@@ -21,6 +21,8 @@ This chapter will make it possible to consider the following questions, posed in
 \item \QuestionChange
 \item \QuestionSkillz
 \end{itemize}
+
+These questions can be assessed by the construction of a middleware layer to enable the combination of datastores, protection of end clients from change, and reduction of the need for skilled personnel to edit ontologies. The extent to which this is successful will be considered and further expanded upon by its use in the project described in \autoref{ch:COMPASS}.
 
 \subsection{Roles}
 The RaCoOn middleware exists as an intermediary between the triple store holding the ontologies, and applications that require access to those resources. In addition to enabling this simple connectivity the middleware also provides and manages connections to REDIS, a key value store used to handle high frequency data, and adds a security layer. Applications use the middleware via Windows Communication Foundation (WCF) web services, which where ever possible implement RESTFul design principles. The middleware represents several contributions to ontology development for the railways: Firstly it acts as a \say{buffer} between the triple store and the connected applications (consumers). Different consumers have a range of access requirements and as the market evolves it is possible, even likely, that the selection of commercially available triple stores will change. The middleware ensures that as the software components on either side of the middleware evolve the larger system is unaffected; the same interface will be presented to the consumer regardless of the choice of triple store. Another key benefit the use of a middleware offers, is the ability for developers to easily interact with a range of specialist datastores as needed by the application use case alongside the triplestore itself. In the scope of this document, this is illustrated using the REDIS key-value store as a lookup for high frequency data streams, however, as the technology develops many other similar storage needs are likely to be identified.

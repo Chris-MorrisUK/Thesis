@@ -1,5 +1,5 @@
 %************************************************
-\chapter{Conclusions}\label{ch:Conclusions}
+\chapter{Conclusions and Further work}\label{ch:Conclusions}
 %************************************************
 The information environment within the rail industry is very diverse, with a range of heterogeneous systems of differing ages and significant scope for improved integration. The literature review (\autoref{ch:litreview}) identified the benefits available to many stakeholders from improved data integration, such as reduced costs thanks to the removal of barriers to data integration. 
 
@@ -47,3 +47,14 @@ In the second case, the COMPASS system used data from conventional (fixed block)
 
 \subsection{\QuestionSecurity}
 The imposition of a secure middleware layer between unsecured datastores and the wider network can add security to those data stores which lack it and simplify the management of those that have it. An additional benefit of the middleware implemented as part of this project is that it provides a single-sign on that can be used to access all datastores, simplifying the credential management.
+
+
+\section{Further Work}
+As stated in the conclusion this study found no evidence that it is possible to use ontology for data integration with out, some, minimal, input from ontology engineers. Reducing that input further remains an outstanding task. There are several approaches to this which need consideration, alongside increasingly the supply of such skilled engineers: firstly tools with simply user interfaces for allowing non-experts to add items to the ontology should be considered, as should systems such as \say{Blockly} for simplified development. These approaches should be considered in tandem with making the Middleware more capable and more widely available. 
+
+Another area in which there is further work to do is scalability; this thesis has shown some techniques for working with national scale data but there is outstanding work to be done on high frequency sensor data in particular. Techniques for summarising that data in an ontology whilst working with the bulk of the data in another store need further examination. Performance and benchmarking in general is an area where work remains outstanding. In particular the performance of the middleware working with web-scale data and sharded datastores would be of interest.
+
+
+
+
+

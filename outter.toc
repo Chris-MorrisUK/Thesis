@@ -134,7 +134,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.1}Questions Considered}{78}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Roles}{78}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Roles}{79}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.3}Data Volumes}{80}{subsection.5.1.3}
 \defcounter {refsection}{0}\relax 
@@ -250,11 +250,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.6.3}Questions Answered}{137}{subsection.6.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Further Work}{140}{section.6.7}
+\contentsline {section}{\numberline {6.7}Further Work}{139}{section.6.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.7.1}Changing triple store}{140}{subsection.6.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Conclusions}}{141}{chapter.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Conclusions and Further work}}{141}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Response to Research Questions}{141}{section.7.1}
 \defcounter {refsection}{0}\relax 
@@ -270,14 +270,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.6}How can datastore security be managed within the setting of an ontology and IT infrastructure?}{146}{subsection.7.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Appendix}}{147}{part.2}
+\contentsline {section}{\numberline {7.2}Further Work}{146}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix A Manual Data Entry Tool GUI}}{149}{appendix.A}
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Appendix}}{149}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Add an item}{150}{section.A.1}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix A Manual Data Entry Tool GUI}}{151}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Stored procedure}}{153}{appendix.B}
+\contentsline {section}{\numberline {A.1}Add an item}{152}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Stored procedure}}{155}{appendix.B}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{157}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{159}{dummy.6}
