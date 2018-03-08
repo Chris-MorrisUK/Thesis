@@ -34,11 +34,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 18344 items from 5000.
 Database file #1: outter-blx.bib
 Database file #2: library.bib
-Repeated entry---line 1355 of file library.bib
+Repeated entry---line 2709 of file library.bib
  : @article{Tutcher2015
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2019 of file library.bib
+Repeated entry---line 4037 of file library.bib
  : @inproceedings{Morris2016
  :                          ,
 I'm skipping whatever remains of this entry
