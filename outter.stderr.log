@@ -3,8 +3,7 @@ Latexmk: Run number 1 of rule 'pdflatex'
 Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
        ======appears not to match expected output 'C:\localThesis\Thesis/outter.pdf'
 Latexmk: Summary of warnings:
-  Latex failed to resolve 71 reference(s)
-  Latex failed to resolve 10 citation(s)
+  Latex failed to resolve 1 reference(s)
 Latexmk: Run number 1 of rule 'bibtex outter'
 Latexmk: Directory in file name 'outter.aux' for bibtex
    but it is not the output directory 'C:\localThesis\Thesis'
@@ -14,16 +13,7 @@ Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
        ======appears not to match expected output 'C:\localThesis\Thesis/outter.pdf'
 Latexmk: Summary of warnings:
   Latex failed to resolve 1 reference(s)
-Latexmk: Run number 2 of rule 'bibtex outter'
-Latexmk: Directory in file name 'outter.aux' for bibtex
-   but it is not the output directory 'C:\localThesis\Thesis'
 Latexmk: Run number 3 of rule 'pdflatex'
-'outter.fls' and 'C:\localThesis\Thesis/outter.fls' are identical (not copied) at c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl line 6947
-Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
-       ======appears not to match expected output 'C:\localThesis\Thesis/outter.pdf'
-Latexmk: Summary of warnings:
-  Latex failed to resolve 1 reference(s)
-Latexmk: Run number 4 of rule 'pdflatex'
 'outter.fls' and 'C:\localThesis\Thesis/outter.fls' are identical (not copied) at c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl line 6947
 Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
        ======appears not to match expected output 'C:\localThesis\Thesis/outter.pdf'
