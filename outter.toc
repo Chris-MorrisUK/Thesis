@@ -1,0 +1,287 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {british}
+\defcounter {refsection}{0}\relax 
+\vspace {-\cftbeforepartskip }
+\defcounter {refsection}{0}\relax 
+\select@language {british}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {i}\spacedlowsmallcaps {Thesis}}{1}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Overview}{3}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}What is ontology}{4}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Barriers to adoption}{6}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Aims and Objectives}{7}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Thesis organisation}{7}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Papers published over the course of this research}{8}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Literature Review}}{11}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Current State of Data Integration in the Rail Domain}{11}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Information Security in the Rail Domain}{15}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Ontology}{16}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Ontology Reasoning}{17}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Ontology related terminology}{18}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.1}Triples}{18}{subsubsection.2.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.2}Tbox and ABox}{18}{subsubsection.2.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.3}Expressivity}{19}{subsubsection.2.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.4}Upper Ontologies}{21}{subsubsection.2.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Standards for data integration}{21}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Basic Standards}{21}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.1}XML}{21}{subsubsection.2.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Resource Description Framework}{22}{subsubsection.2.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.3}Web Ontology Language}{23}{subsubsection.2.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.4}SPARQL}{25}{subsubsection.2.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.5}GEO SPARQL}{26}{subsubsection.2.3.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Software tools}{26}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Benefits of ontology for data integration}{29}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Multi-modal transport}{31}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Data integration in other industries}{33}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.1}Industries implementing Ontology}{33}{subsection.2.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.1.1}Biomedical Research and Bioinformatics}{33}{subsubsection.2.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.1.2}Media}{35}{subsubsection.2.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.1.3}Process and petrochemical plant}{36}{subsubsection.2.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.1.4}Power Distribution}{37}{subsubsection.2.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.2}Other Domains}{37}{subsection.2.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.2.1}Manufacturing}{37}{subsubsection.2.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.2.2}Geospatial}{38}{subsubsection.2.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.2.3}Finance}{39}{subsubsection.2.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.3}Virtual Personal Assistants}{39}{subsection.2.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Progress towards improved data integration in the rail domain}{39}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.1}Non-ontology data integration}{39}{subsection.2.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.7.1.1}European Train Control System}{43}{subsubsection.2.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.2}Ontology based integration within the rail domain}{43}{subsection.2.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.7.2.1}Rail Core Ontologies}{46}{subsubsection.2.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}Conclusions}{48}{section.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Problem Statement}}{49}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Schedule Processing Tool}}{55}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Introduction}{55}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Transition to Linked Data}{56}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Extending the ontology}{56}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Tools for processing A-Box data}{58}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Data to be imported}{59}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Legacy Resource Format}{59}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}General Software Design Patterns}{62}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Software implementation}{64}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Hardware Specification}{67}{subsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Manual Data Entry Tool}{70}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.1}Manual Data Entry Tool: Implementation}{71}{subsection.4.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Results}{73}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Conclusions}{74}{section.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}Further Work}{76}{section.4.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Use of a Middleware Layer with Ontologies}}{77}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Introduction}{77}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Questions Considered}{78}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Roles}{79}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Data Volumes}{80}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Functionality}{81}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Brokering: acting as an intermediary between client and server}{81}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Datastore aggregation}{82}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Stored Procedures}{83}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Information Security}{84}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Centralising Common Functionality}{85}{subsection.5.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Middleware Design Patterns}{86}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Implementation}{86}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Modular Structure}{86}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}RacoonMiddleware}{87}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}MiddlewareBussinessObjects}{94}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.3.1}From objects to individuals}{95}{subsubsection.5.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Datastore connections}{96}{subsection.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.4.1}Stardog Connector}{97}{subsubsection.5.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.4.2}REDIS Connector}{97}{subsubsection.5.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.5}Administration Tools}{98}{subsection.5.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Access Control Implementation}{99}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Conclusions}{101}{section.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.7}Further work}{103}{section.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.1}Outstanding Questions}{103}{subsection.5.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.1.1}Scalability}{103}{subsubsection.5.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.1.2}Datastore Access Speeds}{104}{subsubsection.5.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Combined Alternative Positioning and Signalling System}}{105}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Introduction}{105}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Commercial Partners}{106}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}The commercial case for degraded mode signalling}{106}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Objectives}{107}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.4}Client Requirements}{108}{subsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.5}Questions Considered}{109}{subsection.6.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}System design and specification}{111}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Demonstrated scenarios}{111}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1.1}Normal Operation}{111}{subsubsection.6.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1.2}Degraded Mode}{112}{subsubsection.6.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}System Architecture}{113}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.2.1}Degraded Mode Demonstrator Organization}{114}{subsubsection.6.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Data Sources}{118}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.0.1}Schedule Data}{118}{subsubsection.6.3.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.0.2}Train movement data}{119}{subsubsection.6.3.0.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.0.3}Absolute Position Data}{120}{subsubsection.6.3.0.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.0.4}Static network layout}{121}{subsubsection.6.3.0.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.0.5}Additional datasources}{122}{subsubsection.6.3.0.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Role of Ontology}{122}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Demonstrator Implementation}{123}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.1}Demonstrator One}{123}{subsection.6.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.1.1}Overview}{123}{subsubsection.6.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.1.2}Model Changes}{124}{subsubsection.6.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.1.3}Advantages of this approach}{124}{subsubsection.6.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.1.4}Implementation}{126}{subsubsection.6.5.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.1.5}Outcome of demonstration}{132}{subsubsection.6.5.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.2}Demonstrator Two}{133}{subsection.6.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.2.1}overview}{133}{subsubsection.6.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.2.2}Communications Implementation}{134}{subsubsection.6.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.5.2.3}Demonstrator Outcomes}{135}{subsubsection.6.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}Conclusions}{136}{section.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.6.1}Benefits of Ontology}{136}{subsection.6.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.6.2}Role of tools to connect to the ontology}{137}{subsection.6.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.6.3}Questions Answered}{138}{subsection.6.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.7}Further Work}{140}{section.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.7.1}Changing triple store}{141}{subsection.6.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Conclusions and Further work}}{143}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Response to Research Questions}{143}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Given the diverse information environment within the rail industry, how can heterogeneous datasources be combined, where there is value in so doing?}{144}{subsection.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}Given the current shortage of engineers with experience editing or connecting to ontologies, is it possible to create tools which improve their uptake and adoption?}{145}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}Given that many stakeholders can benefit from combining multiple data sources, what techniques enable this?}{146}{subsection.7.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.4}Can an intermediary layer isolate information systems from changes to datastore interfaces?}{147}{subsection.7.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.5}Given the velocity and volume of data within the rail domain, can an ontology based architecture be deployed on the scale of a national rail network?}{147}{subsection.7.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.6}How can datastore security be managed within the setting of an ontology and IT infrastructure?}{148}{subsection.7.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Further Work}{148}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Appendix}}{151}{part.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix A Manual Data Entry Tool GUI}}{153}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Add an item}{154}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Stored procedure}}{157}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\vspace {\beforebibskip }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{161}{dummy.6}

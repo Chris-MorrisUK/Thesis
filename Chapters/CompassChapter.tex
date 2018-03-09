@@ -6,18 +6,10 @@ In the financial year 2015/16 Network Rail spent £106,008,691.22 \footnote{This
 
 The COMPASS project was carried out in conjunction with industrial partners, and thus it was important that the end result was a demonstrator that could become a commercially viable product. This enabled the investigation of those questions pertaining to the available skills within the industry, those related to the deployment of ontology based architectures on a large scale alongside providing a means of verifying the work done in \autoref{ch:middleware}.
 
-The project is also beneficial from the perspective of answering the questions set out in \autoref{ch:probstate}, since it allows the projects discussed in \autoref(ch:COMPASS) and \autoref{ch:middleware} to be considered in an industrial setting. 
-
-The following questions in particular will be addressed through out the implementation of this project:
-\begin{itemize}
-    \item \QuestionOtherData
-    \item \QuestionSkillz
-    \item \QuestionChange
-    \item \QuestionCanOntologyScale
-\end{itemize}
 
 \subsection{Commercial Partners}
-The university of Birmingham carried the project in conjunction with Siemens (Westinghouse) and Park Signalling Ltd. All ontology and data integration based work was undertaken by the author, whilst the other partners provided all other subsystems and made engineering support available for integrating them  
+The university of Birmingham carried the project in conjunction with Siemens (Westinghouse) and Park Signalling Ltd. All ontology and data integration based work was undertaken by the author, whilst the other partners provided all other subsystems and made engineering support available for integrating them.
+
 
 \subsection{The commercial case for degraded mode signalling}
 The involvement in this project of commercial partners demands that it have a business case, in this case the project was completed in response to a request from Network Rail in conjunction with the railway safety and standards board and Future Railway. 
@@ -28,6 +20,7 @@ According to Network Rail historic delay attribution data  \citep{NetworkRailInf
 \end{quote}
 
 \subsection{Objectives}
+\label{sec:objectivescompass}
 In the tender request the customer (Network Rail) gives the purpose of the system as: ``to automate the manual processes involved in Temporary Block Working''. Temporary block working is the current fall-back procedure whereby trains are allowed to pass through sections of track where the signalling has failed. Several consortia are creating products in response to this tender and it is possible that more than one will be selected. In the UK rail domain the Infrastructure owner merely specifies systems, they do not design or build systems themselves, however they will evaluate the system in accordance with the tender document. To add complexity in this case the desired specification requested by the infrastructure manager changed over the lifetime of the project, as did the personnel allocated to it. This is a common challenge in real projects and thus representative of projects within the UK rail domain. Notably the amount of automation expected was reduced and the requirements altered such that there must always be a man in the loop. Furthermore it was clarified that the system would at no time be an \say{Alternative Signalling System}, rather it was to provide \say{Degraded Mode Working} and would never be used outside of those circumstances. 
 
 The COMPASS demonstrator aims to show how ontology can form the core of a fall-back signalling system, reducing the impact of signalling system failure, keeping trains moving even when the main system has failed. The proposed solution is agnostic to the failed signalling system - either a traditional national signalling system employing a fixed block system or a modern moving block system.
@@ -36,7 +29,7 @@ The demonstration scenario assumed new equipment could be placed in two physical
 
 \subsection{Client Requirements}
 \label{sec:client}
-The requirements from the client were set out in a tender documents \citep{NetworkRailInfrastructureLtd2015} and modified verbally, they may be summarised as:
+The requirements from the client were set out in a tender documents and modified verbally, they may be summarised as:
 \begin{itemize}
     \item The replacement of temporary block working with a more efficient solution. Originally this was the automation of temporary block working, however in light of guidance from the infrastructure manager there will still be a manual element;
     \item The system shall be deployed in a limited number of predetermined areas, were signal failures risk the greatest impact. This also differs from the original specification, which required scalability up to providing a national train position database. The area need not be a plain line, but can and likely will have multiple entrance and exit signals. The area can be bi or uni directional.
@@ -49,6 +42,19 @@ The requirements from the client were set out in a tender documents \citep{Netwo
 \end{itemize}
 
 In order as to achieve the above objectives, in particular, the adoption of a multi-layer train location solution and the improved location accuracy it is necessary to bring together data from multiple sources. Use of an ontology architecture would minimise the development effort required to accomplish this.
+
+\subsection{Questions Considered}
+The project also answers the questions set out in \autoref{ch:probstate}, by allowing the projects discussed in \autoref{ch:cifparser} and \autoref{ch:middleware} to be considered in an industrial setting. The following questions in particular will be addressed through out the implementation of this project:
+
+\subsubsection*{\textsc{\QuestionOtherData}} 
+As set out in \autoref{sec:client} and \autoref{sec:objectivescompass} this project employs ontology for data integration, allowing the investigation of the first question listed above.
+\subsubsection*{\textsc{\QuestionSkillz}}
+There will be only one ontology engineer deployed on this project (the author), so the use of ontology for data integration with resource constraints will also be examined. The projects commercial partners will provide software engineers with a strong signalling and software development background, but do not have resources experienced in ontology development. 
+\subsubsection*{\textsc{\QuestionChange}}
+The use of the middleware described in \autoref{ch:middleware} will enable for consideration of the interchangeability of datastores. 
+\subsubsection*{\textsc{\QuestionCanOntologyScale}}
+For this project to be successful the client needs to see the system operating with national scale data.
+
 
 \section{System design and specification}
 In response to the requirements set-out in \autoref{sec:client} and in conjunction with industrial partners, the demonstration scenarios described in \autoref{sec:Scenarios} were designed. These scenarios made it possible to demonstrate that the techniques selected will be capable of meeting the client's specification and produced a system which, if the client chooses to proceed, can be commercialised. 

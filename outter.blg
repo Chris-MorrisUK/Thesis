@@ -31,60 +31,60 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 18344 items from 5000.
+Reallocated field_info (elt_size=4) to 18205 items from 5000.
 Database file #1: outter-blx.bib
 Database file #2: library.bib
-Repeated entry---line 2709 of file library.bib
- : @article{Tutcher2015
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4037 of file library.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 2672 of file library.bib
  : @inproceedings{Morris2016
  :                          ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 2679 of file library.bib
+ : @article{Tutcher2015
+ :                     ,
+I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 96 entries,
+You've used 95 entries,
             6256 wiz_defined-function locations,
-            2024 strings with 79983 characters,
-and the built_in function-call counts, 587249 in all, are:
-= -- 38778
-> -- 12473
-< -- 2876
-+ -- 15863
-- -- 6342
-* -- 45839
-:= -- 60211
+            2023 strings with 78553 characters,
+and the built_in function-call counts, 582883 in all, are:
+= -- 38562
+> -- 12384
+< -- 2850
++ -- 15826
+- -- 6234
+* -- 45501
+:= -- 59864
 add.period$ -- 0
-call.type$ -- 96
-change.case$ -- 95
+call.type$ -- 95
+change.case$ -- 94
 chr.to.int$ -- 222
-cite$ -- 190
-duplicate$ -- 63819
-empty$ -- 54994
-format.name$ -- 6912
-if$ -- 117871
+cite$ -- 188
+duplicate$ -- 63421
+empty$ -- 54495
+format.name$ -- 6860
+if$ -- 116946
 int.to.chr$ -- 0
-int.to.str$ -- 246
+int.to.str$ -- 242
 missing$ -- 0
-newline$ -- 4124
-num.names$ -- 4338
-pop$ -- 32897
+newline$ -- 4068
+num.names$ -- 4291
+pop$ -- 32562
 preamble$ -- 1
-purify$ -- 1917
+purify$ -- 1906
 quote$ -- 0
-skip$ -- 17711
+skip$ -- 17546
 stack$ -- 0
-substring$ -- 65258
-swap$ -- 16735
-text.length$ -- 2714
-text.prefix$ -- 101
+substring$ -- 64826
+swap$ -- 16604
+text.length$ -- 2688
+text.prefix$ -- 100
 top$ -- 1
-type$ -- 3221
+type$ -- 3187
 warning$ -- 0
-while$ -- 7375
+while$ -- 7345
 width$ -- 0
-write$ -- 4029
+write$ -- 3974
 (There were 2 error messages)

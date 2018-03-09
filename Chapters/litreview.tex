@@ -310,6 +310,8 @@ An assessment of the common data interchange standards currently in use may be f
     \end{quote}
     Amongst the outcomes of this project are LADS, as discussed in \autoref{state}, and a \say{Close Call} reporting application to improve safety, as discussed by \citet{Rail}.
     \item[railML] development of this standard commenced in 2001. Some of the development of the RaCoOn ontologies was based upon terms extracted from this XML standard for data interchange within the rail domain. In particular the modular structure, with time tabling, rolling stock, and infrastructure modules is borrowed from this as discussed in \citet{Tutcher2015}. Further more as stated in \citet{Tutcher2015} railML is used as ``a data source for railway vocabulary and concepts'', in keeping with the principle of re-use, not redevelopment. RailML uses XML to define its schema. As of version three railML now uses RailTopoModel\footnote{More information available from \url{http://www.railtopomodel.org/index.php/en/}}, codified by the Internal Union of Railways\footnote{Known as the UIC, further information is available at: \url{http://uic.org} } as International Railway Standard(IRS) 30100, as its data model (for infrastructure data). This data-model is itself a graph, and would very naturally lend it self to implementation as an ontology. This is further discussed by \citet{Nash2010} and \cite{RailML.org}.
+
+    \begin{minipage}{\textwidth}
     An example definition of a rail vehicle in railML is included in \autoref{lst:railml}. Note that a significant amount of the information present in turtle is inferred from the schema.
     \begin{lstlisting}[label={lst:railml},caption={A German rail locomotive, as defined in railML},frame=tb]
       <vehicle id='veh_DB.298' name='DB.298' axleSequence='B&apos;B&apos; dh' numberDrivenAxles='4' length='13.940' speed='80' bruttoWeight='68.000' nettoAdhesionWeight='68.000'>
@@ -319,6 +321,7 @@ An assessment of the common data interchange standards currently in use may be f
         </classification>
       </vehicle>
     \end{lstlisting}
+    \end{minipage}
     \item[Technical Specifications for Interoperability] Telematic Application for Passengers and Freight service, commonly referred to a TAP (Passengers) and TAF (Freight). Technical standards for interoperability are mandated by the European Union in directive 2008/57/EC - \citet{CounciloftheEuropeanUnionq2008}. These standards set out requirements as to the type of information that must be available to passengers and freight operators, as well as providing a detailed technical standard setting out how this data shall be exchanged. This standard, as with railML, makes heavy use of XML for data interchange.  
 \end{description}
 

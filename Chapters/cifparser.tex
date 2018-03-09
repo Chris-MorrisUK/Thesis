@@ -208,20 +208,22 @@ The files were quickly and successfully inserted into the triple store (stardog)
 
 As can been seen from \autoref{fig:cifparsing} in the optimised version performance is non-linear with time, as the limit of system memory is approached performance degrades significantly. A summary of the data illustrated by \autoref{fig:cifparsing} is available in \autoref{tab:cif}, which again shows that as the system consumed most of the available memory performance was significantly degraded. Through out the testing debugging tools stated that the tool alone used approximately 22 of the available 24 Gigabytes of RAM in the test system. In non-optimised versions performance was linear until all memory was consumed at which point it slowed beyond usability. The non optimised version was never run to completion, but had reached approximately 50\% completion after four days. The time spent converting this to a graph, using dotNetRDF was over five hours, where as reading the file from disk and converting it to simple, lean, business objects took twenty six seconds. 
 
+{\parindent0pt
  \begin{figure}
 \myfloatalign
-{\includegraphics[width=\paperwidth]{gfx/FilesEvery15}} 
+\hspace*{-1cm}   
+\includegraphics[max width=1.3\textwidth]{gfx/FilesEvery15}
 \caption{Time to output turtle files}
 \label{fig:cifparsing}
 \end{figure}
 
-
-\noindent
+ 
 \begin{table}
 \begin{tabularx}{4in}{@{}cc@{}} 
+\arrayrulecolor{LightSteelBlue}
 \toprule \\
 \textsc{Hours from Start} &  \textsc{Number of Files Produced} \\
-\arrayrulecolor{LightSteelBlue}\midrule[\heavyrulewidth]
+\midrule[\heavyrulewidth]
 1 & 306 \\
 2 & 278\\
 3 & 52\\
@@ -235,6 +237,7 @@ As can been seen from \autoref{fig:cifparsing} in the optimised version performa
 \end{tabularx}
 \caption{CIF processing times, by hour}\label{tab:cif}
 \end{table}
+}
 
 
 The source code for this tool is available at: \url{https:\\github.com/Chris-MorrisUK/CifParser}.
@@ -247,7 +250,7 @@ Firstly this system has shown that it is possible to make typical industry data 
 
 Secondly this system has shown that even quite small data sources, as compared to video or high data rate sensors for example, require a high degree of optimisation and produce much larger data sets in a linked format. 
 
-This design and implementation of this system also demonstrated that even where the domain has been partially modelled new applications of that model will require small alterations to suit the precise nature of the available data and its eventual use. This in turn has wide ranging implications for the need for ontology specialists to be involved, lightly at least, in the design phase of future projects making data available as an ontology.
+This design and implementation of this system also demonstrated that even where the domain has been partially modelled new applications of that model will require small alterations to suit the precise nature of the available data and its eventual use. This in turn has wide ranging implications for the need for ontology specialists to be involved, lightly at least, in the design phase of future projects making data available as an ontology. This in turn has relevance to the question: \textit{\QuestionSkillz}
 
 The manual data entry tool provided another answer to the question \say{\QuestionOtherData}. For some projects the production of bespoke tools will not be financially justifiable. Where it is not possible to use commercial off the shelf software to convert data and that data is of a low enough volume then it will be possible instead to use tools to manually enter that data.
 
