@@ -104,15 +104,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Transition to Linked Data}{56}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Extending the ontology}{56}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Extending the ontology}{57}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Tools for processing A-Box data}{58}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Data to be imported}{59}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Legacy Resource Format}{59}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Legacy Resource Format}{60}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}General Software Design Patterns}{62}{section.4.4}
+\contentsline {section}{\numberline {4.4}General Software Design Patterns}{63}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Software implementation}{64}{section.4.5}
 \defcounter {refsection}{0}\relax 
