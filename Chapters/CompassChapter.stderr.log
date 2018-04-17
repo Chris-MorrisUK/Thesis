@@ -1,10 +1,10 @@
-Latexmk: Run number 1 of rule 'pdflatex'
-Latexmk: Summary of warnings:
-  Latex failed to resolve 1 reference(s)
-  Latex failed to resolve 1 citation(s)
-Failure to make 'E:\Local Repos\thesis\Chapters/CompassChapter.pdf'
-Collected error summary (may duplicate other messages):
-  pdflatex: Command for 'pdflatex' gave return code 1
-      Refer to 'E:\Local Repos\thesis\Chapters/CompassChapter.log' for details
-I:\texlive\2016\bin\win32\runscript.tlu:679: command failed with exit code 12:
-perl.exe i:\texlive\2016\texmf-dist\scripts\latexmk\latexmk.pl -f -quiet -pdf -synctex=1 -jobname=CompassChapter "-outdir=E:\Local Repos\thesis\Chapters" "E:\Local Repos\thesis\Chapters\CompassChapter.tex"
+Latexmk: Run number 1 of rule 'pdflatex'
+'CompassChapter.fls' and 'C:\localThesis\Thesis\Chapters/CompassChapter.fls' are identical (not copied) at c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl line 6947
+Latexmk: Summary of warnings:
+  Latex failed to resolve 1 citation(s)
+Failure to make 'C:\localThesis\Thesis\Chapters/CompassChapter.pdf'
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'C:\localThesis\Thesis\Chapters/CompassChapter.log' for details
+C:\texlivenew\2016\bin\win32\runscript.tlu:679: command failed with exit code 12:
+perl.exe c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl -f -quiet -pdf -synctex=1 -jobname=CompassChapter -outdir=C:\localThesis\Thesis\Chapters C:\localThesis\Thesis\Chapters\CompassChapter.tex

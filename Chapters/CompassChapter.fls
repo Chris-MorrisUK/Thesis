@@ -1,12 +1,13 @@
-PWD E:/Local Repos/thesis/Chapters
-INPUT i:/texlive/2016/texmf.cnf
-INPUT i:/texlive/2016/texmf-dist/web2c/texmf.cnf
-INPUT i:/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT e:/Local Repos/thesis/Chapters/CompassChapter.tex
-OUTPUT E:\Local Repos\thesis\Chapters/CompassChapter.log
-INPUT i:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-OUTPUT E:\Local Repos\thesis\Chapters/CompassChapter.pdf
-INPUT i:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT i:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+PWD C:/localThesis/Thesis/Chapters
+INPUT c:/texlivenew/2016/texmf.cnf
+INPUT c:/texlivenew/2016/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlivenew/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/localThesis/Thesis/Chapters/CompassChapter.tex
+OUTPUT C:\localThesis\Thesis\Chapters/CompassChapter.log
+INPUT c:/texlivenew/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+OUTPUT C:\localThesis\Thesis\Chapters/CompassChapter.pdf
+INPUT c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm

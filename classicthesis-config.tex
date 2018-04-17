@@ -179,8 +179,10 @@ PHILOSOPHY\xspace}
 % 5. Setup code listings
 % ****************************************************************************************************
 \usepackage{listings} 
+\definecolor{codeBackground}{gray}{0.97}
 %\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
 \lstset{language=[LaTeX]Tex,%C++,
+    backgroundcolor=\color{codeBackground},
     morekeywords={PassOptionsToPackage,selectlanguage},
     keywordstyle=\color{RoyalBlue},%\bfseries,
     basicstyle=\small\ttfamily,
@@ -265,7 +267,7 @@ sensitive=true,
 % ********************************************************************
 \hypersetup{%
     %draft, % = no hyperlinking at all (useful in b/w printouts)
-    colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+    colorlinks=true, linktocpage=false, pdfstartpage=3, pdfstartview=FitH,%Fit verticle, so you can read it more easily
     % uncomment the following line if you want to have black links (e.g., for printing)
     %colorlinks=false, linktocpage=false, pdfstartpage=3, pdfstartview=FitV, pdfborder={0 0 0},%
     breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
@@ -275,8 +277,8 @@ sensitive=true,
     %urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
     pdftitle={\myTitle},%
     pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
-    pdfsubject={},%
-    pdfkeywords={},%
+    pdfsubject={\myTitle},%
+    pdfkeywords={Ontology},%
     pdfcreator={pdfLaTeX},%
     pdfproducer={LaTeX with hyperref and classicthesis}%
 }   

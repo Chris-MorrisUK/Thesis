@@ -1,28 +1,4 @@
-Latexmk: Run number 1 of rule 'pdflatex'
-Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
-       ======appears not to match expected output 'E:\Local Repos\thesis/outter.pdf'
-Latexmk: Summary of warnings:
-  Latex failed to resolve 125 reference(s)
-  Latex failed to resolve 171 citation(s)
-Latexmk: Run number 1 of rule 'bibtex outter'
-Latexmk: Directory in file name 'outter.aux' for bibtex
-   but it is not the output directory 'E:\Local Repos\thesis'
-Latexmk: Run number 2 of rule 'pdflatex'
-Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
-       ======appears not to match expected output 'E:\Local Repos\thesis/outter.pdf'
-Latexmk: Run number 2 of rule 'bibtex outter'
-Latexmk: Directory in file name 'outter.aux' for bibtex
-   but it is not the output directory 'E:\Local Repos\thesis'
-Latexmk: Run number 3 of rule 'pdflatex'
-Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
-       ======appears not to match expected output 'E:\Local Repos\thesis/outter.pdf'
-Latexmk: Run number 3 of rule 'bibtex outter'
-Latexmk: Directory in file name 'outter.aux' for bibtex
-   but it is not the output directory 'E:\Local Repos\thesis'
-Latexmk: Run number 4 of rule 'pdflatex'
-Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
-       ======appears not to match expected output 'E:\Local Repos\thesis/outter.pdf'
-Collected error summary (may duplicate other messages):
-  bibtex outter: Bibtex errors: See file 'outter.blg'
-I:\texlive\2016\bin\win32\runscript.tlu:679: command failed with exit code 12:
-perl.exe i:\texlive\2016\texmf-dist\scripts\latexmk\latexmk.pl -f -quiet -pdf -synctex=1 -jobname=outter "-outdir=E:\Local Repos\thesis" "E:\Local Repos\thesis\outter.tex"
+Latexmk: Run number 1 of rule 'pdflatex'
+'outter.fls' and 'C:\localThesis\Thesis/outter.fls' are identical (not copied) at c:\texlivenew\2016\texmf-dist\scripts\latexmk\latexmk.pl line 6947
+Latexmk: ===For rule 'pdflatex', actual output 'outter.pdf'
+       ======appears not to match expected output 'C:\localThesis\Thesis/outter.pdf'

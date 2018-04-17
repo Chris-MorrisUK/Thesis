@@ -13,13 +13,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {2.2}SPARQL to select all signals from a datastore. Note that this query would potentially return a very large number of results.}{25}{lstlisting.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.3}A German rail locomotive, as defined in railML}{42}{lstlisting.2.3}
+\contentsline {lstlisting}{\numberline {2.3}A German rail locomotive, as defined in railML}{41}{lstlisting.2.3}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.1}CIF file example}{62}{lstlisting.4.1}
+\contentsline {lstlisting}{\numberline {4.1}CIF file example}{61}{lstlisting.4.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
