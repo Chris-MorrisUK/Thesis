@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  17 APR 2018 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  17 APR 2018 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,60 +1345,40 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \rotFPbot=\skip89
 \rot@float@box=\box48
 \rot@mess@toks=\toks29
-) (c:/texlivenew/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count349
-\c@Blindtext=\count350
-\c@blind@countparstart=\count351
-\blind@countxx=\count352
-\blindtext@numBlindtext=\count353
-\blind@countyy=\count354
-\c@blindlist=\count355
-\c@blindlistlevel=\count356
-\c@blindlist@level=\count357
-\blind@listitem=\count358
-\c@blind@listcount=\count359
-\c@blind@levelcount=\count360
-\blind@mathformula=\count361
-\blind@Mathformula=\count362
-\c@blind@randomcount=\count363
-\c@blind@randommax=\count364
-\c@blind@pangramcount=\count365
-\c@blind@pangrammax=\count366
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip90
 \LTright=\skip91
 \LTpre=\skip92
 \LTpost=\skip93
-\LTchunksize=\count367
+\LTchunksize=\count349
 \LTcapwidth=\dimen161
 \LT@head=\box49
 \LT@firsthead=\box50
 \LT@foot=\box51
 \LT@lastfoot=\box52
-\LT@cols=\count368
-\LT@rows=\count369
-\c@LT@tables=\count370
-\c@LT@chunks=\count371
+\LT@cols=\count350
+\LT@rows=\count351
+\c@LT@tables=\count352
+\c@LT@chunks=\count353
 \LT@p@ftn=\toks30
 )
-Class scrreprt Info: longtable captions redefined on input line 152.
+Class scrreprt Info: longtable captions redefined on input line 151.
 (c:/texlivenew/2016/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 (c:/texlivenew/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box53
-\sift@deathcycles=\count372
+\sift@deathcycles=\count354
 \@vwid@loff=\dimen162
 \@vwid@roff=\dimen163
 )
-\c@taburow=\count373
-\tabu@nbcols=\count374
-\tabu@cnt=\count375
-\tabu@Xcol=\count376
-\tabu@alloc=\count377
-\tabu@nested=\count378
+\c@taburow=\count355
+\tabu@nbcols=\count356
+\tabu@cnt=\count357
+\tabu@Xcol=\count358
+\tabu@alloc=\count359
+\tabu@nested=\count360
 \tabu@target=\dimen164
 \tabu@spreadtarget=\dimen165
 \tabu@naturalX=\dimen166
@@ -1434,11 +1414,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
 (c:/texlivenew/2016/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
-\c@vrcnt=\count379
-)) (c:/texlivenew/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
-Package: dirtytalk 2010/11/21 A package making "quoting" easier
-\c@dirtytalk@qdepth=\count380
-) (c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+\c@vrcnt=\count361
+)) (c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 (c:/texlivenew/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -1447,7 +1424,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks33
 \XKV@tempa@toks=\toks34
 )
-\XKV@depth=\count381
+\XKV@depth=\count362
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (c:/texlivenew/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
@@ -1472,7 +1449,7 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Totalheight=\dimen180
 (c:/texlivenew/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count382
+\c@checkoddpage=\count363
 )) (c:/texlivenew/2016/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \beforeepigraphskip=\skip96
@@ -1480,27 +1457,27 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \epigraphwidth=\skip98
 \epigraphrule=\skip99
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count383
+\lst@mode=\count364
 \lst@gtempboxa=\box59
 \lst@token=\toks35
-\lst@length=\count384
+\lst@length=\count365
 \lst@currlwidth=\dimen181
-\lst@column=\count385
-\lst@pos=\count386
+\lst@column=\count366
+\lst@pos=\count367
 \lst@lostspace=\dimen182
 \lst@width=\dimen183
-\lst@newlines=\count387
-\lst@lineno=\count388
+\lst@newlines=\count368
+\lst@lineno=\count369
 \lst@maxwidth=\dimen184
 (c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count389
-\lst@skipnumbers=\count390
+\c@lstnumber=\count370
+\lst@skipnumbers=\count371
 \lst@framebox=\box60
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 182.
+Package scrhack Info: loading listings hack on input line 181.
 (c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/listings.hak
 File: listings.hak 2017/01/03 v3.22 KOMA-Script package (hacking package listin
 gs)
@@ -1531,7 +1508,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 259.
+(scrhack)             need that hack, on input line 258.
 (c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 (c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -1569,14 +1546,14 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count391
-\Hy@pagecounter=\count392
+\Hy@linkcounter=\count372
+\Hy@pagecounter=\count373
 (c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count393
+\Hy@SavedSpaceFactor=\count374
 (c:/texlivenew/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1589,10 +1566,10 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count394
+\c@Hy@tempcnt=\count375
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen186
-\Fld@menulength=\count395
+\Fld@menulength=\count376
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -1604,16 +1581,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count396
-\c@Item=\count397
+\Hy@abspage=\count377
+\c@Item=\count378
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (c:/texlivenew/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count398
-\c@bookmark@seq@number=\count399
+\Fld@listcount=\count379
+\c@bookmark@seq@number=\count380
 (c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -1621,15 +1598,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip100
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 284.
-Package hyperref Info: Option `linktocpage' set `false' on input line 284.
-Package hyperref Info: Option `breaklinks' set `true' on input line 284.
-Package hyperref Info: Option `pageanchor' set `true' on input line 284.
-Package hyperref Info: Option `plainpages' set `false' on input line 284.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 284.
+Package hyperref Info: Option `colorlinks' set `true' on input line 283.
+Package hyperref Info: Option `linktocpage' set `false' on input line 283.
+Package hyperref Info: Option `breaklinks' set `true' on input line 283.
+Package hyperref Info: Option `pageanchor' set `true' on input line 283.
+Package hyperref Info: Option `plainpages' set `false' on input line 283.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 283.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 284.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 284.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 283.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 283.
 (C:\localThesis\Thesis/classicthesis.sty
 Package: classicthesis 2015/09/06 v4.2 Typographic style for a classic-looking 
 thesis
@@ -1643,11 +1620,11 @@ Package: eulervm 2005/01/11 v4.0 (WaS)
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks36
-\MT@count=\count400
+\MT@count=\count381
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen189
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count401
+\MT@listname@count=\count382
 (c:/texlivenew/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
@@ -1688,12 +1665,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen197
 \cmidrulekern=\dimen198
 \defaultaddspace=\dimen199
-\@cmidla=\count402
-\@cmidlb=\count403
+\@cmidla=\count383
+\@cmidlb=\count384
 \@aboverulesep=\dimen256
 \@belowrulesep=\dimen257
-\@thisruleclass=\count404
-\@lastruleclass=\count405
+\@thisruleclass=\count385
+\@lastruleclass=\count386
 \@thisrulewidth=\dimen258
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1816,11 +1793,11 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \newchnumberwidth=\skip146
 \figurelabelwidth=\skip147
 \tablelabelwidth=\skip148
-\c@listings=\count406
+\c@listings=\count387
 \cftbeforelistingsskip=\skip149
 \cftlistingsindent=\skip150
 \cftlistingsnumwidth=\skip151
-\c@loldepth=\count407
+\c@loldepth=\count388
 \cftbeforeloltitleskip=\skip152
 \cftafterloltitleskip=\skip153
 \listingslabelwidth=\skip154
@@ -1830,7 +1807,7 @@ Package: scrtime 2017/01/03 v3.22 KOMA-Script package (time of LaTeX run)
 )) (c:/texlivenew/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 347.
+Package scrhack Info: loading setspace hack on input line 346.
 (c:/texlivenew/2016/texmf-dist/tex/latex/koma-script/setspace.hak
 File: setspace.hak 2017/01/03 v3.22 KOMA-Script package (hacking package setspa
 ce)
@@ -1906,16 +1883,16 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (c:/texlivenew/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count408
+\scratchcounter=\count389
 \scratchdimen=\dimen264
 \scratchbox=\box62
-\nofMPsegments=\count409
-\nofMParguments=\count410
+\nofMPsegments=\count390
+\nofMParguments=\count391
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count411
+\MPscratchCnt=\count392
 \MPscratchDim=\dimen265
-\MPnumerator=\count412
-\makeMPintoPDFobject=\count413
+\MPnumerator=\count393
+\makeMPintoPDFobject=\count394
 \everyMPtoPDFconversion=\toks39
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1932,7 +1909,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count414
+\c@lstlisting=\count395
 Package scrhack Info: undefining \float@addtolists on input line 69.
 \AtBeginShipoutBox=\box63
 Package hyperref Info: Link coloring ON on input line 69.
@@ -1941,7 +1918,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlivenew/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count415
+\c@section@level=\count396
 LaTeX Info: Redefining \Ref on input line 515.
 )
 LaTeX Info: Redefining \ref on input line 69.
@@ -2104,7 +2081,7 @@ Overfull \hbox (11.98274pt too wide) in paragraph at lines 263--263
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
 (C:\localThesis\Thesis/outter.lof
-Overfull \hbox (1.00827pt too wide) in paragraph at lines 41--41
+Overfull \hbox (1.00827pt too wide) in paragraph at lines 45--45
  [][] [][][]\T1/pplj/m/n/10.95 The in-ter-ac-tions between the mid-dle-ware mod
 - 
  []
@@ -2163,12 +2140,12 @@ Overfull \hbox (4.4686pt too wide) in paragraph at lines 23--24
  which is provided
  []
 
-<gfx/dragonNames.png, id=813, 168.63pt x 105.39375pt>
+<gfx/dragonNames.png, id=811, 168.63pt x 105.39375pt>
 File: gfx/dragonNames.png Graphic file (type png)
 <use gfx/dragonNames.png>
 Package pdftex.def Info: gfx/dragonNames.png used on input line 35.
 (pdftex.def)             Requested size: 168.62958pt x 105.39348pt.
-<gfx/gameOfThronesDragons.png, id=817, 482.55281pt x 231.11343pt>
+<gfx/gameOfThronesDragons.png, id=815, 482.55281pt x 231.11343pt>
 File: gfx/gameOfThronesDragons.png Graphic file (type png)
 <use gfx/gameOfThronesDragons.png>
 Package pdftex.def Info: gfx/gameOfThronesDragons.png used on input line 44.
@@ -2218,7 +2195,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[16] [17] <gfx/JofferyTriple.pdf, id=927, 395.22656pt x 106.89937pt>
+[16] [17] <gfx/JofferyTriple.pdf, id=925, 395.22656pt x 106.89937pt>
 File: gfx/JofferyTriple.pdf Graphic file (type pdf)
 <use gfx/JofferyTriple.pdf>
 Package pdftex.def Info: gfx/JofferyTriple.pdf used on input line 85.
@@ -2303,7 +2280,7 @@ Package epstopdf Info: Source file: <gfx/RacoonLayers.eps>
 rted-to.pdf gfx/RacoonLayers.eps>
 (epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
-<gfx/RacoonLayers-eps-converted-to.pdf, id=1284, 504.88625pt x 571.13374pt>
+<gfx/RacoonLayers-eps-converted-to.pdf, id=1282, 504.88625pt x 571.13374pt>
 File: gfx/RacoonLayers-eps-converted-to.pdf Graphic file (type pdf)
 <use gfx/RacoonLayers-eps-converted-to.pdf>
 Package pdftex.def Info: gfx/RacoonLayers-eps-converted-to.pdf used on input li
@@ -2334,18 +2311,12 @@ chapter 4.
 
 
 
-] [56] [57] [58]
-Overfull \hbox (1.86172pt too wide) in paragraph at lines 58--59
-\T1/pplj/m/n/10.95 Currently timetables are ex-changed in ``com-mon in-ter-face
- file'' format,
- []
-
-[59] [60]
+] [56] [57] [58] [59] [60]
 Overfull \hbox (10.95pt too wide) in paragraph at lines 81--100
 []$[]$ 
  []
 
-[61] [62] [63] <gfx/ItemsWithTIPLOCsResized.pdf, id=1437, 421.10078pt x 298.753
+[61] [62] [63] <gfx/ItemsWithTIPLOCsResized.pdf, id=1434, 421.10078pt x 298.753
 92pt>
 File: gfx/ItemsWithTIPLOCsResized.pdf Graphic file (type pdf)
 <use gfx/ItemsWithTIPLOCsResized.pdf>
@@ -2353,7 +2324,7 @@ Package pdftex.def Info: gfx/ItemsWithTIPLOCsResized.pdf used on input line 117
 .
 (pdftex.def)             Requested size: 336.0pt x 238.37892pt.
 [64 <c:/localThesis/Thesis/gfx/ItemsWithTIPLOCsResized.pdf>] <gfx/BussinessObje
-ctsCat.pdf, id=1958, 580.7777pt x 650.01328pt>
+ctsCat.pdf, id=1955, 580.7777pt x 650.01328pt>
 File: gfx/BussinessObjectsCat.pdf Graphic file (type pdf)
 <use gfx/BussinessObjectsCat.pdf>
 Package pdftex.def Info: gfx/BussinessObjectsCat.pdf used on input line 128.
@@ -2373,7 +2344,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--158
  []
 
 [66 <c:/localThesis/Thesis/gfx/BussinessObjectsCat.pdf>] [67] <gfx/cifParsingWo
-rkFlow.pdf, id=2568, 234.26247pt x 704.9433pt>
+rkFlow.pdf, id=2565, 234.26247pt x 704.9433pt>
 File: gfx/cifParsingWorkFlow.pdf Graphic file (type pdf)
 <use gfx/cifParsingWorkFlow.pdf>
 Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 166.
@@ -2382,7 +2353,7 @@ Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 166.
 Overfull \vbox (28.79588pt too high) has occurred while \output is active []
 
 [69 <c:/localThesis/Thesis/gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCo
-rner.png, id=2595, 1049.42062pt x 242.40562pt>
+rner.png, id=2592, 1049.42062pt x 242.40562pt>
 File: gfx/cifparseRelevantCorner.png Graphic file (type png)
 <use gfx/cifparseRelevantCorner.png>
 Package pdftex.def Info: gfx/cifparseRelevantCorner.png used on input line 175.
@@ -2394,44 +2365,44 @@ Overfull \hbox (9.98404pt too wide) in paragraph at lines 175--176
  []
 
 [70 <c:/localThesis/Thesis/gfx/cifparseRelevantCorner.png>] <gfx/manEntryWorkfl
-ow.pdf, id=2602, 205.48146pt x 474.26125pt>
+ow.pdf, id=2599, 205.48146pt x 474.26125pt>
 File: gfx/manEntryWorkflow.pdf Graphic file (type pdf)
 <use gfx/manEntryWorkflow.pdf>
 Package pdftex.def Info: gfx/manEntryWorkflow.pdf used on input line 188.
 (pdftex.def)             Requested size: 205.48096pt x 474.26007pt.
 [71] [72 <c:/localThesis/Thesis/gfx/manEntryWorkflow.pdf>] [73] <gfx/FilesEvery
-15.pdf, id=2625, 844.83629pt x 597.432pt>
+15.pdf, id=2624, 844.83629pt x 597.432pt>
 File: gfx/FilesEvery15.pdf Graphic file (type pdf)
 <use gfx/FilesEvery15.pdf>
-Package pdftex.def Info: gfx/FilesEvery15.pdf used on input line 215.
+Package pdftex.def Info: gfx/FilesEvery15.pdf used on input line 220.
 (pdftex.def)             Requested size: 844.83423pt x 597.43054pt.
 
-Overfull \hbox (74.77083pt too wide) in paragraph at lines 214--216
- []|  [] 
+Overfull \hbox (3.18645pt too wide) in paragraph at lines 220--221
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 237--237
+Underfull \hbox (badness 10000) in alignment at lines 240--240
 [][] 
  []
 
-[74 <c:/localThesis/Thesis/gfx/FilesEvery15.pdf>] [75]) [76]
+[74] [75 <c:/localThesis/Thesis/gfx/FilesEvery15.pdf>] [76]) [77]
 \openout2 = `Chapters/Middleware.aux'.
 
-(C:\localThesis\Thesis/Chapters/Middleware.tex
+(C:\localThesis\Thesis/Chapters/Middleware.tex [78
+
+
+
+
+]
 chapter 5.
-[77
-
-
-
-
-] [78] [79] <gfx/Middleware_role.pdf, id=2669, 494.95924pt x 295.86983pt>
+[79] [80] [81] <gfx/Middleware_role.pdf, id=2677, 494.95924pt x 295.86983pt>
 File: gfx/Middleware_role.pdf Graphic file (type pdf)
 <use gfx/Middleware_role.pdf>
 Package pdftex.def Info: gfx/Middleware_role.pdf used on input line 42.
 (pdftex.def)             Requested size: 336.0pt x 200.85474pt.
-[80] [81 <c:/localThesis/Thesis/gfx/Middleware_role.pdf>] [82] [83] [84] [85] [
-86] <gfx/MiddlewareHighLevel.pdf, id=2857, 699.27484pt x 393.23866pt>
+[82] [83 <c:/localThesis/Thesis/gfx/Middleware_role.pdf>] [84] [85] [86] [87] [
+88] <gfx/MiddlewareHighLevel.pdf, id=2865, 699.27484pt x 393.23866pt>
 File: gfx/MiddlewareHighLevel.pdf Graphic file (type pdf)
 <use gfx/MiddlewareHighLevel.pdf>
 Package pdftex.def Info: gfx/MiddlewareHighLevel.pdf used on input line 136.
@@ -2441,41 +2412,41 @@ Overfull \hbox (33.22316pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-[87] [88 <c:/localThesis/Thesis/gfx/MiddlewareHighLevel.pdf>]
+[89] [90 <c:/localThesis/Thesis/gfx/MiddlewareHighLevel.pdf>]
 Overfull \hbox (4.9271pt too wide) in paragraph at lines 147--148
 []\T1/pplj/m/n/10.95 A Boolean value in-dic-at-ing if the token provided
  []
 
 
-<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2872, 469.69637pt x 134.3654
+<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2879, 469.69637pt x 134.3654
 5pt>
 File: gfx/MiddlewareServicesClassesResponseOnly.pdf Graphic file (type pdf)
 <use gfx/MiddlewareServicesClassesResponseOnly.pdf>
 Package pdftex.def Info: gfx/MiddlewareServicesClassesResponseOnly.pdf used on 
 input line 156.
 (pdftex.def)             Requested size: 597.50793pt x 170.92924pt.
-<gfx/Res.pdf, id=2873, 310.56255pt x 182.13725pt>
+<gfx/Res.pdf, id=2880, 310.56255pt x 182.13725pt>
 File: gfx/Res.pdf Graphic file (type pdf)
 <use gfx/Res.pdf>
 Package pdftex.def Info: gfx/Res.pdf used on input line 163.
 (pdftex.def)             Requested size: 336.0pt x 197.07492pt.
-<gfx/RacoonServices.pdf, id=2874, 519.87952pt x 167.081pt>
+<gfx/RacoonServices.pdf, id=2881, 519.87952pt x 167.081pt>
 File: gfx/RacoonServices.pdf Graphic file (type pdf)
 <use gfx/RacoonServices.pdf>
 Package pdftex.def Info: gfx/RacoonServices.pdf used on input line 170.
 (pdftex.def)             Requested size: 597.50793pt x 192.02946pt.
-[89] [90 <c:/localThesis/Thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf>]
+[91] [92 <c:/localThesis/Thesis/gfx/MiddlewareServicesClassesResponseOnly.pdf>]
 (c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (c:/texlivenew/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [91 <c:/localThesis/Thesis/gfx/Res.pdf>] [92 <c:/localThesis/Thesis/gfx/Racoo
-nServices.pdf>] [93] [94] [95] [96] [97]
+) [93 <c:/localThesis/Thesis/gfx/Res.pdf>] [94 <c:/localThesis/Thesis/gfx/Racoo
+nServices.pdf>] [95] [96] [97] [98] [99]
 Overfull \hbox (4.35677pt too wide) in paragraph at lines 249--250
 []\T1/pplj/m/n/10.95 Whilst it is pos-sible to cre-ate stored
  []
 
-[98] <gfx/MiddlewareAurthentication.pdf, id=3988, 334.24875pt x 682.80093pt>
+[100] <gfx/MiddlewareAurthentication.pdf, id=3997, 334.24875pt x 682.80093pt>
 File: gfx/MiddlewareAurthentication.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthentication.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
@@ -2485,15 +2456,15 @@ Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
 LaTeX Warning: Float too large for page by 8.05582pt on input line 266.
 
 
-<gfx/MiddlewareAurthenticationWithToken.pdf, id=3990, 354.5248pt x 326.5265pt>
+<gfx/MiddlewareAurthenticationWithToken.pdf, id=3999, 354.5248pt x 326.5265pt>
 File: gfx/MiddlewareAurthenticationWithToken.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthenticationWithToken.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthenticationWithToken.pdf used on inp
 ut line 272.
 (pdftex.def)             Requested size: 336.0pt x 309.48096pt.
-[99] [100 <c:/localThesis/Thesis/gfx/MiddlewareAurthentication.pdf>] [101 <c:/l
-ocalThesis/Thesis/gfx/MiddlewareAurthenticationWithToken.pdf>] [102] [103]) [10
-4]
+[101] [102 <c:/localThesis/Thesis/gfx/MiddlewareAurthentication.pdf>] [103 <c:/
+localThesis/Thesis/gfx/MiddlewareAurthenticationWithToken.pdf>] [104] [105]) [1
+06]
 \openout2 = `Chapters/CompassChapter.aux'.
 
 (C:\localThesis\Thesis/Chapters/CompassChapter.tex
@@ -2504,37 +2475,37 @@ Overfull \hbox (1.49397pt too wide) in paragraph at lines 5--6
 ys. Every week
  []
 
-[105
+[107
 
 
 
 
-] [106] [107] [108] [109] [110] [111] [112]
+] [108] [109] [110] [111] [112] [113] [114]
 Overfull \hbox (0.64627pt too wide) in paragraph at lines 79--80
 \T1/pplj/m/n/10.95 cap-able of per-form-ing the demon-stra-tions out-lined in [
 ][]sub-sec-tion 6.2.1[][][].
  []
 
-<gfx/FullSystem.pdf, id=4117, 473.29999pt x 730.80823pt>
+<gfx/FullSystem.pdf, id=4125, 473.29999pt x 730.80823pt>
 File: gfx/FullSystem.pdf Graphic file (type pdf)
 <use gfx/FullSystem.pdf>
 Package pdftex.def Info: gfx/FullSystem.pdf used on input line 83.
 (pdftex.def)             Requested size: 473.29883pt x 730.80643pt.
-[113]
+[115]
 Overfull \hbox (5.28912pt too wide) in paragraph at lines 88--89
 []\T1/pplj/m/n/10.95 The pur-pose of each sub-system is de-scribed in [][]sub-s
 ub-sec-tion 6.2.2.1[][][]. 
  []
 
-[114 <c:/localThesis/Thesis/gfx/FullSystem.pdf>] [115] <gfx/Dataflow-StirDemoAc
-tive.pdf, id=4138, 464.82452pt x 730.80823pt>
+[116 <c:/localThesis/Thesis/gfx/FullSystem.pdf>] [117] <gfx/Dataflow-StirDemoAc
+tive.pdf, id=4147, 464.82452pt x 730.80823pt>
 File: gfx/Dataflow-StirDemoActive.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirDemoActive.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirDemoActive.pdf used on input line 115
 .
 (pdftex.def)             Requested size: 464.82338pt x 730.80643pt.
-[116] [117 <c:/localThesis/Thesis/gfx/Dataflow-StirDemoActive.pdf>] <gfx/Datafl
-owStirAllOptionsDemo.pdf, id=4169, 547.2947pt x 389.95688pt>
+[118] [119 <c:/localThesis/Thesis/gfx/Dataflow-StirDemoActive.pdf>] <gfx/Datafl
+owStirAllOptionsDemo.pdf, id=4177, 547.2947pt x 389.95688pt>
 File: gfx/DataflowStirAllOptionsDemo.pdf Graphic file (type pdf)
 <use gfx/DataflowStirAllOptionsDemo.pdf>
 Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line 
@@ -2543,8 +2514,8 @@ Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[118] [119 <c:/localThesis/Thesis/gfx/DataflowStirAllOptionsDemo.pdf>] [120] [1
-21]
+[120] [121 <c:/localThesis/Thesis/gfx/DataflowStirAllOptionsDemo.pdf>] [122] [1
+23]
 Overfull \hbox (7.10039pt too wide) in paragraph at lines 176--177
 []\T1/pplj/m/n/10.95 This data feed gives de-tails of trains
  []
@@ -2554,12 +2525,12 @@ Overfull \hbox (0.63513pt too wide) in paragraph at lines 178--179
 []\T1/pplj/m/n/10.95 This would make it pos-
  []
 
-[122] [123] <gfx/DemoOneBRAVE.png, id=4232, 2886.28313pt x 1594.45688pt>
+[124] [125] <gfx/DemoOneBRAVE.png, id=4240, 2886.28313pt x 1594.45688pt>
 File: gfx/DemoOneBRAVE.png Graphic file (type png)
 <use gfx/DemoOneBRAVE.png>
 Package pdftex.def Info: gfx/DemoOneBRAVE.png used on input line 196.
 (pdftex.def)             Requested size: 2886.27612pt x 1594.453pt.
-<gfx/DemoOneScreenShot.png, id=4235, 1263.21938pt x 755.82375pt>
+<gfx/DemoOneScreenShot.png, id=4243, 1263.21938pt x 755.82375pt>
 File: gfx/DemoOneScreenShot.png Graphic file (type png)
 <use gfx/DemoOneScreenShot.png>
 Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 203.
@@ -2567,35 +2538,39 @@ Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 203.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[124] [125 <c:/localThesis/Thesis/gfx/DemoOneBRAVE.png>]
+[126] [127 <c:/localThesis/Thesis/gfx/DemoOneBRAVE.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[126 <c:/localThesis/Thesis/gfx/DemoOneScreenShot.png>] <gfx/Dataflow-StirPassi
-veDemo.pdf, id=4257, 477.86911pt x 729.67902pt>
+[128 <c:/localThesis/Thesis/gfx/DemoOneScreenShot.png>] <gfx/Dataflow-StirPassi
+veDemo.pdf, id=4265, 477.86911pt x 729.67902pt>
 File: gfx/Dataflow-StirPassiveDemo.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirPassiveDemo.pdf>
 Package pdftex.def Info: gfx/Dataflow-StirPassiveDemo.pdf used on input line 24
 5.
 (pdftex.def)             Requested size: 477.86795pt x 729.67723pt.
-[127] [128 <c:/localThesis/Thesis/gfx/Dataflow-StirPassiveDemo.pdf>] [129] [130
-] [131] [132] [133] <gfx/DemoTwo_StageOne.pdf, id=4329, 527.04509pt x 141.29675
-pt>
+[129] [130 <c:/localThesis/Thesis/gfx/Dataflow-StirPassiveDemo.pdf>] [131] [132
+] [133] [134] <gfx/DemoTwo_StageOne.pdf, id=4332, 527.04509pt x 141.29675pt>
 File: gfx/DemoTwo_StageOne.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageOne.pdf>
-Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 304.
+Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 302.
 (pdftex.def)             Requested size: 527.0438pt x 141.2964pt.
-<gfx/DemoTwo_StageTwo.pdf, id=4330, 518.4618pt x 143.68468pt>
+[135] <gfx/DemoTwo_StageTwo.pdf, id=4339, 518.4618pt x 143.68468pt>
 File: gfx/DemoTwo_StageTwo.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageTwo.pdf>
-Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 311.
+Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 309.
 (pdftex.def)             Requested size: 518.46053pt x 143.68431pt.
-<gfx/DemoTwo_StageThree.pdf, id=4331, 527.21104pt x 183.1245pt>
+<gfx/DemoTwo_StageThree.pdf, id=4340, 527.21104pt x 183.1245pt>
 File: gfx/DemoTwo_StageThree.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageThree.pdf>
-Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 318.
+Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 316.
 (pdftex.def)             Requested size: 527.20976pt x 183.12404pt.
-[134 <c:/localThesis/Thesis/gfx/DemoTwo_StageOne.pdf> <c:/localThesis/Thesis/gf
+<gfx/RS232Bus.pdf, id=4342, 540.51938pt x 375.65344pt>
+File: gfx/RS232Bus.pdf Graphic file (type pdf)
+<use gfx/RS232Bus.pdf>
+Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 329.
+(pdftex.def)             Requested size: 336.0pt x 233.52177pt.
+[136 <c:/localThesis/Thesis/gfx/DemoTwo_StageOne.pdf> <c:/localThesis/Thesis/gf
 x/DemoTwo_StageTwo.pdf
 
 pdfTeX warning: pdflatex.exe (file c:/localThesis/Thesis/gfx/DemoTwo_StageTwo.p
@@ -2604,43 +2579,38 @@ df): PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file c:/localThesis/Thesis/gfx/DemoTwo_StageThree
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <gfx/RS232Bus.pdf, id=4342, 540.51938pt x 375.65344pt>
-File: gfx/RS232Bus.pdf Graphic file (type pdf)
-<use gfx/RS232Bus.pdf>
-Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 331.
-(pdftex.def)             Requested size: 336.0pt x 233.52177pt.
-[135 <c:/localThesis/Thesis/gfx/RS232Bus.pdf>] [136] [137] [138] [139
+>] [137 <c:/localThesis/Thesis/gfx/RS232Bus.pdf>] [138] [139] [140] [141
 
-] [140]) [141]
+] [142]) [143]
 \openout2 = `Chapters/conclu.aux'.
 
-(C:\localThesis\Thesis/Chapters/conclu.tex [142
+(C:\localThesis\Thesis/Chapters/conclu.tex [144
 
 
 
 
 ]
 chapter 7.
-[143] [144] [145] [146] [147] [148]) [149] [150
+[145] [146] [147] [148] [149] [150]) [151] [152
 
 
 
-] [151
+] [153
 
 
 
 
-] [152]
+] [154]
 \openout2 = `Chapters/Chapter0A_ManToolGUI.aux'.
 
 (C:\localThesis\Thesis/Chapters/Chapter0A_ManToolGUI.tex
 chapter A.
-<gfx/manToolWelcome.png, id=4442, 1352.05125pt x 511.9125pt>
+<gfx/manToolWelcome.png, id=4451, 1352.05125pt x 511.9125pt>
 File: gfx/manToolWelcome.png Graphic file (type png)
 <use gfx/manToolWelcome.png>
 Package pdftex.def Info: gfx/manToolWelcome.png used on input line 14.
 (pdftex.def)             Requested size: 1352.04796pt x 511.91125pt.
-<gfx/manToolLogin.png, id=4443, 751.80875pt x 640.3925pt>
+<gfx/manToolLogin.png, id=4452, 751.80875pt x 640.3925pt>
 File: gfx/manToolLogin.png Graphic file (type png)
 <use gfx/manToolLogin.png>
 Package pdftex.def Info: gfx/manToolLogin.png used on input line 15.
@@ -2650,22 +2620,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 [][]
  []
 
-<gfx/manToolInUse.png, id=4445, 1152.305pt x 313.17pt>
+<gfx/manToolInUse.png, id=4454, 1152.305pt x 313.17pt>
 File: gfx/manToolInUse.png Graphic file (type png)
 <use gfx/manToolInUse.png>
 Package pdftex.def Info: gfx/manToolInUse.png used on input line 23.
 (pdftex.def)             Requested size: 1152.30219pt x 313.16922pt.
-[153
+[155
 
 
 
  <c:/localThesis/Thesis/gfx/manToolWelcome.png> <c:/localThesis/Thesis/gfx/manT
-oolLogin.png>] <gfx/manToolAddingItem.png, id=4453, 1155.31625pt x 511.9125pt>
+oolLogin.png>] <gfx/manToolAddingItem.png, id=4461, 1155.31625pt x 511.9125pt>
 File: gfx/manToolAddingItem.png Graphic file (type png)
 <use gfx/manToolAddingItem.png>
 Package pdftex.def Info: gfx/manToolAddingItem.png used on input line 32.
 (pdftex.def)             Requested size: 1155.31345pt x 511.91125pt.
-<gfx/addItemDetail.png, id=4454, 1156.32pt x 740.7675pt>
+<gfx/addItemDetail.png, id=4462, 1156.32pt x 740.7675pt>
 File: gfx/addItemDetail.png Graphic file (type png)
 <use gfx/addItemDetail.png>
 Package pdftex.def Info: gfx/addItemDetail.png used on input line 39.
@@ -2673,18 +2643,18 @@ Package pdftex.def Info: gfx/addItemDetail.png used on input line 39.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [154 <c:/localThesis/Thesis/gfx/manToolInUse.png> <c:/localThesis/Thesis/gfx/
-manToolAddingItem.png>] [155 <c:/localThesis/Thesis/gfx/addItemDetail.png>]
+) [156 <c:/localThesis/Thesis/gfx/manToolInUse.png> <c:/localThesis/Thesis/gfx/
+manToolAddingItem.png>] [157 <c:/localThesis/Thesis/gfx/addItemDetail.png>]
 \openout2 = `Chapters/storedProcListingApend.aux'.
 
-(C:\localThesis\Thesis/Chapters/storedProcListingApend.tex [156
+(C:\localThesis\Thesis/Chapters/storedProcListingApend.tex [158
 
 
 
 
 ]
 chapter B.
-[157] [158]) [159] [160
+[159] [160]) [161] [162
 
 
 
@@ -2697,11 +2667,11 @@ Overfull \hbox (21.01021pt too wide) in paragraph at lines 130--130
 }ChenSMTDJS15$[][]\T1/pplj/m/n/10.95 . 
  []
 
-[161
+[163
 
 
 
-] [162] [163] [164]
+] [164] [165] [166]
 Overfull \hbox (13.4689pt too wide) in paragraph at lines 130--130
 \T1/fvm/m/n/10.95 28938912{\ % }0Ahttp : / / jbiomedsem . biomedcentral . com /
  articles /
@@ -2720,13 +2690,13 @@ Overfull \hbox (8.82082pt too wide) in paragraph at lines 130--130
 /10.95 (vis-ited on 01/09/2017). 
  []
 
-[165] [166]
+[167] [168]
 Overfull \hbox (4.21767pt too wide) in paragraph at lines 130--130
 \T1/fvm/m/n/10.95 data / files / case -[] study -[] 1 . cfm ? type = pdf$[][] \
 T1/pplj/m/n/10.95 (vis-ited on 20/10/2017). 
  []
 
-[167] [168]
+[169] [170]
 Overfull \hbox (3.21767pt too wide) in paragraph at lines 130--130
 \T1/fvm/m/n/10.95 developer / schemes / documentation . html$[][] \T1/pplj/m/n/
 10.95 (vis-ited on 01/03/2018). 
@@ -2738,7 +2708,7 @@ Overfull \hbox (19.62946pt too wide) in paragraph at lines 130--130
 c-ture for e-Navigation
  []
 
-[169]
+[171]
 Overfull \hbox (30.42462pt too wide) in paragraph at lines 130--130
 \T1/pplj/m/it/10.95 RAIL TECH-NICAL STRATEGY 2012 THE RAIL TECH-NICAL STRATEGY
  []
@@ -2749,7 +2719,7 @@ Overfull \hbox (49.88937pt too wide) in paragraph at lines 130--130
 CRR2011Paperfinalv05 .
  []
 
-[170]
+[172]
 Overfull \hbox (0.57794pt too wide) in paragraph at lines 130--130
 \T1/fvm/m/n/10.95 downloadFile{\ & }recordOId = 1268227{\ & }fileOId = 2952548h
 ttp :
@@ -2761,7 +2731,7 @@ Overfull \hbox (26.0549pt too wide) in paragraph at lines 130--130
 68090X10001609$[][]\T1/pplj/m/n/10.95 . 
  []
 
-[171] [172]
+[173] [174]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
 (C:\localThesis\Thesis/outter.aux (C:\localThesis\Thesis/FrontBackmatter/Titlep
@@ -2867,7 +2837,6 @@ graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 graphics.sty    2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
 graphics.cfg    2016/06/04 v1.11 sample graphics configuration
-blindtext.sty    2012/01/06 V2.0 blindtext-Package
 longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)
     tabu.sty    2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
@@ -2877,7 +2846,6 @@ pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
 fancyref.sty    1999/02/03 v0.9c Fancy cross-referencing
 varioref.sty    2016/02/16 v1.5c package for extended references (FMi)
-dirtytalk.sty    2010/11/21 A package making "quoting" easier
 adjustbox.sty    2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
  xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
  xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
@@ -3029,10 +2997,10 @@ Package logreq Info: Writing requests to 'outter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37889 strings out of 493013
- 684844 string characters out of 6135616
- 1276315 words of memory out of 5000000
- 40063 multiletter control sequences out of 15000+600000
+ 37709 strings out of 493013
+ 681714 string characters out of 6135616
+ 1264752 words of memory out of 5000000
+ 39888 multiletter control sequences out of 15000+600000
  81757 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,23n,122p,10530b,3651s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3051,11 +3019,11 @@ lic/lm/lmss10.pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/public/lm/lmsso10.
 pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texl
 ivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlivenew/2016/
 texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on C:\localThesis\Thesis/outter.pdf (188 pages, 11941363 bytes).
+Output written on C:\localThesis\Thesis/outter.pdf (190 pages, 11941802 bytes).
 
 PDF statistics:
- 4955 PDF objects out of 5155 (max. 8388607)
- 3648 compressed objects within 37 object streams
- 654 named destinations out of 1000 (max. 500000)
+ 4964 PDF objects out of 5155 (max. 8388607)
+ 3655 compressed objects within 37 object streams
+ 657 named destinations out of 1000 (max. 500000)
  19961 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -11,7 +11,7 @@ In the rail industry, as with most industries, much of the data currently collec
 These tools present answers to the question \textit{\QuestionOtherData}. The contribution these tools make to answering the question will be assessed in \autoref{sec:cifconclusions}.
 
 \section{Transition to Linked Data}
-The transition from the existing heterogeneous systems to a more integrated solution has two parts; firstly the domain must be modelled, then tools must be designed and implemented to convert the existing data to a format which can be integrated. As discussed in \autoref{ch:litreview} ontology data is considered in two parts: the \say{model}, which is known as the TBox and contains the schema information and the data itself, which is known as the ABox. 
+The transition from the existing heterogeneous systems to a more integrated solution has two parts; firstly the domain must be modelled, then tools must be designed and implemented to convert the existing data to a format which can be integrated. As discussed in \autoref{ch:litreview} ontology data is considered in two parts: the \enquote{model}, which is known as the TBox and contains the schema information and the data itself, which is known as the ABox. 
 
 The modelling problem is being considered by numerous other studies of which the most pertinent to this work was modelling of the broader domain as part of the work reported by \citet{Tutcher2015}.  Modelling a domain requires knowledge of both ontology modelled and the domain in question, as such it can be an obstacle to transition. This challenge continues to require skilled personnel, however as more of the domain is modelled less will need modelling when new data sources are encountered. 
 
@@ -33,7 +33,7 @@ Once data is modelled correctly and a tool is designed to insert the abox data i
 An automated tool is required to parse the A-box data in the following circumstances:
 
  \begin{itemize}
- 	\item The data has some value;
+ 	\item The data to import has some value;
 	\item The data is not held in a relational format; as such automated mapping tools can not be employed;
 	\item The data cannot be converted using existing tools, such as OpenRefine\footnote{OpenRefine, formerly Google refine, is a very powerful open source tool which can take data in a wide variety of formats, perform simple processing and output it again in a number of formats, including RDF. More details can be found at: \url{http:\\openrefine.org/}};
 	\item Manual entry is prohibitively slow due to either the volume or velocity of data received.
@@ -55,7 +55,7 @@ Common interface files were selected as the source of railway data to represent 
 
 \subsection{Legacy Resource Format}
 \label{sec:datatoimport}
-Currently timetables are exchanged in \say{common interface file} format, as defined in \citep{nr2007} first issued in June 1988 and updated regularly since to reflect changes in the UK railway over that time (not least privatisation) this is a representative example of rail data. It is neither easily human readable nor as dense as a pure binary format. Rather it uses fixed length rows of 80 ASCII characters where the interpretation of a row depends on what section it is in.
+Currently timetables are exchanged in \enquote{common interface file} format, as defined in \citep{nr2007} first issued in June 1988 and updated regularly since to reflect changes in the UK railway over that time (not least privatisation) this is a representative example of rail data. It is neither easily human readable nor as dense as a pure binary format. Rather it uses fixed length rows of 80 ASCII characters where the interpretation of a row depends on what section it is in.
 
 The schedule file contains the following information:
 \begin{itemize}
@@ -76,7 +76,7 @@ The schedule rows break down further into further subtypes:
 \end{description}
 Not all record types are necessarily present for any given service.
 
-It is possible to ascertain not just the stopping time, and place, of a given service but also some limited meta data, including two different trainIDs, which are also used by other data sources. The first ID given is the so called \say{uniqueID}\footnote{the field is defined by \citet{Hicks} as \say{The unique ID of the schedule being activated - either a letter and five numbers, or a space and five numbers for VSTP trains}. Details available at: \url{http:\\nrodwiki.rockshore.net/index.php/Train_Activation}} which is also used by certain other systems (trust train activation messages use this ID), the second ID given is the headcode. Other systems, such as train describers and signalling systems refer to the train by this code. Whilst it is guaranteed a headcode is unique on the rail network at any given point in time more than one timetabled service can have the same headcode.
+It is possible to ascertain not just the stopping time, and place, of a given service but also some limited meta data, including two different trainIDs, which are also used by other data sources. The first ID given is the so called \enquote{uniqueID}\footnote{the field is defined by \citet{Hicks} as \enquote{The unique ID of the schedule being activated - either a letter and five numbers, or a space and five numbers for VSTP trains}. Details available at: \url{http:\\nrodwiki.rockshore.net/index.php/Train_Activation}} which is also used by certain other systems (trust train activation messages use this ID), the second ID given is the headcode. Other systems, such as train describers and signalling systems refer to the train by this code. Whilst it is guaranteed a headcode is unique on the rail network at any given point in time more than one timetabled service can have the same headcode.
 
 \begin{minipage}{\textwidth}%I don't want this spread accross pages
 \begin{lstlisting}[label={lst:cif}, caption={CIF file example}]
@@ -100,12 +100,12 @@ LTSKEGNES 1521 1524      TF
 
 Each row starts with a 2 letter code to uniquely identify the type of data it holds and some row types are only valid in certain places. For example each train service definition starts with a basic schedule row, then an origin location, followed by any number (including zero) of Intermediate Location's or Changes en Route and finishing with a Terminating Location. An example is shown in \autoref{lst:cif} of a complete, but short schedule in this format. Note that the schedule starts with a `BS' or ``Basic Schedule'' line, then goes on to list calling points, with the last listed as  `TF' train finishes. The time format is twenty-four hour and the presence of an `H' after a time means ``and a half'' hence 1352H should be read as ``13:52:30''. Thirty seconds is the maximum accuracy this format allows for. 
 
-These files can be used in conjunction with a \say{Master Station Names} file which is typically distributed at the same time. This file provides further detail about the stations refereed to in schedule. Whilst TIPLOC codes are listed in the schedule file alongside a meaningful name in English, the geographic position for example is not provided. This is included in the master station names, alongside side details of the type of services that may be connected with (bus or ferry for example) and the Routing Groups, which are used for fare calculation. By joining on the TIPLOC code it is possible to combine this data with that in the schedule file.
+These files can be used in conjunction with a \enquote{Master Station Names} file which is typically distributed at the same time. This file provides further detail about the stations refereed to in schedule. Whilst TIPLOC codes are listed in the schedule file alongside a meaningful name in English, the geographic position for example is not provided. This is included in the master station names, alongside side details of the type of services that may be connected with (bus or ferry for example) and the Routing Groups, which are used for fare calculation. By joining on the TIPLOC code it is possible to combine this data with that in the schedule file.
 
 The size of the files to be imported also represents a significant test: the chosen schedule file was 564MB, in what has already been described as a fairly dense data format. This will result in a significantly larger amount of data if exported as turtle, which is a simple text representation of linked data, presenting challenges in terms of both processing time and available RAM. As such the system will need to be carefully optimised to fit within the memory footprint of a workstation-pc (24 GB in this case).
 
 \section{General Software Design Patterns}
-Two design patterns were considered for a system to parse schedule files: a state machine and a factory pattern. The state machine pattern, as set out by \cite{Shalyto2006}, provides loose coupling between the logic of the program and the state, which is considered through out the literature to be a key objective of any software architecture. The transition logic required for processing schedule files is very limited and thus the state machine pattern was disregarded as unnecessary in this application. The factory technique first discussed in \cite{Gamma2002} conversely is applicable to this system since it abstracts the construction of objects from the point at which they are created. This is helpful in this system since it is likely that further types of data and therefore business object will need to be added to design in the future. The system aims to be flexible as to the types of files parsed, importing both \say{Master Station Names} files and Schedules, using the same architecture. In the factory pattern \say{factory classes} are used to construct objects, rather than calling an object's constructor directly. Currently there exist two factory classes, one for each type of file processed, which build the business objects before they are inserted into the datastore. A deliberate benefit of the design is that it is easily possible to add more as required.
+Two design patterns were considered for a system to parse schedule files: a state machine and a factory pattern. The state machine pattern, as set out by \cite{Shalyto2006}, provides loose coupling between the logic of the program and the state, which is considered through out the literature to be a key objective of any software architecture. The transition logic required for processing schedule files is very limited and thus the state machine pattern was disregarded as unnecessary in this application. The factory technique first discussed in \cite{Gamma2002} conversely is applicable to this system since it abstracts the construction of objects from the point at which they are created. This is helpful in this system since it is likely that further types of data and therefore business object will need to be added to design in the future. The system aims to be flexible as to the types of files parsed, importing both \enquote{Master Station Names} files and Schedules, using the same architecture. In the factory pattern \enquote{factory classes} are used to construct objects, rather than calling an object's constructor directly. Currently there exist two factory classes, one for each type of file processed, which build the business objects before they are inserted into the datastore. A deliberate benefit of the design is that it is easily possible to add more as required.
 
 The graphical user interface (here on referred to as GUI) partially uses the Model View View-Model design pattern, here on referred to as MVVM, to loosen coupling with the data processing part of the application. The MVVM pattern is described by \citet{Microsoft2012} and is a common way to create GUIs when using the Windows Presentation Foundation. The Windows presentation foundation in turn is a means of creating GUI's when using the .Net framework on windows desktop machines. The MVVM pattern aims to reduce coupling between the designed user interface, which is created using only XAML and describes \emph{solely} appearance (include  interactive elements such as mouse over animations) and the way the data is formatted for presentation. In this pattern the data model is independent the view model.  Data representation and processing is removed again, thus changes to how data is presented (say from a table to a graph) have no impact on the underlying system.
 
@@ -159,7 +159,7 @@ Disk & Two Terrabytes, average data rate (Read and Write) of 156 MB/s. \\
  
 The graphics card fitted was of no assistance because none of the tasks in this program were suited to offload to the graphics card.
 
-Bottlenecks were identified by running the \say{Performance Profiler} included with Visual Studio on the initial version of the software. This can tell the operator which objects are using most of the memory and which functions the schedule processing tool spends longest in. It was apparent from this that most of the memory usage was in the graph constructed by dotNetRDF and most of the processing time was in constructing that graph. In order as to achieve adequate performance, that is to be able to run an import whilst the data is still pertinent, a multi-threaded approach was required. To achieve this the data was split into chunks, after having been read from the file, but before it was materialised as a graph. Each chunk represented 500 individual elements from the underlying file, expect for the last chunk, which contained as many elements as were left. This reduced the memory footprint, since the graph was only created one chunk at a time, then stored to a file and the memory it had been occupying released. This approach also made parallel processing possible, as each chunk could be (and was) materialised separately. This design could scale linearly with the number of cores available. In order as to accomplish the multi threaded materialization and writing it was necessary to create a thread pool of data waiting to be processed and written. This uses .Net's underlying thread-pool provision but adds progress feedback and ensures that files are only written after the data is processed. The data was output as a series of turtle files, which were then inserted into a triple store using a script. This work-flow is illustrated in \autoref{fig:workflow}.
+Bottlenecks were identified by running the \enquote{Performance Profiler} included with Visual Studio on the initial version of the software. This can tell the operator which objects are using most of the memory and which functions the schedule processing tool spends longest in. It was apparent from this that most of the memory usage was in the graph constructed by dotNetRDF and most of the processing time was in constructing that graph. In order as to achieve adequate performance, that is to be able to run an import whilst the data is still pertinent, a multi-threaded approach was required. To achieve this the data was split into chunks, after having been read from the file, but before it was materialised as a graph. Each chunk represented 500 individual elements from the underlying file, expect for the last chunk, which contained as many elements as were left. This reduced the memory footprint, since the graph was only created one chunk at a time, then stored to a file and the memory it had been occupying released. This approach also made parallel processing possible, as each chunk could be (and was) materialised separately. This design could scale linearly with the number of cores available. In order as to accomplish the multi threaded materialization and writing it was necessary to create a thread pool of data waiting to be processed and written. This uses .Net's underlying thread-pool provision but adds progress feedback and ensures that files are only written after the data is processed. The data was output as a series of turtle files, which were then inserted into a triple store using a script. This work-flow is illustrated in \autoref{fig:workflow}.
 
 \begin{figure}[H]
 \myfloatalign
@@ -179,10 +179,10 @@ The graphical user interface is simple and shown in \autoref{fig:cifgui}. All th
 
 \section{Manual Data Entry Tool}
 \label{sec:manualtool}
-The manual data entry tool demonstrates a technique for adding previously modelled low volume data to the ontologies. Where such data does not warrant the development of a bespoke tool for the task and it is not possible to interface with or alter the existing tool then a simple universal tool allowing those with no ontology engineering experience to add data to the ontology allows for improved data integration. There are many pre-existing ontology editors, both open source and commercial, of which protégé and TopBraid Composer were used during this project, however these are better suited to those with some ontology engineering experience. This tool is aimed at those with no ontology engineering experience and thus provides another possible answer to the question, \say{\QuestionOtherData}.
+The manual data entry tool demonstrates a technique for adding previously modelled low volume data to the ontologies. Where such data does not warrant the development of a bespoke tool for the task and it is not possible to interface with or alter the existing tool then a simple universal tool allowing those with no ontology engineering experience to add data to the ontology allows for improved data integration. There are many pre-existing ontology editors, both open source and commercial, of which protégé and TopBraid Composer were used during this project, however these are better suited to those with some ontology engineering experience. This tool is aimed at those with no ontology engineering experience and thus provides another possible answer to the question, \enquote{\QuestionOtherData}.
 
 \subsection{Manual Data Entry Tool: Implementation}
-The tool was constructed as a web application, with intent that it could be deployed centrally in large organisations and used as needed. This tool relies upon the middleware, discussed in chapter \ref{ch:middleware}, to connect to the triple store. For layout and presentation the popular \say{bootstrap}\footnote{Available from: \url{https:\\getbootstrap.com/}. This framework provides a number of styles alongside Javascript functionality} framework was employed to speed development and allow for access from a range of devices.
+The tool was constructed as a web application, with intent that it could be deployed centrally in large organisations and used as needed. This tool relies upon the middleware, discussed in chapter \ref{ch:middleware}, to connect to the triple store. For layout and presentation the popular \enquote{bootstrap}\footnote{Available from: \url{https:\\getbootstrap.com/}. This framework provides a number of styles alongside Javascript functionality} framework was employed to speed development and allow for access from a range of devices.
 
  \begin{figure}[H]
 \includegraphics[max width=\linewidth]{gfx/manEntryWorkflow}
@@ -206,19 +206,20 @@ The final version of the software took two minutes and thirty four seconds to co
 
 The files were quickly and successfully inserted into the triple store (stardog), where the inserted RDF was verified as consistent. 
 
-As can been seen from \autoref{fig:cifparsing} in the optimised version performance is non-linear with time, as the limit of system memory is approached performance degrades significantly. A summary of the data illustrated by \autoref{fig:cifparsing} is available in \autoref{tab:cif}, which again shows that as the system consumed most of the available memory performance was significantly degraded. Through out the testing debugging tools stated that the tool alone used approximately 22 of the available 24 Gigabytes of RAM in the test system. In non-optimised versions performance was linear until all memory was consumed at which point it slowed beyond usability. The non optimised version was never run to completion, but had reached approximately 50\% completion after four days. The time spent converting this to a graph, using dotNetRDF was over five hours, where as reading the file from disk and converting it to simple, lean, business objects took twenty six seconds. 
+As can been seen from \autoref{fig:cifparsing} in the optimised version performance is non-linear with time, and as the limit of system memory is approached performance degrades significantly. A summary of the data illustrated by \autoref{fig:cifparsing} is available in \autoref{tab:cif}, which again shows that as the system consumed most of the available memory performance was significantly degraded. Through out the testing debugging tools stated that the tool alone used approximately 22 of the available 24 Gigabytes of RAM in the test system. The non optimised version was never run to completion, but had reached approximately 50\% completion after four days. 
+
+The system also output the time taken to perform the various parts of the conversion. Converting the business objects to an RDF graph, using dotNetRDF took over five hours, where as reading the file from disk and converting it to simple, lean, business objects took twenty six seconds, which clearly indicates where the processing was required.
 
 {\parindent0pt
- \begin{figure}
-\myfloatalign
-\hspace*{-1cm}   
-\includegraphics[max width=1.3\textwidth]{gfx/FilesEvery15}
-\caption{Time to output turtle files}
-\label{fig:cifparsing}
-\end{figure}
-
+\begin{figure}[H] %I don't want this figure miles away, acept having some blank space
+\centering
+\subfloat[Turtle files processing time graph\label{fig:cifparsing}]{%
+\adjincludegraphics[width=1.3\textwidth,center]{gfx/FilesEvery15}
+%\caption{Turtle files processing time graph}
+%\label{fig:cifparsing}
+}
  
-\begin{table}
+\subfloat[CIF processing times, by hour\label{tab:cif}]{%
 \begin{tabularx}{4in}{@{}cc@{}} 
 \arrayrulecolor{LightSteelBlue}
 \toprule \\
@@ -235,8 +236,10 @@ As can been seen from \autoref{fig:cifparsing} in the optimised version performa
 9 & 0 (complete)\\
 \bottomrule
 \end{tabularx}
-\caption{CIF processing times, by hour}\label{tab:cif}
-\end{table}
+%\caption{CIF processing times, by hour}\label{tab:cif}
+}
+\caption{Time to output turtle files}
+\end{figure}
 }
 
 
@@ -252,7 +255,7 @@ Secondly this system has shown that even quite small data sources, as compared t
 
 This design and implementation of this system also demonstrated that even where the domain has been partially modelled new applications of that model will require small alterations to suit the precise nature of the available data and its eventual use. This in turn has wide ranging implications for the need for ontology specialists to be involved, lightly at least, in the design phase of future projects making data available as an ontology. This in turn has relevance to the question: \textit{\QuestionSkillz}
 
-The manual data entry tool provided another answer to the question \say{\QuestionOtherData}. For some projects the production of bespoke tools will not be financially justifiable. Where it is not possible to use commercial off the shelf software to convert data and that data is of a low enough volume then it will be possible instead to use tools to manually enter that data.
+The manual data entry tool provided another answer to the question \enquote{\QuestionOtherData}. For some projects the production of bespoke tools will not be financially justifiable. Where it is not possible to use commercial off the shelf software to convert data and that data is of a low enough volume then it will be possible instead to use tools to manually enter that data.
 
 This system has also made it possible to explore: \textit{\QuestionCanOntologyScale}
 

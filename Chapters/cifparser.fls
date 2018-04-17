@@ -6,7 +6,5 @@ INPUT c:/localThesis/Thesis/Chapters/cifparser.tex
 OUTPUT C:\localThesis\Thesis\Chapters/cifparser.log
 INPUT c:/texlivenew/2016/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-OUTPUT C:\localThesis\Thesis\Chapters/cifparser.pdf
-INPUT c:/texlivenew/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlivenew/2016/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm

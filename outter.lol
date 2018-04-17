@@ -23,18 +23,18 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.1}The IQuery interface, which must be implemented by all executable queries}{93}{lstlisting.5.1}
+\contentsline {lstlisting}{\numberline {5.1}The IQuery interface, which must be implemented by all executable queries}{95}{lstlisting.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.2}Linking of Balises to BaliseGroups}{96}{lstlisting.5.2}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {6.1}SPARQL to select a signal location from its identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter}{127}{lstlisting.6.1}
+\contentsline {lstlisting}{\numberline {5.2}Linking of Balises to BaliseGroups}{98}{lstlisting.5.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.1}SPARQL to select a signal location from its identifier. Note some of the features here are Stardog specific, in particular the passing in of the @sigid parameter}{129}{lstlisting.6.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {B.1}The StoredProcedure class. Constructors, private fields and utility methods have been omitted for brevity.}{157}{lstlisting.B.1}
+\contentsline {lstlisting}{\numberline {B.1}The StoredProcedure class. Constructors, private fields and utility methods have been omitted for brevity.}{159}{lstlisting.B.1}
