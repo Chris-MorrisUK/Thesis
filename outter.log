@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  4 MAY 2018 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.28)  5 MAY 2018 09:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2137,12 +2137,12 @@ Overfull \hbox (4.4686pt too wide) in paragraph at lines 23--24
  which is provided
  []
 
-<gfx/dragonNames.png, id=811, 168.63pt x 105.39375pt>
+<gfx/dragonNames.png, id=812, 168.63pt x 105.39375pt>
 File: gfx/dragonNames.png Graphic file (type png)
 <use gfx/dragonNames.png>
 Package pdftex.def Info: gfx/dragonNames.png used on input line 35.
 (pdftex.def)             Requested size: 168.62958pt x 105.39348pt.
-<gfx/gameOfThronesDragons.png, id=815, 482.55281pt x 231.11343pt>
+<gfx/gameOfThronesDragons.png, id=816, 482.55281pt x 231.11343pt>
 File: gfx/gameOfThronesDragons.png Graphic file (type png)
 <use gfx/gameOfThronesDragons.png>
 Package pdftex.def Info: gfx/gameOfThronesDragons.png used on input line 44.
@@ -2191,7 +2191,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[16] [17] <gfx/JofferyTriple.pdf, id=925, 395.22656pt x 106.89937pt>
+[16] [17] <gfx/JofferyTriple.pdf, id=926, 395.22656pt x 106.89937pt>
 File: gfx/JofferyTriple.pdf Graphic file (type pdf)
 <use gfx/JofferyTriple.pdf>
 Package pdftex.def Info: gfx/JofferyTriple.pdf used on input line 85.
@@ -2276,7 +2276,7 @@ Package epstopdf Info: Source file: <gfx/RacoonLayers.eps>
 ted-to.pdf gfx/RacoonLayers.eps>
 (epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
-<gfx/RacoonLayers-eps-converted-to.pdf, id=1282, 504.88625pt x 571.13374pt>
+<gfx/RacoonLayers-eps-converted-to.pdf, id=1283, 504.88625pt x 571.13374pt>
 File: gfx/RacoonLayers-eps-converted-to.pdf Graphic file (type pdf)
 <use gfx/RacoonLayers-eps-converted-to.pdf>
 Package pdftex.def Info: gfx/RacoonLayers-eps-converted-to.pdf used on input li
@@ -2312,14 +2312,14 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 81--100
 []$[]$ 
  []
 
-[61] [62] [63] <gfx/ItemsWithTIPLOCsResized.pdf, id=1434, 421.10078pt x 298.753
+[61] [62] [63] <gfx/ItemsWithTIPLOCsResized.pdf, id=1435, 421.10078pt x 298.753
 92pt>
 File: gfx/ItemsWithTIPLOCsResized.pdf Graphic file (type pdf)
 <use gfx/ItemsWithTIPLOCsResized.pdf>
 Package pdftex.def Info: gfx/ItemsWithTIPLOCsResized.pdf used on input line 117
 .
 (pdftex.def)             Requested size: 336.0pt x 238.37892pt.
-[64 <./gfx/ItemsWithTIPLOCsResized.pdf>] <gfx/BussinessObjectsCat.pdf, id=1955,
+[64 <./gfx/ItemsWithTIPLOCsResized.pdf>] <gfx/BussinessObjectsCat.pdf, id=1956,
  580.7777pt x 650.01328pt>
 File: gfx/BussinessObjectsCat.pdf Graphic file (type pdf)
 <use gfx/BussinessObjectsCat.pdf>
@@ -2339,7 +2339,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \ark . intel . com / products / 63698 /
  []
 
-[66 <./gfx/BussinessObjectsCat.pdf>] [67] <gfx/cifParsingWorkFlow.pdf, id=2565,
+[66 <./gfx/BussinessObjectsCat.pdf>] [67] <gfx/cifParsingWorkFlow.pdf, id=2566,
  234.26247pt x 704.9433pt>
 File: gfx/cifParsingWorkFlow.pdf Graphic file (type pdf)
 <use gfx/cifParsingWorkFlow.pdf>
@@ -2348,7 +2348,7 @@ Package pdftex.def Info: gfx/cifParsingWorkFlow.pdf used on input line 166.
 [68]
 Overfull \vbox (28.79588pt too high) has occurred while \output is active []
 
-[69 <./gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCorner.png, id=2592, 1
+[69 <./gfx/cifParsingWorkFlow.pdf>] <gfx/cifparseRelevantCorner.png, id=2593, 1
 049.42062pt x 242.40562pt>
 File: gfx/cifparseRelevantCorner.png Graphic file (type png)
 <use gfx/cifparseRelevantCorner.png>
@@ -2360,13 +2360,13 @@ Overfull \hbox (9.98404pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-[70 <./gfx/cifparseRelevantCorner.png>] <gfx/manEntryWorkflow.pdf, id=2599, 205
+[70 <./gfx/cifparseRelevantCorner.png>] <gfx/manEntryWorkflow.pdf, id=2600, 205
 .48146pt x 474.26125pt>
 File: gfx/manEntryWorkflow.pdf Graphic file (type pdf)
 <use gfx/manEntryWorkflow.pdf>
 Package pdftex.def Info: gfx/manEntryWorkflow.pdf used on input line 188.
 (pdftex.def)             Requested size: 205.48096pt x 474.26007pt.
-[71] [72 <./gfx/manEntryWorkflow.pdf>] [73] <gfx/FilesEvery15.pdf, id=2624, 844
+[71] [72 <./gfx/manEntryWorkflow.pdf>] [73] <gfx/FilesEvery15.pdf, id=2625, 844
 .83629pt x 597.432pt>
 File: gfx/FilesEvery15.pdf Graphic file (type pdf)
 <use gfx/FilesEvery15.pdf>
@@ -2392,13 +2392,13 @@ Underfull \hbox (badness 10000) in alignment at lines 240--240
 
 ]
 chapter 5.
-[79] [80] [81] <gfx/Middleware_role.pdf, id=2677, 494.95924pt x 295.86983pt>
+[79] [80] [81] <gfx/Middleware_role.pdf, id=2678, 494.95924pt x 295.86983pt>
 File: gfx/Middleware_role.pdf Graphic file (type pdf)
 <use gfx/Middleware_role.pdf>
 Package pdftex.def Info: gfx/Middleware_role.pdf used on input line 42.
 (pdftex.def)             Requested size: 336.0pt x 200.85474pt.
 [82] [83 <./gfx/Middleware_role.pdf>] [84] [85] [86] [87] [88] <gfx/MiddlewareH
-ighLevel.pdf, id=2865, 699.27484pt x 393.23866pt>
+ighLevel.pdf, id=2866, 699.27484pt x 393.23866pt>
 File: gfx/MiddlewareHighLevel.pdf Graphic file (type pdf)
 <use gfx/MiddlewareHighLevel.pdf>
 Package pdftex.def Info: gfx/MiddlewareHighLevel.pdf used on input line 136.
@@ -2414,19 +2414,19 @@ Overfull \hbox (4.9271pt too wide) in paragraph at lines 147--148
  []
 
 
-<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2879, 469.69637pt x 134.3654
+<gfx/MiddlewareServicesClassesResponseOnly.pdf, id=2880, 469.69637pt x 134.3654
 5pt>
 File: gfx/MiddlewareServicesClassesResponseOnly.pdf Graphic file (type pdf)
 <use gfx/MiddlewareServicesClassesResponseOnly.pdf>
 Package pdftex.def Info: gfx/MiddlewareServicesClassesResponseOnly.pdf used on 
 input line 156.
 (pdftex.def)             Requested size: 597.50793pt x 170.92924pt.
-<gfx/Res.pdf, id=2880, 310.56255pt x 182.13725pt>
+<gfx/Res.pdf, id=2881, 310.56255pt x 182.13725pt>
 File: gfx/Res.pdf Graphic file (type pdf)
 <use gfx/Res.pdf>
 Package pdftex.def Info: gfx/Res.pdf used on input line 163.
 (pdftex.def)             Requested size: 336.0pt x 197.07492pt.
-<gfx/RacoonServices.pdf, id=2881, 519.87952pt x 167.081pt>
+<gfx/RacoonServices.pdf, id=2882, 519.87952pt x 167.081pt>
 File: gfx/RacoonServices.pdf Graphic file (type pdf)
 <use gfx/RacoonServices.pdf>
 Package pdftex.def Info: gfx/RacoonServices.pdf used on input line 170.
@@ -2442,7 +2442,7 @@ Overfull \hbox (4.35677pt too wide) in paragraph at lines 249--250
 []\T1/pplj/m/n/10.95 Whilst it is pos-sible to cre-ate stored
  []
 
-[100] <gfx/MiddlewareAurthentication.pdf, id=3997, 334.24875pt x 682.80093pt>
+[100] <gfx/MiddlewareAurthentication.pdf, id=3998, 334.24875pt x 682.80093pt>
 File: gfx/MiddlewareAurthentication.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthentication.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
@@ -2452,7 +2452,7 @@ Package pdftex.def Info: gfx/MiddlewareAurthentication.pdf used on input line 2
 LaTeX Warning: Float too large for page by 8.05582pt on input line 266.
 
 
-<gfx/MiddlewareAurthenticationWithToken.pdf, id=3999, 354.5248pt x 326.5265pt>
+<gfx/MiddlewareAurthenticationWithToken.pdf, id=4000, 354.5248pt x 326.5265pt>
 File: gfx/MiddlewareAurthenticationWithToken.pdf Graphic file (type pdf)
 <use gfx/MiddlewareAurthenticationWithToken.pdf>
 Package pdftex.def Info: gfx/MiddlewareAurthenticationWithToken.pdf used on inp
@@ -2481,7 +2481,7 @@ Overfull \hbox (0.64627pt too wide) in paragraph at lines 79--80
 ][]sub-sec-tion 6.2.1[][][].
  []
 
-<gfx/FullSystem.pdf, id=4125, 473.29999pt x 730.80823pt>
+<gfx/FullSystem.pdf, id=4126, 473.29999pt x 730.80823pt>
 File: gfx/FullSystem.pdf Graphic file (type pdf)
 <use gfx/FullSystem.pdf>
 Package pdftex.def Info: gfx/FullSystem.pdf used on input line 83.
@@ -2492,7 +2492,7 @@ Overfull \hbox (5.28912pt too wide) in paragraph at lines 88--89
 ub-sec-tion 6.2.2.1[][][]. 
  []
 
-[116 <./gfx/FullSystem.pdf>] [117] <gfx/Dataflow-StirDemoActive.pdf, id=4147, 4
+[116 <./gfx/FullSystem.pdf>] [117] <gfx/Dataflow-StirDemoActive.pdf, id=4148, 4
 64.82452pt x 730.80823pt>
 File: gfx/Dataflow-StirDemoActive.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirDemoActive.pdf>
@@ -2500,7 +2500,7 @@ Package pdftex.def Info: gfx/Dataflow-StirDemoActive.pdf used on input line 115
 .
 (pdftex.def)             Requested size: 464.82338pt x 730.80643pt.
 [118] [119 <./gfx/Dataflow-StirDemoActive.pdf>] <gfx/DataflowStirAllOptionsDemo
-.pdf, id=4177, 547.2947pt x 389.95688pt>
+.pdf, id=4178, 547.2947pt x 389.95688pt>
 File: gfx/DataflowStirAllOptionsDemo.pdf Graphic file (type pdf)
 <use gfx/DataflowStirAllOptionsDemo.pdf>
 Package pdftex.def Info: gfx/DataflowStirAllOptionsDemo.pdf used on input line 
@@ -2519,12 +2519,12 @@ Overfull \hbox (0.63513pt too wide) in paragraph at lines 178--179
 []\T1/pplj/m/n/10.95 This would make it pos-
  []
 
-[124] [125] <gfx/DemoOneBRAVE.png, id=4240, 2886.28313pt x 1594.45688pt>
+[124] [125] <gfx/DemoOneBRAVE.png, id=4241, 2886.28313pt x 1594.45688pt>
 File: gfx/DemoOneBRAVE.png Graphic file (type png)
 <use gfx/DemoOneBRAVE.png>
 Package pdftex.def Info: gfx/DemoOneBRAVE.png used on input line 196.
 (pdftex.def)             Requested size: 2886.27612pt x 1594.453pt.
-<gfx/DemoOneScreenShot.png, id=4243, 1263.21938pt x 755.82375pt>
+<gfx/DemoOneScreenShot.png, id=4244, 1263.21938pt x 755.82375pt>
 File: gfx/DemoOneScreenShot.png Graphic file (type png)
 <use gfx/DemoOneScreenShot.png>
 Package pdftex.def Info: gfx/DemoOneScreenShot.png used on input line 203.
@@ -2536,7 +2536,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[128 <./gfx/DemoOneScreenShot.png>] <gfx/Dataflow-StirPassiveDemo.pdf, id=4265,
+[128 <./gfx/DemoOneScreenShot.png>] <gfx/Dataflow-StirPassiveDemo.pdf, id=4266,
  477.86911pt x 729.67902pt>
 File: gfx/Dataflow-StirPassiveDemo.pdf Graphic file (type pdf)
 <use gfx/Dataflow-StirPassiveDemo.pdf>
@@ -2544,22 +2544,22 @@ Package pdftex.def Info: gfx/Dataflow-StirPassiveDemo.pdf used on input line 24
 5.
 (pdftex.def)             Requested size: 477.86795pt x 729.67723pt.
 [129] [130 <./gfx/Dataflow-StirPassiveDemo.pdf>] [131] [132] [133] [134] <gfx/D
-emoTwo_StageOne.pdf, id=4332, 527.04509pt x 141.29675pt>
+emoTwo_StageOne.pdf, id=4333, 527.04509pt x 141.29675pt>
 File: gfx/DemoTwo_StageOne.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageOne.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageOne.pdf used on input line 302.
 (pdftex.def)             Requested size: 527.0438pt x 141.2964pt.
-[135] <gfx/DemoTwo_StageTwo.pdf, id=4339, 518.4618pt x 143.68468pt>
+[135] <gfx/DemoTwo_StageTwo.pdf, id=4340, 518.4618pt x 143.68468pt>
 File: gfx/DemoTwo_StageTwo.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageTwo.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageTwo.pdf used on input line 309.
 (pdftex.def)             Requested size: 518.46053pt x 143.68431pt.
-<gfx/DemoTwo_StageThree.pdf, id=4340, 527.21104pt x 183.1245pt>
+<gfx/DemoTwo_StageThree.pdf, id=4341, 527.21104pt x 183.1245pt>
 File: gfx/DemoTwo_StageThree.pdf Graphic file (type pdf)
 <use gfx/DemoTwo_StageThree.pdf>
 Package pdftex.def Info: gfx/DemoTwo_StageThree.pdf used on input line 316.
 (pdftex.def)             Requested size: 527.20976pt x 183.12404pt.
-<gfx/RS232Bus.pdf, id=4342, 540.51938pt x 375.65344pt>
+<gfx/RS232Bus.pdf, id=4343, 540.51938pt x 375.65344pt>
 File: gfx/RS232Bus.pdf Graphic file (type pdf)
 <use gfx/RS232Bus.pdf>
 Package pdftex.def Info: gfx/RS232Bus.pdf used on input line 329.
@@ -2598,12 +2598,12 @@ chapter 7.
 
 (./Chapters/Chapter0A_ManToolGUI.tex
 chapter A.
-<gfx/manToolWelcome.png, id=4451, 1352.05125pt x 511.9125pt>
+<gfx/manToolWelcome.png, id=4452, 1352.05125pt x 511.9125pt>
 File: gfx/manToolWelcome.png Graphic file (type png)
 <use gfx/manToolWelcome.png>
 Package pdftex.def Info: gfx/manToolWelcome.png used on input line 14.
 (pdftex.def)             Requested size: 1352.04796pt x 511.91125pt.
-<gfx/manToolLogin.png, id=4452, 751.80875pt x 640.3925pt>
+<gfx/manToolLogin.png, id=4453, 751.80875pt x 640.3925pt>
 File: gfx/manToolLogin.png Graphic file (type png)
 <use gfx/manToolLogin.png>
 Package pdftex.def Info: gfx/manToolLogin.png used on input line 15.
@@ -2613,7 +2613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 [][]
  []
 
-<gfx/manToolInUse.png, id=4454, 1152.305pt x 313.17pt>
+<gfx/manToolInUse.png, id=4455, 1152.305pt x 313.17pt>
 File: gfx/manToolInUse.png Graphic file (type png)
 <use gfx/manToolInUse.png>
 Package pdftex.def Info: gfx/manToolInUse.png used on input line 23.
@@ -2623,12 +2623,12 @@ Package pdftex.def Info: gfx/manToolInUse.png used on input line 23.
 
 
  <./gfx/manToolWelcome.png> <./gfx/manToolLogin.png>] <gfx/manToolAddingItem.pn
-g, id=4461, 1155.31625pt x 511.9125pt>
+g, id=4462, 1155.31625pt x 511.9125pt>
 File: gfx/manToolAddingItem.png Graphic file (type png)
 <use gfx/manToolAddingItem.png>
 Package pdftex.def Info: gfx/manToolAddingItem.png used on input line 32.
 (pdftex.def)             Requested size: 1155.31345pt x 511.91125pt.
-<gfx/addItemDetail.png, id=4462, 1156.32pt x 740.7675pt>
+<gfx/addItemDetail.png, id=4463, 1156.32pt x 740.7675pt>
 File: gfx/addItemDetail.png Graphic file (type png)
 <use gfx/addItemDetail.png>
 Package pdftex.def Info: gfx/addItemDetail.png used on input line 39.
@@ -3008,10 +3008,10 @@ lic/lm/lmss10.pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/public/lm/lmsso10.
 pfb><c:/texlivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texl
 ivenew/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlivenew/2016/
 texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on outter.pdf (190 pages, 11942012 bytes).
+Output written on outter.pdf (190 pages, 11942311 bytes).
 PDF statistics:
- 4964 PDF objects out of 5155 (max. 8388607)
- 3655 compressed objects within 37 object streams
+ 4965 PDF objects out of 5155 (max. 8388607)
+ 3656 compressed objects within 37 object streams
  657 named destinations out of 1000 (max. 500000)
  19961 words of extra memory for PDF output out of 20736 (max. 10000000)
 
